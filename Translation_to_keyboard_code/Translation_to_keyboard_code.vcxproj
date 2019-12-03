@@ -123,15 +123,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IntelRealsense.cpp" />
+    <ClCompile Include="LeapMotion.cpp" />
+    <ClCompile Include="LeddarTech.cpp" />
     <ClCompile Include="keystonotes.cpp" />
     <ClCompile Include="MasterControl.cpp" />
     <ClCompile Include="ToDoList.cpp" />
+    <ClCompile Include="MidiKeyboard.cpp" />
+    <ClCompile Include="SensorBase.cpp" />
     <ClCompile Include="translationtokbd.cpp" />
     <ClCompile Include="Translation_to_kbd.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IntelRealsense.h" />
+    <ClInclude Include="LeapMotion.h" />
+    <ClInclude Include="LeddarTech.h" />
     <ClInclude Include="keystonotes.h" />
+    <ClInclude Include="MidiKeyboard.h" />
     <ClInclude Include="MidiNotes.h" />
+    <ClInclude Include="SensorBase.h" />
     <ClInclude Include="translationtokbd.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
