@@ -7,8 +7,6 @@ string sensortype;
 string location;
 string songlevel;
 string trialnumber;
-int senstype;
-int senslocation;
 int songtype; 
 int trialnum;
 int main() {//Beginning of main

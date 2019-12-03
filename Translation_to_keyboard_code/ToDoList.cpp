@@ -7,7 +7,7 @@ Song type
 Trial number
 open log file -Sami
 write previous data in file
-open sensor
+open sensor -Sami (start and end loop (after some time ten iterations))
 loop starts here :
 	recieve data- Caitlyn
 	condition data-Sami
