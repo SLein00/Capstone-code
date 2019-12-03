@@ -124,7 +124,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="keystonotes.cpp" />
-    <ClCompile Include="KeyboardControl.cpp" />
+    <ClCompile Include="MasterControl.cpp" />
+    <ClCompile Include="ToDoList.cpp" />
     <ClCompile Include="translationtokbd.cpp" />
     <ClCompile Include="Translation_to_kbd.cpp" />
   </ItemGroup>

@@ -10,7 +10,7 @@ double sensorposZ;
 double finposX;
 double finposY;
 double finposZ;
-	int main()
+	/*int main()
 	{
 		cout << "Enter Sensor Position X";
 		cin >> sensorposX;
@@ -33,4 +33,4 @@ double finposZ;
 		
 		
 		return 0;
-	}
+	}*/

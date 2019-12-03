@@ -1,11 +1,8 @@
 //int main
 
-/*Select sensor
-
-  This is Caitlyn adding a git note...
-
-  Sensor location
-
+/* 
+Select sensor
+Sensor location
 Song type
 Trial number
 open log file -Sami
@@ -31,3 +28,4 @@ close and save files
 close sensors
 
 */
+// TODO Caitlyn Figure out the string to int issue when 210 is put as the trial number on Master

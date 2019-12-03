@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Translation_to_kbd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="translationtokbd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="keystonotes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="KeyboardControl.cpp">
+    <ClCompile Include="ToDoList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Translation_to_kbd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
