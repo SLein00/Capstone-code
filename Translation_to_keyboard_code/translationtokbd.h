@@ -6,7 +6,11 @@
 #include <iostream>
 //using namespace std;
 #include <array>
-struct position;
+struct position {
+	double X;
+	double Y;
+	double Z;
+};
 
 class Sensor
 {

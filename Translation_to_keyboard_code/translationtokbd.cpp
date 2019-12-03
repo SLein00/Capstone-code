@@ -1,10 +1,6 @@
 #include "translationtokbd.h"
 
-struct position {
-	double X;
-	double Y;
-	double Z;
-};
+
 
 
 /* double Sensor::fingerpos[4][1] = { { fingerposX },
