@@ -1,7 +1,11 @@
 //int main
 
 /*Select sensor
-Sensor location
+
+  This is Caitlyn adding a git note...
+
+  Sensor location
+
 Song type
 Trial number
 open log file -Sami
