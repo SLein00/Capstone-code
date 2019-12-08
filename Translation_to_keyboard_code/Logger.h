@@ -16,10 +16,10 @@ class Logger
 {
 public:
 	enum LogLevel {
-		NOTES = 0,
+		NOTES = 3,
 		INFO = 1,
 		WARN = 2,
-		ERROR = 3
+		ERROR = 4
 	};
 
 	std::string LogLevelString(LogLevel e) {
@@ -40,6 +40,8 @@ public:
 	int closefile();
 
 	int log(LogLevel lvl, std::string message);
+
+	void setLogLevel(LogLevel lvl);
 
 	~Logger();
 

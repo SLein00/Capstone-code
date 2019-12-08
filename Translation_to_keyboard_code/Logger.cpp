@@ -81,7 +81,7 @@ int Logger::log(LogLevel lvl, std::string message) {
 	std::chrono::time_point<std::chrono::system_clock> end;
 	end = std::chrono::system_clock::now();
 	std::chrono::duration<double> elapsed_seconds = end - m_start;
-	if (m_logfile.is_open()) {
+	if (m_logfile.is_open() && lvl >= m_curloglevel) {
 		// capture current time
 		time_t now = time(0);
 		std::string time = "";
@@ -111,3 +111,6 @@ int Logger::log(LogLevel lvl, std::string message) {
 	}
 }
 
+void Logger::setLogLevel(LogLevel lvl) {
+	m_curloglevel = lvl;
+}
