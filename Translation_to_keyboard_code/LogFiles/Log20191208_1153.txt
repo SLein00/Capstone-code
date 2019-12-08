@@ -1,0 +1,4 @@
+20191208_115324,0.0027543,Notes,This is a test of the notes logging
+20191208_115324,0.0029635,Information,This is a test of the info logging
+20191208_115324,0.0030279,Warning!,This is a test of the warning logging
+20191208_115324,0.0030873,ERROR!,This is a test of the error logging

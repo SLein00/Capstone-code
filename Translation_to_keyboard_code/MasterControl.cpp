@@ -3,6 +3,8 @@
 using namespace std;
 #include "translationtokbd.h"
 #include "keystonotes.h"
+#include "Logger.h"
+
 string sensortype;
 string location;
 string songlevel;
@@ -19,11 +21,22 @@ int main() {//Beginning of main
 	cout << "Trial number: ";
 	cin >> trialnum;
 	//TODO make this into a log call
+	
+	// in work 
+	Logger Log1;
+	Log1.openfile();
+	
+		
 	/*cout << sensortype << ", " << location << ", "<< songlevel <<", " << trialnumber;
 	senstype = stoi(sensortype);
 	senslocation = stoi(location);
 	songtype = stoi(songlevel);
 	trialnum = stoi(trialnumber);*/
-	cout << sensortype << ", " << location << ", " << songtype << ", " << trialnum;
+	cout << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl; 
+
+	Log1.log(Logger::LogLevel::NOTES, "This is a test of the notes logging");
+	Log1.log(Logger::LogLevel::INFO, "This is a test of the info logging");
+	Log1.log(Logger::LogLevel::WARN, "This is a test of the warning logging");
+	Log1.log(Logger::LogLevel::ERROR, "This is a test of the error logging");
 
 }//End of main
