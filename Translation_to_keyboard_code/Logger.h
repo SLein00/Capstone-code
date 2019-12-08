@@ -51,7 +51,7 @@ private:
 	void init();
 	std::string m_filename;
 	std::string m_directory;
-	LogLevel m_curloglevel = NOTES;
+	LogLevel m_curloglevel = INFO;
 	std::fstream m_logfile;
 	std::chrono::time_point<std::chrono::system_clock> m_start = std::chrono::system_clock::now();
 };
