@@ -1,3 +1,6 @@
 [submodule "LeddarSDK"]
 	path = LeddarSDK
 	url = git@github.com:leddartech/LeddarSDK.git
+[submodule "rtmidi"]
+	path = rtmidi
+	url = git@github.com:thestk/rtmidi.git
