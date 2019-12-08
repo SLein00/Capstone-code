@@ -1,0 +1,3 @@
+[submodule "LeddarSDK"]
+	path = LeddarSDK
+	url = git@github.com:leddartech/LeddarSDK.git
