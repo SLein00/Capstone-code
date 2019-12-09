@@ -32,8 +32,14 @@ int main() {//Beginning of main
 	//TODO make this into a log call
 	
 	// in work 
+	Log1.setMetaData(sensortype, location, songtype, trialnum);
+	Log1.restartTimer();
 	Log1.openfile();
 
+	SensorBase testsensor;
+	LeddarTech testsensorLeddar;
+	IntelRealsense testsensorRealsense;
+	LeapMotion testsensorLeap;
 	MidiKeyboard midioutput;
 	midioutput.listKeyboardOutputs();
 	
@@ -46,14 +52,15 @@ int main() {//Beginning of main
 
 	cout << sensortype << ", " << location << ", " << songtype << ", " << trialnum;
 	//initialize sensor
-	if (sensortype == "LeddarTech") {
-		LeddarTech InitializeSensor();
+
+	if (sensortype == "LeddarTech") {	
+		testsensorLeddar.InitializeSensor();
 	}
 	else if (sensortype == "LeapMotion") {
-		LeapMotion InitializeSensor();
-	}
+		testsensorLeap.InitializeSensor();
+	} 
 	else if (sensortype == "IntelRealSense") {
-		IntelRealsense InitializeSensor();
+		testsensorRealsense.InitializeSensor();
 	}
 	for (int i = 0; i < 10; i++) {//beginning of loop
 		//recieve data

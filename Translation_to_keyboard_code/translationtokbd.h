@@ -15,18 +15,18 @@ struct position {
 class Sensor
 {
 public:
-	double SidepositioncoordinateX;
-	double SidepositioncoordinateY;
-	double SidepositioncoordinateZ;
-	double FrontpositioncoordinateX;
-	double FrontpositioncoordinateY;
-	double FrontpositioncoordinateZ;
-	double WebcampositioncoordinateX;
-	double WebcampositioncoordinateY;
-	double WebcampositioncoordinateZ;
-	double AbovepositioncoordinateX;
-	double AbovepositioncoordinateY;
-	double AbovepositioncoordinateZ;
+	double SidepositioncoordinateX = 0;
+	double SidepositioncoordinateY = 0;
+	double SidepositioncoordinateZ = 0;
+	double FrontpositioncoordinateX = 0;
+	double FrontpositioncoordinateY = 0;
+	double FrontpositioncoordinateZ = 0;
+	double WebcampositioncoordinateX = 0;
+	double WebcampositioncoordinateY = 0;
+	double WebcampositioncoordinateZ = 0;
+	double AbovepositioncoordinateX = 0;
+	double AbovepositioncoordinateY = 0;
+	double AbovepositioncoordinateZ = 0;
 	double posX;
 	double posY;
 	double posZ;

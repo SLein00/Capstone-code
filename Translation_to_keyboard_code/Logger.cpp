@@ -102,7 +102,7 @@ int Logger::log(LogLevel lvl, std::string message) {
 		sprintf(buffer, "%02d", ltm->tm_sec);
 		time.append(buffer);
 		
-		m_logfile << time << ',' << elapsed_seconds.count() << "," << LogLevelString(lvl) << "," << message <<  std::endl;
+		m_logfile << time << ',' << elapsed_seconds.count() << "," << LogLevelString(lvl) << ","<< m_sensor<<"," << m_position<< ","<< m_songclass<<","<< m_trialnum<<"," << message <<  std::endl;
 
 		return 0;
 	}
@@ -113,6 +113,17 @@ int Logger::log(LogLevel lvl, std::string message) {
 
 void Logger::setLogLevel(LogLevel lvl) {
 	m_curloglevel = lvl;
+}
+
+void Logger::restartTimer() {
+	m_start = std::chrono::system_clock::now();
+}
+
+void Logger::setMetaData(std::string sensor, std::string position, int songclass, int trialnum) {
+	m_sensor = sensor;
+	m_position = position;
+	m_songclass = songclass;
+	m_trialnum = trialnum;
 }
 
 Logger Log1;

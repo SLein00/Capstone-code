@@ -49,15 +49,22 @@ public:
 
 	~Logger();
 
+	void restartTimer();
 
+	void setMetaData(std::string, std::string, int, int);
 
 private:
-	void init();
 	std::string m_filename;
 	std::string m_directory;
 	LogLevel m_curloglevel = INFO;
 	std::fstream m_logfile;
 	std::chrono::time_point<std::chrono::system_clock> m_start = std::chrono::system_clock::now();
+	int m_songclass = -1;
+	std::string m_sensor = "Undefined";
+	std::string m_position = "Undefined";
+	int m_trialnum = -1;
+
+
 };
 
 #endif // !LOGGER_H
