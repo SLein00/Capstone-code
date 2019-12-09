@@ -1,6 +1,11 @@
 #pragma once
 #pragma warning(disable : 4996) //_CRT_SECURE_NO_WARNINGS
 
+#ifndef LOGGER_H
+#define LOGGER_H
+
+
+
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -10,7 +15,6 @@
 #include <map>
 
 //#include <filesystem>
-
 
 class Logger
 {
@@ -56,3 +60,4 @@ private:
 	std::chrono::time_point<std::chrono::system_clock> m_start = std::chrono::system_clock::now();
 };
 
+#endif // !LOGGER_H

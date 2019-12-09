@@ -4,6 +4,7 @@ using namespace std;
 #include "translationtokbd.h"
 #include "keystonotes.h"
 #include "Logger.h"
+#include "MidiKeyboard.h"
 
 string sensortype;
 string location;
@@ -11,6 +12,9 @@ string songlevel;
 string trialnumber;
 int songtype; 
 int trialnum;
+
+extern Logger Log1;
+
 int main() {//Beginning of main
 	cout << "Sensor type: ";
 	cin >> sensortype;
@@ -23,8 +27,10 @@ int main() {//Beginning of main
 	//TODO make this into a log call
 	
 	// in work 
-	Logger Log1;
 	Log1.openfile();
+
+	MidiKeyboard midioutput;
+	midioutput.listKeyboardOutputs();
 	
 		
 	/*cout << sensortype << ", " << location << ", "<< songlevel <<", " << trialnumber;

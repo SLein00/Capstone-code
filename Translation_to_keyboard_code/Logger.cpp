@@ -114,3 +114,5 @@ int Logger::log(LogLevel lvl, std::string message) {
 void Logger::setLogLevel(LogLevel lvl) {
 	m_curloglevel = lvl;
 }
+
+Logger Log1;
