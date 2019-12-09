@@ -60,7 +60,7 @@
 
 	void Sensor::switchtokbd(double finposX, double finposY, double finposZ)
 	{
-		if (posX == -15 && posY == 7.55 && posZ == 1.5)
+		if (posX == SidepositioncoordinateX && posY == SidepositioncoordinateY && posZ == SidepositioncoordinateZ )
 		{
 			//finpos[4][1] = { {finposX}, {finposY}, {finposZ}, {1} };
 			/*finpos[0][0] = finposX;
@@ -76,7 +76,7 @@
 			// finalfingerposY = fingerkeypos[1][0];
 			//finalfingerposZ = fingerkeypos[2][0];
 		}
-		else if (posX == 34.75 && posY == 30.1 && posZ == 1.5)
+		else if (posX == FrontpositioncoordinateX && posY == FrontpositioncoordinateY && posZ == FrontpositioncoordinateZ)
 		{
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
@@ -87,7 +87,7 @@
 			//finalfingerposY = fingerkeypos[1][0];
 			//finalfingerposZ = fingerkeypos[2][0];
 		}
-		else if (posX == 34.75 && posY == 30.1 && posZ == 45)
+		else if (posX == WebcampositioncoordinateX && posY == WebcampositioncoordinateY && posZ == WebcampositioncoordinateZ)
 		{
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
@@ -98,7 +98,7 @@
 			//finalfingerposY = fingerkeypos[1][0];
 			//finalfingerposZ = fingerkeypos[2][0];
 		}
-		else if (posX == 34.75 && posY == 30.1 && posZ == 60)
+		else if (posX == AbovepositioncoordinateX && posY == AbovepositioncoordinateY && posZ == AbovepositioncoordinateZ)
 		{
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 

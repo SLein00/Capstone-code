@@ -4,6 +4,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Translation_to_keyboard_code", "Translation_to_keyboard_code\Translation_to_keyboard_code.vcxproj", "{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B} = {EBC88E02-3BCF-4825-B53E-9661B063A46B}
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA} = {B8890363-8025-46DE-B549-A0A60ECBEBEA}
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3} = {EBFE5EB3-182A-47A6-922B-52ECF777F6A3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeddarExampleModule", "LeddarSDK\src\LeddarExample\LeddarExample.vcxproj", "{EBC88E02-3BCF-4825-B53E-9661B063A46B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA} = {B8890363-8025-46DE-B549-A0A60ECBEBEA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeddarConfigurator4", "LeddarSDK\src\LeddarConfigurator4\LeddarConfigurator4.vcxproj", "{B8890363-8025-46DE-B549-A0A60ECBEBEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtmidilib", "rtmidi\msw\rtmidilib.vcxproj", "{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +25,8 @@ Global
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		SamiDebug|x64 = SamiDebug|x64
+		SamiDebug|x86 = SamiDebug|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}.Debug|x64.ActiveCfg = Debug|x64
@@ -21,6 +37,46 @@ Global
 		{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}.Release|x64.Build.0 = Release|x64
 		{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}.Release|x86.ActiveCfg = Release|Win32
 		{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}.Release|x86.Build.0 = Release|Win32
+		{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}.SamiDebug|x64.ActiveCfg = SamiDebug|x64
+		{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}.SamiDebug|x64.Build.0 = SamiDebug|x64
+		{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}.SamiDebug|x86.ActiveCfg = SamiDebug|Win32
+		{D35B83DD-BB95-4162-92E4-6ED8D1F71D1E}.SamiDebug|x86.Build.0 = SamiDebug|Win32
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.Debug|x64.ActiveCfg = Debug|x64
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.Debug|x64.Build.0 = Debug|x64
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.Debug|x86.ActiveCfg = Debug|Win32
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.Debug|x86.Build.0 = Debug|Win32
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.Release|x64.ActiveCfg = Release|x64
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.Release|x64.Build.0 = Release|x64
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.Release|x86.ActiveCfg = Release|Win32
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.Release|x86.Build.0 = Release|Win32
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.SamiDebug|x64.ActiveCfg = Release|x64
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.SamiDebug|x64.Build.0 = Release|x64
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.SamiDebug|x86.ActiveCfg = SamiDebug|Win32
+		{EBC88E02-3BCF-4825-B53E-9661B063A46B}.SamiDebug|x86.Build.0 = SamiDebug|Win32
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.Debug|x64.ActiveCfg = Debug|x64
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.Debug|x64.Build.0 = Debug|x64
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.Debug|x86.ActiveCfg = Debug|Win32
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.Debug|x86.Build.0 = Debug|Win32
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.Release|x64.ActiveCfg = Release|x64
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.Release|x64.Build.0 = Release|x64
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.Release|x86.ActiveCfg = Release|Win32
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.Release|x86.Build.0 = Release|Win32
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.SamiDebug|x64.ActiveCfg = Release|x64
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.SamiDebug|x64.Build.0 = Release|x64
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.SamiDebug|x86.ActiveCfg = SamiDebug|Win32
+		{B8890363-8025-46DE-B549-A0A60ECBEBEA}.SamiDebug|x86.Build.0 = SamiDebug|Win32
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.Debug|x64.ActiveCfg = Debug|x64
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.Debug|x64.Build.0 = Debug|x64
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.Debug|x86.ActiveCfg = Debug|Win32
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.Debug|x86.Build.0 = Debug|Win32
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.Release|x64.ActiveCfg = Release|x64
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.Release|x64.Build.0 = Release|x64
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.Release|x86.ActiveCfg = Release|Win32
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.Release|x86.Build.0 = Release|Win32
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.SamiDebug|x64.ActiveCfg = Release|x64
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.SamiDebug|x64.Build.0 = Release|x64
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.SamiDebug|x86.ActiveCfg = Debug|Win32
+		{EBFE5EB3-182A-47A6-922B-52ECF777F6A3}.SamiDebug|x86.Build.0 = Debug|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

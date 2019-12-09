@@ -1,0 +1,8 @@
+20191208_190615,2.99693,Information,There are 3 MIDI Output ports available.
+20191208_190615,2.99731,Information,Output port #1: Microsoft GS Wavetable Synth 0
+20191208_190615,2.99748,Information,Output port #2: Focusrite USB MIDI 1
+20191208_190615,2.99763,Information,Output port #3: Skulpt Synth 2
+20191208_190615,2.99814,Notes,This is a test of the notes logging
+20191208_190615,2.9982,Information,This is a test of the info logging
+20191208_190615,2.99825,Warning!,This is a test of the warning logging
+20191208_190615,2.9983,ERROR!,This is a test of the error logging

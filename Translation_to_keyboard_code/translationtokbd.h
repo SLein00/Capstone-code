@@ -15,6 +15,18 @@ struct position {
 class Sensor
 {
 public:
+	double SidepositioncoordinateX;
+	double SidepositioncoordinateY;
+	double SidepositioncoordinateZ;
+	double FrontpositioncoordinateX;
+	double FrontpositioncoordinateY;
+	double FrontpositioncoordinateZ;
+	double WebcampositioncoordinateX;
+	double WebcampositioncoordinateY;
+	double WebcampositioncoordinateZ;
+	double AbovepositioncoordinateX;
+	double AbovepositioncoordinateY;
+	double AbovepositioncoordinateZ;
 	double posX;
 	double posY;
 	double posZ;
@@ -25,21 +37,21 @@ public:
 	double fingerkeyposX;
 	double fingerkeyposY;
 	double fingerkeyposZ;
-	std::array<std::array<double, 4>, 4> sidematrix = { { { 0.0, 1.0, 0.0, -15.0},
-							{-1.0, 0.0, 0.0, 7.55},
-							{0.0, 0.0, 1.0, 1.5},
+	std::array<std::array<double, 4>, 4> sidematrix = { { { 0.0, 1.0, 0.0, SidepositioncoordinateX},
+							{-1.0, 0.0, 0.0, SidepositioncoordinateY},
+							{0.0, 0.0, 1.0, SidepositioncoordinateZ},
 							{0.0, 0.0, 0.0, 1.0} } };
-	std::array<std::array<double, 4>, 4> frontmatrix = { { {-1, 0, 0, 34.75},
-							{0, -1, 0, 30.1},
-							{0, 0, 1, 1.5},
+	std::array<std::array<double, 4>, 4> frontmatrix = { { {-1, 0, 0, FrontpositioncoordinateX},
+							{0, -1, 0, FrontpositioncoordinateY},
+							{0, 0, 1, FrontpositioncoordinateZ},
 							{0, 0, 0, 1} } };
-	std::array<std::array<double, 4>, 4> webcammatrix = { { {1, 0, 0, 34.75},
-					{0, -sqrt(20) / 2, sqrt(20) / 2, 30.1},
-					{0, -sqrt(20) / 2, -sqrt(20) / 2, 45},
+	std::array<std::array<double, 4>, 4> webcammatrix = { { {1, 0, 0, WebcampositioncoordinateX},
+					{0, -sqrt(20) / 2, sqrt(20) / 2, WebcampositioncoordinateY},
+					{0, -sqrt(20) / 2, -sqrt(20) / 2, WebcampositioncoordinateZ},
 					{0, 0, 0, 1} } };
-	std::array<std::array<double, 4>, 4> abovematrix = { { {1, 0, 0, 34.75},
-							{0, 0, 1, 30.1},
-							{0, -1, 0, 60},
+	std::array<std::array<double, 4>, 4> abovematrix = { { {1, 0, 0, AbovepositioncoordinateX},
+							{0, 0, 1, AbovepositioncoordinateY},
+							{0, -1, 0, AbovepositioncoordinateZ},
 							{0, 0, 0, 1} } };
 
 	/*double sidematrix[4][4] = { { 0.0, 1.0, 0.0, -15.0},
