@@ -3,6 +3,11 @@
 using namespace std;
 #include "translationtokbd.h"
 #include "keystonotes.h"
+#include "LeddarTech.h"
+#include "LeapMotion.h"
+#include "IntelRealsense.h"
+#include "SensorBase.h"
+
 string sensortype;
 string location;
 string songlevel;
@@ -25,5 +30,36 @@ int main() {//Beginning of main
 	songtype = stoi(songlevel);
 	trialnum = stoi(trialnumber);*/
 	cout << sensortype << ", " << location << ", " << songtype << ", " << trialnum;
+	//initialize sensor
+	if (sensortype == "LeddarTech") {
+		LeddarTech testsensor = Sensor(sensorposX, sensorposY, sensorposZ);
+		int LeddarTech::InitializeSensor();
+	}
+	else if (sensortype == "LeapMotion") {
+		int LeapMotion::InitializeSensor();
+	}
+	else if (sensortype == "IntelRealSense") {
+		int IntelRealsense::InitializeSensor();
+	}
+	for (int i = 0; i < 10; i++) {//begining on loop
+		//recieve data
+		//condition data
+		if (sensortype == "LeddarTech") {
+			//condition data
+		}
+		else if (sensortype == "LeapMotion") {
+			//condition data
+		}
+		else if (sensortype == "IntelRealSense") {
+			//condition data
+		}
+		//Loop 2
+			//transitiontokbd function
+			//keystonotes function
+		//pass list of keys played to Keyboard control
+		//Keyboardcontrol
 
+	}//end of loop
+	//close and save
+	//turn off sensor
 }//End of main
