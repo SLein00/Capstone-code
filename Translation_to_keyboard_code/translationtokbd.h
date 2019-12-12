@@ -15,18 +15,45 @@ struct position {
 class Sensor
 {
 public:
-	double SidepositioncoordinateX = 0;
-	double SidepositioncoordinateY = 0;
-	double SidepositioncoordinateZ = 0;
-	double FrontpositioncoordinateX = 0;
-	double FrontpositioncoordinateY = 0;
-	double FrontpositioncoordinateZ = 0;
-	double WebcampositioncoordinateX = 0;
-	double WebcampositioncoordinateY = 0;
-	double WebcampositioncoordinateZ = 0;
-	double AbovepositioncoordinateX = 0;
-	double AbovepositioncoordinateY = 0;
-	double AbovepositioncoordinateZ = 0;
+	//LeddarTech sensor position coordinates
+	double LeddarSidepositioncoordinateX = -15;
+	double LeddarSidepositioncoordinateY = 7.75;
+	double LeddarSidepositioncoordinateZ = 1.5;
+	double LeddarFrontpositioncoordinateX = 34.75;
+	double LeddarFrontpositioncoordinateY = 30.1;
+	double LeddarFrontpositioncoordinateZ = 1.5;
+	double LeddarWebcampositioncoordinateX = 34.75;
+	double LeddarWebcampositioncoordinateY = 30.1;
+	double LeddarWebcampositioncoordinateZ = 45;
+	double LeddarAbovepositioncoordinateX = 34.75;
+	double LeddarAbovepositioncoordinateY = 7.55;
+	double LeddarAbovepositioncoordinateZ = 60;
+	//Leap sensor position coordinates
+	double LeapSidepositioncoordinateX = -15;
+	double LeapSidepositioncoordinateY = 7.75;
+	double LeapSidepositioncoordinateZ = 1.5;
+	double LeapFrontpositioncoordinateX = 34.75;
+	double LeapFrontpositioncoordinateY = 30.1;
+	double LeapFrontpositioncoordinateZ = 1.5;
+	double LeapWebcampositioncoordinateX = 34.75;
+	double LeapWebcampositioncoordinateY = 30.1;
+	double LeapWebcampositioncoordinateZ = 45;
+	double LeapAbovepositioncoordinateX = 34.75;
+	double LeapAbovepositioncoordinateY = 7.55;
+	double LeapAbovepositioncoordinateZ = 60;
+	//Realsense sensor position coordinates
+	double RealsenseSidepositioncoordinateX = -15;
+	double RealsenseSidepositioncoordinateY = 7.75;
+	double RealsenseSidepositioncoordinateZ = 1.5;
+	double RealsenseFrontpositioncoordinateX = 34.75;
+	double RealsenseFrontpositioncoordinateY = 30.1;
+	double RealsenseFrontpositioncoordinateZ = 1.5;
+	double RealsenseWebcampositioncoordinateX = 34.75;
+	double RealsenseWebcampositioncoordinateY = 30.1;
+	double RealsenseWebcampositioncoordinateZ = 45;
+	double RealsenseAbovepositioncoordinateX = 34.75;
+	double RealsenseAbovepositioncoordinateY = 7.55;
+	double RealsenseAbovepositioncoordinateZ = 60;
 	double posX;
 	double posY;
 	double posZ;
@@ -37,21 +64,56 @@ public:
 	double fingerkeyposX;
 	double fingerkeyposY;
 	double fingerkeyposZ;
-	std::array<std::array<double, 4>, 4> sidematrix = { { { 0.0, 1.0, 0.0, SidepositioncoordinateX},
-							{-1.0, 0.0, 0.0, SidepositioncoordinateY},
-							{0.0, 0.0, 1.0, SidepositioncoordinateZ},
+	//LeddarTech matrices
+	std::array<std::array<double, 4>, 4> Leddarsidematrix = { { { 0.0, 1.0, 0.0, LeddarSidepositioncoordinateX},
+							{-1.0, 0.0, 0.0, LeddarSidepositioncoordinateY},
+							{0.0, 0.0, 1.0, LeddarSidepositioncoordinateZ},
 							{0.0, 0.0, 0.0, 1.0} } };
-	std::array<std::array<double, 4>, 4> frontmatrix = { { {-1, 0, 0, FrontpositioncoordinateX},
-							{0, -1, 0, FrontpositioncoordinateY},
-							{0, 0, 1, FrontpositioncoordinateZ},
+	std::array<std::array<double, 4>, 4> Leddarfrontmatrix = { { {-1, 0, 0, LeddarFrontpositioncoordinateX},
+							{0, -1, 0, LeddarFrontpositioncoordinateY},
+							{0, 0, 1, LeddarFrontpositioncoordinateZ},
 							{0, 0, 0, 1} } };
-	std::array<std::array<double, 4>, 4> webcammatrix = { { {1, 0, 0, WebcampositioncoordinateX},
-					{0, -sqrt(20) / 2, sqrt(20) / 2, WebcampositioncoordinateY},
-					{0, -sqrt(20) / 2, -sqrt(20) / 2, WebcampositioncoordinateZ},
+	std::array<std::array<double, 4>, 4> Leddarwebcammatrix = { { {1, 0, 0, LeddarWebcampositioncoordinateX},
+					{0, -sqrt(20) / 2, sqrt(20) / 2, LeddarWebcampositioncoordinateY},
+					{0, -sqrt(20) / 2, -sqrt(20) / 2, LeddarWebcampositioncoordinateZ},
 					{0, 0, 0, 1} } };
-	std::array<std::array<double, 4>, 4> abovematrix = { { {1, 0, 0, AbovepositioncoordinateX},
-							{0, 0, 1, AbovepositioncoordinateY},
-							{0, -1, 0, AbovepositioncoordinateZ},
+	std::array<std::array<double, 4>, 4> Leddarabovematrix = { { {1, 0, 0, LeddarAbovepositioncoordinateX},
+							{0, 0, 1, LeddarAbovepositioncoordinateY},
+							{0, -1, 0, LeddarAbovepositioncoordinateZ},
+							{0, 0, 0, 1} } };
+	//Leap matrices
+	std::array<std::array<double, 4>, 4> Leapsidematrix = { { { 0.0, 1.0, 0.0, LeapSidepositioncoordinateX},
+							{-1.0, 0.0, 0.0, LeapSidepositioncoordinateY},
+							{0.0, 0.0, 1.0, LeapSidepositioncoordinateZ},
+							{0.0, 0.0, 0.0, 1.0} } };
+	std::array<std::array<double, 4>, 4> Leapfrontmatrix = { { {-1, 0, 0, LeapFrontpositioncoordinateX},
+							{0, -1, 0, LeapFrontpositioncoordinateY},
+							{0, 0, 1, LeapFrontpositioncoordinateZ},
+							{0, 0, 0, 1} } };
+	std::array<std::array<double, 4>, 4> Leapwebcammatrix = { { {1, 0, 0, LeapWebcampositioncoordinateX},
+					{0, -sqrt(20) / 2, sqrt(20) / 2, LeapWebcampositioncoordinateY},
+					{0, -sqrt(20) / 2, -sqrt(20) / 2, LeapWebcampositioncoordinateZ},
+					{0, 0, 0, 1} } };
+	std::array<std::array<double, 4>, 4> Leapabovematrix = { { {1, 0, 0, LeapAbovepositioncoordinateX},
+							{0, 0, 1, LeapAbovepositioncoordinateY},
+							{0, -1, 0, LeapAbovepositioncoordinateZ},
+							{0, 0, 0, 1} } };
+	//Realsense matrices
+	std::array<std::array<double, 4>, 4> Realsensesidematrix = { { { 0.0, 1.0, 0.0, RealsenseSidepositioncoordinateX},
+							{-1.0, 0.0, 0.0, RealsenseSidepositioncoordinateY},
+							{0.0, 0.0, 1.0, RealsenseSidepositioncoordinateZ},
+							{0.0, 0.0, 0.0, 1.0} } };
+	std::array<std::array<double, 4>, 4> Realsensefrontmatrix = { { {-1, 0, 0, RealsenseFrontpositioncoordinateX},
+							{0, -1, 0, RealsenseFrontpositioncoordinateY},
+							{0, 0, 1, RealsenseFrontpositioncoordinateZ},
+							{0, 0, 0, 1} } };
+	std::array<std::array<double, 4>, 4> Realsensewebcammatrix = { { {1, 0, 0, RealsenseWebcampositioncoordinateX},
+					{0, -sqrt(20) / 2, sqrt(20) / 2, RealsenseWebcampositioncoordinateY},
+					{0, -sqrt(20) / 2, -sqrt(20) / 2, RealsenseWebcampositioncoordinateZ},
+					{0, 0, 0, 1} } };
+	std::array<std::array<double, 4>, 4> Realsenseabovematrix = { { {1, 0, 0, RealsenseAbovepositioncoordinateX},
+							{0, 0, 1, RealsenseAbovepositioncoordinateY},
+							{0, -1, 0, RealsenseAbovepositioncoordinateZ},
 							{0, 0, 0, 1} } };
 
 	/*double sidematrix[4][4] = { { 0.0, 1.0, 0.0, -15.0},
@@ -67,7 +129,7 @@ public:
 					{0, -sqrt(20) / 2, -sqrt(20) / 2, 45},
 					{0, 0, 0, 1} };*/
 	/*double abovematrix[4][4] = { {1, 0, 0, 34.75},
-							{0, 0, 1, 30.1},
+							{0, 0, 1, 7.55},
 							{0, -1, 0, 60},
 							{0, 0, 0, 1} };*/
 	double finalfingerposX;
@@ -76,10 +138,13 @@ public:
 	Sensor(double, double, double);
 	void zeros();
 	void matchcoordinates(double sensorposX , double sensorposY , double sensorposZ , double finposX , double finposY , double finposZ );
-	void switchtokbd(double, double, double);
+	void Leddarswitchtokbd(double, double, double);
+	void Leapswitchtokbd(double, double, double);
+	void Realsenseswitchtokbd(double, double, double);
 	double getfinalX() const;
 	double getfinalY() const;
 	double getfinalZ() const;
 };
 position matrixmultiply_4x4_4x1(std::array<std::array<double, 4>, 4>, std::array<std::array<double, 1>, 4>);
+
 #endif

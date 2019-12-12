@@ -119,7 +119,7 @@ void Logger::restartTimer() {
 	m_start = std::chrono::system_clock::now();
 }
 
-void Logger::setMetaData(std::string sensor, std::string position, int songclass, int trialnum) {
+void Logger::setMetaData(int sensor, int position, int songclass, int trialnum) {
 	m_sensor = sensor;
 	m_position = position;
 	m_songclass = songclass;

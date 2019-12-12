@@ -51,7 +51,7 @@ public:
 
 	void restartTimer();
 
-	void setMetaData(std::string, std::string, int, int);
+	void setMetaData(int, int, int, int);
 
 private:
 	std::string m_filename;

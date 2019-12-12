@@ -35,6 +35,12 @@
 		posY = sensorposY;
 		posZ = sensorposZ;
 	}
+	/*void Sensor::Leddar(double LeddarSidepositioncoordinateX, double LeddarSidepositioncoordinateY, double LeddarSidepositioncoordinateZ)
+	{
+		posX = LeddarSidepositioncoordinateX;
+		posY = LeddarSidepositioncoordinateY;
+		posZ = LeddarSidepositioncoordinateZ;
+	}*/
 	void Sensor::zeros() {
 		posX = 0;
 		posY = 0;
@@ -58,9 +64,9 @@
 		fingerposZ = finposZ;
 	}
 
-	void Sensor::switchtokbd(double finposX, double finposY, double finposZ)
+	void Sensor::Leddarswitchtokbd(double finposX, double finposY, double finposZ)
 	{
-		if (posX == SidepositioncoordinateX && posY == SidepositioncoordinateY && posZ == SidepositioncoordinateZ )
+		if (posX == LeddarSidepositioncoordinateX && posY == LeddarSidepositioncoordinateY && posZ == LeddarSidepositioncoordinateZ )
 		{
 			//finpos[4][1] = { {finposX}, {finposY}, {finposZ}, {1} };
 			/*finpos[0][0] = finposX;
@@ -69,45 +75,117 @@
 			finpos[3][0] = 1;*/
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
-			position foo = matrixmultiply_4x4_4x1(sidematrix, finpos);
+			position foo = matrixmultiply_4x4_4x1(Leddarsidematrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			// fingerkeypos[4][1] = sidematrix[4][4] * fingerpos[4][1];
 			// finalfingerposX = fingerkeypos[0][0];
 			// finalfingerposY = fingerkeypos[1][0];
 			//finalfingerposZ = fingerkeypos[2][0];
 		}
-		else if (posX == FrontpositioncoordinateX && posY == FrontpositioncoordinateY && posZ == FrontpositioncoordinateZ)
+		else if (posX == LeddarFrontpositioncoordinateX && posY == LeddarFrontpositioncoordinateY && posZ == LeddarFrontpositioncoordinateZ)
 		{
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
-			position foo = matrixmultiply_4x4_4x1(frontmatrix, finpos);
+			position foo = matrixmultiply_4x4_4x1(Leddarfrontmatrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			//fingerkeypos[4][1] = frontmatrix[4][4] * fingerpos[4][1];
 			//finalfingerposX = fingerkeypos[0][0];
 			//finalfingerposY = fingerkeypos[1][0];
 			//finalfingerposZ = fingerkeypos[2][0];
 		}
-		else if (posX == WebcampositioncoordinateX && posY == WebcampositioncoordinateY && posZ == WebcampositioncoordinateZ)
+		else if (posX == LeddarWebcampositioncoordinateX && posY == LeddarWebcampositioncoordinateY && posZ == LeddarWebcampositioncoordinateZ)
 		{
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
-			position foo = matrixmultiply_4x4_4x1(webcammatrix, finpos);
+			position foo = matrixmultiply_4x4_4x1(Leddarwebcammatrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			//fingerkeypos[4][1] = webcammatrix[4][4] * fingerpos[4][1];
 			//finalfingerposX = fingerkeypos[0][0];
 			//finalfingerposY = fingerkeypos[1][0];
 			//finalfingerposZ = fingerkeypos[2][0];
 		}
-		else if (posX == AbovepositioncoordinateX && posY == AbovepositioncoordinateY && posZ == AbovepositioncoordinateZ)
+		else if (posX == LeddarAbovepositioncoordinateX && posY == LeddarAbovepositioncoordinateY && posZ == LeddarAbovepositioncoordinateZ)
 		{
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
-			position foo = matrixmultiply_4x4_4x1(abovematrix, finpos);
+			position foo = matrixmultiply_4x4_4x1(Leddarabovematrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			//fingerkeypos[4][1] = abovematrix[4][4] * fingerpos[4][1];
 			//finalfingerposX = fingerkeypos[0][0];
 			//finalfingerposY = fingerkeypos[1][0];
 			//finalfingerposZ = fingerkeypos[2][0];
+		}
+
+
+	}
+
+	void Sensor::Leapswitchtokbd(double finposX, double finposY, double finposZ)
+	{
+		if (posX == LeapSidepositioncoordinateX && posY == LeapSidepositioncoordinateY && posZ == LeapSidepositioncoordinateZ)
+		{
+			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
+
+			position foo = matrixmultiply_4x4_4x1(Leapsidematrix, finpos);
+			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+		}
+		else if (posX == LeapFrontpositioncoordinateX && posY == LeapFrontpositioncoordinateY && posZ == LeapFrontpositioncoordinateZ)
+		{
+			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
+
+			position foo = matrixmultiply_4x4_4x1(Leapfrontmatrix, finpos);
+			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+		}
+		else if (posX == LeapWebcampositioncoordinateX && posY == LeapWebcampositioncoordinateY && posZ == LeapWebcampositioncoordinateZ)
+		{
+			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
+
+			position foo = matrixmultiply_4x4_4x1(Leapwebcammatrix, finpos);
+			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+		}
+		else if (posX == LeapAbovepositioncoordinateX && posY == LeapAbovepositioncoordinateY && posZ == LeapAbovepositioncoordinateZ)
+		{
+			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
+
+			position foo = matrixmultiply_4x4_4x1(Leapabovematrix, finpos);
+			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+		}
+
+
+	}
+
+	void Sensor::Realsenseswitchtokbd(double finposX, double finposY, double finposZ)
+	{
+		if (posX == RealsenseSidepositioncoordinateX && posY == RealsenseSidepositioncoordinateY && posZ == RealsenseSidepositioncoordinateZ)
+		{
+			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
+
+			position foo = matrixmultiply_4x4_4x1(Realsensesidematrix, finpos);
+			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+		}
+		else if (posX == RealsenseFrontpositioncoordinateX && posY == RealsenseFrontpositioncoordinateY && posZ == RealsenseFrontpositioncoordinateZ)
+		{
+			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
+
+			position foo = matrixmultiply_4x4_4x1(Realsensefrontmatrix, finpos);
+			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+		}
+		else if (posX == RealsenseWebcampositioncoordinateX && posY == RealsenseWebcampositioncoordinateY && posZ == RealsenseWebcampositioncoordinateZ)
+		{
+			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
+
+			position foo = matrixmultiply_4x4_4x1(Realsensewebcammatrix, finpos);
+			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+		}
+		else if (posX == RealsenseAbovepositioncoordinateX && posY == RealsenseAbovepositioncoordinateY && posZ == RealsenseAbovepositioncoordinateZ)
+		{
+			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
+
+			position foo = matrixmultiply_4x4_4x1(Realsenseabovematrix, finpos);
+			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			finalfingerposX = foo.X;
+			finalfingerposY = foo.Y;
+			finalfingerposZ = foo.Z;
+
 		}
 
 
@@ -123,6 +201,10 @@
 		return finalfingerposZ;
 	}
 	*/
+
+
+
+
 
 position matrixmultiply_4x4_4x1(std::array<std::array<double, 4>, 4> left, std::array<std::array<double, 1>, 4>right) {
 	double results[4][1] = { {0},{0}, {0}, {0} };
