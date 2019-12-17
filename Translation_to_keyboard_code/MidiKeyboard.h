@@ -1,5 +1,8 @@
 #pragma once
 #pragma comment(lib, "winmm.lib")
+#ifndef MIDIKEYBOARDH
+#define MIDIKEYBOARDH
+
 
 #include <string>
 #include "Logger.h"
@@ -20,3 +23,4 @@ private:
 
 };
 
+#endif // !MIDIKEYBOARDH

@@ -1,8 +1,8 @@
 #include "keystonotes.h"
 
 
-MidiNotes Keyboard::notes( double finalfingerposX, double finalfingerposY, double finalfingerposZ) {
-	MidiNotes note = None;
+MidiNotesNumbers Keyboard::notes( double finalfingerposX, double finalfingerposY, double finalfingerposZ) {
+	MidiNotesNumbers note = None;
 	/*if (67.2 < finalfingerposX < 69.5 && 0 < finalfingerposY < 15.1 && 0 < finalfingerposZ < 1.5) {
 		note = C6;
 	}

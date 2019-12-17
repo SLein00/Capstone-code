@@ -27,7 +27,11 @@
 	double finalfingerposX;
 	double finalfingerposY;
 	double finalfingerposZ;*/
-
+Sensor::Sensor() {
+	posX = 0;
+	posY = 0;
+	posZ = 0;
+}
 
 	Sensor::Sensor(double sensorposX, double sensorposY, double sensorposZ)
 	{

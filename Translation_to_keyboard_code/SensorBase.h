@@ -1,4 +1,8 @@
 #pragma once
+#ifndef SENSORBASEH
+#define SENSORBASEH
+
+
 class SensorBase
 {
 	virtual int InitializeSensor();
@@ -7,3 +11,4 @@ class SensorBase
 
 };
 
+#endif // !SENSORBASEH

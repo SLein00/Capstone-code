@@ -11,7 +11,7 @@ using namespace std;
 
 static class Keyboard {
 public:
-	MidiNotes notes(double, double, double);
+	MidiNotesNumbers notes(double, double, double);
 };
 
 #endif

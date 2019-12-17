@@ -1,6 +1,8 @@
 #pragma once
+#ifndef MIDINOTESH
+#define MIDINOTESH
 
-enum MidiNotes {
+enum MidiNotesNumbers {
 	C9 = 120,
 	B8 = 119,
 	As8 = 118,
@@ -140,3 +142,12 @@ enum MidiNotes {
 	Db1 = 25,
 	None = 0
 };
+
+std::string MidiNotesString(MidiNotesNumbers e) {
+	switch (e) {
+	case C9: return "C9";
+
+	default: return "UNDEFINED";
+	}
+}
+#endif // !MIDINOTESH

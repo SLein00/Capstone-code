@@ -4,12 +4,6 @@ using namespace std;
 #include "translationtokbd.h"
 #include "keystonotes.h"
 
-double sensorposX;
-double sensorposY;
-double sensorposZ;
-double finposX;
-double finposY;
-double finposZ;
 	/*int main()
 	{
 		cout << "Enter Sensor Position X";

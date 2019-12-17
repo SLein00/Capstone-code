@@ -135,6 +135,7 @@ public:
 	double finalfingerposX;
 	double finalfingerposY;
 	double finalfingerposZ;
+	Sensor();
 	Sensor(double, double, double);
 	void zeros();
 	void matchcoordinates(double sensorposX , double sensorposY , double sensorposZ , double finposX , double finposY , double finposZ );

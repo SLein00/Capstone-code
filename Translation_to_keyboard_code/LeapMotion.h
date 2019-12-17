@@ -1,4 +1,8 @@
 #pragma once
+#ifndef LEAPMOTIONH
+#define LEAPMOTIONH
+
+
 #include "SensorBase.h"
 #include <array>
 #include "translationtokbd.h"
@@ -14,4 +18,4 @@ public:
 	std::array<position,10> GetFingerPositions();
 
 };
-
+#endif // !LEAPMOTIONH

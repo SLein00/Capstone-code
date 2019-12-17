@@ -110,7 +110,12 @@ int Logger::log(LogLevel lvl, std::string message) {
 		return -1;
 	}
 }
+int Logger::log(LogLevel lvl, std::string m1, std::string m2) {
+	std::string message = "";
+	message.append(m1).append(m2);
 
+	return Logger::log(lvl, message);
+}
 void Logger::setLogLevel(LogLevel lvl) {
 	m_curloglevel = lvl;
 }

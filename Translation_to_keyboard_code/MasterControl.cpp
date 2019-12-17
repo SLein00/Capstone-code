@@ -103,7 +103,6 @@ int main() {//Beginning of main
 	Log1.openfile();
 
 	Sensor testsensors;
-	SensorBase testsensor;
 	LeddarTech testsensorLeddar;
 	IntelRealsense testsensorRealsense;
 	LeapMotion testsensorLeap;
@@ -224,7 +223,7 @@ int main() {//Beginning of main
 			for (int n = 0; n < (numkeys + 1); n++) {
 				testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
 				testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
-				Log1.log(Logger::LogLevel::NOTES, note "On");
+				Log1.log(Logger::LogLevel::NOTES, note, "On");
 			}
 		}
 		else if (sensortype == 2) {//Leap Motion
@@ -235,7 +234,7 @@ int main() {//Beginning of main
 			for (int n = 0; n < (numkeys + 1); n++) {
 				testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
 				testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
-				Log1.log(Logger::LogLevel::NOTES, note "On");
+				Log1.log(Logger::LogLevel::NOTES, note, "On");
 			}
 		}
 		else if (sensortype == 3) {//Realsense
@@ -245,7 +244,7 @@ int main() {//Beginning of main
 			for (int n = 0; n < (numkeys + 1); n++) {
 				testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
 				testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
-				Log1.log(Logger::LogLevel::NOTES, note "On");
+				Log1.log(Logger::LogLevel::NOTES, note, "On");
 			}
 		}
 		
