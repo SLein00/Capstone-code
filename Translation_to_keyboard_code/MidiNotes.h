@@ -1,4 +1,5 @@
 #pragma once
+
 #ifndef MIDINOTESH
 #define MIDINOTESH
 
@@ -145,6 +146,9 @@ enum MidiNotesNumbers {
 	None = 0
 };
 
+
 std::string MidiNotesString(MidiNotesNumbers e);
+
+
 
 #endif // !MIDINOTESH
