@@ -1,6 +1,9 @@
 #pragma once
+
 #ifndef MIDINOTESH
 #define MIDINOTESH
+
+#include <string>
 
 enum MidiNotesNumbers {
 	C9 = 120,
@@ -143,11 +146,5 @@ enum MidiNotesNumbers {
 	None = 0
 };
 
-std::string MidiNotesString(MidiNotesNumbers e) {
-	switch (e) {
-	case C9: return "C9";
 
-	default: return "UNDEFINED";
-	}
-}
 #endif // !MIDINOTESH
