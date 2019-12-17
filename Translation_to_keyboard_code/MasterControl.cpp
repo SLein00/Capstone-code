@@ -210,21 +210,38 @@ int main() {//Beginning of main
 
 		//condition data
 		if (sensortype == 1) {//LeddarTech
+			midioutput.resetKeys();
 			//condition data
-			testsensorLeddar.GetValues();
+			array <double, 16> Originalvals;
+			array <position, 16> Coordinates;
+			Originalvals = testsensorLeddar.GetValues();
+			for (int idx = 0; idx < 16; idx++) {
+				double angle = ((-22.5 + idx * 3)*3.1415965359)/180;
+				Coordinates[idx].Z = 0;
+				Coordinates[idx].X = sin(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx]);
+				Coordinates[idx].Y = cos(angle) * Originalvals[idx];
+				position FinalFingerPos = testsensors.Leddarswitchtokbd(Coordinates[idx].X, Coordinates[idx].Y, Coordinates[idx].Z);
+				MidiNotesNumbers notenum =testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+				if (!notenum == None) {
+					Log1.log(Logger::LogLevel::NOTES, MidiNotesString(notenum), "On");
+					midioutput.playKey(notenum);
+				}
+			}
+			midioutput.sendKeys();
+			//Coordinates[5].Y
 			/*
-			Side position: only the middle few sections will matter closest is the note, determine coordinate
+			Always run all 16 segments
+			Side position: Still run all sections, just will rarely get data from outer ones only the middle few sections will matter closest is the note, determine coordinate
 			Front position: most if not all of the sections, determine the sections that have a distance within the keyboards area, determine coordinate
 			Webcam position: most/all, same as the front position basically
-			Above: all sections will be used. sections that contain a didtance closer than the table
+			Above: all sections will be used. sections that contain a distance closer than the table
+			Store incoming data 
 			number of notes played (numkeys)
-			storing each coordinate played*/
+			storing each coordinate played
+			*/
 			
-			for (int n = 0; n < (numkeys + 1); n++) {
-				testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
-				testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
-				Log1.log(Logger::LogLevel::NOTES, note, "On");
-			}
+			
+			
 		}
 		else if (sensortype == 2) {//Leap Motion
 			//condition data
@@ -253,12 +270,12 @@ int main() {//Beginning of main
 
 
 	cout << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl; 
-
+	/*
 	Log1.log(Logger::LogLevel::NOTES, "This is a test of the notes logging");
 	Log1.log(Logger::LogLevel::INFO, "This is a test of the info logging");
 	Log1.log(Logger::LogLevel::WARN, "This is a test of the warning logging");
 	Log1.log(Logger::LogLevel::ERROR, "This is a test of the error logging");
-
+	*/
 
 
 	}//end of loop

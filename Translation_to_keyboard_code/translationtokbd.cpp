@@ -68,23 +68,18 @@ Sensor::Sensor() {
 		fingerposZ = finposZ;
 	}
 
-	void Sensor::Leddarswitchtokbd(double finposX, double finposY, double finposZ)
+	position Sensor::Leddarswitchtokbd(double finposX, double finposY, double finposZ)
 	{
 		if (posX == LeddarSidepositioncoordinateX && posY == LeddarSidepositioncoordinateY && posZ == LeddarSidepositioncoordinateZ )
 		{
-			//finpos[4][1] = { {finposX}, {finposY}, {finposZ}, {1} };
-			/*finpos[0][0] = finposX;
-			finpos[1][0] = finposY;
-			finpos[2][0] = finposZ;
-			finpos[3][0] = 1;*/
+
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Leddarsidematrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
-			// fingerkeypos[4][1] = sidematrix[4][4] * fingerpos[4][1];
-			// finalfingerposX = fingerkeypos[0][0];
-			// finalfingerposY = fingerkeypos[1][0];
-			//finalfingerposZ = fingerkeypos[2][0];
+			return foo;
+
+
 		}
 		else if (posX == LeddarFrontpositioncoordinateX && posY == LeddarFrontpositioncoordinateY && posZ == LeddarFrontpositioncoordinateZ)
 		{
@@ -92,10 +87,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Leddarfrontmatrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
-			//fingerkeypos[4][1] = frontmatrix[4][4] * fingerpos[4][1];
-			//finalfingerposX = fingerkeypos[0][0];
-			//finalfingerposY = fingerkeypos[1][0];
-			//finalfingerposZ = fingerkeypos[2][0];
+			return foo;
 		}
 		else if (posX == LeddarWebcampositioncoordinateX && posY == LeddarWebcampositioncoordinateY && posZ == LeddarWebcampositioncoordinateZ)
 		{
@@ -103,10 +95,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Leddarwebcammatrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
-			//fingerkeypos[4][1] = webcammatrix[4][4] * fingerpos[4][1];
-			//finalfingerposX = fingerkeypos[0][0];
-			//finalfingerposY = fingerkeypos[1][0];
-			//finalfingerposZ = fingerkeypos[2][0];
+			return foo;
 		}
 		else if (posX == LeddarAbovepositioncoordinateX && posY == LeddarAbovepositioncoordinateY && posZ == LeddarAbovepositioncoordinateZ)
 		{
@@ -114,10 +103,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Leddarabovematrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
-			//fingerkeypos[4][1] = abovematrix[4][4] * fingerpos[4][1];
-			//finalfingerposX = fingerkeypos[0][0];
-			//finalfingerposY = fingerkeypos[1][0];
-			//finalfingerposZ = fingerkeypos[2][0];
+			return foo;
 		}
 
 

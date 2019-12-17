@@ -139,7 +139,7 @@ public:
 	Sensor(double, double, double);
 	void zeros();
 	void matchcoordinates(double sensorposX , double sensorposY , double sensorposZ , double finposX , double finposY , double finposZ );
-	void Leddarswitchtokbd(double, double, double);
+	position Leddarswitchtokbd(double, double, double);
 	void Leapswitchtokbd(double, double, double);
 	void Realsenseswitchtokbd(double, double, double);
 	double getfinalX() const;

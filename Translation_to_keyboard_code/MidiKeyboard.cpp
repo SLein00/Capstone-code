@@ -49,3 +49,15 @@ void MidiKeyboard::listKeyboardOutputs() {
 	delete midiout;
 
 }
+ 
+void MidiKeyboard::playKey(MidiNotesNumbers key) {
+
+}
+
+void MidiKeyboard::resetKeys() {
+
+}
+
+void MidiKeyboard::sendKeys() {
+
+}

@@ -6,7 +6,7 @@
 
 #include <string>
 #include "Logger.h"
-
+#include "MidiNotes.h"
 #include "RtMidi.h"
 
 class MidiKeyboard
@@ -18,6 +18,11 @@ public:
 	int closekeyboard();
 
 	void listKeyboardOutputs();
+	void resetKeys();
+	void playKey(MidiNotesNumbers key);
+	void sendKeys();
+
+
 
 private:
 
