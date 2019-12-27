@@ -5,6 +5,9 @@
 
 #include "SensorBase.h"
 #include <array>
+#include "Logger.h"
+
+extern Logger Log1;
 
 class LeddarTech :
 	public SensorBase

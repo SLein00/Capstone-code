@@ -117,8 +117,59 @@ int main() {//Beginning of main
 	songtype = stoi(songlevel);
 	trialnum = stoi(trialnumber);*/
 
-	cout << sensortype << ", " << location << ", " << songtype << ", " << trialnum;
+	cout << "Summary of options: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl;
+	switch (sensortype) {
+	case 1:
+		Log1.log(Logger::LogLevel::INFO, "Sensor 1 is Leddartech");
+		break;
+	case 2:
+		Log1.log(Logger::LogLevel::INFO, "Sensor 2 is Leap");
+		break;
+	case 3:
+		Log1.log(Logger::LogLevel::INFO, "Sensor 3 is Leddartech");
+		break;
+	default:
+		Log1.log(Logger::LogLevel::INFO, "Sensor is unidentified");
+		break;
+	}
 
+	switch (location) {
+	case 1:
+		Log1.log(Logger::LogLevel::INFO, "Location 1 is Side");
+		break;
+	case 2:
+		Log1.log(Logger::LogLevel::INFO, "Location 2 is Front");
+		break;
+	case 3:
+		Log1.log(Logger::LogLevel::INFO, "Location 3 is Webcam");
+		break;
+	case 4:
+		Log1.log(Logger::LogLevel::INFO, "Location 4 is Above");
+		break;
+	default:
+		Log1.log(Logger::LogLevel::INFO, "Location is unidentified");
+		break;
+	}
+
+	switch (songtype) {
+	case 1:
+		Log1.log(Logger::LogLevel::INFO, "Song 1 is one-finger scales");
+		break;
+	case 2:
+		Log1.log(Logger::LogLevel::INFO, "Song 2 is one handed - simple melody");
+		break;
+	case 3:
+		Log1.log(Logger::LogLevel::INFO, "Song 3 is two handed - simple melody");
+		break;
+	case 4:
+		Log1.log(Logger::LogLevel::INFO, "Song 4 is two handed - advanced melody");
+		break;
+	default:
+		Log1.log(Logger::LogLevel::INFO, "Song is unidentified");
+		break;
+	}
+
+	Log1.log(Logger::LogLevel::INFO, "Trial # is ", to_string(trialnum));
 	//Location initialization
 	/*
 	if (location == 1) {//Side position
@@ -205,7 +256,9 @@ int main() {//Beginning of main
 			sensorposZ = RealsenseAbovepositioncoordinateZ;
 		}
 	}
+
 	for (int i = 0; i < 1; i++) {//beginning of loop
+		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
 		//recieve data
 
 		//condition data
@@ -219,9 +272,12 @@ int main() {//Beginning of main
 				double angle = ((-22.5 + idx * 3)*3.1415965359)/180;
 				Coordinates[idx].Z = 0;
 				Coordinates[idx].X = sin(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx]);
-				Coordinates[idx].Y = cos(angle) * Originalvals[idx];
+				Coordinates[idx].Y = cos(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx]);
 				position FinalFingerPos = testsensors.Leddarswitchtokbd(Coordinates[idx].X, Coordinates[idx].Y, Coordinates[idx].Z);
 				MidiNotesNumbers notenum =testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+				char buffer[1000];
+				sprintf(buffer, "In MC Loop, Leddar, Idx=%i, Leddar=%f, Coord=[%f, %f, %f], FinalFingerPos=[%f, %f, %f], Midi=[%s]", idx, Originalvals[idx], Coordinates[idx].X, Coordinates[idx].Y, Coordinates[idx].Z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z, MidiNotesString(notenum).c_str());
+				Log1.log(Logger::LogLevel::INFO, buffer);
 				if (!notenum == None) {
 					Log1.log(Logger::LogLevel::NOTES, MidiNotesString(notenum), "On");
 					midioutput.playKey(notenum);
@@ -269,7 +325,7 @@ int main() {//Beginning of main
 		//Keyboardcontrol-Caitlyn
 
 
-	cout << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl; 
+	cout << "Wrapping Up for trial: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl; 
 	/*
 	Log1.log(Logger::LogLevel::NOTES, "This is a test of the notes logging");
 	Log1.log(Logger::LogLevel::INFO, "This is a test of the info logging");
@@ -279,6 +335,11 @@ int main() {//Beginning of main
 
 
 	}//end of loop
-	//close and save
+	
+	 //close and save
+	Log1.closefile();
+
 	//turn off sensor
+
+
 }//End of main

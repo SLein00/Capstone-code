@@ -62,8 +62,10 @@ private:
 	std::fstream m_logfile;
 	std::chrono::time_point<std::chrono::system_clock> m_start = std::chrono::system_clock::now();
 	int m_songclass = -1;
-	std::string m_sensor = "Undefined";
-	std::string m_position = "Undefined";
+	//std::string m_sensor = "Undefined";
+	//std::string m_position = "Undefined";
+	int m_sensor = -1;
+	int m_position = -1;
 	int m_trialnum = -1;
 
 
