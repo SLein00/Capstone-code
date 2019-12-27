@@ -6,6 +6,10 @@
 #include <iostream>
 //using namespace std;
 #include <array>
+#include "Logger.h"
+
+extern Logger Log1;
+
 struct position {
 	double X;
 	double Y;
