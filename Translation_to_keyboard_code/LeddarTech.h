@@ -7,6 +7,7 @@
 #include <array>
 #include "Logger.h"
 #include <vector>
+#include <string>
 
 // start copying from leddar
 #include <iostream>
@@ -26,7 +27,7 @@
 //#include "LtExceptions.h"
 //#include "LtKeyboardUtils.h"
 //#include "LtStringUtils.h"
-//#include "LtTimeUtils.h"
+#include "LtTimeUtils.h"
 
 
 extern Logger Log1;
