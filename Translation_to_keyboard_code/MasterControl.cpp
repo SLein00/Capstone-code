@@ -336,10 +336,21 @@ int main() {//Beginning of main
 
 	}//end of loop
 	
-	 //close and save
-	Log1.closefile();
+
 
 	//turn off sensor
+	if (sensortype == 1) { // leddar
+		testsensorLeddar.CloseSensor();
+	}
+	else if (sensortype == 2) { // leap
+		testsensorLeap.CloseSensor();
+	}
+	else if (sensortype == 3) { // realsense
+		testsensorRealsense.CloseSensor();
+	}
+
+	//close and save
+	Log1.closefile();
 
 
 }//End of main
