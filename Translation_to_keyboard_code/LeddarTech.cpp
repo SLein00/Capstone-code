@@ -65,7 +65,7 @@ std::array<double,16> LeddarTech::GetValues() {
 			uint32_t lAmplitudeScale = lResultEchoes->GetAmplitudeScale();
 			char buffer[1000]; 
 			//sprintf(buffer, "Leddar distance scale = %f", lDistanceScale);
-			Log1.log(Logger::LogLevel::INFO, buffer);
+			//Log1.log(Logger::LogLevel::INFO, buffer);
 			lResultEchoes->Lock(LeddarConnection::B_GET);
 			std::vector<LeddarConnection::LdEcho>& lEchoes = *(lResultEchoes->GetEchoes());
 			for (int i = 0; i < lResultEchoes->GetEchoCount(); i++) {
