@@ -1,0 +1,62 @@
+20191231_121853,0.117747,Information,1,1,1,7,There are 1 MIDI Output ports available.
+20191231_121853,0.118437,Information,1,1,1,7,Output port #1: Microsoft GS Wavetable Synth 0
+20191231_121853,0.119569,Information,1,1,1,7,Sensor 1 is Leddartech
+20191231_121853,0.119667,Information,1,1,1,7,Location 1 is Side
+20191231_121853,0.119794,Information,1,1,1,7,Song 1 is one-finger scales
+20191231_121853,0.119858,Information,1,1,1,7,Trial # is 7
+20191231_121853,0.119918,Information,1,1,1,7,Attempting to Initialize Leddar
+20191231_121853,0.151512,Warning!,1,1,1,7,No connection to Leddar Tech found
+20191231_121853,0.153408,Information,1,1,1,7,At begining of Master Control's loop
+20191231_121853,0.153477,Information,1,1,1,7,Keyboard Resetting keys played
+20191231_121853,0.153525,Information,1,1,1,7,Getting values from Leddar
+20191231_121853,0.153568,Warning!,1,1,1,7,No leddar sensor, returning default values
+20191231_121853,0.153631,Information,1,1,1,7,Leddar Values: [ 0.170, 0.170, 0.170, 0.170, 0.170, 0.170, 1.000, 0.509, 0.498, 1.000, 0.170, 0.170, 0.170, 0.170, 0.170, 0.170]
+20191231_121853,0.155253,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.155316,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.157708,Information,1,1,1,7,In MC Loop, Leddar, Idx=0, Leddar=0.170060, Coord=[15.711450, -6.507904, 0.000000], FinalFingerPos=[-21.507904, -10.631450, 1.500000], Midi=[None]
+20191231_121853,0.158608,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.158674,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.160314,Information,1,1,1,7,In MC Loop, Leddar, Idx=1, Leddar=0.170060, Coord=[16.030515, -5.676711, 0.000000], FinalFingerPos=[-20.676711, -10.950515, 1.500000], Midi=[None]
+20191231_121853,0.16213,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.162275,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.168254,Information,1,1,1,7,In MC Loop, Leddar, Idx=2, Leddar=0.170060, Coord=[16.305643, -4.829958, 0.000000], FinalFingerPos=[-19.829958, -11.225643, 1.500000], Midi=[None]
+20191231_121853,0.178182,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.178445,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.189764,Information,1,1,1,7,In MC Loop, Leddar, Idx=3, Leddar=0.170060, Coord=[16.536077, -3.969966, 0.000000], FinalFingerPos=[-18.969966, -11.456077, 1.500000], Midi=[None]
+20191231_121853,0.192322,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.192417,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.19484,Information,1,1,1,7,In MC Loop, Leddar, Idx=4, Leddar=0.170060, Coord=[16.721187, -3.099093, 0.000000], FinalFingerPos=[-18.099093, -11.641187, 1.500000], Midi=[None]
+20191231_121853,0.197361,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.1975,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.207545,Information,1,1,1,7,In MC Loop, Leddar, Idx=5, Leddar=0.170060, Coord=[16.860465, -2.219725, 0.000000], FinalFingerPos=[-17.219725, -11.780465, 1.500000], Midi=[None]
+20191231_121853,0.209046,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.209119,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.213083,Information,1,1,1,7,In MC Loop, Leddar, Idx=6, Leddar=1.000000, Coord=[99.691733, -7.845919, 0.000000], FinalFingerPos=[-22.845919, -94.611733, 1.500000], Midi=[None]
+20191231_121853,0.214211,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.214391,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.218909,Information,1,1,1,7,In MC Loop, Leddar, Idx=7, Leddar=0.508800, Coord=[50.862565, -1.331885, 0.000000], FinalFingerPos=[-16.331885, -45.782565, 1.500000], Midi=[None]
+20191231_121853,0.220882,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.220952,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.223581,Information,1,1,1,7,In MC Loop, Leddar, Idx=8, Leddar=0.497700, Coord=[49.752945, 1.302828, 0.000000], FinalFingerPos=[-13.697172, -44.672945, 1.500000], Midi=[None]
+20191231_121853,0.224895,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.225072,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.234223,Information,1,1,1,7,In MC Loop, Leddar, Idx=9, Leddar=1.000000, Coord=[99.691733, 7.845919, 0.000000], FinalFingerPos=[-7.154081, -94.611733, 1.500000], Midi=[None]
+20191231_121853,0.244424,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.24454,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.257516,Information,1,1,1,7,In MC Loop, Leddar, Idx=10, Leddar=0.170060, Coord=[16.860465, 2.219725, 0.000000], FinalFingerPos=[-12.780275, -11.780465, 1.500000], Midi=[None]
+20191231_121853,0.261273,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121853,0.261584,Information,1,1,1,7,In Leddar Side Position
+20191231_121853,0.271122,Information,1,1,1,7,In MC Loop, Leddar, Idx=11, Leddar=0.170060, Coord=[16.721187, 3.099093, 0.000000], FinalFingerPos=[-11.900907, -11.641187, 1.500000], Midi=[None]
+20191231_121854,0.27242,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121854,0.27251,Information,1,1,1,7,In Leddar Side Position
+20191231_121854,0.276807,Information,1,1,1,7,In MC Loop, Leddar, Idx=12, Leddar=0.170060, Coord=[16.536077, 3.969966, 0.000000], FinalFingerPos=[-11.030034, -11.456077, 1.500000], Midi=[None]
+20191231_121854,0.280524,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121854,0.280637,Information,1,1,1,7,In Leddar Side Position
+20191231_121854,0.289922,Information,1,1,1,7,In MC Loop, Leddar, Idx=13, Leddar=0.170060, Coord=[16.305643, 4.829958, 0.000000], FinalFingerPos=[-10.170042, -11.225643, 1.500000], Midi=[None]
+20191231_121854,0.291731,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121854,0.291895,Information,1,1,1,7,In Leddar Side Position
+20191231_121854,0.306207,Information,1,1,1,7,In MC Loop, Leddar, Idx=14, Leddar=0.170060, Coord=[16.030515, 5.676711, 0.000000], FinalFingerPos=[-9.323289, -10.950515, 1.500000], Midi=[None]
+20191231_121854,0.309424,Information,1,1,1,7,Translating leddar finger coordinate to keyboard
+20191231_121854,0.309514,Information,1,1,1,7,In Leddar Side Position
+20191231_121854,0.322146,Information,1,1,1,7,In MC Loop, Leddar, Idx=15, Leddar=0.170060, Coord=[15.711450, 6.507904, 0.000000], FinalFingerPos=[-8.492096, -10.631450, 1.500000], Midi=[None]
+20191231_121854,0.332429,Information,1,1,1,7,Attempting to Close out Leddar

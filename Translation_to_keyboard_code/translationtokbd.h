@@ -21,7 +21,7 @@ class Sensor
 public:
 	//LeddarTech sensor position coordinates
 	double LeddarSidepositioncoordinateX = -15;
-	double LeddarSidepositioncoordinateY = 7.75;
+	double LeddarSidepositioncoordinateY = 5.08;
 	double LeddarSidepositioncoordinateZ = 1.5;
 	double LeddarFrontpositioncoordinateX = 34.75;
 	double LeddarFrontpositioncoordinateY = 30.1;
@@ -69,10 +69,11 @@ public:
 	double fingerkeyposY;
 	double fingerkeyposZ;
 	//LeddarTech matrices
-	std::array<std::array<double, 4>, 4> Leddarsidematrix = { { { 0.0, 1.0, 0.0, LeddarSidepositioncoordinateX},
-							{-1.0, 0.0, 0.0, LeddarSidepositioncoordinateY},
+	std::array<std::array<double, 4>, 4> Leddarsidematrix = { { { 1.0, 0.0, 0.0, LeddarSidepositioncoordinateX},
+							{0.0, 1.0, 0.0, LeddarSidepositioncoordinateY},
 							{0.0, 0.0, 1.0, LeddarSidepositioncoordinateZ},
 							{0.0, 0.0, 0.0, 1.0} } };
+	//Above is a translation matrix, no rotation was needed so the rotation peice is just the identity matrix
 	std::array<std::array<double, 4>, 4> Leddarfrontmatrix = { { {-1, 0, 0, LeddarFrontpositioncoordinateX},
 							{0, -1, 0, LeddarFrontpositioncoordinateY},
 							{0, 0, 1, LeddarFrontpositioncoordinateZ},

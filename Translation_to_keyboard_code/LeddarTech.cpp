@@ -81,8 +81,11 @@ std::array<double,16> LeddarTech::GetValues() {
 	}
 	else {
 		Log1.log(Logger::LogLevel::WARN, "No leddar sensor, returning default values");
-		retval = { {.17005954, .17005954, .17005954, .17005954, .17005954,.17005954,.17005954,.17005954,.17005954, .17005954, .17005954,.17005954,.17005954,.17005954, .17005954, .17005954} };
+		retval = { {.17005954, .17005954, .17005954, .17005954, .17005954,.17005954,1 ,.5088 ,.4977 , 1, .17005954,.17005954,.17005954,.17005954, .17005954, .17005954} };
 		//Need to change to actual distance values that will output keys
+		//.5088 should = Middle C# (Cs5) in side position (element 7)
+		//.497770 should = Middle C (C5) in side position (element 8)
+		
 	}
 
 	char buffer[2000];

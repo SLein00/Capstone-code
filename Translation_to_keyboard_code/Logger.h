@@ -20,10 +20,11 @@ class Logger
 {
 public:
 	enum LogLevel {
-		NOTES = 3,
-		INFO = 1,
-		WARN = 2,
-		ERROR = 4
+		NOTES = 4,
+		INFO = 2,
+		WARN = 3,
+		ERROR = 5,
+		DEBUG = 1
 	};
 
 	std::string LogLevelString(LogLevel e) {
@@ -32,6 +33,7 @@ public:
 		case INFO: return "Information";
 		case WARN: return "Warning!";
 		case ERROR: return "ERROR!";
+		case DEBUG: return "DEBUG!";
 		default: return "UNDEFINED";
 		}
 	}
@@ -58,7 +60,7 @@ public:
 private:
 	std::string m_filename;
 	std::string m_directory;
-	LogLevel m_curloglevel = INFO;
+	LogLevel m_curloglevel = DEBUG;
 	std::fstream m_logfile;
 	std::chrono::time_point<std::chrono::system_clock> m_start = std::chrono::system_clock::now();
 	int m_songclass = -1;
