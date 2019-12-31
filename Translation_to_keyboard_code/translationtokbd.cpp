@@ -70,8 +70,10 @@ Sensor::Sensor() {
 
 	position Sensor::Leddarswitchtokbd(double finposX, double finposY, double finposZ)
 	{
+		Log1.log(Logger::LogLevel::INFO, "Translating leddar finger coordinate to keyboard");
 		if (posX == LeddarSidepositioncoordinateX && posY == LeddarSidepositioncoordinateY && posZ == LeddarSidepositioncoordinateZ )
 		{
+			Log1.log(Logger::LogLevel::INFO, "In Leddar Side Position");
 
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
@@ -83,6 +85,7 @@ Sensor::Sensor() {
 		}
 		else if (posX == LeddarFrontpositioncoordinateX && posY == LeddarFrontpositioncoordinateY && posZ == LeddarFrontpositioncoordinateZ)
 		{
+			Log1.log(Logger::LogLevel::INFO, "In Leddar Front Position");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Leddarfrontmatrix, finpos);
@@ -91,6 +94,7 @@ Sensor::Sensor() {
 		}
 		else if (posX == LeddarWebcampositioncoordinateX && posY == LeddarWebcampositioncoordinateY && posZ == LeddarWebcampositioncoordinateZ)
 		{
+			Log1.log(Logger::LogLevel::INFO, "In Leddar Webcam Position");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Leddarwebcammatrix, finpos);
@@ -99,6 +103,7 @@ Sensor::Sensor() {
 		}
 		else if (posX == LeddarAbovepositioncoordinateX && posY == LeddarAbovepositioncoordinateY && posZ == LeddarAbovepositioncoordinateZ)
 		{
+			Log1.log(Logger::LogLevel::INFO, "In Leddar Above Position");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Leddarabovematrix, finpos);

@@ -3,13 +3,13 @@
 extern Logger Log1;
 
 int MidiKeyboard::openkeyboard() {
-
+	Log1.log(Logger::LogLevel::INFO, "Attempting to open midi keyboard");
 
 	return 0;
 }
 
 int MidiKeyboard::closekeyboard() {
-
+	Log1.log(Logger::LogLevel::INFO, "closing midi keyboard");
 	return 0;
 }
 
@@ -51,11 +51,11 @@ void MidiKeyboard::listKeyboardOutputs() {
 }
  
 void MidiKeyboard::playKey(MidiNotesNumbers key) {
-
+	Log1.log(Logger::LogLevel::INFO, "Keyboard Being asked to play key ", MidiNotesString(key));
 }
 
 void MidiKeyboard::resetKeys() {
-
+	Log1.log(Logger::LogLevel::INFO, "Keyboard Resetting keys played");
 }
 
 void MidiKeyboard::sendKeys() {
