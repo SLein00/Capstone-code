@@ -11,7 +11,8 @@ int LeddarTech::CloseSensor() {
 }
 
 std::array<double,16> LeddarTech::GetValues() {
-	std::array<double, 16> retval = { {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0} };
+	std::array<double, 16> retval = { {.17005954, .17005954, .17005954, .17005954, .17005954,.17005954,.17005954,.17005954,.17005954, .17005954, .17005954,.17005954,.17005954,.17005954, .17005954, .17005954} };
 	return retval;
+	//.17005954 should result in Cs2 and came from the squareroot of ((-.45)^2 + (17)^2) divided by 100 (convert to meters)
 }
 

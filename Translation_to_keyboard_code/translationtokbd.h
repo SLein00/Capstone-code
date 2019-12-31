@@ -140,8 +140,8 @@ public:
 	void zeros();
 	void matchcoordinates(double sensorposX , double sensorposY , double sensorposZ , double finposX , double finposY , double finposZ );
 	position Leddarswitchtokbd(double, double, double);
-	void Leapswitchtokbd(double, double, double);
-	void Realsenseswitchtokbd(double, double, double);
+	position Leapswitchtokbd(double, double, double);
+	position Realsenseswitchtokbd(double, double, double);
 	double getfinalX() const;
 	double getfinalY() const;
 	double getfinalZ() const;

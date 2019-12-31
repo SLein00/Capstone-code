@@ -109,7 +109,7 @@ Sensor::Sensor() {
 
 	}
 
-	void Sensor::Leapswitchtokbd(double finposX, double finposY, double finposZ)
+	position Sensor::Leapswitchtokbd(double finposX, double finposY, double finposZ)
 	{
 		if (posX == LeapSidepositioncoordinateX && posY == LeapSidepositioncoordinateY && posZ == LeapSidepositioncoordinateZ)
 		{
@@ -117,6 +117,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Leapsidematrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			return foo;
 		}
 		else if (posX == LeapFrontpositioncoordinateX && posY == LeapFrontpositioncoordinateY && posZ == LeapFrontpositioncoordinateZ)
 		{
@@ -124,6 +125,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Leapfrontmatrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			return foo;
 		}
 		else if (posX == LeapWebcampositioncoordinateX && posY == LeapWebcampositioncoordinateY && posZ == LeapWebcampositioncoordinateZ)
 		{
@@ -131,6 +133,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Leapwebcammatrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			return foo;
 		}
 		else if (posX == LeapAbovepositioncoordinateX && posY == LeapAbovepositioncoordinateY && posZ == LeapAbovepositioncoordinateZ)
 		{
@@ -138,12 +141,13 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Leapabovematrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			return foo;
 		}
 
 
 	}
 
-	void Sensor::Realsenseswitchtokbd(double finposX, double finposY, double finposZ)
+	position Sensor::Realsenseswitchtokbd(double finposX, double finposY, double finposZ)
 	{
 		if (posX == RealsenseSidepositioncoordinateX && posY == RealsenseSidepositioncoordinateY && posZ == RealsenseSidepositioncoordinateZ)
 		{
@@ -151,6 +155,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Realsensesidematrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			return foo;
 		}
 		else if (posX == RealsenseFrontpositioncoordinateX && posY == RealsenseFrontpositioncoordinateY && posZ == RealsenseFrontpositioncoordinateZ)
 		{
@@ -158,6 +163,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Realsensefrontmatrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			return foo;
 		}
 		else if (posX == RealsenseWebcampositioncoordinateX && posY == RealsenseWebcampositioncoordinateY && posZ == RealsenseWebcampositioncoordinateZ)
 		{
@@ -165,6 +171,7 @@ Sensor::Sensor() {
 
 			position foo = matrixmultiply_4x4_4x1(Realsensewebcammatrix, finpos);
 			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			return foo;
 		}
 		else if (posX == RealsenseAbovepositioncoordinateX && posY == RealsenseAbovepositioncoordinateY && posZ == RealsenseAbovepositioncoordinateZ)
 		{
@@ -175,6 +182,7 @@ Sensor::Sensor() {
 			finalfingerposX = foo.X;
 			finalfingerposY = foo.Y;
 			finalfingerposZ = foo.Z;
+			return foo;
 
 		}
 
