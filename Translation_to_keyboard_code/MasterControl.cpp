@@ -117,7 +117,6 @@ int main() {//Beginning of main
 	songtype = stoi(songlevel);
 	trialnum = stoi(trialnumber);*/
 
-//CAITLYN'S Changes
 
 	cout << "Summary of options: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl;
 	switch (sensortype) {
@@ -274,8 +273,8 @@ int main() {//Beginning of main
 				double angle = ((-22.5 + idx * 3) * 3.1415965359) / 180;
 				Coordinates[idx].Z = 0;
 				Coordinates[idx].X = sin(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx]);
-
-				Coordinates[idx].Y = cos(angle) * Originalvals[idx];
+				Coordinates[idx].Y = cos(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx]);
+				
 
 				cout << Coordinates[idx].X << "," << Coordinates[idx].Y << "," << Coordinates[idx].Z << endl ;
 
@@ -285,21 +284,13 @@ int main() {//Beginning of main
 
 				MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
 
-				note = MidiNotesString(notenum);
-
-				//CAITLYN'S changese
-				Coordinates[idx].Y = cos(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx]);
-				position FinalFingerPos = testsensors.Leddarswitchtokbd(Coordinates[idx].X, Coordinates[idx].Y, Coordinates[idx].Z);
-				MidiNotesNumbers notenum =testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
 				char buffer[1000];
 				sprintf(buffer, "In MC Loop, Leddar, Idx=%i, Leddar=%f, Coord=[%f, %f, %f], FinalFingerPos=[%f, %f, %f], Midi=[%s]", idx, Originalvals[idx], Coordinates[idx].X, Coordinates[idx].Y, Coordinates[idx].Z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z, MidiNotesString(notenum).c_str());
 				Log1.log(Logger::LogLevel::INFO, buffer);
 
 				if (!notenum == None) {
-					Log1.log(Logger::LogLevel::NOTES, MidiNotesString(notenum), "On");
+					Log1.log(Logger::LogLevel::INFO, MidiNotesString(notenum), "On");
 					midioutput.playKey(notenum);
-
-					cout << note <<endl;
 				}
 			}
 			midioutput.sendKeys();
@@ -364,8 +355,6 @@ int main() {//Beginning of main
 		//pass list of keys played to Keyboard control
 		//Keyboardcontrol-Caitlyn
 
-
-	//CAITLYN'S Changes
 	cout << "Wrapping Up for trial: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl; 
 
 	/*
@@ -377,23 +366,7 @@ int main() {//Beginning of main
 
 
 	}//end of loop
-//MY Version of closing
-	//close and save
-	Log1.closefile();
-	if (sensortype == 1) {
-		testsensorLeddar.CloseSensor();
-	}
-	else if (sensortype == 2) {
-		testsensorLeap.CloseSensor();
-	}
-	else if (sensortype == 3) {
-		testsensorRealsense.CloseSensor();
-	}
 
-	
-
-
-//CAITLYN'S Changes
 	//turn off sensor
 	if (sensortype == 1) { // leddar
 		testsensorLeddar.CloseSensor();

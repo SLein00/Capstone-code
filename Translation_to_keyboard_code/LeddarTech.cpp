@@ -52,9 +52,8 @@ int LeddarTech::CloseSensor() {
 }
 
 std::array<double,16> LeddarTech::GetValues() {
-<<<<<<< HEAD
-	std::array<double, 16> retval = { {.17005954, .17005954, .17005954, .17005954, .17005954,.17005954,.17005954,.17005954,.17005954, .17005954, .17005954,.17005954,.17005954,.17005954, .17005954, .17005954} };
-=======
+
+	
 	Log1.log(Logger::LogLevel::INFO, "Getting values from Leddar");
 	std::array<double, 16> retval;
 	if (lSensor) {
@@ -82,14 +81,14 @@ std::array<double,16> LeddarTech::GetValues() {
 	}
 	else {
 		Log1.log(Logger::LogLevel::WARN, "No leddar sensor, returning default values");
-		retval = { {1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0} };
+		retval = { {.17005954, .17005954, .17005954, .17005954, .17005954,.17005954,.17005954,.17005954,.17005954, .17005954, .17005954,.17005954,.17005954,.17005954, .17005954, .17005954} };
+		//Need to change to actual distance values that will output keys
 	}
 
 	char buffer[2000];
 	sprintf(buffer, "Leddar Values: [%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f,%6.3f]", retval[0], retval[1], retval[2], retval[3], retval[4], retval[5], retval[6], retval[7], retval[8], retval[9], retval[10], retval[11], retval[12], retval[13], retval[14], retval[15]);
 	Log1.log(Logger::LogLevel::INFO, buffer);
->>>>>>> 7c20b6aff8bb9275dc90a216e25d9dc153b60019
 	return retval;
-	//.17005954 should result in Cs2 and came from the squareroot of ((-.45)^2 + (17)^2) divided by 100 (convert to meters)
+
 }
 
