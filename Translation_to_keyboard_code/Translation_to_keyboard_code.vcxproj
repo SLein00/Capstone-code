@@ -185,6 +185,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FakeHands.cpp" />
     <ClCompile Include="IntelRealsense.cpp" />
     <ClCompile Include="LeapMotion.cpp" />
     <ClCompile Include="LeddarTech.cpp" />
@@ -199,6 +200,7 @@
     <ClCompile Include="Translation_to_kbd.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FakeHands.h" />
     <ClInclude Include="IntelRealsense.h" />
     <ClInclude Include="LeapMotion.h" />
     <ClInclude Include="LeddarTech.h" />
