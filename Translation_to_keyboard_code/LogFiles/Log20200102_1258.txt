@@ -1,0 +1,36 @@
+20200102_125909,0.0748882,Information,2,1,1,1,There are 1 MIDI Output ports available.
+20200102_125909,0.0751973,Information,2,1,1,1,Output port #1: Microsoft GS Wavetable Synth 0
+20200102_125909,0.0758232,Information,2,1,1,1,Sensor 2 is Leap
+20200102_125909,0.0758942,Information,2,1,1,1,Location 1 is Side
+20200102_125909,0.0759492,Information,2,1,1,1,Song 1 is one-finger scales
+20200102_125909,0.0760106,Information,2,1,1,1,Trial # is 1
+20200102_125909,0.0760677,Information,2,1,1,1,At begining of Master Control's loop
+20200102_125909,0.0761137,Information,2,1,1,1,Keyboard Resetting keys played
+20200102_125909,0.0772439,DEBUG!,2,1,1,1,Enter keyboard range Z
+20200102_125909,0.0772928,DEBUG!,2,1,1,1,Enter range for top notes (blacks and whites)
+20200102_125909,0.0773393,Information,2,1,1,1,Cs2On
+20200102_125909,0.0773811,Information,2,1,1,1,Keyboard Being asked to play key Cs2
+20200102_125909,0.0789278,DEBUG!,2,1,1,1,Enter keyboard range Z
+20200102_125909,0.078978,DEBUG!,2,1,1,1,Enter keyboard range of Bottom section Y (white notes only)
+20200102_125909,0.0790189,Information,2,1,1,1,E2On
+20200102_125909,0.079058,Information,2,1,1,1,Keyboard Being asked to play key E2
+20200102_125909,0.0816055,DEBUG!,2,1,1,1,Enter keyboard range Z
+20200102_125909,0.0816966,DEBUG!,2,1,1,1,Enter range for top notes (blacks and whites)
+20200102_125909,0.0817613,Information,2,1,1,1,As2On
+20200102_125909,0.0818035,Information,2,1,1,1,Keyboard Being asked to play key As2
+20200102_125909,0.0863214,DEBUG!,2,1,1,1,Enter keyboard range Z
+20200102_125909,0.0864071,DEBUG!,2,1,1,1,Enter keyboard range of Bottom section Y (white notes only)
+20200102_125909,0.0864697,Information,2,1,1,1,B2On
+20200102_125909,0.0865317,Information,2,1,1,1,Keyboard Being asked to play key B2
+20200102_125909,0.0930624,DEBUG!,2,1,1,1,Enter keyboard range Z
+20200102_125909,0.0931412,DEBUG!,2,1,1,1,Enter keyboard range of Bottom section Y (white notes only)
+20200102_125909,0.0932023,Information,2,1,1,1,D3On
+20200102_125909,0.0932514,Information,2,1,1,1,Keyboard Being asked to play key D3
+20200102_125909,0.0989664,DEBUG!,2,1,1,1,Enter keyboard range Z
+20200102_125909,0.0990346,DEBUG!,2,1,1,1,Enter range for top notes (blacks and whites)
+20200102_125909,0.0990765,Information,2,1,1,1,G3On
+20200102_125909,0.0991171,Information,2,1,1,1,Keyboard Being asked to play key G3
+20200102_125909,0.101599,DEBUG!,2,1,1,1,Enter keyboard range Z
+20200102_125909,0.101653,DEBUG!,2,1,1,1,Enter range for top notes (blacks and whites)
+20200102_125909,0.101694,Information,2,1,1,1,A3On
+20200102_125909,0.101735,Information,2,1,1,1,Keyboard Being asked to play key A3

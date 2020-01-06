@@ -1,0 +1,9 @@
+20200102_132145,0.067339,Information,2,3,1,1,There are 1 MIDI Output ports available.
+20200102_132145,0.067639,Information,2,3,1,1,Output port #1: Microsoft GS Wavetable Synth 0
+20200102_132145,0.0680438,Information,2,3,1,1,Sensor 2 is Leap
+20200102_132145,0.0681028,Information,2,3,1,1,Location 3 is Webcam
+20200102_132145,0.0681493,Information,2,3,1,1,Song 1 is one-finger scales
+20200102_132145,0.0681937,Information,2,3,1,1,Trial # is 1
+20200102_132145,0.0682389,Information,2,3,1,1,At begining of Master Control's loop
+20200102_132145,0.068282,Information,2,3,1,1,Keyboard Resetting keys played
+20200102_132145,0.0726145,DEBUG!,2,3,1,1,Enter keyboard range Z

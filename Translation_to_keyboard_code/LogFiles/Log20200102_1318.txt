@@ -1,0 +1,20 @@
+20200102_131812,0.0791005,Information,2,4,1,1,There are 1 MIDI Output ports available.
+20200102_131812,0.0794292,Information,2,4,1,1,Output port #1: Microsoft GS Wavetable Synth 0
+20200102_131812,0.0801215,Information,2,4,1,1,Sensor 2 is Leap
+20200102_131812,0.0801839,Information,2,4,1,1,Location 4 is Above
+20200102_131812,0.0802333,Information,2,4,1,1,Song 1 is one-finger scales
+20200102_131812,0.0802807,Information,2,4,1,1,Trial # is 1
+20200102_131812,0.08033,Information,2,4,1,1,At begining of Master Control's loop
+20200102_131812,0.0803762,Information,2,4,1,1,Keyboard Resetting keys played
+20200102_131812,0.107181,DEBUG!,2,4,1,1,Enter keyboard range Z
+20200102_131812,0.107249,DEBUG!,2,4,1,1,Enter keyboard range of Bottom section Y (white notes only)
+20200102_131812,0.107294,Information,2,4,1,1,E4On
+20200102_131812,0.107338,Information,2,4,1,1,Keyboard Being asked to play key E4
+20200102_131812,0.110715,DEBUG!,2,4,1,1,Enter keyboard range Z
+20200102_131812,0.11079,DEBUG!,2,4,1,1,Enter range for top notes (blacks and whites)
+20200102_131812,0.110837,Information,2,4,1,1,Fs4On
+20200102_131812,0.110891,Information,2,4,1,1,Keyboard Being asked to play key Fs4
+20200102_131812,0.115734,DEBUG!,2,4,1,1,Enter keyboard range Z
+20200102_131812,0.115796,DEBUG!,2,4,1,1,Enter range for top notes (blacks and whites)
+20200102_131812,0.115841,Information,2,4,1,1,Ds5On
+20200102_131812,0.115883,Information,2,4,1,1,Keyboard Being asked to play key Ds5

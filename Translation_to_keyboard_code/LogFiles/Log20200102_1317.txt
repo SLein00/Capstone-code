@@ -1,0 +1,30 @@
+20200102_131757,0.0695768,Information,2,2,1,1,There are 1 MIDI Output ports available.
+20200102_131757,0.0698925,Information,2,2,1,1,Output port #1: Microsoft GS Wavetable Synth 0
+20200102_131757,0.0707663,Information,2,2,1,1,Sensor 2 is Leap
+20200102_131757,0.070823,Information,2,2,1,1,Location 2 is Front
+20200102_131757,0.0708616,Information,2,2,1,1,Song 1 is one-finger scales
+20200102_131757,0.0708984,Information,2,2,1,1,Trial # is 1
+20200102_131757,0.0709364,Information,2,2,1,1,At begining of Master Control's loop
+20200102_131757,0.0709721,Information,2,2,1,1,Keyboard Resetting keys played
+20200102_131757,0.0729185,DEBUG!,2,2,1,1,Enter keyboard range Z
+20200102_131757,0.0729688,DEBUG!,2,2,1,1,Enter range for top notes (blacks and whites)
+20200102_131757,0.0730067,DEBUG!,2,2,1,1,Enter Cs4
+20200102_131757,0.0730496,Information,2,2,1,1,Cs4On
+20200102_131757,0.0730906,Information,2,2,1,1,Keyboard Being asked to play key Cs4
+20200102_131757,0.0747336,DEBUG!,2,2,1,1,Enter keyboard range Z
+20200102_131757,0.0747886,DEBUG!,2,2,1,1,Enter range for top notes (blacks and whites)
+20200102_131757,0.0748291,Information,2,2,1,1,As3On
+20200102_131757,0.0748753,Information,2,2,1,1,Keyboard Being asked to play key As3
+20200102_131757,0.0770283,DEBUG!,2,2,1,1,Enter keyboard range Z
+20200102_131757,0.0770994,DEBUG!,2,2,1,1,Enter keyboard range of Bottom section Y (white notes only)
+20200102_131757,0.0771415,DEBUG!,2,2,1,1,Enter bottom of C4
+20200102_131757,0.0771794,Information,2,2,1,1,C4On
+20200102_131757,0.0772177,Information,2,2,1,1,Keyboard Being asked to play key C4
+20200102_131757,0.0813904,DEBUG!,2,2,1,1,Enter keyboard range Z
+20200102_131757,0.0814775,DEBUG!,2,2,1,1,Enter keyboard range of Bottom section Y (white notes only)
+20200102_131757,0.0815483,Information,2,2,1,1,B2On
+20200102_131757,0.0816203,Information,2,2,1,1,Keyboard Being asked to play key B2
+20200102_131757,0.0870837,DEBUG!,2,2,1,1,Enter keyboard range Z
+20200102_131757,0.0871456,DEBUG!,2,2,1,1,Enter keyboard range of Bottom section Y (white notes only)
+20200102_131757,0.0871894,Information,2,2,1,1,D3On
+20200102_131757,0.0872319,Information,2,2,1,1,Keyboard Being asked to play key D3
