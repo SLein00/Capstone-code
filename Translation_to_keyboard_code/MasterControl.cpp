@@ -9,7 +9,7 @@ using namespace std;
 #include "SensorBase.h"
 #include "Logger.h"
 #include "MidiKeyboard.h"
-
+#include "FakeHands.h"
 
 int sensortype;
 int location;
@@ -72,6 +72,7 @@ double finalfingerposZ;
 string note;
 
 extern Logger Log1;
+extern MidiKeyboard midioutput;
 
 int main() {//Beginning of main
 	cout << "Sensor type: " << endl;
@@ -79,6 +80,7 @@ int main() {//Beginning of main
 	cout << "1 = LeddarTech Sensor Evaluation Kit" << endl;
 	cout << "2 = Leap Motion Controller" << endl;
 	cout << "3 = Intel Realsense Depth Camera " << endl;
+	cout << "4 = Fake Hands" << endl;
 	cin >> sensortype;
 	cout << "Location of sensor: "<< endl;
 	cout << "(Pick one of the following options)" << endl;
@@ -106,7 +108,7 @@ int main() {//Beginning of main
 	LeddarTech testsensorLeddar;
 	IntelRealsense testsensorRealsense;
 	LeapMotion testsensorLeap;
-	MidiKeyboard midioutput;
+	FakeHands testsensorHands;
 	Keyboard testnotes;
 	midioutput.listKeyboardOutputs();
 	
@@ -128,6 +130,9 @@ int main() {//Beginning of main
 		break;
 	case 3:
 		Log1.log(Logger::LogLevel::INFO, "Sensor 3 is Leddartech");
+		break;
+	case 4:
+		Log1.log(Logger::LogLevel::INFO, "Sensor is the random keyboard");
 		break;
 	default:
 		Log1.log(Logger::LogLevel::INFO, "Sensor is unidentified");
@@ -257,12 +262,17 @@ int main() {//Beginning of main
 			posZ = RealsenseAbovepositioncoordinateZ;
 		}
 	}
+	else if (sensortype == 4) {
+		testsensorHands.InitializeSensor();
+
+	}
+
 	//Makes it so the translation to kbd pos values are equal to master control pos values
 	testsensors.posX = posX;
 	testsensors.posY = posY;
 	testsensors.posZ = posZ;
 
-	for (int i = 0; i < 1; i++) {//beginning of loop
+	for (int i = 0; i < 100; i++) {//beginning of loop
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
 		//recieve data
 
@@ -355,11 +365,23 @@ int main() {//Beginning of main
 				Log1.log(Logger::LogLevel::NOTES, note, "On");
 			}
 		}
-		
+		else if (sensortype == 4) { // fake random keyboard
+			midioutput.resetKeys();
+			array<MidiNotesNumbers, 10> possiblenotes;
+			possiblenotes = testsensorHands.GetValues(songtype);
+
+			for (int i = 0; i < 10; i++) {
+				if (possiblenotes[i] != None) {
+					midioutput.playKey(possiblenotes[i]);
+				}
+			}
+
+			midioutput.sendKeys();
+		}
 		//pass list of keys played to Keyboard control
 		//Keyboardcontrol-Caitlyn
 
-	cout << "Wrapping Up for trial: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl; 
+
 
 	/*
 	Log1.log(Logger::LogLevel::NOTES, "This is a test of the notes logging");
@@ -370,6 +392,7 @@ int main() {//Beginning of main
 
 
 	}//end of loop
+	cout << "Wrapping Up for trial: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl;
 
 	//turn off sensor
 	if (sensortype == 1) { // leddar

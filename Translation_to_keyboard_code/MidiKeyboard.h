@@ -8,6 +8,7 @@
 #include "Logger.h"
 #include "MidiNotes.h"
 #include "RtMidi.h"
+#include <array>
 
 class MidiKeyboard
 {
@@ -21,11 +22,14 @@ public:
 	void resetKeys();
 	void playKey(MidiNotesNumbers key);
 	void sendKeys();
+	std::string playableNotes();
 
 
 
 private:
-
+	std::array<bool,128> keysplayednow;
+	std::array<bool,128> keysplayedlast;
+	bool isplayable(int i);
 };
 
 #endif // !MIDIKEYBOARDH

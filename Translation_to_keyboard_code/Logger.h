@@ -13,6 +13,7 @@
 #include <direct.h>
 #include <chrono>
 #include <map>
+#include "MidiKeyboard.h"
 
 //#include <filesystem>
 
@@ -59,9 +60,11 @@ public:
 
 private:
 	std::string m_filename;
+	std::string m_csvname;
 	std::string m_directory;
 	LogLevel m_curloglevel = DEBUG;
 	std::fstream m_logfile;
+	std::fstream m_csvfile;
 	std::chrono::time_point<std::chrono::system_clock> m_start = std::chrono::system_clock::now();
 	int m_songclass = -1;
 	//std::string m_sensor = "Undefined";
