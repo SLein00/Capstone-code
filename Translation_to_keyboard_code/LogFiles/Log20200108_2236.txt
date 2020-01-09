@@ -1,0 +1,7 @@
+20200108_223624,0.0447544,Information,2,2,2,2,There are 1 MIDI Output ports available.
+20200108_223624,0.0450365,Information,2,2,2,2,Output port #1: Microsoft GS Wavetable Synth 0
+20200108_223624,0.0454164,Information,2,2,2,2,Sensor 2 is Leap
+20200108_223624,0.0455014,Information,2,2,2,2,Location 2 is Front
+20200108_223624,0.0455517,Information,2,2,2,2,Song 2 is one handed - simple melody
+20200108_223624,0.0456024,Information,2,2,2,2,Trial # is 2
+20200108_223624,0.0456544,Information,2,2,2,2,At begining of Master Control's loop

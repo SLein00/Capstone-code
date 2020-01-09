@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 using namespace std;
 #include "translationtokbd.h"
 #include "keystonotes.h"
@@ -10,6 +11,8 @@ using namespace std;
 #include "Logger.h"
 #include "MidiKeyboard.h"
 #include "FakeHands.h"
+
+#include "AsyncGetLine.h"
 
 int sensortype;
 int location;
@@ -75,6 +78,7 @@ extern Logger Log1;
 extern MidiKeyboard midioutput;
 
 int main() {//Beginning of main
+
 	cout << "Sensor type: " << endl;
 	cout << "(Pick one of the following options)" << endl;
 	cout << "1 = LeddarTech Sensor Evaluation Kit" << endl;
@@ -272,9 +276,20 @@ int main() {//Beginning of main
 	testsensors.posY = posY;
 	testsensors.posZ = posZ;
 
-	for (int i = 0; i < 10000; i++) {//beginning of loop
+	AsyncGetline ag;
+	string consoleinput;
+
+	for (int i = 0; i < 100; i++) {//beginning of loop
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
+		
+		consoleinput = ag.GetLine();
+		if (!consoleinput.empty() && consoleinput[1] == 'q'){
+			break;
+		}
+
 		//recieve data
+
+
 
 		//condition data
 		if (sensortype == 1) {//LeddarTech
@@ -410,3 +425,4 @@ int main() {//Beginning of main
 
 
 }//End of main
+
