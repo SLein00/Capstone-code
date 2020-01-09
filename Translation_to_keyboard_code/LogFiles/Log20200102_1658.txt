@@ -1,0 +1,2205 @@
+20200102_165816,0.0469608,Information,4,1,1,1,There are 1 MIDI Output ports available.
+20200102_165816,0.0472679,Information,4,1,1,1,Output port #1: Microsoft GS Wavetable Synth 0
+20200102_165816,0.0476277,Information,4,1,1,1,Sensor is the random keyboard
+20200102_165816,0.0476904,Information,4,1,1,1,Location 1 is Side
+20200102_165816,0.0477401,Information,4,1,1,1,Song 1 is one-finger scales
+20200102_165816,0.0477905,Information,4,1,1,1,Trial # is 1
+20200102_165816,0.0478428,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0478912,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.048245,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0482915,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0483443,DEBUG!,4,1,1,1,Keyboard Being asked to play key C2
+20200102_165816,0.0484749,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0485128,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0485621,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs2
+20200102_165816,0.04869,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0487276,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0487758,DEBUG!,4,1,1,1,Keyboard Being asked to play key D2
+20200102_165816,0.0489074,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0489488,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0489981,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds2
+20200102_165816,0.0491255,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.049163,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0492118,DEBUG!,4,1,1,1,Keyboard Being asked to play key A3
+20200102_165816,0.0492585,DEBUG!,4,1,1,1,Keyboard Being asked to play key E2
+20200102_165816,0.049385,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0494226,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0495503,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0495894,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0496383,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs3
+20200102_165816,0.0497656,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0498031,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0498516,DEBUG!,4,1,1,1,Keyboard Being asked to play key F2
+20200102_165816,0.050007,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0500472,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0501766,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0502147,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0503444,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0503817,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0504297,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs2
+20200102_165816,0.0505564,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0505935,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.050642,DEBUG!,4,1,1,1,Keyboard Being asked to play key C6
+20200102_165816,0.0506885,DEBUG!,4,1,1,1,Keyboard Being asked to play key G2
+20200102_165816,0.0508151,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0508524,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0509849,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0510232,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0510713,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs2
+20200102_165816,0.0511984,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.051236,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0513647,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0514023,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0514501,DEBUG!,4,1,1,1,Keyboard Being asked to play key A2
+20200102_165816,0.0516004,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0516392,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0516881,DEBUG!,4,1,1,1,Keyboard Being asked to play key As2
+20200102_165816,0.051836,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0518762,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0519245,DEBUG!,4,1,1,1,Keyboard Being asked to play key B2
+20200102_165816,0.0520632,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.052101,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0521496,DEBUG!,4,1,1,1,Keyboard Being asked to play key C3
+20200102_165816,0.0522769,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0523143,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0523623,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs3
+20200102_165816,0.0524895,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.052528,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0525765,DEBUG!,4,1,1,1,Keyboard Being asked to play key D3
+20200102_165816,0.0527067,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0527442,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0527919,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds3
+20200102_165816,0.052919,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0529599,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0530919,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0531338,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0532629,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0533033,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.053437,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0534745,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0535226,DEBUG!,4,1,1,1,Keyboard Being asked to play key E3
+20200102_165816,0.0536498,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0536871,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0538168,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0538547,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.053987,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0540257,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0541545,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0541921,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0543209,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0543585,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0544077,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs3
+20200102_165816,0.0544547,DEBUG!,4,1,1,1,Keyboard Being asked to play key F3
+20200102_165816,0.0545818,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0546192,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0546674,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs3
+20200102_165816,0.0547951,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0548325,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0549656,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0550033,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0550518,DEBUG!,4,1,1,1,Keyboard Being asked to play key G3
+20200102_165816,0.0551788,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0552163,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0552642,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs3
+20200102_165816,0.0553913,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0554286,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0555009,DEBUG!,4,1,1,1,Keyboard Being asked to play key A3
+20200102_165816,0.0556324,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0556699,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0557185,DEBUG!,4,1,1,1,Keyboard Being asked to play key A2
+20200102_165816,0.0557654,DEBUG!,4,1,1,1,Keyboard Being asked to play key As3
+20200102_165816,0.0559159,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.05596,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0560094,DEBUG!,4,1,1,1,Keyboard Being asked to play key B3
+20200102_165816,0.0561403,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0561791,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0562282,DEBUG!,4,1,1,1,Keyboard Being asked to play key C4
+20200102_165816,0.0563556,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0563931,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.056442,DEBUG!,4,1,1,1,Keyboard Being asked to play key E3
+20200102_165816,0.0565727,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0566101,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0566582,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs4
+20200102_165816,0.0567852,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0568225,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0568725,DEBUG!,4,1,1,1,Keyboard Being asked to play key D4
+20200102_165816,0.0570211,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0570609,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.05711,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds4
+20200102_165816,0.0572384,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.057276,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0573251,DEBUG!,4,1,1,1,Keyboard Being asked to play key E4
+20200102_165816,0.0574522,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0574896,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0575382,DEBUG!,4,1,1,1,Keyboard Being asked to play key D3
+20200102_165816,0.0576657,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0577033,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0577511,DEBUG!,4,1,1,1,Keyboard Being asked to play key F4
+20200102_165816,0.0579065,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0579508,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0580002,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs6
+20200102_165816,0.0580474,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs4
+20200102_165816,0.058176,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0582139,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0583424,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0583807,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0584289,DEBUG!,4,1,1,1,Keyboard Being asked to play key G4
+20200102_165816,0.0585555,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0585929,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0586411,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs4
+20200102_165816,0.0587676,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0588045,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.058852,DEBUG!,4,1,1,1,Keyboard Being asked to play key A4
+20200102_165816,0.0589828,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0590203,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0590705,DEBUG!,4,1,1,1,Keyboard Being asked to play key As4
+20200102_165816,0.0591979,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0592351,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0592828,DEBUG!,4,1,1,1,Keyboard Being asked to play key B4
+20200102_165816,0.0594111,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0594494,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.059578,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0596154,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0597426,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.059781,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0599126,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0599567,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.060089,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0601267,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0601755,DEBUG!,4,1,1,1,Keyboard Being asked to play key C5
+20200102_165816,0.0603026,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0603399,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0604679,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0605052,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0606345,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0606719,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0607201,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs5
+20200102_165816,0.060847,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0608844,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0609333,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs4
+20200102_165816,0.0609837,DEBUG!,4,1,1,1,Keyboard Being asked to play key D5
+20200102_165816,0.0611106,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.061148,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0611966,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds5
+20200102_165816,0.0613244,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0613616,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0614094,DEBUG!,4,1,1,1,Keyboard Being asked to play key E5
+20200102_165816,0.0615361,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0615741,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0617042,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0617418,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0618705,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0619079,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0619592,DEBUG!,4,1,1,1,Keyboard Being asked to play key F5
+20200102_165816,0.0620878,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.062125,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0621728,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs5
+20200102_165816,0.0622997,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0623369,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0623854,DEBUG!,4,1,1,1,Keyboard Being asked to play key As2
+20200102_165816,0.0624322,DEBUG!,4,1,1,1,Keyboard Being asked to play key G5
+20200102_165816,0.0625623,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0625999,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0626487,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs5
+20200102_165816,0.0627825,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.06282,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0628711,DEBUG!,4,1,1,1,Keyboard Being asked to play key E3
+20200102_165816,0.0629185,DEBUG!,4,1,1,1,Keyboard Being asked to play key A5
+20200102_165816,0.0630542,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0630916,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0632215,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0632808,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0633335,DEBUG!,4,1,1,1,Keyboard Being asked to play key As5
+20200102_165816,0.0634617,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0634993,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0635473,DEBUG!,4,1,1,1,Keyboard Being asked to play key B5
+20200102_165816,0.0636739,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0637116,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0637603,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs3
+20200102_165816,0.0638887,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0639262,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0639782,DEBUG!,4,1,1,1,Keyboard Being asked to play key C6
+20200102_165816,0.0641065,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.064145,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0642725,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0643096,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0643583,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs6
+20200102_165816,0.0644856,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.064523,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0646502,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0646877,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0648235,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0648609,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0649977,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0650381,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0651666,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0652037,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0653307,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0653678,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0654954,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0655327,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0656618,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0656993,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0658284,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0658656,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0659967,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0660338,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0660824,DEBUG!,4,1,1,1,Keyboard Being asked to play key G2
+20200102_165816,0.0662093,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0662467,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0663749,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0664131,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0665399,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0665769,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0667084,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0667457,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0668784,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0669182,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0669728,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs3
+20200102_165816,0.0671065,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0671441,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0672751,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0673126,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0674727,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0675108,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.067639,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0676765,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0678038,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.067841,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0678894,DEBUG!,4,1,1,1,Keyboard Being asked to play key G2
+20200102_165816,0.0680219,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0680591,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0681877,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0682249,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0683519,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.068389,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.068438,DEBUG!,4,1,1,1,Keyboard Being asked to play key D5
+20200102_165816,0.0685648,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0686021,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0687312,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0687686,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0688176,DEBUG!,4,1,1,1,Keyboard Being asked to play key A6
+20200102_165816,0.0689439,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0689872,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0690361,DEBUG!,4,1,1,1,Keyboard Being asked to play key A2
+20200102_165816,0.0691696,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0692092,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0693431,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0693809,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0695101,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0695473,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.069674,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0697114,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0698397,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.069877,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0699254,DEBUG!,4,1,1,1,Keyboard Being asked to play key G4
+20200102_165816,0.0700562,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0700934,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0702217,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0702589,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0703872,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0704246,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0705563,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0705942,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0706432,DEBUG!,4,1,1,1,Keyboard Being asked to play key D3
+20200102_165816,0.0707723,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0708099,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0709385,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0709832,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0711126,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0711498,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.071282,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0713194,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0714532,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.071491,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0715442,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds3
+20200102_165816,0.0716727,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0717102,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0718385,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.071876,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0720092,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0720466,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0721738,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0722112,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0723393,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0723764,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0725056,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0725446,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0726739,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0727112,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.072838,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0728754,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0730072,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0730451,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0731723,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0732094,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0732584,DEBUG!,4,1,1,1,Keyboard Being asked to play key F5
+20200102_165816,0.0733931,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0734308,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0735589,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0735984,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0737307,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0737682,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0738964,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0739338,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0740652,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0741034,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0742326,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0742701,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.074398,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0744352,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0744839,DEBUG!,4,1,1,1,Keyboard Being asked to play key G4
+20200102_165816,0.0746108,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0746482,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0747763,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0748143,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0749413,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0749843,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0751131,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0751505,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0752775,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0753145,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0754502,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0754875,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.075618,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.075658,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0757913,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.07583,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0759619,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0759998,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0761278,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.076165,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0762917,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0763288,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0764574,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0764946,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0766218,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0766592,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0767871,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0768244,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0769523,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0769928,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0771211,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0771591,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.077287,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0773241,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0774808,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0775204,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0776533,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0776951,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0778255,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.077863,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.077914,DEBUG!,4,1,1,1,Keyboard Being asked to play key E4
+20200102_165816,0.0780475,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0780849,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0782137,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0782508,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.078378,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0784151,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0785431,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0785803,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0787073,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0787455,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0788737,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0789109,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0790641,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.079104,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0792337,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.079271,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0793982,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0794353,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0795639,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0796011,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0797279,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0797651,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0798929,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.079933,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0800681,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0801052,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0802415,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0802806,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0804104,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0804477,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0805755,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0806127,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0806609,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs3
+20200102_165816,0.0808079,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0808478,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0809806,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0810182,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0811477,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.081185,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0813121,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0813491,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0814769,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.081514,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.081641,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0816781,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0818058,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0818472,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0819856,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0820233,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0821594,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.082197,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0823457,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0823855,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.082516,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0825534,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0826817,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.082719,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0828466,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0828837,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0830141,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0830518,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0831805,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0832176,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0833447,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.083382,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0835116,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0835488,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0836762,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0837133,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.083849,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0838863,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0840428,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0840856,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0842167,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0842552,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0843822,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0844196,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0845475,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0845848,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0847135,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0847519,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0848801,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0849178,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0850496,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.085087,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0851356,DEBUG!,4,1,1,1,Keyboard Being asked to play key G3
+20200102_165816,0.0852627,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0852998,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0854277,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0854647,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0855948,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0856361,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0857884,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0858324,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0859664,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0860053,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0861332,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0861704,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0862972,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0863342,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0864619,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0864994,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0866274,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0866649,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0867932,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0868302,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0869572,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0869972,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0870466,DEBUG!,4,1,1,1,Keyboard Being asked to play key F1
+20200102_165816,0.0871733,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0872108,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0872592,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs2
+20200102_165816,0.0874077,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0874474,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0874966,DEBUG!,4,1,1,1,Keyboard Being asked to play key E6
+20200102_165816,0.0876244,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0876618,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.087793,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.087835,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0879673,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0880074,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0880591,DEBUG!,4,1,1,1,Keyboard Being asked to play key C1
+20200102_165816,0.0881872,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0882244,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0883524,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0883898,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0884384,DEBUG!,4,1,1,1,Keyboard Being asked to play key A3
+20200102_165816,0.088565,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0886021,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0887291,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0887665,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0888964,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0889347,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0890653,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0891027,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0892515,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0892912,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0894205,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0894579,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0895123,DEBUG!,4,1,1,1,Keyboard Being asked to play key E5
+20200102_165816,0.0896404,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0896782,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0898065,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0898438,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0899736,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0900137,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.090142,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0901791,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0903062,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0903433,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0904723,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0905097,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0906366,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0906737,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0907223,DEBUG!,4,1,1,1,Keyboard Being asked to play key B4
+20200102_165816,0.0908749,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.090915,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0909638,DEBUG!,4,1,1,1,Keyboard Being asked to play key E1
+20200102_165816,0.0910955,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.091133,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0911823,DEBUG!,4,1,1,1,Keyboard Being asked to play key G6
+20200102_165816,0.0913095,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0913468,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0914767,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.091514,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.091641,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0916781,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.091806,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0918436,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0919738,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.092012,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0921402,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0921775,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0923048,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0923419,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0924698,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0925072,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0925558,DEBUG!,4,1,1,1,Keyboard Being asked to play key F5
+20200102_165816,0.0926849,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0927227,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0928511,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0928882,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0930202,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0930572,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0931862,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0932245,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0933525,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0933899,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0935175,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0935546,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0936825,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0937198,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0937681,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs5
+20200102_165816,0.0938944,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0939316,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0940618,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.094099,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0942289,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0942663,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0943147,DEBUG!,4,1,1,1,Keyboard Being asked to play key A3
+20200102_165816,0.0944421,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0944796,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0946065,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0946436,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0947715,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0948088,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0948573,DEBUG!,4,1,1,1,Keyboard Being asked to play key F2
+20200102_165816,0.0949881,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0950258,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0951529,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0951901,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.095318,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0953552,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0954034,DEBUG!,4,1,1,1,Keyboard Being asked to play key G3
+20200102_165816,0.0955298,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0955671,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0956955,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0957331,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0957813,DEBUG!,4,1,1,1,Keyboard Being asked to play key E4
+20200102_165816,0.0959079,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0959453,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0959982,DEBUG!,4,1,1,1,Keyboard Being asked to play key F2
+20200102_165816,0.0961274,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0961648,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0962943,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0963317,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0964593,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0964965,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0966281,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0966654,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0967136,DEBUG!,4,1,1,1,Keyboard Being asked to play key C4
+20200102_165816,0.096844,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0968813,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.097016,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0970538,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0971883,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0972273,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0973562,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0973935,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0975209,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.097558,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0976848,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0977219,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0978519,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0978896,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0980221,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0980595,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0981877,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.098225,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0983523,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0983894,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0985171,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0985541,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0986894,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0987275,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0988586,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.098898,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0990308,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0990681,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0991962,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0992334,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0993626,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0994002,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0995293,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0995667,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0996942,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.0997316,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.0998585,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.099896,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.100028,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.100066,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.100193,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.10023,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10036,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.100397,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.100524,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.100561,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.100696,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.100734,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.100864,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.100904,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10104,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.101079,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.101207,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.101244,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.101372,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.10141,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.101537,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.101575,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.101705,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.101742,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10187,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.101907,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.101956,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs3
+20200102_165816,0.102088,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.102125,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.102257,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.102294,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.102422,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.102459,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.102599,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.102637,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.102772,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.102815,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.102948,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.102989,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.103116,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.103153,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.103202,DEBUG!,4,1,1,1,Keyboard Being asked to play key G1
+20200102_165816,0.103329,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.103367,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.103495,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.103532,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10366,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.103697,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.103825,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.103862,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.103992,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.10403,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.104159,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.104197,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.104329,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.104367,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.104502,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.104541,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.104672,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.104715,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.104854,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.104891,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.105025,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.105063,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.105191,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.105228,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.105355,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.105392,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10552,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.105557,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.105684,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.105722,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10585,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.105887,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.106021,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.10606,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.106108,DEBUG!,4,1,1,1,Keyboard Being asked to play key As2
+20200102_165816,0.106239,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.106277,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.106406,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.106443,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.106582,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.10662,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.106754,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.106797,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10693,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.106967,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.107018,DEBUG!,4,1,1,1,Keyboard Being asked to play key As3
+20200102_165816,0.107146,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.107183,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.107312,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.107349,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.107477,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.107514,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.107644,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.107681,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10781,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.107847,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.107976,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.108016,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.108144,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.108182,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10831,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.108347,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.108475,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.108512,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.108561,DEBUG!,4,1,1,1,Keyboard Being asked to play key B5
+20200102_165816,0.108688,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.108725,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.108854,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.108892,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.109022,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.109059,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.109188,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.109225,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.109354,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.109391,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.109524,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.109562,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.109695,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.109732,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.10986,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.109898,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.109947,DEBUG!,4,1,1,1,Keyboard Being asked to play key G8
+20200102_165816,0.110085,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.110122,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.11025,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.110289,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.110419,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.110457,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.110583,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.110621,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.110749,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.110786,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.110915,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.110952,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.111085,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.111123,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.111251,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.111288,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.111423,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.111461,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.111589,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.111626,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.111758,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.111795,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.111931,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.111968,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.112102,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.11214,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.112272,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.11231,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.112362,DEBUG!,4,1,1,1,Keyboard Being asked to play key G4
+20200102_165816,0.112489,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.112526,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.112657,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.112695,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.112824,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.112861,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.112992,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.113032,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.11316,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.113197,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.113325,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.113362,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.11349,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.113528,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.113655,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.113693,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.11382,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.113857,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.113985,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.114026,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.114157,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.114195,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.11433,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.114368,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.114497,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.114534,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.114583,DEBUG!,4,1,1,1,Keyboard Being asked to play key C5
+20200102_165816,0.11474,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.114779,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.114908,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.114945,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.115077,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.115118,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.115251,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.115289,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.115338,DEBUG!,4,1,1,1,Keyboard Being asked to play key G5
+20200102_165816,0.115465,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.115503,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.115551,DEBUG!,4,1,1,1,Keyboard Being asked to play key B3
+20200102_165816,0.115678,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.115715,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.115843,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.11588,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.116012,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.116051,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.116099,DEBUG!,4,1,1,1,Keyboard Being asked to play key C4
+20200102_165816,0.116227,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.116265,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.116313,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs3
+20200102_165816,0.11644,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.116478,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.116606,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.116643,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.116771,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.116808,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.116935,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.116973,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.117024,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs4
+20200102_165816,0.117151,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.117188,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.117317,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.117354,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.117482,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.117519,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.117568,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs3
+20200102_165816,0.117694,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.117731,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.117861,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.117898,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.11803,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.118068,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.118195,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.118233,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.11836,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.118397,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.118524,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.118561,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.118688,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.118725,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.118854,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.118915,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.11905,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.119088,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.119216,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.119253,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.119381,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.119419,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.119553,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.11959,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.119718,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.119755,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.119804,DEBUG!,4,1,1,1,Keyboard Being asked to play key F2
+20200102_165816,0.119931,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.119968,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.120104,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.120141,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.120268,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.120306,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.120355,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds5
+20200102_165816,0.120482,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.120519,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.120646,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.120683,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.120811,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.120848,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.120977,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.121017,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.121066,DEBUG!,4,1,1,1,Keyboard Being asked to play key D4
+20200102_165816,0.121195,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.121233,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.121361,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.121398,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.121526,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.121563,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.12169,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.121727,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.121776,DEBUG!,4,1,1,1,Keyboard Being asked to play key A4
+20200102_165816,0.121903,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.12194,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.122072,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.122109,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.122236,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.122273,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.122401,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.122438,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.122567,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.122605,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.122732,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.122769,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.122898,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.122936,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.122984,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs3
+20200102_165816,0.123116,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.123177,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.123229,DEBUG!,4,1,1,1,Keyboard Being asked to play key C7
+20200102_165816,0.123358,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.123395,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.123525,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.123562,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.123691,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.123728,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.123855,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.123893,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.124025,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.124063,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.124113,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds1
+20200102_165816,0.124239,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.124277,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.124404,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.124441,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.12457,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.124608,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.124735,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.124773,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.124901,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.124938,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.125069,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.125106,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.125233,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.125271,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.125319,DEBUG!,4,1,1,1,Keyboard Being asked to play key As5
+20200102_165816,0.125446,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.125483,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.125531,DEBUG!,4,1,1,1,Keyboard Being asked to play key D6
+20200102_165816,0.125659,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.125696,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.125823,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.12586,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.125988,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.126028,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.126156,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.126193,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.126323,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.126362,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.12649,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.126527,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.126655,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.126692,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.126746,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs4
+20200102_165816,0.126872,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.126909,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.127043,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.12708,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.127209,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.127246,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.127373,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.127412,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.127542,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.127579,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.127706,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.127744,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.127875,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.127913,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.128044,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.128081,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.12813,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs3
+20200102_165816,0.128257,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.128294,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.128343,DEBUG!,4,1,1,1,Keyboard Being asked to play key E5
+20200102_165816,0.12847,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.128507,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.128636,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.128673,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.1288,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.128837,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.128965,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.129002,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.129133,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.12917,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.129298,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.129335,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.129463,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.129501,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.129631,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.129668,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.129718,DEBUG!,4,1,1,1,Keyboard Being asked to play key As4
+20200102_165816,0.129845,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.129883,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.130013,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.13005,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.13018,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.130217,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.130345,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.130382,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.130509,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.130546,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.130675,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.130712,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.130761,DEBUG!,4,1,1,1,Keyboard Being asked to play key D1
+20200102_165816,0.130889,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.130926,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.131059,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.131097,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.131224,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.131261,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.131412,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.131452,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.131581,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.131618,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.131749,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.131787,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.131913,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.131951,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.131999,DEBUG!,4,1,1,1,Keyboard Being asked to play key C2
+20200102_165816,0.132131,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.132168,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.132296,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.132333,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.132461,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.132498,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.132547,DEBUG!,4,1,1,1,Keyboard Being asked to play key G5
+20200102_165816,0.132673,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.13271,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.132838,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.132875,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.132924,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs4
+20200102_165816,0.133056,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.133094,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.133223,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.13326,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.133388,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.133425,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.133552,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.133589,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.133717,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.133754,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.133881,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.133919,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.134052,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.134089,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.134216,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.134253,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.13438,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.134418,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.134544,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.134581,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.134712,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.134749,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.134798,DEBUG!,4,1,1,1,Keyboard Being asked to play key F4
+20200102_165816,0.134925,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.134963,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.135014,DEBUG!,4,1,1,1,Keyboard Being asked to play key C2
+20200102_165816,0.135144,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.135182,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.135309,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.135346,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.135395,DEBUG!,4,1,1,1,Keyboard Being asked to play key C3
+20200102_165816,0.135522,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.135559,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.135687,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.135725,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.135852,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.13589,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.136023,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.136061,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.136109,DEBUG!,4,1,1,1,Keyboard Being asked to play key A2
+20200102_165816,0.136237,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.136274,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.136403,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.13644,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.136569,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.136607,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.136655,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs3
+20200102_165816,0.136782,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.136819,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.136948,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.136985,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.137116,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.137153,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.137279,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.137316,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.137445,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.137482,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.13753,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds5
+20200102_165816,0.137657,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.137695,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.137744,DEBUG!,4,1,1,1,Keyboard Being asked to play key D4
+20200102_165816,0.13787,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.137907,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.137956,DEBUG!,4,1,1,1,Keyboard Being asked to play key G1
+20200102_165816,0.138085,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.138123,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.138251,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.138289,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.138419,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.138457,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.138506,DEBUG!,4,1,1,1,Keyboard Being asked to play key As4
+20200102_165816,0.138632,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.138669,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.138796,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.138833,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.138961,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.138998,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.139129,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.139167,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.139295,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.139332,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.139459,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.139496,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.139623,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.13966,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.139787,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.139824,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.139954,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.139991,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.140124,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.140162,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14029,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.140327,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.140455,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.140492,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.140619,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.140657,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.140785,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.140822,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14095,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.140987,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.141118,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.141155,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.141283,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.14132,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.141449,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.141487,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.141616,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.141653,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.141702,DEBUG!,4,1,1,1,Keyboard Being asked to play key C7
+20200102_165816,0.141829,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.141866,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.141993,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.142037,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.142166,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.142205,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.142332,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.142369,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.142497,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.142535,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.142662,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.142699,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.142827,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.142864,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.142992,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.143034,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.143083,DEBUG!,4,1,1,1,Keyboard Being asked to play key E4
+20200102_165816,0.143211,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.143248,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.143377,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.143415,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.143542,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.143579,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.143708,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.143746,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.143873,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.14391,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.144041,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.144079,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.144206,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.144243,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.144371,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.144409,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14446,DEBUG!,4,1,1,1,Keyboard Being asked to play key E3
+20200102_165816,0.144587,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.144624,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.144753,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.14479,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14492,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.144957,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.145087,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.145124,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.145252,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.14529,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14534,DEBUG!,4,1,1,1,Keyboard Being asked to play key A4
+20200102_165816,0.145466,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.145504,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.145631,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.145668,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.145797,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.145834,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.145962,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.145999,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.146132,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.146169,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.146296,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.146334,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.146463,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.146501,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.146629,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.146666,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.146795,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.146832,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14688,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds7
+20200102_165816,0.147007,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.147047,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.147175,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.147212,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14734,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.147377,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.147504,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.147542,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.147671,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.147708,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.147835,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.147872,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.147999,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.148039,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.148088,DEBUG!,4,1,1,1,Keyboard Being asked to play key B5
+20200102_165816,0.148216,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.148254,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.148383,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.14842,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.148549,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.148586,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.148714,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.148753,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14888,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.148918,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.149049,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.149087,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.149216,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.149253,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.14938,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.149418,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.149545,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.149583,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.149712,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.149749,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.149879,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.149917,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.15005,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.150088,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.150216,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.150253,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.150381,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.150418,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.150546,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.150583,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.150711,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.150748,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.150876,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.150913,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.151043,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.151081,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.151209,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.151246,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.151375,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.151413,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.151542,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.15158,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.151706,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.151744,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.151871,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.151908,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.152038,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.152076,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.152204,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.152242,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.15229,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds6
+20200102_165816,0.152417,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.152454,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.152581,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.152618,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.152746,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.152783,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.152913,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.152951,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.153084,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.153122,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.15325,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.153287,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.153415,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.153452,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.15358,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.153617,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.153666,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs5
+20200102_165816,0.153793,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.153831,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.153961,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.153998,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.154129,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.154166,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.154293,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.154331,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.154459,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.154496,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.154625,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.154662,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.154791,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.154828,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.154956,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.154993,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.155123,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.155161,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.155289,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.155327,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.155454,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.155491,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.155618,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.155655,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.155782,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.155819,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.155947,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.155985,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.156117,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.156155,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.156203,DEBUG!,4,1,1,1,Keyboard Being asked to play key F2
+20200102_165816,0.156331,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.156368,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.156418,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs4
+20200102_165816,0.156544,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.156582,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.156711,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.156748,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.156796,DEBUG!,4,1,1,1,Keyboard Being asked to play key C6
+20200102_165816,0.156923,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.15696,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.157094,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.157131,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.157262,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.1573,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.157428,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.157466,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.157594,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.157631,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.15768,DEBUG!,4,1,1,1,Keyboard Being asked to play key G2
+20200102_165816,0.157806,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.157844,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.158019,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.158064,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.158193,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.15823,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.158358,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.158395,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.158523,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.15856,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.158688,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.158725,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.158773,DEBUG!,4,1,1,1,Keyboard Being asked to play key As4
+20200102_165816,0.1589,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.158937,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.15907,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.159108,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.159235,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.159272,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.1594,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.159438,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.159565,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.159602,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.159753,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.159793,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.159921,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.159958,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16009,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.160127,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.160255,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.160292,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16042,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.160457,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.160584,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.160622,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16075,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.160787,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.160914,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.160951,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.161082,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.161119,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.161267,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.161307,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.161437,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.161474,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.161601,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16164,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.161769,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.161807,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.161934,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.161971,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.162103,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.162141,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.162268,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.162306,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.162433,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16247,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.162519,DEBUG!,4,1,1,1,Keyboard Being asked to play key G6
+20200102_165816,0.162646,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.162683,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16281,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.162847,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.162998,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.163041,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16317,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.163207,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.163262,DEBUG!,4,1,1,1,Keyboard Being asked to play key C4
+20200102_165816,0.163389,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.163426,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.163554,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.163592,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16372,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.163757,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.163884,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.163921,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.164052,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16409,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.164218,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.164255,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.164382,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16442,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.164469,DEBUG!,4,1,1,1,Keyboard Being asked to play key F1
+20200102_165816,0.164618,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.164658,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.164787,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.164824,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.164952,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.164989,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.165123,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16516,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.165289,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.165326,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.165453,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16549,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.165539,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds5
+20200102_165816,0.165666,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.165703,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16583,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.165868,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.165999,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16604,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.166168,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.166205,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.166355,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.166395,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.166524,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.166561,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.166689,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.166727,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.166855,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.166892,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16702,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.167061,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.167189,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.167226,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.167355,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.167392,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16752,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.167558,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.167685,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.167723,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.16785,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.167887,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.168038,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16808,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.168129,DEBUG!,4,1,1,1,Keyboard Being asked to play key F6
+20200102_165816,0.168257,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.168294,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.168422,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16846,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.168588,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.168625,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.168752,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.168789,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.168917,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.168954,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.169086,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.169125,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.169252,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.16929,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.169417,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.169454,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.169604,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.169644,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.169693,DEBUG!,4,1,1,1,Keyboard Being asked to play key D1
+20200102_165816,0.16982,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.169858,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.169907,DEBUG!,4,1,1,1,Keyboard Being asked to play key E5
+20200102_165816,0.170034,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.170074,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.170202,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.170239,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.170369,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.170407,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.170535,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.170572,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.1707,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.170738,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.170865,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.170902,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.17103,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.17107,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.171198,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.171235,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.171384,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.171425,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.171554,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.171591,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.171719,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.171757,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.171884,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.171921,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.172052,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.172092,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.172146,DEBUG!,4,1,1,1,Keyboard Being asked to play key D3
+20200102_165816,0.172273,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.172311,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.172438,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.172475,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.172602,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.172639,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.172767,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.172804,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.172953,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.172994,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.173127,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.173165,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.173293,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.17333,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.173457,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.173494,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.173544,DEBUG!,4,1,1,1,Keyboard Being asked to play key As3
+20200102_165816,0.17367,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.173708,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.173837,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.173874,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.174002,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.174039,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.17417,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.174207,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.174335,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.174373,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.174501,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.174539,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.174691,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.174733,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.174864,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.174901,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.175029,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.17507,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.175199,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.175236,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.175364,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.175401,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.175529,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.175566,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.175693,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.175731,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.175858,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.175896,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.175944,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds3
+20200102_165816,0.176076,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.176113,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.176162,DEBUG!,4,1,1,1,Keyboard Being asked to play key E5
+20200102_165816,0.176289,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.176326,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.176455,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.176492,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.176622,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.176659,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.176708,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds2
+20200102_165816,0.176836,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.176873,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.176922,DEBUG!,4,1,1,1,Keyboard Being asked to play key B2
+20200102_165816,0.177051,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.177089,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.177216,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.177254,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.177382,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.177419,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.177468,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs3
+20200102_165816,0.177595,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.177633,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.17776,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.177797,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.177926,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.177963,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.178096,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.178134,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.178263,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.178301,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.17835,DEBUG!,4,1,1,1,Keyboard Being asked to play key B3
+20200102_165816,0.178477,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.178515,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.178642,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.178679,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.178728,DEBUG!,4,1,1,1,Keyboard Being asked to play key D5
+20200102_165816,0.178855,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.178893,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.179024,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.179064,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.179191,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.179229,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.179357,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.179394,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.179521,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.179559,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.179686,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.179724,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.179853,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.179891,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.180021,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.180061,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.180192,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.180229,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.180357,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.180394,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.180521,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.180559,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.180687,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.180724,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.180851,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.180888,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.180937,DEBUG!,4,1,1,1,Keyboard Being asked to play key B3
+20200102_165816,0.181066,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.181103,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.181232,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.181269,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.181399,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.181436,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.181565,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.181603,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.18173,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.181767,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.181894,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.181932,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.182063,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.182102,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.182151,DEBUG!,4,1,1,1,Keyboard Being asked to play key F4
+20200102_165816,0.182279,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.182316,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.182445,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.182482,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.182609,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.182646,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.182774,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.182811,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.18294,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.182977,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.18311,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.183148,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.183278,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.183316,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.183445,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.183483,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.18361,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.183648,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.183776,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.183814,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.183941,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.183978,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.184027,DEBUG!,4,1,1,1,Keyboard Being asked to play key D2
+20200102_165816,0.184157,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.184195,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.184323,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.18436,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.184489,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.184526,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.184575,DEBUG!,4,1,1,1,Keyboard Being asked to play key F6
+20200102_165816,0.184702,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.184739,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.184868,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.184906,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.185035,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.185075,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.185205,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.185243,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.18537,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.185407,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.185535,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.185573,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.1857,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.185737,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.185865,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.185903,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.186031,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.186073,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.186201,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.186239,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.186367,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.186405,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.186534,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.186571,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.186699,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.186737,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.186864,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.186902,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.187029,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.187069,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.187197,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.187235,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.187283,DEBUG!,4,1,1,1,Keyboard Being asked to play key F1
+20200102_165816,0.18741,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.187447,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.187576,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.187615,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.187743,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.18778,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.187907,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.187944,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.188078,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.188116,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.188164,DEBUG!,4,1,1,1,Keyboard Being asked to play key E3
+20200102_165816,0.188294,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.188331,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.188458,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.188496,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.188624,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.188661,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.188789,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.188826,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.188955,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.188992,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.189122,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.189159,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.189287,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.189324,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.189373,DEBUG!,4,1,1,1,Keyboard Being asked to play key B5
+20200102_165816,0.1895,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.189537,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.189587,DEBUG!,4,1,1,1,Keyboard Being asked to play key As5
+20200102_165816,0.189717,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.189754,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.189804,DEBUG!,4,1,1,1,Keyboard Being asked to play key A4
+20200102_165816,0.189933,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.18997,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.190101,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.190139,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.190267,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.190305,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.190354,DEBUG!,4,1,1,1,Keyboard Being asked to play key B3
+20200102_165816,0.190481,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.190518,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.190567,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs5
+20200102_165816,0.190693,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.19073,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.190857,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.190894,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.191023,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.191062,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.191192,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.191229,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.191357,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.191394,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.191523,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.191561,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.19169,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.191729,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.191857,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.191895,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.192024,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.192063,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.192192,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.192229,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.192356,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.192394,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.192521,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.192558,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.192686,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.192724,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.192851,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.192888,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.193016,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.193053,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.193186,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.193223,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.193352,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.193389,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.193517,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.193554,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.193683,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.19372,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.193847,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.193884,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.194012,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.194049,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.194179,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.194216,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.194345,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.194383,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.19451,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.194547,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.194677,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.194714,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.194843,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.194881,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.195009,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.195049,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.195182,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.195219,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.195348,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.195385,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.195512,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.19555,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.195599,DEBUG!,4,1,1,1,Keyboard Being asked to play key E3
+20200102_165816,0.195725,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.195763,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.195892,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.195929,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.196057,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.196099,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.19623,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.196267,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.196318,DEBUG!,4,1,1,1,Keyboard Being asked to play key C4
+20200102_165816,0.196446,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.196484,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.196613,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.196651,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.196779,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.196816,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.196865,DEBUG!,4,1,1,1,Keyboard Being asked to play key A3
+20200102_165816,0.196992,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.197029,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.19716,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.197198,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.197327,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.197364,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.197492,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.197529,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.197657,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.197694,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.197821,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.197859,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.197988,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.198026,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.198158,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.198196,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.198244,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs5
+20200102_165816,0.198371,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.198409,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.198457,DEBUG!,4,1,1,1,Keyboard Being asked to play key D6
+20200102_165816,0.198583,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.198621,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.198749,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.198788,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.198916,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.198953,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.199085,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.199124,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.199172,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds2
+20200102_165816,0.199299,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.199337,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.199392,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs5
+20200102_165816,0.199518,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.199556,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.199684,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.199721,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.199851,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.199889,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.200017,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.200054,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.200186,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.200223,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.200353,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.200391,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.20052,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.200557,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.200684,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.200722,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.20085,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.200887,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.201014,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.201052,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.201186,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.201223,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.201272,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs3
+20200102_165816,0.201398,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.201435,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.201564,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.201602,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.201731,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.201768,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.201896,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.201933,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.202061,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.202102,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.202229,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.202266,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.202315,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs4
+20200102_165816,0.202441,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.202479,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.202527,DEBUG!,4,1,1,1,Keyboard Being asked to play key G3
+20200102_165816,0.202655,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.202692,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.20282,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.202857,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.202906,DEBUG!,4,1,1,1,Keyboard Being asked to play key Fs2
+20200102_165816,0.203033,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.203073,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.203203,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.203241,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.203371,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.203409,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.203536,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.203573,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.203702,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.203738,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.203866,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.203903,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.204031,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.204068,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.204199,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.204236,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.204285,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds3
+20200102_165816,0.204412,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.204449,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.204499,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds1
+20200102_165816,0.204627,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.204664,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.204792,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.204831,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.20496,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.204997,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.20513,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.205167,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.205294,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.205332,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.20546,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.205497,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.205626,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.205663,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.205712,DEBUG!,4,1,1,1,Keyboard Being asked to play key Cs4
+20200102_165816,0.205839,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.205876,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.205924,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds5
+20200102_165816,0.206051,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.206091,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.20622,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.206257,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.206386,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.206423,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.206552,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.206589,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.206717,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.206755,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.206883,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.20692,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.206968,DEBUG!,4,1,1,1,Keyboard Being asked to play key Ds3
+20200102_165816,0.207099,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.207136,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.207263,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.207301,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.207429,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.207466,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.207593,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.20763,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.207758,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.207796,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.207924,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.207961,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.208092,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.20813,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.208259,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.208297,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.208346,DEBUG!,4,1,1,1,Keyboard Being asked to play key F3
+20200102_165816,0.208474,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.208511,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.208641,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.208678,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.208807,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.208845,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.208894,DEBUG!,4,1,1,1,Keyboard Being asked to play key G2
+20200102_165816,0.20902,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.209058,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.209193,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.20923,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.209357,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.209395,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.209523,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.209561,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.209688,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.209725,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.209853,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.20989,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.210018,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.210056,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.210194,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.210231,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.210359,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.210396,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.210523,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.21056,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.210687,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.210724,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.210853,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.21089,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.211019,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.211056,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.211188,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.211225,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.211352,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.21139,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.21156,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.2116,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.21173,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.211768,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.211896,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.211933,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.212061,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.212102,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.21223,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.212268,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.212395,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.212432,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.212561,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.212598,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.212725,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.212762,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.21289,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.212927,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.213055,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.213096,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.213227,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.213267,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.213395,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.213433,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.213561,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.213598,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.213726,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.213763,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.213892,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.213929,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.214057,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.214097,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.214226,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.214263,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.214391,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.214428,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.214556,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.214593,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.214721,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.214759,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.214888,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.214926,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.215053,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.215093,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.215222,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.215259,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.215387,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.215424,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.215552,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.215589,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.215717,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.215754,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.215803,DEBUG!,4,1,1,1,Keyboard Being asked to play key As5
+20200102_165816,0.215929,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.215967,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.2161,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.216138,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.216265,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.216302,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.216432,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.21647,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.216598,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.216636,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.216764,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.216801,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.216929,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.216966,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.217097,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.217136,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.217263,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.217301,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.217428,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.217467,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.217595,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.217632,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.21776,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.217797,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.217924,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.217961,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.218093,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.218131,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.21818,DEBUG!,4,1,1,1,Keyboard Being asked to play key G3
+20200102_165816,0.218308,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.218345,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.218479,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.218517,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.218645,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.218683,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.218811,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.218848,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.218897,DEBUG!,4,1,1,1,Keyboard Being asked to play key F3
+20200102_165816,0.219024,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.219061,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.219193,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.219231,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.219358,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.219396,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.219524,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.219561,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.21969,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.219727,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.219858,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.219896,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.220023,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.22006,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.220193,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.22023,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.220357,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.220394,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.220443,DEBUG!,4,1,1,1,Keyboard Being asked to play key G4
+20200102_165816,0.220569,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.220607,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.220735,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.220772,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.220899,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.220937,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.220986,DEBUG!,4,1,1,1,Keyboard Being asked to play key F5
+20200102_165816,0.221116,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.221153,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.221281,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.221318,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.221448,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.221486,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.221614,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.221652,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.221781,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.22182,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.221948,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.221985,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.222115,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.222153,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.22228,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.222317,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.222445,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.222483,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.222609,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.222646,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.222774,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.22281,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.222939,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.222976,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.223109,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.223146,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.223275,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.223312,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.22344,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.223477,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.223527,DEBUG!,4,1,1,1,Keyboard Being asked to play key B2
+20200102_165816,0.223654,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.223691,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.223818,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.223855,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.223985,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.224022,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.224152,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.22419,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.224319,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.224356,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.224483,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.22452,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.224569,DEBUG!,4,1,1,1,Keyboard Being asked to play key Gs5
+20200102_165816,0.224697,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.224736,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.224865,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.224902,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.225029,Information,4,1,1,1,At begining of Master Control's loop
+20200102_165816,0.225067,DEBUG!,4,1,1,1,Keyboard Resetting keys played
+20200102_165816,0.22512,DEBUG!,4,1,1,1,Keyboard Being asked to play key B5

@@ -272,7 +272,7 @@ int main() {//Beginning of main
 	testsensors.posY = posY;
 	testsensors.posZ = posZ;
 
-	for (int i = 0; i < 100; i++) {//beginning of loop
+	for (int i = 0; i < 10000; i++) {//beginning of loop
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
 		//recieve data
 

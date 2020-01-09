@@ -70,7 +70,7 @@ std::array<double,16> LeddarTech::GetValues() {
 			//Log1.log(Logger::LogLevel::INFO, buffer);
 			lResultEchoes->Lock(LeddarConnection::B_GET);
 			std::vector<LeddarConnection::LdEcho>& lEchoes = *(lResultEchoes->GetEchoes());
-			for (int i = 0; i < lResultEchoes->GetEchoCount(); i++) {
+			for (int i = 0; i < lResultEchoes->GetEchoCount() && i < 16; i++) {
 				retval[i] = ((float)lEchoes[i].mDistance / (float)lDistanceScale);
 			}
 			lResultEchoes->UnLock(LeddarConnection::B_GET);
