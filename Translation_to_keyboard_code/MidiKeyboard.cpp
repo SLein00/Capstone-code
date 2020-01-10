@@ -67,6 +67,7 @@ void MidiKeyboard::playKey(MidiNotesNumbers key) {
 
 void MidiKeyboard::resetKeys() {
 	keysplayedlast = keysplayednow;
+	Log1.log(Logger::LogLevel::DEBUG, "======================");
 	Log1.log(Logger::LogLevel::DEBUG, "Keyboard Resetting keys played");
 	for (int i = 0; i < 128; i++) {
 		keysplayednow[i] = false;
@@ -92,7 +93,7 @@ void MidiKeyboard::sendKeys() {
 		}
 	}
 	Log1.log(Logger::LogLevel::NOTES, logres.substr(2,logres.length()-2));
-	
+	Log1.log(Logger::LogLevel::DEBUG, "======================");
 
 }
 

@@ -96,8 +96,8 @@ public:
 							{0, 0, 1, LeapFrontpositioncoordinateZ},
 							{0, 0, 0, 1} } };
 	std::array<std::array<double, 4>, 4> Leapwebcammatrix = { { {1, 0, 0, LeapWebcampositioncoordinateX},
-					{0, -sqrt(20) / 2, sqrt(20) / 2, LeapWebcampositioncoordinateY},
-					{0, -sqrt(20) / 2, -sqrt(20) / 2, LeapWebcampositioncoordinateZ},
+					{0, -sqrt(2) / 2, sqrt(2) / 2, LeapWebcampositioncoordinateY},
+					{0, -sqrt(2) / 2, -sqrt(2) / 2, LeapWebcampositioncoordinateZ},
 					{0, 0, 0, 1} } };
 	std::array<std::array<double, 4>, 4> Leapabovematrix = { { {1, 0, 0, LeapAbovepositioncoordinateX},
 							{0, 0, 1, LeapAbovepositioncoordinateY},

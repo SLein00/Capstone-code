@@ -272,7 +272,7 @@ int main() {//Beginning of main
 	testsensors.posY = posY;
 	testsensors.posZ = posZ;
 
-	for (int i = 0; i < 100; i++) {//beginning of loop
+	for (int i = 0; i < 1000; i++) {//beginning of loop
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
 		//recieve data
 
@@ -298,7 +298,7 @@ int main() {//Beginning of main
 
 				MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
 
-				char buffer[1000];
+				char buffer[10000];
 				sprintf(buffer, "In MC Loop, Leddar, Idx=%i, Leddar=%f, Coord=[%f, %f, %f], FinalFingerPos=[%f, %f, %f], Midi=[%s]", idx, Originalvals[idx], Coordinates[idx].X, Coordinates[idx].Y, Coordinates[idx].Z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z, MidiNotesString(notenum).c_str());
 				Log1.log(Logger::LogLevel::INFO, buffer);
 
@@ -330,15 +330,19 @@ int main() {//Beginning of main
 			position PreCoordinates;
 			array <position, 10> Coordinates;
 			Originalvals = testsensorLeap.GetFingerPositions();
-			for (double idx = 0; idx < 10; idx++) {
+			for (int idx = 0; idx < 10; idx++) {
 				PreCoordinates = Originalvals[idx];
 				Coordinates[idx].X = PreCoordinates.X;
 				Coordinates[idx].Y = PreCoordinates.Y;
 				Coordinates[idx].Z = PreCoordinates.Z;
-				
+
 				cout << Coordinates[idx].X << "," << Coordinates[idx].Y << "," << Coordinates[idx].Z << endl;
 
 				position FinalFingerPos = testsensors.Leapswitchtokbd(Coordinates[idx].X, Coordinates[idx].Y, Coordinates[idx].Z);
+
+				char buffer[10000];
+				sprintf(buffer, "Leap Keyboard Coordinates finger %d = [ X = %0.3f, Y = %0.3f, Z = %0.3f ] ", idx, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+				Log1.log(Logger::LogLevel::DEBUG, buffer);
 
 				cout << FinalFingerPos.X << "," << FinalFingerPos.Y << "," << FinalFingerPos.Z << endl;
 
@@ -346,8 +350,10 @@ int main() {//Beginning of main
 
 				note = MidiNotesString(notenum);
 
+				Log1.log(Logger::LogLevel::DEBUG, note);
+
 				if (!notenum == None) {
-					Log1.log(Logger::LogLevel::INFO, MidiNotesString(notenum), "On");
+					Log1.log(Logger::LogLevel::INFO, MidiNotesString(notenum), " On");
 					midioutput.playKey(notenum);
 
 					cout << note << endl;

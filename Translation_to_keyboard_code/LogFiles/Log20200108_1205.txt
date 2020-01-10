@@ -1,0 +1,306 @@
+20200108_120605,0.0656671,Information,2,3,1,1,There are 1 MIDI Output ports available.
+20200108_120605,0.0671195,Information,2,3,1,1,Output port #1: Microsoft GS Wavetable Synth 0
+20200108_120605,0.0678227,Information,2,3,1,1,Sensor 2 is Leap
+20200108_120605,0.0678843,Information,2,3,1,1,Location 3 is Webcam
+20200108_120605,0.067931,Information,2,3,1,1,Song 1 is one-finger scales
+20200108_120605,0.0679751,Information,2,3,1,1,Trial # is 1
+20200108_120605,0.0680242,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.0680686,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.0721535,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.0971504,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.0971977,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.104073,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.124303,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.124341,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.130113,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.149711,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.149748,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.154606,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.17877,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.178829,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.183396,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.204326,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.204366,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.210296,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.231376,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.231414,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.238408,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.261539,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.261576,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.265843,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.287887,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.287925,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.291872,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.311347,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.311387,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.31776,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.336556,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.336595,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.340603,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.359246,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.359284,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.366263,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.387198,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.387236,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.391169,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.411465,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.411505,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.415639,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.434706,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.434743,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.438736,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.458918,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.458956,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.463029,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.48539,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.485428,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.489345,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120605,0.510321,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120605,0.51036,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120605,0.514385,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.533649,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.533688,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.537656,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.558298,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.558337,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.562287,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.582193,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.582256,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.589295,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.610516,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.610556,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.614432,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.636706,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.636745,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.640726,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.65997,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.660009,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.66648,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.685617,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.685655,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.689715,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.708395,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.708432,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.714071,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.732667,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.732704,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.736627,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.755171,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.755209,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.760926,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.783386,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.783424,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.787414,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.809821,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.80986,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.813783,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.832792,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.832845,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.838742,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.857376,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.857412,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.8614,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.880239,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.880277,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.886496,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.905247,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.905285,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.909281,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.930068,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.930106,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.93434,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.953058,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.953095,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.957079,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,0.977859,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,0.97792,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,0.982729,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.00309,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.00312,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.00902,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.02912,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.02916,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.03339,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.05234,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.05238,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.05816,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.07693,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.07697,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.08093,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.10022,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.10026,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.10589,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.12482,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.12485,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.12883,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.14968,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.14972,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.15378,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.17314,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.17318,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.17715,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.20046,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.2005,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.20441,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.22389,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.22393,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.23041,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.24962,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.24966,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.25368,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.27478,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.27482,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.27904,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.2975,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.29754,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.30162,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.32389,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.32397,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.32817,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.34832,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.34836,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.35471,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.37413,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.37417,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.37818,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.40282,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.40288,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.40768,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.42809,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.42813,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.43376,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.4537,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.45374,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.45772,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.47787,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.47794,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.48257,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.50316,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.50325,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120606,1.50942,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120606,1.52784,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120606,1.52788,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.53193,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.55105,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.55109,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.55664,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.57555,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.57559,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.5796,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.59804,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.59808,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.60519,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.62504,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.62508,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.62898,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.65111,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.65115,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.65515,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.67441,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.67445,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.67998,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.69885,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.69889,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.70315,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.72179,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.72183,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.72732,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.74629,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.74632,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.75051,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.76926,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.7693,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.77498,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.79396,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.794,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.79808,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.82127,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.82131,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.82602,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.8451,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.84514,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.84904,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.87101,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.87104,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.87497,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.89399,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.89407,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.90028,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.91914,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.91918,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.9231,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.94172,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.94176,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.94726,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.96602,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.96609,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.97024,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,1.98886,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,1.9889,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,1.99467,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.0149,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.01493,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.01919,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.04366,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.0437,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.04767,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.06707,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.06711,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.07281,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.09165,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.09169,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.0956,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.11415,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.11419,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.12068,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.13946,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.1395,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.14345,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.16255,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.16258,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.16856,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.18721,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.18725,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.19135,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.21225,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.21229,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.217,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.23693,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.23697,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.24284,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.26249,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.26253,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.26674,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.28565,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.28569,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.29146,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.30999,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.31003,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.31401,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.33257,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.33264,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.33855,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.35707,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.35711,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.3611,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.3808,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.38084,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.38678,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.40609,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.40612,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.41013,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.43293,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.433,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.43784,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.4566,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.45664,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.4625,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.48184,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.48188,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.48613,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.50636,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.5064,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120607,2.51035,DEBUG!,2,3,1,1,Enter keyboard range Z
+20200108_120607,2.52953,Information,2,3,1,1,At begining of Master Control's loop
+20200108_120607,2.52957,DEBUG!,2,3,1,1,Keyboard Resetting keys played
+20200108_120608,2.5355,DEBUG!,2,3,1,1,Enter keyboard range Z

@@ -1,0 +1,42 @@
+20200108_123714,0.0547495,Information,2,3,1,2,There are 1 MIDI Output ports available.
+20200108_123714,0.0550611,Information,2,3,1,2,Output port #1: Microsoft GS Wavetable Synth 0
+20200108_123714,0.0555371,Information,2,3,1,2,Sensor 2 is Leap
+20200108_123714,0.0555922,Information,2,3,1,2,Location 3 is Webcam
+20200108_123714,0.0556405,Information,2,3,1,2,Song 1 is one-finger scales
+20200108_123714,0.0556882,Information,2,3,1,2,Trial # is 2
+20200108_123714,0.0557343,Information,2,3,1,2,Initializing Leap
+20200108_123714,0.0557874,Information,2,3,1,2,At begining of Master Control's loop
+20200108_123714,0.0559388,DEBUG!,2,3,1,2,Keyboard Resetting keys played
+20200108_123714,0.0559865,Information,2,3,1,2,Getting Leap finger position data
+20200108_123714,0.0560281,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = -32.750, Y = 46.386, Z = 15.132 ]
+20200108_123714,0.056068,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = 3.550, Y = 20.000, Z = 0.000 ]
+20200108_123714,0.0561057,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = 0.550, Y = 30.000, Z = 0.000 ]
+20200108_123714,0.0561422,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = 19.750, Y = 27.100, Z = 0.000 ]
+20200108_123714,0.0561783,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = 14.750, Y = 28.100, Z = 0.000 ]
+20200108_123714,0.0562146,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = -4.750, Y = 47.446, Z = 14.779 ]
+20200108_123714,0.0562509,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = -0.750, Y = 49.215, Z = 12.304 ]
+20200108_123714,0.0562871,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = 5.250, Y = 58.800, Z = -3.550 ]
+20200108_123714,0.0563235,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = 8.250, Y = 58.500, Z = 3.450 ]
+20200108_123714,0.0563597,DEBUG!,2,3,1,2,Leap Finger 0 = [ X = 20.250, Y = 58.500, Z = -1.550 ]
+20200108_123714,0.0573517,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = -32.750, Y = 46.386, Z = 15.132 ] 
+20200108_123714,0.0578506,DEBUG!,2,3,1,2,None
+20200108_123714,0.059022,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = 3.550, Y = 20.000, Z = 0.000 ] 
+20200108_123714,0.0598691,DEBUG!,2,3,1,2,Enter keyboard range Z
+20200108_123714,0.0599192,DEBUG!,2,3,1,2,None
+20200108_123714,0.0610591,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = 0.550, Y = 30.000, Z = 0.000 ] 
+20200108_123714,0.0617823,DEBUG!,2,3,1,2,None
+20200108_123714,0.0634842,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = 19.750, Y = 27.100, Z = 0.000 ] 
+20200108_123714,0.0660833,DEBUG!,2,3,1,2,None
+20200108_123714,0.0696617,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = 14.750, Y = 28.100, Z = 0.000 ] 
+20200108_123714,0.070606,DEBUG!,2,3,1,2,None
+20200108_123714,0.0724897,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = -4.750, Y = 47.446, Z = 14.779 ] 
+20200108_123714,0.0732599,DEBUG!,2,3,1,2,None
+20200108_123714,0.0748161,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = -0.750, Y = 49.215, Z = 12.304 ] 
+20200108_123714,0.0755881,DEBUG!,2,3,1,2,None
+20200108_123714,0.0774211,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = 5.250, Y = 58.800, Z = -3.550 ] 
+20200108_123714,0.0782623,DEBUG!,2,3,1,2,None
+20200108_123714,0.0796322,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = 8.250, Y = 58.500, Z = 3.450 ] 
+20200108_123714,0.0818604,DEBUG!,2,3,1,2,None
+20200108_123714,0.0841778,DEBUG!,2,3,1,2,Leap Keyboard Coordinates finger 0 = [ X = 20.250, Y = 58.500, Z = -1.550 ] 
+20200108_123714,0.0856889,DEBUG!,2,3,1,2,None
+20200108_123714,0.0863875,Information,2,3,1,2,Closing Leap
