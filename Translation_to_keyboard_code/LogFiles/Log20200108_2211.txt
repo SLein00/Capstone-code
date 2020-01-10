@@ -1,0 +1,10 @@
+20200108_221142,0.0469187,Information,1,2,3,1,There are 1 MIDI Output ports available.
+20200108_221142,0.0472006,Information,1,2,3,1,Output port #1: Microsoft GS Wavetable Synth 0
+20200108_221142,0.047652,Information,1,2,3,1,Sensor 1 is Leddartech
+20200108_221142,0.047714,Information,1,2,3,1,Location 2 is Front
+20200108_221142,0.0477637,Information,1,2,3,1,Song 3 is two handed - simple melody
+20200108_221142,0.0478144,Information,1,2,3,1,Trial # is 1
+20200108_221142,0.0478685,Information,1,2,3,1,Attempting to Initialize Leddar
+20200108_221142,0.0683564,Warning!,1,2,3,1,No connection to Leddar Tech found
+20200108_221142,0.0687807,Information,1,2,3,1,At begining of Master Control's loop
+20200108_221142,0.0691591,Information,1,2,3,1,Attempting to Close out Leddar
