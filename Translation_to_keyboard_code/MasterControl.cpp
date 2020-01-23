@@ -19,9 +19,9 @@ int location;
 int songtype; 
 int trialnum;
 //LeddarTech sensor position coordinates in cm
-double LeddarSidepositioncoordinateX = -15;
+double LeddarSidepositioncoordinateX = -68.2; //Original trial was -18.5
 double LeddarSidepositioncoordinateY = 5.08;
-double LeddarSidepositioncoordinateZ = 1.5;
+double LeddarSidepositioncoordinateZ = 1; //Trying at "1 cm"
 double LeddarFrontpositioncoordinateX = 34.75;
 double LeddarFrontpositioncoordinateY = 30.1;
 double LeddarFrontpositioncoordinateZ = 1.5;
@@ -29,8 +29,8 @@ double LeddarWebcampositioncoordinateX = 34.75;
 double LeddarWebcampositioncoordinateY = 30.1;
 double LeddarWebcampositioncoordinateZ = 45;
 double LeddarAbovepositioncoordinateX = 34.75;
-double LeddarAbovepositioncoordinateY = 7.55;
-double LeddarAbovepositioncoordinateZ = 60;
+double LeddarAbovepositioncoordinateY = 5.08;
+double LeddarAbovepositioncoordinateZ = 97.3;
 //Leap sensor position coordinates in cm
 double LeapSidepositioncoordinateX = -15;
 double LeapSidepositioncoordinateY = 7.75;
@@ -276,12 +276,12 @@ int main() {//Beginning of main
 	testsensors.posY = posY;
 	testsensors.posZ = posZ;
 
-
-	for (int i = 0; i < 1000; i++) {//beginning of loop
-		//CAITLYNS EDITS
 	AsyncGetline ag;
 	string consoleinput;
 
+	for (int i = 0; i < 1400; i++) {//beginning of loop
+		//CAITLYNS EDITS
+	
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
 		
 		consoleinput = ag.GetLine();
@@ -303,8 +303,8 @@ int main() {//Beginning of main
 			for (int idx = 0; idx < 16; idx++) {
 				double angle = ((22.5 - idx * 3) * 3.1415965359) / 180;
 				Coordinates[idx].Z = 0;
-				Coordinates[idx].X = cos(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx]);
-				Coordinates[idx].Y = sin(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx]);
+				Coordinates[idx].X = cos(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx] * 100);
+				Coordinates[idx].Y = sin(angle) * (Originalvals[idx] * 100 + testsensorLeddar.CorrectionFactor[idx] * 100);
 				
 
 				cout << Coordinates[idx].X << "," << Coordinates[idx].Y << "," << Coordinates[idx].Z << endl ;

@@ -1,0 +1,898 @@
+20200121_133709,0.0635573,Information,1,4,1,0,There are 1 MIDI Output ports available.
+20200121_133709,0.0638899,Information,1,4,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200121_133709,0.0647048,Information,1,4,1,0,Sensor 1 is Leddartech
+20200121_133709,0.0647656,Information,1,4,1,0,Location 4 is Above
+20200121_133709,0.0648173,Information,1,4,1,0,Song 1 is one-finger scales
+20200121_133709,0.0648633,Information,1,4,1,0,Trial # is 0
+20200121_133709,0.0649108,Information,1,4,1,0,Attempting to Initialize Leddar
+20200121_133709,0.103281,Information,1,4,1,0,Opened Leddar: USB vendor ID: 0x28f1 product ID: 0x400 Serial Number: AJ28021
+20200121_133709,0.114638,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133709,0.114721,DEBUG!,1,4,1,0,======================
+20200121_133709,0.114757,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133709,0.114807,Information,1,4,1,0,Getting values from Leddar
+20200121_133709,0.26474,Information,1,4,1,0,Leddar Values: [ 1.306, 1.222, 1.212, 1.196, 1.158, 1.156, 1.136, 1.093, 1.090, 1.157, 1.161, 1.163, 1.102, 0.982, 1.198, 1.386]
+20200121_133709,0.266706,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.266788,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.268462,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.305664, Coord=[98.747151, 40.902465, 0.000000], FinalFingerPos=[75.652465, 5.080000, -1.447151], Midi=[None]
+20200121_133709,0.268931,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.268983,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.272087,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221649, Coord=[98.322673, 34.817931, 0.000000], FinalFingerPos=[69.567931, 5.080000, -1.022673], Midi=[None]
+20200121_133709,0.273031,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.273078,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.276737,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.211700, Coord=[98.210911, 29.091435, 0.000000], FinalFingerPos=[63.841435, 5.080000, -0.910911], Midi=[None]
+20200121_133709,0.277604,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.277729,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.282698,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195679, Coord=[97.871621, 23.496928, 0.000000], FinalFingerPos=[58.246928, 5.080000, -0.571621], Midi=[None]
+20200121_133709,0.283636,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.283688,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.285868,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157669, Coord=[98.093391, 18.180558, 0.000000], FinalFingerPos=[52.930558, 5.080000, -0.793391], Midi=[None]
+20200121_133709,0.286513,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.286562,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.288878,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.155914, Coord=[98.163973, 12.923548, 0.000000], FinalFingerPos=[47.673548, 5.080000, -0.863973], Midi=[None]
+20200121_133709,0.29089,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.290942,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.292471,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136444, Coord=[97.344272, 7.661170, 0.000000], FinalFingerPos=[42.411170, 5.080000, -0.044272], Midi=[None]
+20200121_133709,0.293467,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.293546,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.295659,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092697, Coord=[97.309711, 2.548148, 0.000000], FinalFingerPos=[37.298148, 5.080000, -0.009711], Midi=[None]
+20200121_133709,0.296332,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.296379,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.298049,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133709,0.298299,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133709,0.298385,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.089630, Coord=[96.883156, -2.536978, 0.000000], FinalFingerPos=[32.213022, 5.080000, 0.416844], Midi=[B3]
+20200121_133709,0.298423,Information,1,4,1,0,B3On
+20200121_133709,0.298465,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133709,0.300536,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.300627,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.304488,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.157043, Coord=[98.181619, -7.727071, 0.000000], FinalFingerPos=[27.022929, 5.080000, -0.881619], Midi=[None]
+20200121_133709,0.305205,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.305257,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.306791,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160797, Coord=[97.478172, -12.833261, 0.000000], FinalFingerPos=[21.916739, 5.080000, -0.178172], Midi=[None]
+20200121_133709,0.307462,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.307507,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.30896,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.163116, Coord=[98.648673, -18.283474, 0.000000], FinalFingerPos=[16.466526, 5.080000, -1.348673], Midi=[None]
+20200121_133709,0.309615,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.309659,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.311059,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.102020, Coord=[90.028637, -21.613991, 0.000000], FinalFingerPos=[13.136009, 5.080000, 7.271363], Midi=[None]
+20200121_133709,0.31284,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.312886,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.316671,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=0.982498, Coord=[79.417828, -23.524663, 0.000000], FinalFingerPos=[11.225337, 5.080000, 17.882172], Midi=[None]
+20200121_133709,0.31796,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.31801,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.319737,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.197540, Coord=[94.240198, -33.372249, 0.000000], FinalFingerPos=[1.377751, 5.080000, 3.059802], Midi=[None]
+20200121_133709,0.320413,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.320462,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.321925,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.385971, Coord=[100.456975, -41.610699, 0.000000], FinalFingerPos=[-6.860699, 5.080000, -3.156975], Midi=[None]
+20200121_133709,0.322174,DEBUG!,1,4,1,0,======================
+20200121_133709,0.322261,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133709,0.323577,DEBUG!,1,4,1,0,======================
+20200121_133709,0.323623,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133709,0.323663,Information,1,4,1,0,Getting values from Leddar
+20200121_133709,0.425067,Information,1,4,1,0,Leddar Values: [ 1.305, 1.221, 1.211, 1.195, 1.157, 1.156, 1.136, 1.093, 1.090, 1.157, 1.160, 1.163, 1.102, 0.981, 1.197, 1.386]
+20200121_133709,0.426911,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.426985,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.429561,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.305466, Coord=[98.728824, 40.894874, 0.000000], FinalFingerPos=[75.644874, 5.080000, -1.428824], Midi=[None]
+20200121_133709,0.430185,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.430233,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.432341,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.220993, Coord=[98.260824, 34.796029, 0.000000], FinalFingerPos=[69.546029, 5.080000, -0.960824], Midi=[None]
+20200121_133709,0.432986,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.433034,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.434552,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.211472, Coord=[98.188965, 29.084934, 0.000000], FinalFingerPos=[63.834934, 5.080000, -0.888965], Midi=[None]
+20200121_133709,0.435198,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.435247,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.441504,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195404, Coord=[97.844914, 23.490516, 0.000000], FinalFingerPos=[58.240516, 5.080000, -0.544914], Midi=[None]
+20200121_133709,0.444387,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.444571,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.455228,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157028, Coord=[98.030377, 18.168879, 0.000000], FinalFingerPos=[52.918879, 5.080000, -0.730377], Midi=[None]
+20200121_133709,0.458855,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.459058,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.470669,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.155975, Coord=[98.170025, 12.924345, 0.000000], FinalFingerPos=[47.674345, 5.080000, -0.870025], Midi=[None]
+20200121_133709,0.475665,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.475876,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.486806,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136444, Coord=[97.344272, 7.661170, 0.000000], FinalFingerPos=[42.411170, 5.080000, -0.044272], Midi=[None]
+20200121_133709,0.490284,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.4905,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.501136,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092743, Coord=[97.314287, 2.548267, 0.000000], FinalFingerPos=[37.298267, 5.080000, -0.014287], Midi=[None]
+20200121_133709,0.504888,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.505096,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.514638,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133709,0.51503,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133709,0.515439,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.089554, Coord=[96.875529, -2.536778, 0.000000], FinalFingerPos=[32.213222, 5.080000, 0.424471], Midi=[B3]
+20200121_133709,0.515788,Information,1,4,1,0,B3On
+20200121_133709,0.516142,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133709,0.520555,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.520746,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.528294,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.157013, Coord=[98.178576, -7.726831, 0.000000], FinalFingerPos=[27.023169, 5.080000, -0.878576], Midi=[None]
+20200121_133709,0.53427,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.534497,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.544811,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160339, Coord=[97.432788, -12.827286, 0.000000], FinalFingerPos=[21.922714, 5.080000, -0.132788], Midi=[None]
+20200121_133709,0.548104,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.548346,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.558367,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.163162, Coord=[98.653174, -18.284308, 0.000000], FinalFingerPos=[16.465692, 5.080000, -1.353174], Midi=[None]
+20200121_133709,0.56213,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.562331,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.572033,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.101715, Coord=[89.998963, -21.606867, 0.000000], FinalFingerPos=[13.143133, 5.080000, 7.301037], Midi=[None]
+20200121_133709,0.575537,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.575734,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.587166,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=0.981400, Coord=[79.312489, -23.493460, 0.000000], FinalFingerPos=[11.256540, 5.080000, 17.987511], Midi=[None]
+20200121_133709,0.592895,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.593107,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.605419,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.197189, Coord=[94.207116, -33.360534, 0.000000], FinalFingerPos=[1.389466, 5.080000, 3.092884], Midi=[None]
+20200121_133709,0.60971,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133709,0.610035,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133709,0.623076,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.385620, Coord=[100.424551, -41.597268, 0.000000], FinalFingerPos=[-6.847268, 5.080000, -3.124551], Midi=[None]
+20200121_133709,0.623558,DEBUG!,1,4,1,0,======================
+20200121_133709,0.62386,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133709,0.625514,DEBUG!,1,4,1,0,======================
+20200121_133709,0.625709,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133709,0.625865,Information,1,4,1,0,Getting values from Leddar
+20200121_133710,0.731993,Information,1,4,1,0,Leddar Values: [ 1.305, 1.221, 1.212, 1.195, 1.157, 1.156, 1.137, 1.093, 1.090, 1.157, 1.160, 1.163, 1.099, 0.984, 1.204, 1.386]
+20200121_133710,0.735702,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.735922,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.746459,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.305359, Coord=[98.718956, 40.890787, 0.000000], FinalFingerPos=[75.640787, 5.080000, -1.418956], Midi=[None]
+20200121_133710,0.753571,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.753794,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.764189,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221115, Coord=[98.272331, 34.800104, 0.000000], FinalFingerPos=[69.550104, 5.080000, -0.972331], Midi=[None]
+20200121_133710,0.769402,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.769608,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.77877,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.211594, Coord=[98.200669, 29.088401, 0.000000], FinalFingerPos=[63.838401, 5.080000, -0.900669], Midi=[None]
+20200121_133710,0.784848,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.785068,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.796366,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195404, Coord=[97.844914, 23.490516, 0.000000], FinalFingerPos=[58.240516, 5.080000, -0.544914], Midi=[None]
+20200121_133710,0.801247,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.801509,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.813571,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157211, Coord=[98.048381, 18.172216, 0.000000], FinalFingerPos=[52.922216, 5.080000, -0.748381], Midi=[None]
+20200121_133710,0.819322,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.81954,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.83089,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.156342, Coord=[98.206332, 12.929125, 0.000000], FinalFingerPos=[47.679125, 5.080000, -0.906332], Midi=[None]
+20200121_133710,0.837422,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.837634,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.850305,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136505, Coord=[97.350356, 7.661649, 0.000000], FinalFingerPos=[42.411649, 5.080000, -0.050356], Midi=[None]
+20200121_133710,0.855994,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.856328,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.863297,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092697, Coord=[97.309711, 2.548148, 0.000000], FinalFingerPos=[37.298148, 5.080000, -0.009711], Midi=[None]
+20200121_133710,0.868893,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.869039,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.874629,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133710,0.874768,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133710,0.874896,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.089813, Coord=[96.901460, -2.537457, 0.000000], FinalFingerPos=[32.212543, 5.080000, 0.398540], Midi=[B3]
+20200121_133710,0.875,Information,1,4,1,0,B3On
+20200121_133710,0.875107,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133710,0.877674,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.877808,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.882787,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.157257, Coord=[98.202915, -7.728747, 0.000000], FinalFingerPos=[27.021253, 5.080000, -0.902915], Midi=[None]
+20200121_133710,0.88505,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.885176,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.891145,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160446, Coord=[97.443377, -12.828680, 0.000000], FinalFingerPos=[21.921320, 5.080000, -0.143377], Midi=[None]
+20200121_133710,0.893552,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.893691,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.899634,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.163071, Coord=[98.644172, -18.282640, 0.000000], FinalFingerPos=[16.467360, 5.080000, -1.344172], Midi=[None]
+20200121_133710,0.903477,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.903619,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.90911,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.099014, Coord=[89.736345, -21.543818, 0.000000], FinalFingerPos=[13.206182, 5.080000, 7.563655], Midi=[None]
+20200121_133710,0.910992,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.911124,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.919189,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=0.983643, Coord=[79.527556, -23.557166, 0.000000], FinalFingerPos=[11.192834, 5.080000, 17.772444], Midi=[None]
+20200121_133710,0.92244,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.92258,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.9301,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.203644, Coord=[94.815541, -33.575989, 0.000000], FinalFingerPos=[1.174011, 5.080000, 2.484459], Midi=[None]
+20200121_133710,0.932664,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,0.932815,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,0.938693,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.385559, Coord=[100.418912, -41.594932, 0.000000], FinalFingerPos=[-6.844932, 5.080000, -3.118912], Midi=[None]
+20200121_133710,0.939007,DEBUG!,1,4,1,0,======================
+20200121_133710,0.939201,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133710,0.943495,DEBUG!,1,4,1,0,======================
+20200121_133710,0.943658,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133710,0.943762,Information,1,4,1,0,Getting values from Leddar
+20200121_133710,1.05452,Information,1,4,1,0,Leddar Values: [ 1.306, 1.222, 1.212, 1.196, 1.157, 1.156, 1.136, 1.092, 1.089, 1.156, 1.160, 1.163, 1.141, 1.174, 1.236, 1.380]
+20200121_133710,1.05724,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.05743,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.06399,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.305649, Coord=[98.745741, 40.901881, 0.000000], FinalFingerPos=[75.651881, 5.080000, -1.445741], Midi=[None]
+20200121_133710,1.06875,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.06891,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.07369,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221512, Coord=[98.309728, 34.813347, 0.000000], FinalFingerPos=[69.563347, 5.080000, -1.009728], Midi=[None]
+20200121_133710,1.0755,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.07563,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.08143,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.211578, Coord=[98.199206, 29.087968, 0.000000], FinalFingerPos=[63.837968, 5.080000, -0.899206], Midi=[None]
+20200121_133710,1.08384,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.08399,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.0882,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.196136, Coord=[97.916133, 23.507614, 0.000000], FinalFingerPos=[58.257614, 5.080000, -0.616133], Midi=[None]
+20200121_133710,1.09142,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.09156,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.09743,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.156769, Coord=[98.004872, 18.164152, 0.000000], FinalFingerPos=[52.914152, 5.080000, -0.704872], Midi=[None]
+20200121_133710,1.10068,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.10091,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.11102,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.155869, Coord=[98.159435, 12.922951, 0.000000], FinalFingerPos=[47.672951, 5.080000, -0.859435], Midi=[None]
+20200121_133710,1.11616,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.11641,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.12606,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136124, Coord=[97.312327, 7.658656, 0.000000], FinalFingerPos=[42.408656, 5.080000, -0.012327], Midi=[None]
+20200121_133710,1.13158,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.13179,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.14378,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133710,1.144,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133710,1.1442,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092499, Coord=[97.289881, 2.547628, 0.000000], FinalFingerPos=[37.297628, 5.080000, 0.010119], Midi=[D4]
+20200121_133710,1.14435,Information,1,4,1,0,D4On
+20200121_133710,1.14451,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133710,1.1478,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.14816,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.16403,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133710,1.1643,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133710,1.16462,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.089493, Coord=[96.869427, -2.536618, 0.000000], FinalFingerPos=[32.213382, 5.080000, 0.430573], Midi=[B3]
+20200121_133710,1.16478,Information,1,4,1,0,B3On
+20200121_133710,1.16496,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133710,1.17098,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.17119,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.18239,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.156342, Coord=[98.111645, -7.721563, 0.000000], FinalFingerPos=[27.028437, 5.080000, -0.811645], Midi=[None]
+20200121_133710,1.18838,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.18864,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.20247,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160187, Coord=[97.417659, -12.825294, 0.000000], FinalFingerPos=[21.924706, 5.080000, -0.117659], Midi=[None]
+20200121_133710,1.20859,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.20893,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.22373,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.162567, Coord=[98.594661, -18.273463, 0.000000], FinalFingerPos=[16.476537, 5.080000, -1.294661], Midi=[None]
+20200121_133710,1.22904,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.22932,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.24218,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.141357, Coord=[93.853664, -22.532300, 0.000000], FinalFingerPos=[12.217700, 5.080000, 3.446336], Midi=[None]
+20200121_133710,1.24842,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.24866,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.26176,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=1.174088, Coord=[97.787792, -28.966101, 0.000000], FinalFingerPos=[5.783899, 5.080000, -0.487792], Midi=[None]
+20200121_133710,1.26646,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.26669,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.27875,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.235748, Coord=[97.841843, -34.647660, 0.000000], FinalFingerPos=[0.102340, 5.080000, -0.541843], Midi=[None]
+20200121_133710,1.28485,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.2851,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.2971,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.380234, Coord=[99.926917, -41.391141, 0.000000], FinalFingerPos=[-6.641141, 5.080000, -2.626917], Midi=[None]
+20200121_133710,1.29758,DEBUG!,1,4,1,0,======================
+20200121_133710,1.29794,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133710,1.30194,DEBUG!,1,4,1,0,======================
+20200121_133710,1.30219,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133710,1.30236,Information,1,4,1,0,Getting values from Leddar
+20200121_133710,1.37215,Information,1,4,1,0,Leddar Values: [ 1.304, 1.220, 1.211, 1.195, 1.157, 1.156, 1.140, 1.092, 1.093, 1.156, 1.166, 1.161, 1.087, 0.894, 1.172, 1.361]
+20200121_133710,1.37607,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.37626,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.38719,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.303635, Coord=[98.559657, 40.824803, 0.000000], FinalFingerPos=[75.574803, 5.080000, -1.259657], Midi=[None]
+20200121_133710,1.39151,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.3919,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.40541,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.220230, Coord=[98.188906, 34.770562, 0.000000], FinalFingerPos=[69.520562, 5.080000, -0.888906], Midi=[None]
+20200121_133710,1.41163,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.41186,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.42407,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.210510, Coord=[98.096793, 29.057632, 0.000000], FinalFingerPos=[63.807632, 5.080000, -0.796793], Midi=[None]
+20200121_133710,1.42876,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.42911,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.44299,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195267, Coord=[97.831561, 23.487310, 0.000000], FinalFingerPos=[58.237310, 5.080000, -0.531561], Midi=[None]
+20200121_133710,1.44924,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.44964,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.46217,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157043, Coord=[98.031877, 18.169158, 0.000000], FinalFingerPos=[52.919158, 5.080000, -0.731877], Midi=[None]
+20200121_133710,1.46645,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.46676,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.47932,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.156113, Coord=[98.183640, 12.926138, 0.000000], FinalFingerPos=[47.676138, 5.080000, -0.883640], Midi=[None]
+20200121_133710,1.48576,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.486,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.49872,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.140396, Coord=[97.738256, 7.692177, 0.000000], FinalFingerPos=[42.442177, 5.080000, -0.438256], Midi=[None]
+20200121_133710,1.50353,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.50375,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.51872,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133710,1.51896,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133710,1.51918,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092102, Coord=[97.250222, 2.546590, 0.000000], FinalFingerPos=[37.296590, 5.080000, 0.049778], Midi=[D4]
+20200121_133710,1.51934,Information,1,4,1,0,D4On
+20200121_133710,1.51951,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133710,1.5238,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.52413,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.53897,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133710,1.5392,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133710,1.53942,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.093445, Coord=[97.264495, -2.546964, 0.000000], FinalFingerPos=[32.203036, 5.080000, 0.035505], Midi=[B3]
+20200121_133710,1.53958,Information,1,4,1,0,B3On
+20200121_133710,1.53979,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133710,1.54557,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.54571,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.55307,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.155869, Coord=[98.064488, -7.717852, 0.000000], FinalFingerPos=[27.032148, 5.080000, -0.764488], Midi=[None]
+20200121_133710,1.55552,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.55566,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.56062,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.166031, Coord=[97.997071, -12.901575, 0.000000], FinalFingerPos=[21.848425, 5.080000, -0.697071], Midi=[None]
+20200121_133710,1.56241,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.56254,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.56964,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.161179, Coord=[98.458131, -18.248159, 0.000000], FinalFingerPos=[16.501841, 5.080000, -1.158131], Midi=[None]
+20200121_133710,1.57154,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.57167,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.57652,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.086960, Coord=[88.564207, -21.262412, 0.000000], FinalFingerPos=[13.487588, 5.080000, 8.735793], Midi=[None]
+20200121_133710,1.57747,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.57752,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.58079,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=0.893539, Coord=[70.888289, -20.998095, 0.000000], FinalFingerPos=[13.751905, 5.080000, 26.411711], Midi=[None]
+20200121_133710,1.58247,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.58253,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.58401,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.172379, Coord=[91.868348, -32.532332, 0.000000], FinalFingerPos=[2.217668, 5.080000, 5.431652], Midi=[None]
+20200121_133710,1.58477,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133710,1.58482,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133710,1.58708,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.360641, Coord=[98.116826, -40.641376, 0.000000], FinalFingerPos=[-5.891376, 5.080000, -0.816826], Midi=[None]
+20200121_133710,1.58725,DEBUG!,1,4,1,0,======================
+20200121_133710,1.58733,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133710,1.59133,DEBUG!,1,4,1,0,======================
+20200121_133710,1.5914,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133710,1.59144,Information,1,4,1,0,Getting values from Leddar
+20200121_133711,1.6915,Information,1,4,1,0,Leddar Values: [ 1.305, 1.222, 1.211, 1.196, 1.157, 1.156, 1.137, 1.092, 1.093, 1.156, 1.161, 1.161, 1.140, 1.179, 1.210, 1.383]
+20200121_133711,1.69364,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.69372,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.69613,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.305237, Coord=[98.707678, 40.886115, 0.000000], FinalFingerPos=[75.636115, 5.080000, -1.407678], Midi=[None]
+20200121_133711,1.69924,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.69944,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.70932,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221558, Coord=[98.314043, 34.814875, 0.000000], FinalFingerPos=[69.564875, 5.080000, -1.014043], Midi=[None]
+20200121_133711,1.71384,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.71406,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.72679,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.211273, Coord=[98.169945, 29.079301, 0.000000], FinalFingerPos=[63.829301, 5.080000, -0.869945], Midi=[None]
+20200121_133711,1.73017,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.7303,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.73586,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195724, Coord=[97.876072, 23.497996, 0.000000], FinalFingerPos=[58.247996, 5.080000, -0.576072], Midi=[None]
+20200121_133711,1.73772,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.73785,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.74324,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157135, Coord=[98.040879, 18.170826, 0.000000], FinalFingerPos=[52.920826, 5.080000, -0.740879], Midi=[None]
+20200121_133711,1.74552,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.74565,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.75018,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.155685, Coord=[98.141281, 12.920561, 0.000000], FinalFingerPos=[47.670561, 5.080000, -0.841281], Midi=[None]
+20200121_133711,1.75315,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.75327,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.75677,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.137436, Coord=[97.443148, 7.668952, 0.000000], FinalFingerPos=[42.418952, 5.080000, -0.143148], Midi=[None]
+20200121_133711,1.75762,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.75767,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.75967,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,1.75972,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,1.75977,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092285, Coord=[97.268526, 2.547069, 0.000000], FinalFingerPos=[37.297069, 5.080000, 0.031474], Midi=[D4]
+20200121_133711,1.75981,Information,1,4,1,0,D4On
+20200121_133711,1.75985,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133711,1.76031,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.76036,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.76212,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,1.76216,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,1.76221,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.092896, Coord=[97.209582, -2.545526, 0.000000], FinalFingerPos=[32.204474, 5.080000, 0.090418], Midi=[B3]
+20200121_133711,1.76225,Information,1,4,1,0,B3On
+20200121_133711,1.76229,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133711,1.7628,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.76285,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.76933,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.156403, Coord=[98.117729, -7.722042, 0.000000], FinalFingerPos=[27.027958, 5.080000, -0.817729], Midi=[None]
+20200121_133711,1.77062,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.7707,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.77304,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.161423, Coord=[97.540198, -12.841427, 0.000000], FinalFingerPos=[21.908573, 5.080000, -0.240198], Midi=[None]
+20200121_133711,1.77423,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.77428,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.77678,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.161484, Coord=[98.488138, -18.253720, 0.000000], FinalFingerPos=[16.496280, 5.080000, -1.188138], Midi=[None]
+20200121_133711,1.77746,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.77751,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.78113,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.140427, Coord=[93.763157, -22.510571, 0.000000], FinalFingerPos=[12.239429, 5.080000, 3.536843], Midi=[None]
+20200121_133711,1.78241,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.78247,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.7842,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=1.178772, Coord=[98.236946, -29.099147, 0.000000], FinalFingerPos=[5.650853, 5.080000, -0.936946], Midi=[None]
+20200121_133711,1.78487,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.78492,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.7864,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,1.78645,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,1.78652,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.209900, Coord=[95.405267, -33.784822, 0.000000], FinalFingerPos=[0.965178, 5.080000, 1.894733], Midi=[C2]
+20200121_133711,1.78656,Information,1,4,1,0,C2On
+20200121_133711,1.7866,DEBUG!,1,4,1,0,Keyboard Being asked to play key C2
+20200121_133711,1.78715,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.7872,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.79038,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.383148, Coord=[100.196175, -41.502672, 0.000000], FinalFingerPos=[-6.752672, 5.080000, -2.896175], Midi=[None]
+20200121_133711,1.79051,DEBUG!,1,4,1,0,======================
+20200121_133711,1.79059,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133711,1.79246,DEBUG!,1,4,1,0,======================
+20200121_133711,1.79252,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133711,1.79256,Information,1,4,1,0,Getting values from Leddar
+20200121_133711,1.86284,Information,1,4,1,0,Leddar Values: [ 1.304, 1.221, 1.210, 1.196, 1.157, 1.156, 1.137, 1.092, 1.090, 1.157, 1.161, 1.162, 1.137, 0.977, 1.099, 1.346]
+20200121_133711,1.86696,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.86718,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.87885,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.304337, Coord=[98.624504, 40.851663, 0.000000], FinalFingerPos=[75.601663, 5.080000, -1.324504], Midi=[None]
+20200121_133711,1.88335,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.88381,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.89796,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221069, Coord=[98.268016, 34.798576, 0.000000], FinalFingerPos=[69.548576, 5.080000, -0.968016], Midi=[None]
+20200121_133711,1.90507,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.90531,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.91344,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.210480, Coord=[98.093867, 29.056765, 0.000000], FinalFingerPos=[63.806765, 5.080000, -0.793867], Midi=[None]
+20200121_133711,1.91547,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.91572,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.9237,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195587, Coord=[97.862719, 23.494790, 0.000000], FinalFingerPos=[58.244790, 5.080000, -0.562719], Midi=[None]
+20200121_133711,1.92573,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.92587,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.93062,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157288, Coord=[98.055883, 18.173607, 0.000000], FinalFingerPos=[52.923607, 5.080000, -0.755883], Midi=[None]
+20200121_133711,1.93475,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.9349,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.94038,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.155823, Coord=[98.154896, 12.922353, 0.000000], FinalFingerPos=[47.672353, 5.080000, -0.854896], Midi=[None]
+20200121_133711,1.94214,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.94228,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.94767,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136810, Coord=[97.380780, 7.664043, 0.000000], FinalFingerPos=[42.414043, 5.080000, -0.080780], Midi=[None]
+20200121_133711,1.95056,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.95071,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.95793,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,1.95807,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,1.9582,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092133, Coord=[97.253273, 2.546670, 0.000000], FinalFingerPos=[37.296670, 5.080000, 0.046727], Midi=[D4]
+20200121_133711,1.95831,Information,1,4,1,0,D4On
+20200121_133711,1.95841,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133711,1.9612,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.96135,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.96721,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,1.96749,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,1.96776,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.090393, Coord=[96.959423, -2.538975, 0.000000], FinalFingerPos=[32.211025, 5.080000, 0.340577], Midi=[B3]
+20200121_133711,1.96794,Information,1,4,1,0,B3On
+20200121_133711,1.96815,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133711,1.97183,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.97197,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.97799,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.156952, Coord=[98.172492, -7.726352, 0.000000], FinalFingerPos=[27.023648, 5.080000, -0.872492], Midi=[None]
+20200121_133711,1.97988,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.98,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.98718,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160843, Coord=[97.482711, -12.833858, 0.000000], FinalFingerPos=[21.916142, 5.080000, -0.182711], Midi=[None]
+20200121_133711,1.98939,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.98952,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,1.9953,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.162109, Coord=[98.549651, -18.265121, 0.000000], FinalFingerPos=[16.484879, 5.080000, -1.249651], Midi=[None]
+20200121_133711,1.99706,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,1.99712,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.00038,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.136932, Coord=[93.423385, -22.428999, 0.000000], FinalFingerPos=[12.321001, 5.080000, 3.876615], Midi=[None]
+20200121_133711,2.00187,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.00192,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.00368,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=0.977203, Coord=[78.910152, -23.374283, 0.000000], FinalFingerPos=[11.375717, 5.080000, 18.389848], Midi=[None]
+20200121_133711,2.00621,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.00631,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.00975,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.099030, Coord=[84.954168, -30.083889, 0.000000], FinalFingerPos=[4.666111, 5.080000, 12.345832], Midi=[None]
+20200121_133711,2.01048,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.01053,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.01231,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,2.01236,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,2.01241,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.346313, Coord=[96.793092, -40.093066, 0.000000], FinalFingerPos=[-5.343066, 5.080000, 0.506908], Midi=[None]
+20200121_133711,2.01252,DEBUG!,1,4,1,0,======================
+20200121_133711,2.0126,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133711,2.01594,DEBUG!,1,4,1,0,======================
+20200121_133711,2.01603,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133711,2.01607,Information,1,4,1,0,Getting values from Leddar
+20200121_133711,2.03259,Information,1,4,1,0,Leddar Values: [ 1.305, 1.221, 1.211, 1.196, 1.158, 1.156, 1.137, 1.092, 1.090, 1.157, 1.161, 1.162, 1.114, 0.972, 1.132, 1.364]
+20200121_133711,2.03475,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.03484,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.03793,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.305145, Coord=[98.699220, 40.882612, 0.000000], FinalFingerPos=[75.632612, 5.080000, -1.399220], Midi=[None]
+20200121_133711,2.03898,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.03903,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.04072,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221344, Coord=[98.293906, 34.807744, 0.000000], FinalFingerPos=[69.557744, 5.080000, -0.993906], Midi=[None]
+20200121_133711,2.04145,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.04151,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.04449,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.211227, Coord=[98.165556, 29.078000, 0.000000], FinalFingerPos=[63.828000, 5.080000, -0.865556], Midi=[None]
+20200121_133711,2.04526,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.04533,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.04933,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.196045, Coord=[97.907231, 23.505477, 0.000000], FinalFingerPos=[58.255477, 5.080000, -0.607231], Midi=[None]
+20200121_133711,2.05064,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.05069,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.0524,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157883, Coord=[98.114395, 18.184451, 0.000000], FinalFingerPos=[52.934451, 5.080000, -0.814395], Midi=[None]
+20200121_133711,2.05329,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.05334,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.05484,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.156067, Coord=[98.179102, 12.925540, 0.000000], FinalFingerPos=[47.675540, 5.080000, -0.879102], Midi=[None]
+20200121_133711,2.05649,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.05655,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.0603,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136719, Coord=[97.371653, 7.663325, 0.000000], FinalFingerPos=[42.413325, 5.080000, -0.071653], Midi=[None]
+20200121_133711,2.06109,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.06114,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.06262,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,2.06267,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,2.06272,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092224, Coord=[97.262425, 2.546909, 0.000000], FinalFingerPos=[37.296909, 5.080000, 0.037575], Midi=[D4]
+20200121_133711,2.06276,Information,1,4,1,0,D4On
+20200121_133711,2.0628,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133711,2.06333,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.06338,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.06559,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,2.06572,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,2.06579,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.090302, Coord=[96.950271, -2.538735, 0.000000], FinalFingerPos=[32.211265, 5.080000, 0.349729], Midi=[B3]
+20200121_133711,2.06582,Information,1,4,1,0,B3On
+20200121_133711,2.06586,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133711,2.06649,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.06654,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.06906,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.157120, Coord=[98.189225, -7.727669, 0.000000], FinalFingerPos=[27.022331, 5.080000, -0.889225], Midi=[None]
+20200121_133711,2.07022,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.07029,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.07361,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160507, Coord=[97.449429, -12.829477, 0.000000], FinalFingerPos=[21.920523, 5.080000, -0.149429], Midi=[None]
+20200121_133711,2.07424,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.07429,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.07658,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.161606, Coord=[98.500141, -18.255945, 0.000000], FinalFingerPos=[16.494055, 5.080000, -1.200141], Midi=[None]
+20200121_133711,2.07723,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.07728,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.07869,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.114395, Coord=[91.231933, -21.902877, 0.000000], FinalFingerPos=[12.847123, 5.080000, 6.068067], Midi=[None]
+20200121_133711,2.07938,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.07943,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.08416,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=0.971802, Coord=[78.392235, -23.220868, 0.000000], FinalFingerPos=[11.529132, 5.080000, 18.907765], Midi=[None]
+20200121_133711,2.08538,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.08544,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.08743,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.131638, Coord=[88.027936, -31.172369, 0.000000], FinalFingerPos=[3.577631, 5.080000, 9.272064], Midi=[None]
+20200121_133711,2.0881,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.08815,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.08955,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.363739, Coord=[98.403001, -40.759914, 0.000000], FinalFingerPos=[-6.009914, 5.080000, -1.103001], Midi=[None]
+20200121_133711,2.08967,DEBUG!,1,4,1,0,======================
+20200121_133711,2.08975,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133711,2.09474,DEBUG!,1,4,1,0,======================
+20200121_133711,2.09484,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133711,2.09489,Information,1,4,1,0,Getting values from Leddar
+20200121_133711,2.184,Information,1,4,1,0,Leddar Values: [ 1.305, 1.221, 1.211, 1.196, 1.157, 1.156, 1.137, 1.092, 1.090, 1.157, 1.161, 1.162, 1.133, 1.033, 1.185, 1.373]
+20200121_133711,2.18788,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.18811,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.19999,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.304672, Coord=[98.655519, 40.864510, 0.000000], FinalFingerPos=[75.614510, 5.080000, -1.355519], Midi=[None]
+20200121_133711,2.20418,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.20439,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.21474,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.220993, Coord=[98.260824, 34.796029, 0.000000], FinalFingerPos=[69.546029, 5.080000, -0.960824], Midi=[None]
+20200121_133711,2.21862,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.21884,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.22856,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.210907, Coord=[98.134832, 29.068900, 0.000000], FinalFingerPos=[63.818900, 5.080000, -0.834832], Midi=[None]
+20200121_133711,2.23325,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.23347,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.2412,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195984, Coord=[97.901296, 23.504052, 0.000000], FinalFingerPos=[58.254052, 5.080000, -0.601296], Midi=[None]
+20200121_133711,2.24625,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.24655,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.26115,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157440, Coord=[98.070886, 18.176387, 0.000000], FinalFingerPos=[52.926387, 5.080000, -0.770886], Midi=[None]
+20200121_133711,2.26573,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.26605,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.28172,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.156204, Coord=[98.192717, 12.927333, 0.000000], FinalFingerPos=[47.677333, 5.080000, -0.892717], Midi=[None]
+20200121_133711,2.28875,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.28907,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.30164,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136642, Coord=[97.364047, 7.662726, 0.000000], FinalFingerPos=[42.412726, 5.080000, -0.064047], Midi=[None]
+20200121_133711,2.30802,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.30827,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.32258,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,2.32281,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,2.32321,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092346, Coord=[97.274628, 2.547229, 0.000000], FinalFingerPos=[37.297229, 5.080000, 0.025372], Midi=[D4]
+20200121_133711,2.32348,Information,1,4,1,0,D4On
+20200121_133711,2.32377,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133711,2.32843,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.32868,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.33541,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,2.33557,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,2.33571,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.090347, Coord=[96.954847, -2.538855, 0.000000], FinalFingerPos=[32.211145, 5.080000, 0.345153], Midi=[B3]
+20200121_133711,2.33581,Information,1,4,1,0,B3On
+20200121_133711,2.33593,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133711,2.33789,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.33804,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.34373,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.157059, Coord=[98.183140, -7.727190, 0.000000], FinalFingerPos=[27.022810, 5.080000, -0.883140], Midi=[None]
+20200121_133711,2.34666,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.34681,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.35516,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160736, Coord=[97.472121, -12.832464, 0.000000], FinalFingerPos=[21.917536, 5.080000, -0.172121], Midi=[None]
+20200121_133711,2.35925,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.3594,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.36736,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.162384, Coord=[98.576657, -18.270127, 0.000000], FinalFingerPos=[16.479873, 5.080000, -1.276657], Midi=[None]
+20200121_133711,2.37032,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.37047,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.375,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.133301, Coord=[93.070260, -22.344221, 0.000000], FinalFingerPos=[12.405779, 5.080000, 4.229740], Midi=[None]
+20200121_133711,2.37833,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.37848,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.38383,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=1.033463, Coord=[84.304390, -24.972131, 0.000000], FinalFingerPos=[9.777869, 5.080000, 12.995610], Midi=[None]
+20200121_133711,2.38617,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.38635,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.39457,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.185486, Coord=[93.103897, -32.969863, 0.000000], FinalFingerPos=[1.780137, 5.080000, 4.196103], Midi=[None]
+20200121_133711,2.39798,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.39813,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.40705,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.373230, Coord=[99.279852, -41.123118, 0.000000], FinalFingerPos=[-6.373118, 5.080000, -1.979852], Midi=[None]
+20200121_133711,2.4074,DEBUG!,1,4,1,0,======================
+20200121_133711,2.40761,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133711,2.4133,DEBUG!,1,4,1,0,======================
+20200121_133711,2.41351,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133711,2.41364,Information,1,4,1,0,Getting values from Leddar
+20200121_133711,2.4907,Information,1,4,1,0,Leddar Values: [ 1.305, 1.221, 1.211, 1.196, 1.157, 1.155, 1.136, 1.092, 1.090, 1.156, 1.160, 1.162, 1.158, 1.105, 1.218, 1.381]
+20200121_133711,2.49476,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.49498,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.50677,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.304581, Coord=[98.647060, 40.861006, 0.000000], FinalFingerPos=[75.611006, 5.080000, -1.347060], Midi=[None]
+20200121_133711,2.51129,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.51171,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.52368,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221054, Coord=[98.266577, 34.798067, 0.000000], FinalFingerPos=[69.548067, 5.080000, -0.966577], Midi=[None]
+20200121_133711,2.5308,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.53116,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.54375,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.210526, Coord=[98.098256, 29.058065, 0.000000], FinalFingerPos=[63.808065, 5.080000, -0.798256], Midi=[None]
+20200121_133711,2.54666,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.54681,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.55466,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195816, Coord=[97.884975, 23.500133, 0.000000], FinalFingerPos=[58.250133, 5.080000, -0.584975], Midi=[None]
+20200121_133711,2.5573,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.55744,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.56348,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.156891, Coord=[98.016874, 18.166377, 0.000000], FinalFingerPos=[52.916377, 5.080000, -0.716874], Midi=[None]
+20200121_133711,2.56607,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.56629,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.57392,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.155457, Coord=[98.118589, 12.917573, 0.000000], FinalFingerPos=[47.667573, 5.080000, -0.818589], Midi=[None]
+20200121_133711,2.57702,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.57716,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.58321,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136169, Coord=[97.316890, 7.659015, 0.000000], FinalFingerPos=[42.409015, 5.080000, -0.016890], Midi=[None]
+20200121_133711,2.58713,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.58726,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.59491,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,2.59506,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,2.5952,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092422, Coord=[97.282255, 2.547429, 0.000000], FinalFingerPos=[37.297429, 5.080000, 0.017745], Midi=[D4]
+20200121_133711,2.5953,Information,1,4,1,0,D4On
+20200121_133711,2.59542,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133711,2.59907,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.59932,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.60617,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133711,2.60633,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133711,2.60647,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.090454, Coord=[96.965525, -2.539135, 0.000000], FinalFingerPos=[32.210865, 5.080000, 0.334475], Midi=[B3]
+20200121_133711,2.60657,Information,1,4,1,0,B3On
+20200121_133711,2.60668,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133711,2.60928,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.60942,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.61415,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.156097, Coord=[98.087306, -7.719648, 0.000000], FinalFingerPos=[27.030352, 5.080000, -0.787306], Midi=[None]
+20200121_133711,2.61686,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.61701,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.62569,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160248, Coord=[97.423711, -12.826091, 0.000000], FinalFingerPos=[21.923909, 5.080000, -0.123711], Midi=[None]
+20200121_133711,2.62863,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133711,2.62878,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133711,2.63718,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.161591, Coord=[98.498640, -18.255667, 0.000000], FinalFingerPos=[16.494333, 5.080000, -1.198640], Midi=[None]
+20200121_133712,2.6394,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.63954,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.6449,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,2.64505,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,2.64519,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.158401, Coord=[95.510977, -22.930186, 0.000000], FinalFingerPos=[11.819814, 5.080000, 1.789023], Midi=[G2]
+20200121_133712,2.64529,Information,1,4,1,0,G2On
+20200121_133712,2.64542,DEBUG!,1,4,1,0,Keyboard Being asked to play key G2
+20200121_133712,2.64741,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.64756,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.65359,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=1.104996, Coord=[91.163134, -27.003786, 0.000000], FinalFingerPos=[7.746214, 5.080000, 6.136866], Midi=[None]
+20200121_133712,2.65751,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.65765,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.66364,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,2.66383,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,2.66414,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.218140, Coord=[96.181980, -34.059871, 0.000000], FinalFingerPos=[0.690129, 5.080000, 1.118020], Midi=[C2]
+20200121_133712,2.66438,Information,1,4,1,0,C2On
+20200121_133712,2.66465,DEBUG!,1,4,1,0,Keyboard Being asked to play key C2
+20200121_133712,2.66907,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.66922,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.67753,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.380844, Coord=[99.983306, -41.414498, 0.000000], FinalFingerPos=[-6.664498, 5.080000, -2.683306], Midi=[None]
+20200121_133712,2.6782,DEBUG!,1,4,1,0,======================
+20200121_133712,2.67861,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133712,2.68414,DEBUG!,1,4,1,0,======================
+20200121_133712,2.68437,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133712,2.68455,Information,1,4,1,0,Getting values from Leddar
+20200121_133712,2.70085,Information,1,4,1,0,Leddar Values: [ 1.306, 1.221, 1.212, 1.196, 1.157, 1.155, 1.136, 1.092, 1.091, 1.156, 1.161, 1.162, 1.164, 1.045, 1.034, 1.354]
+20200121_133712,2.70388,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.70403,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.71152,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.305756, Coord=[98.755609, 40.905969, 0.000000], FinalFingerPos=[75.655969, 5.080000, -1.455609], Midi=[None]
+20200121_133712,2.71593,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.71609,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.72253,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221130, Coord=[98.273769, 34.800613, 0.000000], FinalFingerPos=[69.550613, 5.080000, -0.973769], Midi=[None]
+20200121_133712,2.7263,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.72645,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.7342,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.211884, Coord=[98.228467, 29.096636, 0.000000], FinalFingerPos=[63.846636, 5.080000, -0.928467], Midi=[None]
+20200121_133712,2.73834,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.73849,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.74474,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195511, Coord=[97.855300, 23.493009, 0.000000], FinalFingerPos=[58.243009, 5.080000, -0.555300], Midi=[None]
+20200121_133712,2.74676,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.7469,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.75306,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.156586, Coord=[97.986868, 18.160815, 0.000000], FinalFingerPos=[52.910815, 5.080000, -0.686868], Midi=[None]
+20200121_133712,2.75497,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.75511,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.76078,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.155273, Coord=[98.100435, 12.915183, 0.000000], FinalFingerPos=[47.665183, 5.080000, -0.800435], Midi=[None]
+20200121_133712,2.76278,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.76292,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.77021,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136246, Coord=[97.324496, 7.659613, 0.000000], FinalFingerPos=[42.409613, 5.080000, -0.024496], Midi=[None]
+20200121_133712,2.77405,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.7742,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.77895,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,2.77909,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,2.77923,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092392, Coord=[97.279204, 2.547349, 0.000000], FinalFingerPos=[37.297349, 5.080000, 0.020796], Midi=[D4]
+20200121_133712,2.77933,Information,1,4,1,0,D4On
+20200121_133712,2.77945,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133712,2.781,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.78115,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.78921,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,2.78939,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,2.78954,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.090652, Coord=[96.985354, -2.539654, 0.000000], FinalFingerPos=[32.210346, 5.080000, 0.314646], Midi=[B3]
+20200121_133712,2.78964,Information,1,4,1,0,B3On
+20200121_133712,2.78975,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133712,2.79239,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.79254,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.80006,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.156433, Coord=[98.120772, -7.722282, 0.000000], FinalFingerPos=[27.027718, 5.080000, -0.820772], Midi=[None]
+20200121_133712,2.80317,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.80332,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.81048,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160950, Coord=[97.493301, -12.835253, 0.000000], FinalFingerPos=[21.914747, 5.080000, -0.193301], Midi=[None]
+20200121_133712,2.81239,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.81255,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.8178,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.162170, Coord=[98.555653, -18.266234, 0.000000], FinalFingerPos=[16.483766, 5.080000, -1.255653], Midi=[None]
+20200121_133712,2.81982,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.81997,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.82643,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,2.82657,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,2.82671,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.163589, Coord=[96.015442, -23.051298, 0.000000], FinalFingerPos=[11.698702, 5.080000, 1.284558], Midi=[G2]
+20200121_133712,2.82681,Information,1,4,1,0,G2On
+20200121_133712,2.82693,DEBUG!,1,4,1,0,Keyboard Being asked to play key G2
+20200121_133712,2.82838,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.82852,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.83436,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=1.045303, Coord=[85.439712, -25.308429, 0.000000], FinalFingerPos=[9.441571, 5.080000, 11.860288], Midi=[None]
+20200121_133712,2.83703,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.83718,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.84275,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.034058, Coord=[78.829646, -27.915079, 0.000000], FinalFingerPos=[6.834921, 5.080000, 18.470354], Midi=[None]
+20200121_133712,2.84637,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.84652,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.85284,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.354279, Coord=[97.528970, -40.397878, 0.000000], FinalFingerPos=[-5.647878, 5.080000, -0.228970], Midi=[None]
+20200121_133712,2.8532,DEBUG!,1,4,1,0,======================
+20200121_133712,2.85342,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133712,2.85876,DEBUG!,1,4,1,0,======================
+20200121_133712,2.85896,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133712,2.85909,Information,1,4,1,0,Getting values from Leddar
+20200121_133712,2.96953,Information,1,4,1,0,Leddar Values: [ 1.305, 1.221, 1.212, 1.195, 1.157, 1.156, 1.137, 1.092, 1.091, 1.157, 1.161, 1.162, 1.160, 0.889, 0.880, 1.308]
+20200121_133712,2.9735,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.97372,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,2.98557,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.305298, Coord=[98.713317, 40.888451, 0.000000], FinalFingerPos=[75.638451, 5.080000, -1.413317], Midi=[None]
+20200121_133712,2.99009,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,2.99032,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.00443,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221130, Coord=[98.273769, 34.800613, 0.000000], FinalFingerPos=[69.550613, 5.080000, -0.973769], Midi=[None]
+20200121_133712,3.00884,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.00907,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.02226,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.212143, Coord=[98.253339, 29.104003, 0.000000], FinalFingerPos=[63.854003, 5.080000, -0.953339], Midi=[None]
+20200121_133712,3.02783,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.02806,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.03819,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.195465, Coord=[97.850849, 23.491941, 0.000000], FinalFingerPos=[58.241941, 5.080000, -0.550849], Midi=[None]
+20200121_133712,3.04444,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.04467,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.05574,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157013, Coord=[98.028877, 18.168601, 0.000000], FinalFingerPos=[52.918601, 5.080000, -0.728877], Midi=[None]
+20200121_133712,3.05972,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.05994,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.07162,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.156021, Coord=[98.174563, 12.924943, 0.000000], FinalFingerPos=[47.674943, 5.080000, -0.874563], Midi=[None]
+20200121_133712,3.07523,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.07552,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.09001,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136658, Coord=[97.365568, 7.662846, 0.000000], FinalFingerPos=[42.412846, 5.080000, -0.065568], Midi=[None]
+20200121_133712,3.09429,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.09462,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.1081,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,3.10834,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,3.10856,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092392, Coord=[97.279204, 2.547349, 0.000000], FinalFingerPos=[37.297349, 5.080000, 0.020796], Midi=[D4]
+20200121_133712,3.10873,Information,1,4,1,0,D4On
+20200121_133712,3.1089,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133712,3.11442,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.11464,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.12992,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,3.13017,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,3.13038,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.090958, Coord=[97.015861, -2.540453, 0.000000], FinalFingerPos=[32.209547, 5.080000, 0.284139], Midi=[B3]
+20200121_133712,3.13055,Information,1,4,1,0,B3On
+20200121_133712,3.13073,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133712,3.13457,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.13493,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.14709,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.157242, Coord=[98.201394, -7.728627, 0.000000], FinalFingerPos=[27.021373, 5.080000, -0.901394], Midi=[None]
+20200121_133712,3.15586,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.1561,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.16887,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160995, Coord=[97.497839, -12.835850, 0.000000], FinalFingerPos=[21.914150, 5.080000, -0.197839], Midi=[None]
+20200121_133712,3.1748,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.17503,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.18697,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.162018, Coord=[98.540649, -18.263453, 0.000000], FinalFingerPos=[16.486547, 5.080000, -1.240649], Midi=[None]
+20200121_133712,3.19116,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.19141,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.20273,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,3.20296,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,3.20317,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.160461, Coord=[95.711279, -22.978275, 0.000000], FinalFingerPos=[11.771725, 5.080000, 1.588721], Midi=[G2]
+20200121_133712,3.20333,Information,1,4,1,0,G2On
+20200121_133712,3.20351,DEBUG!,1,4,1,0,Keyboard Being asked to play key G2
+20200121_133712,3.20707,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.20728,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.21803,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=0.888779, Coord=[70.431820, -20.862883, 0.000000], FinalFingerPos=[13.887117, 5.080000, 26.868180], Midi=[None]
+20200121_133712,3.22385,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.22407,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.23336,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=0.879837, Coord=[64.292177, -22.767084, 0.000000], FinalFingerPos=[11.982916, 5.080000, 33.007823], Midi=[None]
+20200121_133712,3.23952,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.23975,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.2507,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.307831, Coord=[93.237758, -38.620397, 0.000000], FinalFingerPos=[-3.870397, 5.080000, 4.062242], Midi=[None]
+20200121_133712,3.25126,DEBUG!,1,4,1,0,======================
+20200121_133712,3.2516,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133712,3.25681,DEBUG!,1,4,1,0,======================
+20200121_133712,3.25709,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133712,3.25727,Information,1,4,1,0,Getting values from Leddar
+20200121_133712,3.28914,Information,1,4,1,0,Leddar Values: [ 1.307, 1.221, 1.212, 1.196, 1.157, 1.157, 1.137, 1.093, 1.091, 1.157, 1.161, 1.162, 1.120, 0.930, 1.154, 1.338]
+20200121_133712,3.29295,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.29319,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.30706,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.306717, Coord=[98.844422, 40.942756, 0.000000], FinalFingerPos=[75.692756, 5.080000, -1.544422], Midi=[None]
+20200121_133712,3.3136,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.31382,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.32929,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.221237, Coord=[98.283838, 34.804179, 0.000000], FinalFingerPos=[69.554179, 5.080000, -0.983838], Midi=[None]
+20200121_133712,3.33365,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.33402,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.34616,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.212326, Coord=[98.270895, 29.109203, 0.000000], FinalFingerPos=[63.859203, 5.080000, -0.970895], Midi=[None]
+20200121_133712,3.35238,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.35262,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.36395,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.196274, Coord=[97.929486, 23.510820, 0.000000], FinalFingerPos=[58.260820, 5.080000, -0.629486], Midi=[None]
+20200121_133712,3.36809,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.36832,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.37881,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.157379, Coord=[98.064885, 18.175275, 0.000000], FinalFingerPos=[52.925275, 5.080000, -0.764885], Midi=[None]
+20200121_133712,3.3849,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.38517,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.39755,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.156662, Coord=[98.238102, 12.933308, 0.000000], FinalFingerPos=[47.683308, 5.080000, -0.938102], Midi=[None]
+20200121_133712,3.40229,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.40254,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.41545,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.137207, Coord=[97.420330, 7.667156, 0.000000], FinalFingerPos=[42.417156, 5.080000, -0.120330], Midi=[None]
+20200121_133712,3.42177,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.42202,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.43401,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092636, Coord=[97.303610, 2.547988, 0.000000], FinalFingerPos=[37.297988, 5.080000, -0.003610], Midi=[None]
+20200121_133712,3.43838,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.4386,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.44981,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,3.45006,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,3.45032,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.090881, Coord=[97.008235, -2.540253, 0.000000], FinalFingerPos=[32.209747, 5.080000, 0.291765], Midi=[B3]
+20200121_133712,3.45048,Information,1,4,1,0,B3On
+20200121_133712,3.45066,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133712,3.45409,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.45432,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.46528,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.157471, Coord=[98.224212, -7.730423, 0.000000], FinalFingerPos=[27.019577, 5.080000, -0.924212], Midi=[None]
+20200121_133712,3.47154,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.47178,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.48198,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.161224, Coord=[97.520531, -12.838838, 0.000000], FinalFingerPos=[21.911162, 5.080000, -0.220531], Midi=[None]
+20200121_133712,3.4883,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.48854,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.50025,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.161774, Coord=[98.516644, -18.259004, 0.000000], FinalFingerPos=[16.490996, 5.080000, -1.216644], Midi=[None]
+20200121_133712,3.50708,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.50732,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.51878,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.120239, Coord=[91.800197, -22.039306, 0.000000], FinalFingerPos=[12.710694, 5.080000, 5.499803], Midi=[None]
+20200121_133712,3.5235,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.52381,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.53565,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=0.929581, Coord=[74.343996, -22.021724, 0.000000], FinalFingerPos=[12.728276, 5.080000, 22.956004], Midi=[None]
+20200121_133712,3.54305,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.54346,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.55578,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.153610, Coord=[90.099170, -31.905832, 0.000000], FinalFingerPos=[2.844168, 5.080000, 7.200830], Midi=[None]
+20200121_133712,3.55998,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.56021,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.57174,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133712,3.57195,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133712,3.57214,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.338104, Coord=[96.034658, -39.778912, 0.000000], FinalFingerPos=[-5.028912, 5.080000, 1.265342], Midi=[None]
+20200121_133712,3.57257,DEBUG!,1,4,1,0,======================
+20200121_133712,3.57287,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133712,3.57934,DEBUG!,1,4,1,0,======================
+20200121_133712,3.57961,DEBUG!,1,4,1,0,Keyboard Resetting keys played
+20200121_133712,3.57977,Information,1,4,1,0,Getting values from Leddar
+20200121_133712,3.60868,Information,1,4,1,0,Leddar Values: [ 1.306, 1.221, 1.211, 1.196, 1.157, 1.156, 1.137, 1.092, 1.090, 1.157, 1.161, 1.162, 1.165, 1.151, 1.215, 1.380]
+20200121_133712,3.61071,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.6108,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.61586,Information,1,4,1,0,In MC Loop, Leddar, Idx=0, Leddar=1.306290, Coord=[98.804950, 40.926406, 0.000000], FinalFingerPos=[75.676406, 5.080000, -1.504950], Midi=[None]
+20200121_133712,3.61711,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.61717,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.62003,Information,1,4,1,0,In MC Loop, Leddar, Idx=1, Leddar=1.220886, Coord=[98.250755, 34.792464, 0.000000], FinalFingerPos=[69.542464, 5.080000, -0.950755], Midi=[None]
+20200121_133712,3.62109,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.62115,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.6246,Information,1,4,1,0,In MC Loop, Leddar, Idx=2, Leddar=1.210709, Coord=[98.115813, 29.063266, 0.000000], FinalFingerPos=[63.813266, 5.080000, -0.815813], Midi=[None]
+20200121_133712,3.62602,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.62608,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.6277,Information,1,4,1,0,In MC Loop, Leddar, Idx=3, Leddar=1.196014, Coord=[97.904263, 23.504764, 0.000000], FinalFingerPos=[58.254764, 5.080000, -0.604263], Midi=[None]
+20200121_133712,3.6286,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.62865,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.63042,Information,1,4,1,0,In MC Loop, Leddar, Idx=4, Leddar=1.156754, Coord=[98.003371, 18.163874, 0.000000], FinalFingerPos=[52.913874, 5.080000, -0.703371], Midi=[None]
+20200121_133712,3.63198,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.63203,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133712,3.63641,Information,1,4,1,0,In MC Loop, Leddar, Idx=5, Leddar=1.155731, Coord=[98.145819, 12.921158, 0.000000], FinalFingerPos=[47.671158, 5.080000, -0.845819], Midi=[None]
+20200121_133712,3.63735,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133712,3.6374,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.63969,Information,1,4,1,0,In MC Loop, Leddar, Idx=6, Leddar=1.136856, Coord=[97.385343, 7.664402, 0.000000], FinalFingerPos=[42.414402, 5.080000, -0.085343], Midi=[None]
+20200121_133713,3.64041,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.64046,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.64193,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133713,3.64198,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133713,3.64202,Information,1,4,1,0,In MC Loop, Leddar, Idx=7, Leddar=1.092468, Coord=[97.286831, 2.547548, 0.000000], FinalFingerPos=[37.297548, 5.080000, 0.013169], Midi=[D4]
+20200121_133713,3.64206,Information,1,4,1,0,D4On
+20200121_133713,3.6421,DEBUG!,1,4,1,0,Keyboard Being asked to play key D4
+20200121_133713,3.64293,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.64298,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.64592,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133713,3.64598,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133713,3.64602,Information,1,4,1,0,In MC Loop, Leddar, Idx=8, Leddar=1.090485, Coord=[96.968575, -2.539215, 0.000000], FinalFingerPos=[32.210785, 5.080000, 0.331425], Midi=[B3]
+20200121_133713,3.64606,Information,1,4,1,0,B3On
+20200121_133713,3.6461,DEBUG!,1,4,1,0,Keyboard Being asked to play key B3
+20200121_133713,3.64783,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.64788,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.65004,Information,1,4,1,0,In MC Loop, Leddar, Idx=9, Leddar=1.156509, Coord=[98.128378, -7.722880, 0.000000], FinalFingerPos=[27.027120, 5.080000, -0.828378], Midi=[None]
+20200121_133713,3.6507,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.65075,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.65245,Information,1,4,1,0,In MC Loop, Leddar, Idx=10, Leddar=1.160889, Coord=[97.487249, -12.834456, 0.000000], FinalFingerPos=[21.915544, 5.080000, -0.187249], Midi=[None]
+20200121_133713,3.65312,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.65316,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.65478,Information,1,4,1,0,In MC Loop, Leddar, Idx=11, Leddar=1.162338, Coord=[98.572156, -18.269292, 0.000000], FinalFingerPos=[16.480708, 5.080000, -1.272156], Midi=[None]
+20200121_133713,3.65646,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.6565,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.65945,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133713,3.65951,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133713,3.65956,Information,1,4,1,0,In MC Loop, Leddar, Idx=12, Leddar=1.165329, Coord=[96.184586, -23.091906, 0.000000], FinalFingerPos=[11.658094, 5.080000, 1.115414], Midi=[G2]
+20200121_133713,3.65959,Information,1,4,1,0,G2On
+20200121_133713,3.65963,DEBUG!,1,4,1,0,Keyboard Being asked to play key G2
+20200121_133713,3.66058,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.66063,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.66208,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133713,3.66213,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133713,3.66218,Information,1,4,1,0,In MC Loop, Leddar, Idx=13, Leddar=1.151016, Coord=[95.575671, -28.310841, 0.000000], FinalFingerPos=[6.439159, 5.080000, 1.724329], Midi=[E2]
+20200121_133713,3.66221,Information,1,4,1,0,E2On
+20200121_133713,3.66225,DEBUG!,1,4,1,0,Keyboard Being asked to play key E2
+20200121_133713,3.66274,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.66279,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.66422,DEBUG!,1,4,1,0,Enter keyboard range Z
+20200121_133713,3.66426,DEBUG!,1,4,1,0,Enter keyboard range of Bottom section Y (white notes only)
+20200121_133713,3.66431,Information,1,4,1,0,In MC Loop, Leddar, Idx=14, Leddar=1.215500, Coord=[95.933144, -33.971753, 0.000000], FinalFingerPos=[0.778247, 5.080000, 1.366856], Midi=[C2]
+20200121_133713,3.66435,Information,1,4,1,0,C2On
+20200121_133713,3.66439,DEBUG!,1,4,1,0,Keyboard Being asked to play key C2
+20200121_133713,3.66487,DEBUG!,1,4,1,0,Translating leddar finger coordinate to keyboard
+20200121_133713,3.66491,DEBUG!,1,4,1,0,In Leddar Above Position
+20200121_133713,3.66684,Information,1,4,1,0,In MC Loop, Leddar, Idx=15, Leddar=1.379654, Coord=[99.873348, -41.368952, 0.000000], FinalFingerPos=[-6.618952, 5.080000, -2.573348], Midi=[None]
+20200121_133713,3.66696,DEBUG!,1,4,1,0,======================
+20200121_133713,3.66706,Information,1,4,1,0,At begining of Master Control's loop
+20200121_133713,3.66835,Information,1,4,1,0,Attempting to Close out Leddar
