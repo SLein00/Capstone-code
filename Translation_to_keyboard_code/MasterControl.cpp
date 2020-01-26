@@ -26,11 +26,11 @@ double LeddarFrontpositioncoordinateX = 34.75;
 double LeddarFrontpositioncoordinateY = 30.1;
 double LeddarFrontpositioncoordinateZ = 1.5;
 double LeddarWebcampositioncoordinateX = 34.75;
-double LeddarWebcampositioncoordinateY = 30.1;
-double LeddarWebcampositioncoordinateZ = 45;
+double LeddarWebcampositioncoordinateY = 47.3;//
+double LeddarWebcampositioncoordinateZ = 60.96;//
 double LeddarAbovepositioncoordinateX = 34.75;
 double LeddarAbovepositioncoordinateY = 5.08;
-double LeddarAbovepositioncoordinateZ = 97.3;
+double LeddarAbovepositioncoordinateZ = 97.3; 
 //Leap sensor position coordinates in cm
 double LeapSidepositioncoordinateX = -15;
 double LeapSidepositioncoordinateY = 7.75;

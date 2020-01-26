@@ -27,11 +27,11 @@ public:
 	double LeddarFrontpositioncoordinateY = 30.1;
 	double LeddarFrontpositioncoordinateZ = 1.5;
 	double LeddarWebcampositioncoordinateX = 34.75;
-	double LeddarWebcampositioncoordinateY = 30.1;
-	double LeddarWebcampositioncoordinateZ = 45;
+	double LeddarWebcampositioncoordinateY = 47.3; //We will see
+	double LeddarWebcampositioncoordinateZ = 60.96; //
 	double LeddarAbovepositioncoordinateX = 34.75;
 	double LeddarAbovepositioncoordinateY = 5.08;
-	double LeddarAbovepositioncoordinateZ = 97.3;
+	double LeddarAbovepositioncoordinateZ = 97.3; 
 	//Leap sensor position coordinates
 	double LeapSidepositioncoordinateX = -15;
 	double LeapSidepositioncoordinateY = 7.75;
@@ -78,9 +78,10 @@ public:
 							{0, -1, 0, LeddarFrontpositioncoordinateY},
 							{0, 0, 1, LeddarFrontpositioncoordinateZ},
 							{0, 0, 0, 1} } };
-	std::array<std::array<double, 4>, 4> Leddarwebcammatrix = { { {1, 0, 0, LeddarWebcampositioncoordinateX},
-					{0, -sqrt(20) / 2, sqrt(20) / 2, LeddarWebcampositioncoordinateY},
-					{0, -sqrt(20) / 2, -sqrt(20) / 2, LeddarWebcampositioncoordinateZ},
+	std::array<std::array<double, 4>, 4> Leddarwebcammatrix = { 
+					{ {0, 1, 0, LeddarWebcampositioncoordinateX},
+					{-.6428, 0, -.766, LeddarWebcampositioncoordinateY},
+					{-.766, 0, .6428, LeddarWebcampositioncoordinateZ},
 					{0, 0, 0, 1} } };
 	std::array<std::array<double, 4>, 4> Leddarabovematrix = 
 						{ { {0, 1, 0, LeddarAbovepositioncoordinateX},
