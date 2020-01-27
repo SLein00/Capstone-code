@@ -380,13 +380,16 @@ int main() {//Beginning of main
 		}
 		else if (sensortype == 3) {//Realsense
 			//condition data
-			Log1.log(Logger::LogLevel::ERROR, "Chose Realsense and Code has yet to be made for said sensor.");
+			//Log1.log(Logger::LogLevel::ERROR, "Chose Realsense and Code has yet to be made for said sensor.");
 
-			for (int n = 0; n < numkeys ; n++) {
-				testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
-				testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
-				Log1.log(Logger::LogLevel::NOTES, note, "On");
-			}
+			//for (int n = 0; n < numkeys ; n++) {
+			//	testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
+			//	testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
+			//	Log1.log(Logger::LogLevel::NOTES, note, "On");
+			//}
+			
+			testsensorRealsense.GetPointCloud();  // throw the data away, but see if the command line outputs a distance.
+
 		}
 		else if (sensortype == 4) { // fake random keyboard
 			midioutput.resetKeys();

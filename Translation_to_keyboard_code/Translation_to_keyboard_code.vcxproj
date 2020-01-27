@@ -97,9 +97,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\rtmidi;$(IncludePath)</IncludePath>
+    <ExecutablePath>..\librealsense\build\Debug;$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SamiDebug|x64'">
     <IncludePath>C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\rtmidi;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ExecutablePath>..\librealsense\build\Release;$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -129,12 +133,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;..\rtmidi;..\LeddarSDK\src\Leddar;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;..\librealsense\include\;..\rtmidi;..\LeddarSDK\src\Leddar;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>rtmidid.lib;..\LeddarSDK\src\LeddarConfigurator4\x64\Debug\LeddarConfigurator4d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\LeddarSDK\src\LeddarConfigurator4\x64\Debug;..\rtmidi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>..\librealsense\build\Debug\realsense2d.lib;rtmidid.lib;..\LeddarSDK\src\LeddarConfigurator4\x64\Debug\LeddarConfigurator4d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\librealsense\build\Debug;..\LeddarSDK\src\LeddarConfigurator4\x64\Debug;..\rtmidi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SamiDebug|x64'">
@@ -143,7 +147,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;..\LeddarSDK\src\Leddar;..\rtmidi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;..\librealsense\include\;..\LeddarSDK\src\Leddar;..\rtmidi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -174,14 +178,14 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;..\LeddarSDK\src\Leddar;..\rtmidi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;..\librealsense\include\;..\LeddarSDK\src\Leddar;..\rtmidi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\LeddarSDK\src\LeddarConfigurator4\x64\Release;..\rtmidi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>rtmidi.lib;..\LeddarSDK\src\LeddarConfigurator4\x64\Release\LeddarConfigurator4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\librealsense\build\Release;..\LeddarSDK\src\LeddarConfigurator4\x64\Release;..\rtmidi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>..\librealsense\build\release\realsense2.lib;rtmidi.lib;..\LeddarSDK\src\LeddarConfigurator4\x64\Release\LeddarConfigurator4.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
