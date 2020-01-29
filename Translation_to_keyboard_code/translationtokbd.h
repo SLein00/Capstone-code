@@ -24,11 +24,11 @@ public:
 	double LeddarSidepositioncoordinateY = 5.08;
 	double LeddarSidepositioncoordinateZ = 1;
 	double LeddarFrontpositioncoordinateX = 34.75;
-	double LeddarFrontpositioncoordinateY = 30.1;
-	double LeddarFrontpositioncoordinateZ = 1.5;
+	double LeddarFrontpositioncoordinateY = 78.2;
+	double LeddarFrontpositioncoordinateZ = 1;
 	double LeddarWebcampositioncoordinateX = 34.75;
-	double LeddarWebcampositioncoordinateY = 47.3; //We will see
-	double LeddarWebcampositioncoordinateZ = 60.96; //
+	double LeddarWebcampositioncoordinateY = 41.3; //We will see
+	double LeddarWebcampositioncoordinateZ = 67; //62
 	double LeddarAbovepositioncoordinateX = 34.75;
 	double LeddarAbovepositioncoordinateY = 5.08;
 	double LeddarAbovepositioncoordinateZ = 97.3; 
@@ -74,15 +74,25 @@ public:
 							{0.0, 0.0, 1.0, LeddarSidepositioncoordinateZ},
 							{0.0, 0.0, 0.0, 1.0} } };
 	//Above is a translation matrix, no rotation was needed so the rotation peice is just the identity matrix
-	std::array<std::array<double, 4>, 4> Leddarfrontmatrix = { { {-1, 0, 0, LeddarFrontpositioncoordinateX},
-							{0, -1, 0, LeddarFrontpositioncoordinateY},
+	std::array<std::array<double, 4>, 4> Leddarfrontmatrix = { { 
+							{0, 1, 0, LeddarFrontpositioncoordinateX},
+							{-1, 0, 0, LeddarFrontpositioncoordinateY},
 							{0, 0, 1, LeddarFrontpositioncoordinateZ},
 							{0, 0, 0, 1} } };
+
 	std::array<std::array<double, 4>, 4> Leddarwebcammatrix = { 
 					{ {0, 1, 0, LeddarWebcampositioncoordinateX},
+					{-.5, 0, -.8660254038, LeddarWebcampositioncoordinateY},
+					{-.8660254038, 0, .5, LeddarWebcampositioncoordinateZ},
+					{0, 0, 0, 1} } };//X rotation of 60 degrees
+	/*{ {0, 1, 0, LeddarWebcampositioncoordinateX},
+					{-.7660444431, 0, -.6427876097, LeddarWebcampositioncoordinateY},
+					{-.6427876097, 0, .7660444431, LeddarWebcampositioncoordinateZ},
+					{0, 0, 0, 1} }//X rotation of 40 degrees
+	{ {0, 1, 0, LeddarWebcampositioncoordinateX},
 					{-.6428, 0, -.766, LeddarWebcampositioncoordinateY},
 					{-.766, 0, .6428, LeddarWebcampositioncoordinateZ},
-					{0, 0, 0, 1} } };
+					{0, 0, 0, 1} }*///X rotation of 50 degrees
 	std::array<std::array<double, 4>, 4> Leddarabovematrix = 
 						{ { {0, 1, 0, LeddarAbovepositioncoordinateX},
 							{0, 0, -1, LeddarAbovepositioncoordinateY},
