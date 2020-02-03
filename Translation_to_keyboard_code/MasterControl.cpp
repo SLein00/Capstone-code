@@ -19,15 +19,15 @@ int location;
 int songtype; 
 int trialnum;
 //LeddarTech sensor position coordinates in cm
-double LeddarSidepositioncoordinateX = -68.2; //Original trial was -18.5
+/*double LeddarSidepositioncoordinateX = -68.2; //Original trial was -18.5
 double LeddarSidepositioncoordinateY = 5.08;
 double LeddarSidepositioncoordinateZ = 1; //Trying at "1 cm"
 double LeddarFrontpositioncoordinateX = 34.75;
 double LeddarFrontpositioncoordinateY = 30.1;
 double LeddarFrontpositioncoordinateZ = 1.5;
 double LeddarWebcampositioncoordinateX = 34.75;
-double LeddarWebcampositioncoordinateY = 47.3;//
-double LeddarWebcampositioncoordinateZ = 60.96;//
+double LeddarWebcampositioncoordinateY = 41.3;//103.3-62
+double LeddarWebcampositioncoordinateZ = 62;//60.96
 double LeddarAbovepositioncoordinateX = 34.75;
 double LeddarAbovepositioncoordinateY = 5.08;
 double LeddarAbovepositioncoordinateZ = 97.3; 
@@ -56,7 +56,7 @@ double RealsenseWebcampositioncoordinateY = 30.1;
 double RealsenseWebcampositioncoordinateZ = 45;
 double RealsenseAbovepositioncoordinateX = 34.75;
 double RealsenseAbovepositioncoordinateY = 7.55;
-double RealsenseAbovepositioncoordinateZ = 60;
+double RealsenseAbovepositioncoordinateZ = 60; */
 
 double posX;
 double posY;
@@ -198,72 +198,72 @@ int main() {//Beginning of main
 		testsensorLeddar.InitializeSensor();
 		//Location initialization
 		if (location == 1) {//Side position
-			posX = LeddarSidepositioncoordinateX;
-			posY = LeddarSidepositioncoordinateY;
-			posZ = LeddarSidepositioncoordinateZ;
+			posX = testsensors.LeddarSidepositioncoordinateX;
+			posY = testsensors.LeddarSidepositioncoordinateY;
+			posZ = testsensors.LeddarSidepositioncoordinateZ;
 		}
 		else if (location == 2) {//Front position
-			posX = LeddarFrontpositioncoordinateX;
-			posY = LeddarFrontpositioncoordinateY;
-			posZ = LeddarFrontpositioncoordinateZ;
+			posX = testsensors.LeddarFrontpositioncoordinateX;
+			posY = testsensors.LeddarFrontpositioncoordinateY;
+			posZ = testsensors.LeddarFrontpositioncoordinateZ;
 		}
 		else if (location == 3) {//Webcam position
-			posX = LeddarWebcampositioncoordinateX;
-			posY = LeddarWebcampositioncoordinateY;
-			posZ = LeddarWebcampositioncoordinateZ;
+			posX = testsensors.LeddarWebcampositioncoordinateX;
+			posY = testsensors.LeddarWebcampositioncoordinateY;
+			posZ = testsensors.LeddarWebcampositioncoordinateZ;
 		}
 		else if (location == 4) {//Above position
-			posX = LeddarAbovepositioncoordinateX;
-			posY = LeddarAbovepositioncoordinateY;
-			posZ = LeddarAbovepositioncoordinateZ;
+			posX = testsensors.LeddarAbovepositioncoordinateX;
+			posY = testsensors.LeddarAbovepositioncoordinateY;
+			posZ = testsensors.LeddarAbovepositioncoordinateZ;
 		}
 	}
 	else if (sensortype == 2) {//Leap Motion
 		testsensorLeap.InitializeSensor();
 		//Location initialization
 		if (location == 1) {//Side position
-			posX = LeapSidepositioncoordinateX;
-			posY = LeapSidepositioncoordinateY;
-			posZ = LeapSidepositioncoordinateZ;
+			posX = testsensors.LeapSidepositioncoordinateX;
+			posY = testsensors.LeapSidepositioncoordinateY;
+			posZ = testsensors.LeapSidepositioncoordinateZ;
 		}
 		else if (location == 2) {//Front position
-			posX = LeapFrontpositioncoordinateX;
-			posY = LeapFrontpositioncoordinateY;
-			posZ = LeapFrontpositioncoordinateZ;
+			posX = testsensors.LeapFrontpositioncoordinateX;
+			posY = testsensors.LeapFrontpositioncoordinateY;
+			posZ = testsensors.LeapFrontpositioncoordinateZ;
 		}
 		else if (location == 3) {//Webcam position
-			posX = LeapWebcampositioncoordinateX;
-			posY = LeapWebcampositioncoordinateY;
-			posZ = LeapWebcampositioncoordinateZ;
+			posX = testsensors.LeapWebcampositioncoordinateX;
+			posY = testsensors.LeapWebcampositioncoordinateY;
+			posZ = testsensors.LeapWebcampositioncoordinateZ;
 		}
 		else if (location == 4) {//Above position
-			posX = LeapAbovepositioncoordinateX;
-			posY = LeapAbovepositioncoordinateY;
-			posZ = LeapAbovepositioncoordinateZ;
+			posX = testsensors.LeapAbovepositioncoordinateX;
+			posY = testsensors.LeapAbovepositioncoordinateY;
+			posZ = testsensors.LeapAbovepositioncoordinateZ;
 		}
 	} 
 	else if (sensortype == 3) {//Realsense
 		testsensorRealsense.InitializeSensor();
 		//Location initialization
 		if (location == 1) {//Side position
-			posX = RealsenseSidepositioncoordinateX;
-			posY = RealsenseSidepositioncoordinateY;
-			posZ = RealsenseSidepositioncoordinateZ;
+			posX = testsensors.RealsenseSidepositioncoordinateX;
+			posY = testsensors.RealsenseSidepositioncoordinateY;
+			posZ = testsensors.RealsenseSidepositioncoordinateZ;
 		}
 		else if (location == 2) {//Front position
-			posX = RealsenseFrontpositioncoordinateX;
-			posY = RealsenseFrontpositioncoordinateY;
-			posZ = RealsenseFrontpositioncoordinateZ;
+			posX = testsensors.RealsenseFrontpositioncoordinateX;
+			posY = testsensors.RealsenseFrontpositioncoordinateY;
+			posZ = testsensors.RealsenseFrontpositioncoordinateZ;
 		}
 		else if (location == 3) {//Webcam position
-			posX = RealsenseWebcampositioncoordinateX;
-			posY = RealsenseWebcampositioncoordinateY;
-			posZ = RealsenseWebcampositioncoordinateZ;
+			posX = testsensors.RealsenseWebcampositioncoordinateX;
+			posY = testsensors.RealsenseWebcampositioncoordinateY;
+			posZ = testsensors.RealsenseWebcampositioncoordinateZ;
 		}
 		else if (location == 4) {//Above position
-			posX = RealsenseAbovepositioncoordinateX;
-			posY = RealsenseAbovepositioncoordinateY;
-			posZ = RealsenseAbovepositioncoordinateZ;
+			posX = testsensors.RealsenseAbovepositioncoordinateX;
+			posY = testsensors.RealsenseAbovepositioncoordinateY;
+			posZ = testsensors.RealsenseAbovepositioncoordinateZ;
 		}
 	}
 	else if (sensortype == 4) {
