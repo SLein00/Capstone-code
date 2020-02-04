@@ -1,13 +1,26 @@
 #include "IntelRealsense.h"
+// Create a simple OpenGL window for rendering:
+window app(1280, 720, "RealSense Pointcloud Example");
+glfw_state app_state;
 
 int IntelRealsense::InitializeSensor(){
 	Log1.log(Logger::LogLevel::INFO, "Attempting to start the realsense");
 	// p.start();
-	// taken from RS example
-	window app(1280, 720, "RealSense Align Example");
-	ImGui_ImplGlfw_Init(app, false);      // ImGui library intializition
+	 // Create a simple OpenGL window for rendering:
+	//window app(1280, 720, "RealSense Pointcloud Example");
+	// Construct an object to manage view state
+	//glfw_state app_state;
+	// Declare pointcloud object, for calculating pointclouds and texture mappings
+	//rs2::pointcloud pc;
+	// We want the points object to be persistent so we can display the last cloud when a frame drops
+	//rs2::points points;
 
-	p.start();
+	// Declare RealSense pipeline, encapsulating the actual device and sensors
+	//rs2::pipeline pipe;
+	// Start streaming with default recommended configuration
+	pipe.start();
+
+
 	return 0;
 }
 
@@ -22,11 +35,46 @@ int IntelRealsense::CloseSensor() {
 double* IntelRealsense::GetPointCloud() {
 	
 	Log1.log(Logger::LogLevel::DEBUG, "In Realsense GetPointCloud");
-	rs2::frameset frames = p.wait_for_frames();
+	// Wait for the next set of frames from the camera
+	auto frames = pipe.wait_for_frames();
+
+	auto color = frames.get_color_frame();
+
+	// For cameras that don't have RGB sensor, we'll map the pointcloud to infrared instead of color
+	if (!color)
+		color = frames.get_infrared_frame();
+
+	// Tell pointcloud object to map to this color frame
+	pc.map_to(color);
+
+	auto depth = frames.get_depth_frame();
+
+	// Generate the pointcloud and texture mappings
+	points = pc.calculate(depth);
+
+	// Upload the color frame to OpenGL
+	app_state.tex.upload(color);
+
+	// Draw the pointcloud
+	//draw_pointcloud(app.width(), app.height(), app_state, points);
+
+	const rs2::vertex* verts = points.get_vertices();
+	rs2::vertex first = verts[0];
+	for (int idx = 0; idx < points.get_data_size(); idx++)
+	{
+		rs2::vertex vert = verts[idx];
+		if (vert.x != 0) {
+			std::cout << idx << ";" << vert.x << "," << vert.y << "," << vert.z << std::endl;
+		}
+		
+	}
+
+
+	/*rs2::frameset frames = pipe.wait_for_frames();
 	rs2::depth_frame depth = frames.get_depth_frame();
 	float width = depth.get_width();
 	float height = depth.get_height();
 	float distance_to_center = depth.get_distance(width / 2, height / 2);
-	std::cout << "The camera is facing an object " << distance_to_center << " meters away \r";
+	std::cout << "The camera is facing an object " << distance_to_center << " meters away \r";*/
 	return nullptr;
 }

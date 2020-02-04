@@ -1,0 +1,9 @@
+20200204_131939,0.282417,Information,3,1,1,0,There are 1 MIDI Output ports available.
+20200204_131939,0.282783,Information,3,1,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200204_131939,0.283703,Information,3,1,1,0,Sensor 3 is Leddartech
+20200204_131939,0.283807,Information,3,1,1,0,Location 1 is Side
+20200204_131939,0.283895,Information,3,1,1,0,Song 1 is one-finger scales
+20200204_131939,0.283981,Information,3,1,1,0,Trial # is 0
+20200204_131939,0.284065,Information,3,1,1,0,Attempting to start the realsense
+20200204_131939,0.794117,Information,3,1,1,0,At begining of Master Control's loop
+20200204_131939,0.796113,DEBUG!,3,1,1,0,In Realsense GetPointCloud
