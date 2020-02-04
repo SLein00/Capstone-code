@@ -96,7 +96,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Srinity\Documents\Mentoring\SamiLein_2019-2020\Capstone-code\rtmidi;$(IncludePath)</IncludePath>
+    <IncludePath>..\rtmidi;$(IncludePath)</IncludePath>
     <ExecutablePath>..\librealsense\build\Debug;..\librealsense\build\third-party\glfw\src\Debug;$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SamiDebug|x64'">
@@ -137,8 +137,8 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>..\librealsense\build\Debug\realsense2d.lib;rtmidid.lib;..\LeddarSDK\src\LeddarConfigurator4\x64\Debug\LeddarConfigurator4d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..librealsense\build\third-party\glfw\src\Debug;..\librealsense\build\Debug;..\LeddarSDK\src\LeddarConfigurator4\x64\Debug;..\rtmidi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>..\librealsense\build\Debug\realsense2d.lib;rtmidid.lib;..\LeddarSDK\src\LeddarConfigurator4\x64\Debug\LeddarConfigurator4d.lib;..\librealsense\build\third-party\glfw\src\Debug\glfw3d.lib;..\librealsense\build\src\gl\Debug\realsense2-gld.lib;..\librealsense\build\tools\realsense-viewer\Debug\realsense-viewer.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\librealsense\build\tools\depth-quality\rs-depth-quality.dir\Debug;..librealsense\build\third-party\glfw\src\Debug;..\librealsense\build\Debug;..\LeddarSDK\src\LeddarConfigurator4\x64\Debug;..\rtmidi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SamiDebug|x64'">
@@ -147,7 +147,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;\librealsense\third-party\glfw\include;..\librealsense\include\;..\LeddarSDK\src\Leddar;..\rtmidi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\librealsense\third-party\imgui;..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;\librealsense\third-party\glfw\include;..\librealsense\include\;..\LeddarSDK\src\Leddar;..\rtmidi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -178,19 +178,22 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;..\librealsense\third-party\glfw\include;..\librealsense\include\;..\LeddarSDK\src\Leddar;..\rtmidi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\librealsense\third-party\imgui;..\LeddarSDK\src\LeddarTech;..\LeddarSDK\src\shared;..\librealsense\third-party\glfw\include;..\librealsense\include\;..\LeddarSDK\src\Leddar;..\rtmidi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>librealsense\build\third-party\glfw\src\Release;..\librealsense\build\Release;..\LeddarSDK\src\LeddarConfigurator4\x64\Release;..\rtmidi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>..\librealsense\build\release\realsense2.lib;rtmidi.lib;..\LeddarSDK\src\LeddarConfigurator4\x64\Release\LeddarConfigurator4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\librealsense\build\tools\depth-quality\rs-depth-quality.dir\Release;..librealsense\build\third-party\glfw\src\Release;..\librealsense\build\Release;..\LeddarSDK\src\LeddarConfigurator4\x64\Release;..\rtmidi\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>..\librealsense\build\release\realsense2.lib;rtmidi.lib;..\LeddarSDK\src\LeddarConfigurator4\x64\Release\LeddarConfigurator4.lib;..\librealsense\build\tools\depth-quality\Release\rs-depth-quality.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AsyncGetLine.cpp" />
     <ClCompile Include="FakeHands.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_impl_glfw.cpp" />
     <ClCompile Include="IntelRealsense.cpp" />
     <ClCompile Include="LeapMotion.cpp" />
     <ClCompile Include="LeddarTech.cpp" />
@@ -207,6 +210,12 @@
   <ItemGroup>
     <ClInclude Include="AsyncGetLine.h" />
     <ClInclude Include="FakeHands.h" />
+    <ClInclude Include="imconfig.h" />
+    <ClInclude Include="imgui-fonts-fontawesome.hpp" />
+    <ClInclude Include="imgui-fonts-karla.hpp" />
+    <ClInclude Include="imgui.h" />
+    <ClInclude Include="imgui_impl_glfw.h" />
+    <ClInclude Include="imgui_internal.h" />
     <ClInclude Include="IntelRealsense.h" />
     <ClInclude Include="LeapMotion.h" />
     <ClInclude Include="LeddarTech.h" />
@@ -215,6 +224,9 @@
     <ClInclude Include="MidiKeyboard.h" />
     <ClInclude Include="MidiNotes.h" />
     <ClInclude Include="SensorBase.h" />
+    <ClInclude Include="stb_rect_pack.h" />
+    <ClInclude Include="stb_textedit.h" />
+    <ClInclude Include="stb_truetype.h" />
     <ClInclude Include="translationtokbd.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -6,6 +6,8 @@
 #include <iostream>
 #include "librealsense2/rs.hpp"
 #include "Logger.h"
+#include "imgui.h"
+#include "imgui_impl_glfw.h"
 
 extern Logger Log1;
 
