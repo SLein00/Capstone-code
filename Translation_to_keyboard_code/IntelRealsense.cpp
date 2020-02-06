@@ -1,10 +1,12 @@
 #include "IntelRealsense.h"
 // Create a simple OpenGL window for rendering:
-window app(1280, 720, "RealSense Pointcloud Example");
-glfw_state app_state;
+//window app(1280, 720, "RealSense Pointcloud Example");
+//glfw_state app_state;
 
 int IntelRealsense::InitializeSensor(){
 	Log1.log(Logger::LogLevel::INFO, "Attempting to start the realsense");
+	app = new window (1280, 720, "RealSense Pointcloud Example");
+	app_state = new glfw_state;
 	// p.start();
 	 // Create a simple OpenGL window for rendering:
 	//window app(1280, 720, "RealSense Pointcloud Example");
@@ -26,6 +28,20 @@ int IntelRealsense::InitializeSensor(){
 
 int IntelRealsense::CloseSensor() {
 	Log1.log(Logger::LogLevel::INFO, "Closing the realsense");
+	Log1.flush();
+	//if (app != NULL) {
+	//	app->close();
+	//	try {
+	//		app->~window();
+	//	}
+	//	catch (...) {
+	//		Log1.log(Logger::LogLevel::ERROR, "Window did not close correctly.");
+	//	}
+	//	delete(app);
+	//}
+	//if (app_state != NULL) {
+	//	delete(app_state);
+	//}
 	return 0;
 
 }
@@ -53,21 +69,21 @@ double* IntelRealsense::GetPointCloud() {
 	points = pc.calculate(depth);
 
 	// Upload the color frame to OpenGL
-	app_state.tex.upload(color);
+	//app_state.tex.upload(color);
 
 	// Draw the pointcloud
 	//draw_pointcloud(app.width(), app.height(), app_state, points);
 
 	const rs2::vertex* verts = points.get_vertices();
 	rs2::vertex first = verts[0];
-	for (int idx = 0; idx < points.get_data_size(); idx++)
+	/*for (int idx = 0; idx < points.get_data_size(); idx++)
 	{
 		rs2::vertex vert = verts[idx];
 		if (vert.x != 0) {
 			std::cout << idx << ";" << vert.x << "," << vert.y << "," << vert.z << std::endl;
 		}
 		
-	}
+	}*/
 
 
 	/*rs2::frameset frames = pipe.wait_for_frames();

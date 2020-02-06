@@ -39,6 +39,15 @@ Logger::Logger(std::string filename) {
 	m_directory = "./LogFiles";
 }
 
+void Logger::flush() {
+	if (m_logfile.is_open()) {
+		m_logfile.flush();
+	}
+	if (m_csvfile.is_open()) {
+		m_csvfile.flush();
+	}
+}
+
 Logger::Logger(std::string directory, std::string filename) {
 	m_filename = filename;
 

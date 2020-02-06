@@ -223,6 +223,7 @@
     <ClInclude Include="Logger.h" />
     <ClInclude Include="MidiKeyboard.h" />
     <ClInclude Include="MidiNotes.h" />
+    <ClInclude Include="RSHelper.h" />
     <ClInclude Include="SensorBase.h" />
     <ClInclude Include="stb_rect_pack.h" />
     <ClInclude Include="stb_textedit.h" />

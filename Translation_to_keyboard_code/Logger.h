@@ -54,6 +54,8 @@ public:
 
 	~Logger();
 
+	void flush();
+
 	void restartTimer();
 
 	void setMetaData(int, int, int, int);
