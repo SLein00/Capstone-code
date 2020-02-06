@@ -22,7 +22,7 @@ public:
 	double* GetPointCloud();
 
     window* app = NULL;
-    glfw_state* app_state = NULL;
+    glfw_state app_state;
 
     ~IntelRealsense() {
         Log1.flush();
@@ -49,8 +49,6 @@ private:
         // We want the points object to be persistent so we can display the last cloud when a frame drops
         rs2::points points;
 
-        void * p_window_app;
-        void * p_app2_state;
        
 };
 #endif // !INTELREALSENSEH

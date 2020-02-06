@@ -6,7 +6,7 @@
 int IntelRealsense::InitializeSensor(){
 	Log1.log(Logger::LogLevel::INFO, "Attempting to start the realsense");
 	app = new window (1280, 720, "RealSense Pointcloud Example");
-	app_state = new glfw_state;
+	
 	// p.start();
 	 // Create a simple OpenGL window for rendering:
 	//window app(1280, 720, "RealSense Pointcloud Example");
