@@ -93,7 +93,7 @@ void MidiKeyboard::sendKeys() {
 		}
 	}
 
-	Log1.log(Logger::LogLevel::NOTES, logres.substr(2,logres.length()-2));
+	//Log1.log(Logger::LogLevel::NOTES, logres.substr(2,logres.length()-2));
 	Log1.log(Logger::LogLevel::DEBUG, "======================");
 	Log1.log(Logger::LogLevel::NOTES, logres.substr(1,logres.length()-1));
 	

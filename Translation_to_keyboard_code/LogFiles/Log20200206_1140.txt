@@ -1,0 +1,715 @@
+20200206_114046,0.405389,Information,3,1,1,0,There are 1 MIDI Output ports available.
+20200206_114046,0.409045,Information,3,1,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200206_114046,0.410206,Information,3,1,1,0,Sensor 3 is Leddartech
+20200206_114046,0.410305,Information,3,1,1,0,Location 1 is Side
+20200206_114046,0.410383,Information,3,1,1,0,Song 1 is one-finger scales
+20200206_114046,0.410461,Information,3,1,1,0,Trial # is 0
+20200206_114046,0.410548,Information,3,1,1,0,Attempting to start the realsense
+20200206_114047,1.93999,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114047,1.94226,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,2.67188,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114048,2.67196,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,2.75461,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114048,2.75651,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,2.84005,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114048,2.84202,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,2.92875,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114048,2.9368,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,3.02738,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114048,3.0291,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,3.10843,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114048,3.10989,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,3.18722,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114048,3.18874,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,3.26602,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114048,3.2676,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114048,3.33578,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,3.33739,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,3.40701,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,3.40875,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,3.50597,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,3.50746,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,3.60694,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,3.6089,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,3.69215,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,3.69367,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,3.76876,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,3.76998,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,3.84884,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,3.85032,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,3.92799,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,3.92951,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,4.00601,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,4.00782,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,4.08529,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,4.08703,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,4.16408,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,4.16607,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,4.24894,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,4.25051,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114049,4.32686,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114049,4.32868,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,4.44607,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,4.44738,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,4.51629,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,4.51818,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,4.63485,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,4.63694,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,4.73274,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,4.73468,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,4.81064,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,4.81269,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,4.89155,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,4.89275,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,4.97034,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,4.9725,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,5.07893,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,5.08013,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,5.15613,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,5.15751,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,5.23882,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,5.24043,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114050,5.32507,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114050,5.32627,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,5.40587,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,5.40802,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,5.47998,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,5.48176,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,5.56098,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,5.56309,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,5.63675,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,5.63791,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,5.73076,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,5.73199,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,5.8282,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,5.82968,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,5.90945,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,5.91143,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,5.98728,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,5.98869,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,6.06487,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,6.06603,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,6.19208,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,6.19387,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114051,6.28906,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114051,6.29095,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,6.36401,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,6.36575,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,6.44202,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,6.44416,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,6.52449,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,6.52605,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,6.63275,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,6.63464,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,6.71197,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,6.71344,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,6.79163,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,6.79286,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,6.87272,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,6.87412,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,6.95467,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,6.95591,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,7.03436,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,7.03568,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,7.11838,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,7.11962,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,7.20122,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,7.20273,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114052,7.28705,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114052,7.28871,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,7.36751,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,7.36953,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,7.45451,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,7.45628,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,7.52792,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,7.52934,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,7.60755,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,7.60928,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,7.6882,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,7.68959,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,7.7928,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,7.79451,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,7.90543,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,7.90681,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,7.98938,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,7.9911,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,8.08368,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,8.08506,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,8.15557,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,8.15692,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,8.23004,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,8.23164,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114053,8.30857,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114053,8.31042,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,8.38234,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,8.3836,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,8.45549,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,8.45671,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,8.55065,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,8.55205,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,8.62523,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,8.62671,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,8.70812,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,8.71007,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,8.78656,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,8.78819,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,8.86756,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,8.86886,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,8.95632,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,8.95769,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,9.01408,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,9.01558,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,9.10655,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,9.10843,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114054,9.23086,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114054,9.23263,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114055,9.35571,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114055,9.35699,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114055,9.48479,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114055,9.48597,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114055,9.59727,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114055,9.59959,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114055,9.7486,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114055,9.7508,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114055,9.87928,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114055,9.88039,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114055,10.0434,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114055,10.0451,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114055,10.2069,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114055,10.2083,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114055,10.329,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114055,10.3311,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114056,10.4833,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114056,10.4848,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114056,10.6053,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114056,10.6066,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114056,10.7299,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114056,10.7313,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114056,10.8456,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114056,10.8471,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114056,10.9755,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114056,10.9776,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114056,11.1015,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114056,11.1033,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114056,11.2228,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114056,11.2244,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114057,11.3418,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114057,11.343,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114057,11.4583,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114057,11.4599,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114057,11.6394,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114057,11.6412,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114057,11.7478,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114057,11.7492,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114057,11.8622,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114057,11.8635,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114057,11.9872,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114057,11.9893,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114057,12.1118,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114057,12.1139,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114057,12.2528,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114057,12.2554,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,12.413,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,12.4145,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,12.5366,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,12.5389,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,12.6771,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,12.6789,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,12.7889,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,12.7903,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,12.8735,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,12.8748,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,12.976,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,12.9779,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,13.06,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,13.0614,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,13.1409,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,13.1424,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114058,13.2798,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114058,13.2817,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,13.3693,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,13.3711,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,13.4468,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,13.4491,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,13.5272,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,13.5293,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,13.6105,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,13.6128,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,13.7452,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,13.747,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,13.8671,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,13.8688,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,13.9451,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,13.9469,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,14.0234,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,14.0249,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,14.1082,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,14.1098,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114059,14.2183,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114059,14.2206,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,14.3406,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,14.3423,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,14.4184,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,14.4207,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,14.5432,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,14.5446,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,14.6498,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,14.6519,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,14.7589,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,14.7602,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,14.8479,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,14.8499,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,14.9282,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,14.9303,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,15.0244,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,15.0263,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,15.126,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,15.1274,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,15.2287,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,15.2302,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114100,15.3112,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114100,15.3125,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,15.3928,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,15.3944,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,15.4775,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,15.479,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,15.5515,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,15.5531,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,15.652,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,15.6538,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,15.7295,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,15.7317,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,15.8167,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,15.8184,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,15.9191,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,15.9206,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,16.0523,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,16.0539,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,16.1406,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,16.1423,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114101,16.2434,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114101,16.2449,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,16.3557,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,16.3577,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,16.4555,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,16.4574,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,16.5197,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,16.5218,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,16.5929,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,16.5946,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,16.6684,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,16.67,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,16.7609,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,16.7628,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,16.8735,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,16.875,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,16.9492,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,16.9509,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,17.0289,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,17.0306,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,17.0989,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,17.1011,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,17.1803,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,17.1817,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114102,17.2615,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114102,17.2634,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,17.353,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,17.3545,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,17.4368,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,17.4384,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,17.5235,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,17.5253,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,17.604,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,17.606,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,17.6825,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,17.6843,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,17.7629,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,17.7642,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,17.8535,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,17.8556,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,17.9242,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,17.9256,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,18.0448,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,18.0464,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,18.1688,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,18.1709,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114103,18.2716,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114103,18.2727,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,18.3518,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,18.3535,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,18.4366,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,18.4385,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,18.506,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,18.5078,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,18.5778,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,18.5791,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,18.6515,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,18.6529,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,18.7326,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,18.7344,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,18.8305,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,18.832,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,18.9295,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,18.9309,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,19.0151,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,19.0167,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,19.1032,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,19.1046,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,19.1821,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,19.1833,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114104,19.2617,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114104,19.2637,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,19.3458,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,19.3477,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,19.4286,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,19.4299,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,19.5117,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,19.5135,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,19.5802,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,19.5814,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,19.6525,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,19.6545,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,19.7411,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,19.7434,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,19.8589,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,19.8611,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,19.9673,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,19.9694,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,20.0679,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,20.0693,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,20.1401,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,20.1422,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,20.2291,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,20.2305,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114105,20.3071,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114105,20.3093,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,20.3869,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,20.389,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,20.4941,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,20.4954,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,20.6255,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,20.6272,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,20.7423,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,20.7438,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,20.8371,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,20.8385,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,20.9371,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,20.9383,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,21.0375,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,21.039,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,21.1514,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,21.1528,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114106,21.263,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114106,21.2646,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,21.3994,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,21.4012,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,21.5157,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,21.5175,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,21.6245,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,21.6262,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,21.7286,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,21.7299,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,21.844,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,21.8456,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,21.955,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,21.9567,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,22.0702,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,22.0717,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,22.1663,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,22.1674,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,22.2601,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,22.2614,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114107,22.3286,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114107,22.3301,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,22.4035,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,22.4053,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,22.4876,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,22.4907,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,22.5661,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,22.5679,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,22.6738,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,22.675,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,22.7496,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,22.7512,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,22.828,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,22.8296,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,22.9085,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,22.91,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,22.9946,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,22.9965,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,23.0937,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,23.0953,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,23.1697,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,23.171,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,23.2617,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,23.2639,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114108,23.3328,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114108,23.3346,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,23.4007,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,23.4025,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,23.4965,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,23.4986,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,23.5905,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,23.5924,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,23.6672,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,23.669,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,23.7475,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,23.7489,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,23.8279,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,23.8297,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,23.9252,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,23.9266,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,24.0111,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,24.0132,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,24.1274,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,24.1288,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,24.2266,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,24.2279,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114109,24.3037,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114109,24.3054,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,24.38,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,24.3821,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,24.4589,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,24.4604,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,24.5589,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,24.5602,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,24.6604,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,24.6625,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,24.7646,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,24.7665,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,24.8465,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,24.8482,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,24.9282,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,24.9296,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,25.0106,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,25.0124,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,25.0927,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,25.0947,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,25.1735,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,25.1751,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,25.2472,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,25.2493,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114110,25.3178,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114110,25.3198,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,25.4001,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,25.4018,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,25.4843,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,25.4865,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,25.5646,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,25.5662,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,25.642,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,25.644,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,25.7188,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,25.7204,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,25.7938,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,25.7958,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,25.8801,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,25.882,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,25.9551,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,25.9565,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,26.056,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,26.0573,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,26.1666,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,26.1682,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,26.2539,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,26.256,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114111,26.3338,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114111,26.3357,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,26.4127,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,26.4141,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,26.5099,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,26.5119,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,26.6114,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,26.6132,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,26.692,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,26.6941,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,26.7598,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,26.7619,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,26.8316,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,26.8337,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,26.8912,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,26.8933,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,27.0226,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,27.0239,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,27.1238,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,27.1259,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114112,27.2582,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114112,27.2603,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,27.3645,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,27.3658,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,27.4402,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,27.4415,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,27.5125,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,27.514,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,27.5956,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,27.5971,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,27.6859,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,27.6879,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,27.8025,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,27.8042,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,27.8768,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,27.8785,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,27.9456,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,27.9473,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,28.0485,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,28.0506,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,28.1113,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,28.1125,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,28.248,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,28.2496,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114113,28.3261,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114113,28.3279,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,28.3854,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,28.3868,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,28.4472,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,28.4486,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,28.5053,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,28.5066,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,28.6398,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,28.6417,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,28.8006,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,28.8025,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,28.9544,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,28.9564,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,29.0491,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,29.0507,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,29.1238,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,29.1251,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,29.1903,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,29.1917,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114114,29.2523,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114114,29.2535,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,29.3498,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,29.3518,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,29.4202,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,29.4215,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,29.4762,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,29.4784,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,29.5637,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,29.5652,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,29.6452,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,29.6466,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,29.7618,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,29.7634,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,29.857,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,29.8587,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,29.9326,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,29.934,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,30.0237,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,30.0249,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,30.1183,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,30.12,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,30.2094,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,30.2114,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114115,30.2944,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114115,30.2966,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,30.3739,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,30.376,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,30.4655,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,30.4667,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,30.5576,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,30.5593,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,30.6622,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,30.6643,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,30.7658,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,30.7671,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,30.868,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,30.8692,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,30.9614,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,30.9626,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,31.0555,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,31.0573,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,31.1698,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,31.1718,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114116,31.2887,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114116,31.2905,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,31.383,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,31.3847,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,31.5093,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,31.5108,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,31.6396,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,31.6411,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,31.6934,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,31.6954,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,31.762,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,31.7634,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,31.8465,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,31.8482,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,31.8929,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,31.8942,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,31.9901,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,31.9921,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,32.0402,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,32.042,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,32.0795,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,32.0813,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,32.1184,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,32.1202,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,32.1686,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,32.1697,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,32.2082,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,32.2095,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,32.2475,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,32.2492,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114117,32.3345,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114117,32.336,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.4502,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.4521,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.5235,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.5249,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.5628,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.5648,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.603,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.6048,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.6443,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.6456,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.6836,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.6856,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.7228,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.7245,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.8029,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.8047,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.894,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.8955,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,32.9735,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,32.9749,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,33.0644,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,33.0661,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,33.1226,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,33.1243,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,33.1807,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,33.1823,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,33.2337,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,33.2352,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114118,33.3001,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114118,33.3016,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,33.3785,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,33.3803,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,33.4435,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,33.4451,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,33.5291,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,33.5303,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,33.5999,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,33.6018,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,33.6597,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,33.6617,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,33.7568,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,33.7583,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,33.8502,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,33.852,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,33.9775,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,33.9788,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,34.0896,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,34.0909,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,34.1807,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,34.1827,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114119,34.2729,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114119,34.2745,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114120,34.3967,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114120,34.3987,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114120,34.469,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114120,34.4706,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114120,34.6064,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114120,34.6082,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200206_114120,34.7378,Information,3,1,1,0,At begining of Master Control's loop
+20200206_114120,34.7394,DEBUG!,3,1,1,0,In Realsense GetPointCloud

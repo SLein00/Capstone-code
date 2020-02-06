@@ -279,7 +279,7 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 1400; i++) {//beginning of loop
+	for (int i = 0; i < 1; i++) {//beginning of loop
 		//CAITLYNS EDITS
 	
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
@@ -380,15 +380,32 @@ int main() {//Beginning of main
 		}
 		else if (sensortype == 3) {//Realsense
 			//condition data
+			midioutput.resetKeys();
 			//Log1.log(Logger::LogLevel::ERROR, "Chose Realsense and Code has yet to be made for said sensor.");
 
+			testsensorRealsense.GetPointCloud();
+			for (int idx = 0; idx < testsensorRealsense.validPoints->numValid; idx++) {
+				position FinalFingerPos = testsensors.Realsenseswitchtokbd(testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z);
+				MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+
+				//char buffer[10000];
+				//sprintf(buffer, "In MC Loop, Realsense, Idx=%i, Coord=[%f, %f, %f], FinalFingerPos=[%f, %f, %f], Midi=[%s]", idx, testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z, MidiNotesString(notenum).c_str());
+				//Log1.log(Logger::LogLevel::INFO, buffer);
+
+				if (!notenum == None) {
+					Log1.log(Logger::LogLevel::INFO, MidiNotesString(notenum), "On");
+					midioutput.playKey(notenum);
+				}
+			}
+		
 			//for (int n = 0; n < numkeys ; n++) {
 			//	testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
 			//	testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
 			//	Log1.log(Logger::LogLevel::NOTES, note, "On");
 			//}
 			
-			testsensorRealsense.GetPointCloud();  // throw the data away, but see if the command line outputs a distance.
+			//testsensorRealsense.GetPointCloud();  // throw the data away, but see if the command line outputs a distance.
+			midioutput.sendKeys();
 
 		}
 		else if (sensortype == 4) { // fake random keyboard

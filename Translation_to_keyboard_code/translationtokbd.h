@@ -46,8 +46,8 @@ public:
 	double LeapAbovepositioncoordinateY = 7.55;
 	double LeapAbovepositioncoordinateZ = 60;
 	//Realsense sensor position coordinates
-	double RealsenseSidepositioncoordinateX = -15;
-	double RealsenseSidepositioncoordinateY = 7.75;
+	double RealsenseSidepositioncoordinateX = -7;
+	double RealsenseSidepositioncoordinateY = 5.08;
 	double RealsenseSidepositioncoordinateZ = 1.5;
 	double RealsenseFrontpositioncoordinateX = 34.75;
 	double RealsenseFrontpositioncoordinateY = 30.1;
@@ -116,9 +116,10 @@ public:
 							{0, -1, 0, LeapAbovepositioncoordinateZ},
 							{0, 0, 0, 1} } };
 	//Realsense matrices
-	std::array<std::array<double, 4>, 4> Realsensesidematrix = { { { 0.0, 1.0, 0.0, RealsenseSidepositioncoordinateX},
-							{-1.0, 0.0, 0.0, RealsenseSidepositioncoordinateY},
-							{0.0, 0.0, 1.0, RealsenseSidepositioncoordinateZ},
+	std::array<std::array<double, 4>, 4> Realsensesidematrix = { { 
+							{ 0.0, 0.0, -1.0, RealsenseSidepositioncoordinateX},
+							{1.0, 0.0, 0.0, RealsenseSidepositioncoordinateY},
+							{0.0, -1.0, 0.0, RealsenseSidepositioncoordinateZ},
 							{0.0, 0.0, 0.0, 1.0} } };
 	std::array<std::array<double, 4>, 4> Realsensefrontmatrix = { { {-1, 0, 0, RealsenseFrontpositioncoordinateX},
 							{0, -1, 0, RealsenseFrontpositioncoordinateY},

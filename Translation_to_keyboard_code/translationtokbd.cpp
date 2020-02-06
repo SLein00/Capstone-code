@@ -165,7 +165,7 @@ Sensor::Sensor() {
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Realsensesidematrix, finpos);
-			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			//std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			return foo;
 		}
 		else if (posX == RealsenseFrontpositioncoordinateX && posY == RealsenseFrontpositioncoordinateY && posZ == RealsenseFrontpositioncoordinateZ)
@@ -173,7 +173,7 @@ Sensor::Sensor() {
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Realsensefrontmatrix, finpos);
-			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			//std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			return foo;
 		}
 		else if (posX == RealsenseWebcampositioncoordinateX && posY == RealsenseWebcampositioncoordinateY && posZ == RealsenseWebcampositioncoordinateZ)
@@ -181,7 +181,7 @@ Sensor::Sensor() {
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Realsensewebcammatrix, finpos);
-			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			//std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			return foo;
 		}
 		else if (posX == RealsenseAbovepositioncoordinateX && posY == RealsenseAbovepositioncoordinateY && posZ == RealsenseAbovepositioncoordinateZ)
@@ -189,7 +189,7 @@ Sensor::Sensor() {
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Realsenseabovematrix, finpos);
-			std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
+			//std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			finalfingerposX = foo.X;
 			finalfingerposY = foo.Y;
 			finalfingerposZ = foo.Z;

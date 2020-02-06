@@ -10,6 +10,11 @@
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
 
+//#define GUI
+struct RealsensePointReturn {
+    int numValid;
+    rs2::vertex verts[407040];
+};
 
 extern Logger Log1;
 
@@ -19,11 +24,12 @@ class IntelRealsense :
 public:
 	int InitializeSensor();
 	int CloseSensor();
-	double* GetPointCloud();
-
-    window* app = NULL;
+	int GetPointCloud();
+    RealsensePointReturn* validPoints;
+#ifdef GUI
+   // window* app = NULL;
     glfw_state app_state;
-
+#endif
     ~IntelRealsense() {
         Log1.flush();
         
@@ -51,4 +57,6 @@ private:
 
        
 };
+
+
 #endif // !INTELREALSENSEH

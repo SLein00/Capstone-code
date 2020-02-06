@@ -201,6 +201,7 @@
     <ClCompile Include="Logger.cpp" />
     <ClCompile Include="MasterControl.cpp" />
     <ClCompile Include="MidiNotes.cpp" />
+    <ClCompile Include="RSHelper.cpp" />
     <ClCompile Include="ToDoList.cpp" />
     <ClCompile Include="MidiKeyboard.cpp" />
     <ClCompile Include="SensorBase.cpp" />
