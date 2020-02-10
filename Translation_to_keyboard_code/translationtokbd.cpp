@@ -220,6 +220,7 @@ position matrixmultiply_4x4_4x1(std::array<std::array<double, 4>, 4> left, std::
 	
 	for (int i = 0; i < 4; i++) {
 		for (int j = 0; j < 4; j++) {
+			// current bottleneck
 			results[i][0] += left[i][j] * right[j][0];
 		}
 	}

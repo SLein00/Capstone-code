@@ -279,7 +279,7 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 1; i++) {//beginning of loop
+	for (int i = 0; i < 50; i++) {//beginning of loop
 		//CAITLYNS EDITS
 	
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");

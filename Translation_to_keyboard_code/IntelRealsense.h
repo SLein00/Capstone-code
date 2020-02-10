@@ -31,7 +31,7 @@ public:
     glfw_state app_state;
 #endif
     ~IntelRealsense() {
-        Log1.flush();
+        Log1.hardflush();
         
         //if (app != NULL) {
         //    app->close();

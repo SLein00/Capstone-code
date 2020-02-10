@@ -54,7 +54,8 @@ public:
 
 	~Logger();
 
-	void flush();
+	void hardflush();
+	void softflush();
 
 	void restartTimer();
 
@@ -75,7 +76,19 @@ private:
 	int m_position = -1;
 	int m_trialnum = -1;
 
+	static const int m_smallbuffersize = 2000;
+	uint_fast32_t m_smallbufpos = 0;
+	char m_smallbuffer[m_smallbuffersize];
 
+	static const int m_buffersize = 250000;
+	uint_fast32_t m_bufpos = 0;
+	char m_buffer[m_buffersize];
+	static const int m_bufferflushlimit = m_buffersize - 20000;
+
+	static const int m_csvbuffersize = 250000;
+	uint_fast32_t m_csvbufpos = 0;
+	char m_csvbuffer[m_csvbuffersize];
+	static const int m_csvbufferflushlimit = m_buffersize - 20000;
 };
 
 #endif // !LOGGER_H

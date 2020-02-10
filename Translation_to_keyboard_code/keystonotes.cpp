@@ -20,9 +20,9 @@ MidiNotesNumbers Keyboard::notes( double finalfingerposX, double finalfingerposY
 	}*/
 	//Measurements are in cm
 	if (0 < finalfingerposZ && finalfingerposZ<= 2) {//Z is in playing range
-		Log1.log(Logger::LogLevel::DEBUG, "Enter keyboard range Z");
+		//Log1.log(Logger::LogLevel::DEBUG, "Enter keyboard range Z");
 		if (0 < finalfingerposY && finalfingerposY <= 5.08) {//Y is in the bottom section of white notes
-			Log1.log(Logger::LogLevel::DEBUG, "Enter keyboard range of Bottom section Y (white notes only)");
+			//Log1.log(Logger::LogLevel::DEBUG, "Enter keyboard range of Bottom section Y (white notes only)");
 			if (finalfingerposX < 0) {//
 				return note;
 			}
@@ -70,7 +70,7 @@ MidiNotesNumbers Keyboard::notes( double finalfingerposX, double finalfingerposY
 			}
 			else if (finalfingerposX <= 36) {
 				note = C4;
-				Log1.log(Logger::LogLevel::DEBUG, "Enter bottom of C4");
+				//Log1.log(Logger::LogLevel::DEBUG, "Enter bottom of C4");
 			}
 			else if (finalfingerposX <= 38.4) {
 				note = D4;
@@ -117,7 +117,7 @@ MidiNotesNumbers Keyboard::notes( double finalfingerposX, double finalfingerposY
 
 		}//End of Y bottom 
 		else if (5.08 < finalfingerposY && finalfingerposY < 15.24) {//Y is in the blacks and top whites
-			Log1.log(Logger::LogLevel::DEBUG, "Enter range for top notes (blacks and whites)");
+			//Log1.log(Logger::LogLevel::DEBUG, "Enter range for top notes (blacks and whites)");
 			if (finalfingerposX < 0) {//
 				return note;
 			}
@@ -195,11 +195,11 @@ MidiNotesNumbers Keyboard::notes( double finalfingerposX, double finalfingerposY
 			}
 			else if (finalfingerposX <= 35.1) {
 				note = C4;
-				Log1.log(Logger::LogLevel::DEBUG, "Enter top of C4");
+				//Log1.log(Logger::LogLevel::DEBUG, "Enter top of C4");
 			}
 			else if (finalfingerposX <= 36.5) {
 				note = Cs4;
-				Log1.log(Logger::LogLevel::DEBUG, "Enter Cs4");
+				//Log1.log(Logger::LogLevel::DEBUG, "Enter Cs4");
 			}
 			else if (finalfingerposX <= 37.9) {
 				note = D4;
