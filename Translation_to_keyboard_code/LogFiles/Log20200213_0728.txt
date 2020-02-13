@@ -1,0 +1,47 @@
+Working Directory: `C:\Users\srini\Documents\Mentoring\SLein-2019-2020\Capstone-code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200213_0728.txt` opened OK.
+CSV File `./LogFiles/Log20200213_0728.csv` opened OK.
+20200213_072816,0.029996,Information,3,1,1,0,There are 1 MIDI Output ports available.
+20200213_072816,0.032130,Information,3,1,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200213_072816,0.032486,Information,3,1,1,0,Sensor 3 is Leddartech
+20200213_072816,0.032502,Information,3,1,1,0,Location 1 is Side
+20200213_072816,0.032512,Information,3,1,1,0,Song 1 is one-finger scales
+20200213_072816,0.032532,Information,3,1,1,0,Trial # is 0
+20200213_072816,0.032544,Information,3,1,1,0,Attempting to start the realsense
+20200213_072817,0.602252,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.604521,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.604901,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.604962,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.604984,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.604996,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.605019,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.606475,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.606546,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.606570,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.608532,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.608600,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.608620,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.610500,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.610558,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.610578,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.612484,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.612553,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.612575,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.614498,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.614571,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.614930,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.616516,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.616577,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.616597,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.618489,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.618549,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.618573,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.620510,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.620579,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.620600,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.622516,Information,3,1,1,0,At begining of Master Control's loop
+20200213_072817,0.622576,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.622596,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.624803,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_072817,0.624824,DEBUG!,3,1,1,0,Never leaving Realsense GetPointCloud
+20200213_072817,0.624917,Information,3,1,1,0,Closing the realsense

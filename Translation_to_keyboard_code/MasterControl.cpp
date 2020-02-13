@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <thread>
+#include <mutex>
 
 using namespace std;
 #include "translationtokbd.h"
@@ -77,6 +79,37 @@ string note;
 extern Logger Log1;
 extern MidiKeyboard midioutput;
 
+Sensor testsensors;
+LeddarTech testsensorLeddar;
+IntelRealsense testsensorRealsense;
+LeapMotion testsensorLeap;
+FakeHands testsensorHands;
+Keyboard testnotes;
+
+void doRealsenseWork() {
+	int arridx = 0;
+	int arr[88];
+	testsensorRealsense.GetPointCloud();
+
+
+	for (int idx = 0; idx < testsensorRealsense.validPoints->numValid; idx++) {
+		position FinalFingerPos = testsensors.Realsenseswitchtokbd(testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z);
+		MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+		if (!notenum == None) {
+			Log1.log(Logger::LogLevel::INFO, MidiNotesString(notenum), "On");
+			//midioutput.playKey(notenum);
+			arr[arridx] = notenum;
+			arridx++;
+		}
+	}
+	midioutput.resetKeys();
+	for (int i = 0; i < arridx; i++) {
+		midioutput.playKey((MidiNotesNumbers)arr[i]);
+	}
+	midioutput.sendKeys();
+}
+
+
 int main() {//Beginning of main
 
 	cout << "Sensor type: " << endl;
@@ -108,12 +141,7 @@ int main() {//Beginning of main
 	Log1.restartTimer();
 	Log1.openfile();
 
-	Sensor testsensors;
-	LeddarTech testsensorLeddar;
-	IntelRealsense testsensorRealsense;
-	LeapMotion testsensorLeap;
-	FakeHands testsensorHands;
-	Keyboard testnotes;
+
 	midioutput.listKeyboardOutputs();
 	
 		
@@ -279,8 +307,7 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 50; i++) {//beginning of loop
-		//CAITLYNS EDITS
+	for (int i = 0; i < 12; i++) {//beginning of loop
 	
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
 		
@@ -379,33 +406,10 @@ int main() {//Beginning of main
 			midioutput.sendKeys();
 		}
 		else if (sensortype == 3) {//Realsense
-			//condition data
-			midioutput.resetKeys();
-			//Log1.log(Logger::LogLevel::ERROR, "Chose Realsense and Code has yet to be made for said sensor.");
-
-			testsensorRealsense.GetPointCloud();
-			for (int idx = 0; idx < testsensorRealsense.validPoints->numValid; idx++) {
-				position FinalFingerPos = testsensors.Realsenseswitchtokbd(testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z);
-				MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
-
-				//char buffer[10000];
-				//sprintf(buffer, "In MC Loop, Realsense, Idx=%i, Coord=[%f, %f, %f], FinalFingerPos=[%f, %f, %f], Midi=[%s]", idx, testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z, MidiNotesString(notenum).c_str());
-				//Log1.log(Logger::LogLevel::INFO, buffer);
-
-				if (!notenum == None) {
-					Log1.log(Logger::LogLevel::INFO, MidiNotesString(notenum), "On");
-					midioutput.playKey(notenum);
-				}
-			}
-		
-			//for (int n = 0; n < numkeys ; n++) {
-			//	testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
-			//	testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
-			//	Log1.log(Logger::LogLevel::NOTES, note, "On");
-			//}
 			
-			//testsensorRealsense.GetPointCloud();  // throw the data away, but see if the command line outputs a distance.
-			midioutput.sendKeys();
+			// realsense processing moved to thread helper way above.
+			std::thread t(doRealsenseWork);
+			t.detach();
 
 		}
 		else if (sensortype == 4) { // fake random keyboard
@@ -436,6 +440,7 @@ int main() {//Beginning of main
 
 	}//end of loop
 	cout << "Wrapping Up for trial: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl;
+
 
 	//turn off sensor
 	if (sensortype == 1) { // leddar

@@ -14,6 +14,8 @@
 #include <chrono>
 #include <map>
 #include "MidiKeyboard.h"
+#include <thread>
+#include <mutex>
 
 //#include <filesystem>
 
@@ -62,6 +64,9 @@ public:
 	void setMetaData(int, int, int, int);
 
 private:
+	mutable std::mutex m_logmutex;
+
+
 	std::string m_filename;
 	std::string m_csvname;
 	std::string m_directory;
