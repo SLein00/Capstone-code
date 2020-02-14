@@ -1,0 +1,11 @@
+Working Directory: `C:\Users\srini\Documents\Mentoring\SLein-2019-2020\Capstone-code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200214_1826.txt` opened OK.
+CSV File `./LogFiles/Log20200214_1826.csv` opened OK.
+20200214_182650,0.029890,Information,3,1,1,1,There are 1 MIDI Output ports available.
+20200214_182650,0.030072,Information,3,1,1,1,Output port #1: Microsoft GS Wavetable Synth 0
+20200214_182650,0.030436,Information,3,1,1,1,Sensor 3 is Realsense
+20200214_182650,0.039759,Information,3,1,1,1,Location 1 is Side
+20200214_182650,0.039790,Information,3,1,1,1,Song 1 is one-finger scales
+20200214_182650,0.039805,Information,3,1,1,1,Trial # is 1
+20200214_182650,0.039818,Information,3,1,1,1,Attempting to start the realsense
+20200214_182702,11.791300,Information,3,1,1,1,Closing the realsense

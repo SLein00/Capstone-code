@@ -3,17 +3,22 @@
 #define INTELREALSENSEH
 
 #include "SensorBase.h"
+#include "translationtokbd.h"
 #include <iostream>
 //#include "librealsense2/rs.hpp"
 #include "RSHelper.h"
 #include "Logger.h"
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
+#include <thread>
+#include <mutex>
+
+extern const int max_number_of_threads;
 
 //#define GUI
 struct RealsensePointReturn {
     int numValid;
-    rs2::vertex verts[407040];
+    position verts[407040];
 };
 
 extern Logger Log1;
@@ -24,6 +29,7 @@ class IntelRealsense :
 public:
 	int InitializeSensor();
 	int CloseSensor();
+    int GetDepth(rs2::frame &depth, int id);
 	int GetPointCloud();
     RealsensePointReturn* validPoints;
 #ifdef GUI
@@ -49,6 +55,8 @@ public:
     }
 
 private:
+
+    mutable std::mutex rs2lck;
 		rs2::pipeline pipe;
         // Declare pointcloud object, for calculating pointclouds and texture mappings
         rs2::pointcloud pc;
