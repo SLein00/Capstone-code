@@ -16,6 +16,42 @@ using namespace std;
 
 #include "AsyncGetLine.h"
 
+static const int max_number_of_threads = 4;
+
+class ThreadCountSemaphore {
+public:
+	ThreadCountSemaphore() {
+		m_count = 0;
+	}
+
+	~ThreadCountSemaphore() {
+		
+	}
+
+	int increment() {
+		lock_guard<mutex> lck(m_lck);
+		m_count++;
+		return m_count;
+	}
+
+	int decrement() {
+		lock_guard<mutex> lck(m_lck);
+		m_count--;
+		return m_count;
+	}
+
+	int get() {
+		return m_count;
+	}
+
+private:
+	mutable int m_count;
+	mutable mutex m_lck;
+
+};
+
+ThreadCountSemaphore numthreads;
+
 int sensortype;
 int location;
 int songtype; 
@@ -107,6 +143,7 @@ void doRealsenseWork() {
 		midioutput.playKey((MidiNotesNumbers)arr[i]);
 	}
 	midioutput.sendKeys();
+	numthreads.decrement();
 }
 
 
@@ -307,7 +344,7 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 12; i++) {//beginning of loop
+	for (int i = 0; i < 100; i++) {//beginning of loop
 	
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
 		
@@ -408,8 +445,16 @@ int main() {//Beginning of main
 		else if (sensortype == 3) {//Realsense
 			
 			// realsense processing moved to thread helper way above.
-			std::thread t(doRealsenseWork);
-			t.detach();
+
+			if (numthreads.get() < max_number_of_threads) {
+				std::thread t(doRealsenseWork);
+				numthreads.increment();
+				t.detach();
+			}
+			else {
+				Log1.log(Logger::LogLevel::DEBUG, "Waiting for thread reasources");
+				this_thread::sleep_for(10ms);
+			}
 
 		}
 		else if (sensortype == 4) { // fake random keyboard
@@ -441,6 +486,10 @@ int main() {//Beginning of main
 	}//end of loop
 	cout << "Wrapping Up for trial: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl;
 
+	while (numthreads.get() > 0) {
+		cout << "Waiting for " << numthreads.get() << " threads to wrap up." << endl;
+		this_thread::sleep_for(500ms);
+	}
 
 	//turn off sensor
 	if (sensortype == 1) { // leddar

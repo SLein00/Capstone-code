@@ -1,0 +1,375 @@
+Working Directory: `C:\Users\srini\Documents\Mentoring\SLein-2019-2020\Capstone-code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200213_2250.txt` opened OK.
+CSV File `./LogFiles/Log20200213_2250.csv` opened OK.
+20200213_225010,0.027901,Information,3,1,1,0,There are 1 MIDI Output ports available.
+20200213_225010,0.028085,Information,3,1,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200213_225010,0.028415,Information,3,1,1,0,Sensor 3 is Leddartech
+20200213_225010,0.028430,Information,3,1,1,0,Location 1 is Side
+20200213_225010,0.028440,Information,3,1,1,0,Song 1 is one-finger scales
+20200213_225010,0.028460,Information,3,1,1,0,Trial # is 0
+20200213_225010,0.028479,Information,3,1,1,0,Attempting to start the realsense
+20200213_225010,0.568349,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.570575,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.570974,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.570995,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225010,0.572527,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.574209,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.576173,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225010,0.587180,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.589185,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225010,0.600190,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.602191,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225010,0.613203,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.615203,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225010,0.626227,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.628222,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225010,0.639228,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.641252,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225010,0.652238,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.654239,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225010,0.665250,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225010,0.667259,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.678262,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.680270,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.691276,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.693275,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.704284,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.706292,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.717297,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.719298,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.730312,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.732311,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.743326,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.745329,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.756333,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.758335,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.769345,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.771352,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.782356,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.784359,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.796376,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.798377,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.809383,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.811391,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.817993,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,0.818341,DEBUG!,3,1,1,0,======================
+20200213_225011,0.818356,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,0.818381,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,0.818464,DEBUG!,3,1,1,0,======================
+20200213_225011,0.824398,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.826859,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.828404,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.830598,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,0.830882,DEBUG!,3,1,1,0,======================
+20200213_225011,0.830909,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,0.830927,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,0.830993,DEBUG!,3,1,1,0,======================
+20200213_225011,0.840411,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.843007,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.844420,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.855424,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.857428,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.863540,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,0.863769,DEBUG!,3,1,1,0,======================
+20200213_225011,0.863786,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,0.863807,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,0.863871,DEBUG!,3,1,1,0,======================
+20200213_225011,0.870437,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.872821,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.874446,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.885452,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.887454,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.896472,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,0.896771,DEBUG!,3,1,1,0,======================
+20200213_225011,0.896787,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,0.896807,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,0.896871,DEBUG!,3,1,1,0,======================
+20200213_225011,0.899465,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.901879,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.903473,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.914478,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.916483,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.927491,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.929837,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,0.930131,DEBUG!,3,1,1,0,======================
+20200213_225011,0.930144,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,0.930165,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,0.930229,DEBUG!,3,1,1,0,======================
+20200213_225011,0.932889,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.934499,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.945507,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.947511,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.958522,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.960525,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.963874,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,0.964107,DEBUG!,3,1,1,0,======================
+20200213_225011,0.964120,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,0.964140,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,0.964205,DEBUG!,3,1,1,0,======================
+20200213_225011,0.973545,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.976076,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.977540,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.988549,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,0.990545,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,0.996909,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,0.997238,DEBUG!,3,1,1,0,======================
+20200213_225011,0.997252,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,0.997278,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,0.997344,DEBUG!,3,1,1,0,======================
+20200213_225011,1.003564,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.005617,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.007601,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.018581,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.020579,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.030587,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.030899,DEBUG!,3,1,1,0,======================
+20200213_225011,1.030914,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.030939,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.031003,DEBUG!,3,1,1,0,======================
+20200213_225011,1.032587,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.035306,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.036591,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.047598,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.049608,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.060610,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.063565,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.063632,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.063991,DEBUG!,3,1,1,0,======================
+20200213_225011,1.064010,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.064031,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.064095,DEBUG!,3,1,1,0,======================
+20200213_225011,1.074632,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.077040,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.078635,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.089637,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.091643,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.096915,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.097115,DEBUG!,3,1,1,0,======================
+20200213_225011,1.097130,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.097155,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.097219,DEBUG!,3,1,1,0,======================
+20200213_225011,1.104652,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.107210,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.108663,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.119663,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.121672,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.130855,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.131103,DEBUG!,3,1,1,0,======================
+20200213_225011,1.131118,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.131135,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.131182,DEBUG!,3,1,1,0,======================
+20200213_225011,1.134681,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.137237,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.138689,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.149693,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.151702,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.163723,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.164377,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.164803,DEBUG!,3,1,1,0,======================
+20200213_225011,1.164822,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.164856,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.164921,DEBUG!,3,1,1,0,======================
+20200213_225011,1.166194,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.167713,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.178719,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.180723,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.191731,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.193747,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.197902,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.198310,DEBUG!,3,1,1,0,======================
+20200213_225011,1.198327,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.198343,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.198407,DEBUG!,3,1,1,0,======================
+20200213_225011,1.215530,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.230266,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.230865,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.231310,DEBUG!,3,1,1,0,======================
+20200213_225011,1.231326,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.231346,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.231411,DEBUG!,3,1,1,0,======================
+20200213_225011,1.251391,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.262568,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.263672,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.263975,DEBUG!,3,1,1,0,======================
+20200213_225011,1.263993,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.264010,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.264096,DEBUG!,3,1,1,0,======================
+20200213_225011,1.290944,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.296775,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.297064,DEBUG!,3,1,1,0,======================
+20200213_225011,1.297081,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.297100,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.297164,DEBUG!,3,1,1,0,======================
+20200213_225011,1.310934,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.329548,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.330660,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.330899,DEBUG!,3,1,1,0,======================
+20200213_225011,1.330914,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.330934,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.330998,DEBUG!,3,1,1,0,======================
+20200213_225011,1.351198,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.362998,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.364092,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.364353,DEBUG!,3,1,1,0,======================
+20200213_225011,1.364369,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.364389,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.364453,DEBUG!,3,1,1,0,======================
+20200213_225011,1.390774,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.396989,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.397301,DEBUG!,3,1,1,0,======================
+20200213_225011,1.397317,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.397338,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.397402,DEBUG!,3,1,1,0,======================
+20200213_225011,1.411341,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.430169,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.430794,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.431290,DEBUG!,3,1,1,0,======================
+20200213_225011,1.431310,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.431336,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.431401,DEBUG!,3,1,1,0,======================
+20200213_225011,1.451004,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.462611,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.463716,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.464095,DEBUG!,3,1,1,0,======================
+20200213_225011,1.464110,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.464135,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.464199,DEBUG!,3,1,1,0,======================
+20200213_225011,1.490670,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.497285,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.497583,DEBUG!,3,1,1,0,======================
+20200213_225011,1.497596,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.497618,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.497683,DEBUG!,3,1,1,0,======================
+20200213_225011,1.511266,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.513572,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.515134,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.525212,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.527218,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.530830,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.531182,DEBUG!,3,1,1,0,======================
+20200213_225011,1.531195,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.531221,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.531294,DEBUG!,3,1,1,0,======================
+20200213_225011,1.540227,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.556483,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.562935,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.564016,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.564383,DEBUG!,3,1,1,0,======================
+20200213_225011,1.564398,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.564424,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.564487,DEBUG!,3,1,1,0,======================
+20200213_225011,1.575954,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.597240,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.597799,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.598095,DEBUG!,3,1,1,0,======================
+20200213_225011,1.598110,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.598130,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.598207,DEBUG!,3,1,1,0,======================
+20200213_225011,1.616046,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.629368,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225011,1.630475,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.630824,DEBUG!,3,1,1,0,======================
+20200213_225011,1.630841,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.630861,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.630925,DEBUG!,3,1,1,0,======================
+20200213_225011,1.655609,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.663227,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225011,1.664295,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225011,1.664660,DEBUG!,3,1,1,0,======================
+20200213_225011,1.664677,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225011,1.664697,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225011,1.664761,DEBUG!,3,1,1,0,======================
+20200213_225011,1.676050,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.696095,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225012,1.697185,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.697577,DEBUG!,3,1,1,0,======================
+20200213_225012,1.697592,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.697617,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.697681,DEBUG!,3,1,1,0,======================
+20200213_225012,1.715707,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.730247,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.730801,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.731199,DEBUG!,3,1,1,0,======================
+20200213_225012,1.731216,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.731232,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.731296,DEBUG!,3,1,1,0,======================
+20200213_225012,1.756373,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.762848,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225012,1.763925,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.764226,DEBUG!,3,1,1,0,======================
+20200213_225012,1.764240,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.764265,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.764329,DEBUG!,3,1,1,0,======================
+20200213_225012,1.775842,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.797231,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.797857,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.798247,DEBUG!,3,1,1,0,======================
+20200213_225012,1.798265,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.798285,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.798361,DEBUG!,3,1,1,0,======================
+20200213_225012,1.816347,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.829547,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225012,1.830629,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.831023,DEBUG!,3,1,1,0,======================
+20200213_225012,1.831037,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.831058,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.831122,DEBUG!,3,1,1,0,======================
+20200213_225012,1.855912,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.864018,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.864613,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.864875,DEBUG!,3,1,1,0,======================
+20200213_225012,1.864890,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.864911,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.864975,DEBUG!,3,1,1,0,======================
+20200213_225012,1.876385,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.895481,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225012,1.897463,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.897847,DEBUG!,3,1,1,0,======================
+20200213_225012,1.897864,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.897884,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.897948,DEBUG!,3,1,1,0,======================
+20200213_225012,1.915518,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.930359,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.930945,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.931334,DEBUG!,3,1,1,0,======================
+20200213_225012,1.931349,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.931374,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.931438,DEBUG!,3,1,1,0,======================
+20200213_225012,1.956077,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.962828,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225012,1.963948,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.964333,DEBUG!,3,1,1,0,======================
+20200213_225012,1.964350,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.964370,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.964434,DEBUG!,3,1,1,0,======================
+20200213_225012,1.975625,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.997440,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,1.998130,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,1.998564,DEBUG!,3,1,1,0,======================
+20200213_225012,1.998582,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,1.998601,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,1.998667,DEBUG!,3,1,1,0,======================
+20200213_225012,2.015830,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,2.018128,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225012,2.028300,Information,3,1,1,0,At begining of Master Control's loop
+20200213_225012,2.031215,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,2.031304,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200213_225012,2.031635,DEBUG!,3,1,1,0,======================
+20200213_225012,2.031652,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,2.031681,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,2.031769,DEBUG!,3,1,1,0,======================
+20200213_225012,2.064247,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,2.064621,DEBUG!,3,1,1,0,======================
+20200213_225012,2.064633,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,2.064655,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,2.064719,DEBUG!,3,1,1,0,======================
+20200213_225012,2.104114,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,2.104319,DEBUG!,3,1,1,0,======================
+20200213_225012,2.104333,DEBUG!,3,1,1,0,In Realsense GetPointCloud
+20200213_225012,2.104358,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,2.104422,DEBUG!,3,1,1,0,======================
+20200213_225012,2.130716,ERROR!,3,1,1,0,Unhandled Realsense Error
+20200213_225012,2.131025,DEBUG!,3,1,1,0,======================
+20200213_225012,2.131040,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200213_225012,2.131102,DEBUG!,3,1,1,0,======================
+20200213_225012,2.556201,Information,3,1,1,0,Closing the realsense

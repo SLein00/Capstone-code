@@ -9,6 +9,8 @@
 #include "Logger.h"
 #include "imgui.h"
 #include "imgui_impl_glfw.h"
+#include <thread>
+#include <mutex>
 
 //#define GUI
 struct RealsensePointReturn {
@@ -49,6 +51,8 @@ public:
     }
 
 private:
+
+    mutable std::mutex rs2lck;
 		rs2::pipeline pipe;
         // Declare pointcloud object, for calculating pointclouds and texture mappings
         rs2::pointcloud pc;
