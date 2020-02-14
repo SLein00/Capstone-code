@@ -162,6 +162,7 @@ Sensor::Sensor() {
 	{
 		if (posX == RealsenseSidepositioncoordinateX && posY == RealsenseSidepositioncoordinateY && posZ == RealsenseSidepositioncoordinateZ)
 		{
+			//Log1.log(Logger::LogLevel::DEBUG, "In Realsense switch to keyboard Side");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Realsensesidematrix, finpos);
@@ -170,6 +171,7 @@ Sensor::Sensor() {
 		}
 		else if (posX == RealsenseFrontpositioncoordinateX && posY == RealsenseFrontpositioncoordinateY && posZ == RealsenseFrontpositioncoordinateZ)
 		{
+			//Log1.log(Logger::LogLevel::DEBUG, "In Realsense switch to keyboard Front");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Realsensefrontmatrix, finpos);
@@ -178,6 +180,7 @@ Sensor::Sensor() {
 		}
 		else if (posX == RealsenseWebcampositioncoordinateX && posY == RealsenseWebcampositioncoordinateY && posZ == RealsenseWebcampositioncoordinateZ)
 		{
+			//Log1.log(Logger::LogLevel::DEBUG, "In Realsense switch to keyboard Webcam");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Realsensewebcammatrix, finpos);
@@ -186,6 +189,7 @@ Sensor::Sensor() {
 		}
 		else if (posX == RealsenseAbovepositioncoordinateX && posY == RealsenseAbovepositioncoordinateY && posZ == RealsenseAbovepositioncoordinateZ)
 		{
+			//Log1.log(Logger::LogLevel::DEBUG, "In Realsense switch to keyboard Above");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
 			position foo = matrixmultiply_4x4_4x1(Realsenseabovematrix, finpos);

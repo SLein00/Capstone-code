@@ -279,7 +279,7 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 50; i++) {//beginning of loop
+	for (int i = 0; i < 1300; i++) {//beginning of loop
 		//CAITLYNS EDITS
 	
 		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
@@ -385,15 +385,15 @@ int main() {//Beginning of main
 
 			testsensorRealsense.GetPointCloud();
 			for (int idx = 0; idx < testsensorRealsense.validPoints->numValid; idx++) {
-				position FinalFingerPos = testsensors.Realsenseswitchtokbd(testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z);
+				position FinalFingerPos = testsensors.Realsenseswitchtokbd((testsensorRealsense.validPoints->verts[idx].x)*100, (testsensorRealsense.validPoints->verts[idx].y)*100, (testsensorRealsense.validPoints->verts[idx].z)*100);
 				MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
 
-				//char buffer[10000];
-				//sprintf(buffer, "In MC Loop, Realsense, Idx=%i, Coord=[%f, %f, %f], FinalFingerPos=[%f, %f, %f], Midi=[%s]", idx, testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z, MidiNotesString(notenum).c_str());
-				//Log1.log(Logger::LogLevel::INFO, buffer);
+				char buffer[10000];
+				sprintf(buffer, "In MC Loop, Realsense, Idx=%i, Coord=[%f, %f, %f], FinalFingerPos=[%f, %f, %f], Midi=[%s]", idx, (testsensorRealsense.validPoints->verts[idx].x)*100, (testsensorRealsense.validPoints->verts[idx].y)*100, (testsensorRealsense.validPoints->verts[idx].z)*100, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z, MidiNotesString(notenum).c_str());
+				Log1.log(Logger::LogLevel::DEBUG, buffer);
 
 				if (!notenum == None) {
-					Log1.log(Logger::LogLevel::INFO, MidiNotesString(notenum), "On");
+					Log1.log(Logger::LogLevel::DEBUG, MidiNotesString(notenum), "On");
 					midioutput.playKey(notenum);
 				}
 			}

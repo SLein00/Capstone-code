@@ -1,0 +1,311 @@
+Working Directory: `C:\Users\Sami\Desktop\SRT\Code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200210_1151.txt` opened OK.
+CSV File `./LogFiles/Log20200210_1151.csv` opened OK.
+20200210_115116,0.216397,Information,3,1,0,0,There are 1 MIDI Output ports available.
+20200210_115116,0.216636,Information,3,1,0,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200210_115116,0.217672,Information,3,1,0,0,Sensor 3 is Leddartech
+20200210_115116,0.217695,Information,3,1,0,0,Location 1 is Side
+20200210_115116,0.217707,Information,3,1,0,0,Song is unidentified
+20200210_115116,0.217722,Information,3,1,0,0,Trial # is 0
+20200210_115116,0.217746,Information,3,1,0,0,Attempting to start the realsense
+20200210_115116,0.736900,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115116,0.743533,DEBUG!,3,1,0,0,======================
+20200210_115116,0.743580,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115116,0.743603,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115116,0.743620,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.508694,DEBUG!,3,1,0,0,======================
+20200210_115117,1.508772,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.508813,DEBUG!,3,1,0,0,======================
+20200210_115117,1.508834,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.508859,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.508879,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.534322,DEBUG!,3,1,0,0,======================
+20200210_115117,1.534372,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.540604,DEBUG!,3,1,0,0,======================
+20200210_115117,1.540632,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.540655,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.540672,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.594655,DEBUG!,3,1,0,0,======================
+20200210_115117,1.594707,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.598845,DEBUG!,3,1,0,0,======================
+20200210_115117,1.598883,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.598915,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.598940,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.663188,DEBUG!,3,1,0,0,======================
+20200210_115117,1.663243,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.665840,DEBUG!,3,1,0,0,======================
+20200210_115117,1.665873,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.665894,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.665909,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.712816,DEBUG!,3,1,0,0,======================
+20200210_115117,1.712857,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.715072,DEBUG!,3,1,0,0,======================
+20200210_115117,1.715132,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.715161,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.715182,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.765395,DEBUG!,3,1,0,0,======================
+20200210_115117,1.765446,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.769992,DEBUG!,3,1,0,0,======================
+20200210_115117,1.770020,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.770043,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.770060,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.795277,DEBUG!,3,1,0,0,======================
+20200210_115117,1.795329,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.800602,DEBUG!,3,1,0,0,======================
+20200210_115117,1.800634,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.800673,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.800706,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.864245,DEBUG!,3,1,0,0,======================
+20200210_115117,1.864296,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.871121,DEBUG!,3,1,0,0,======================
+20200210_115117,1.871156,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.871185,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.871215,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.929296,DEBUG!,3,1,0,0,======================
+20200210_115117,1.929340,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.932131,DEBUG!,3,1,0,0,======================
+20200210_115117,1.932161,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.932178,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.932191,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115117,1.994987,DEBUG!,3,1,0,0,======================
+20200210_115117,1.995037,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115117,1.997588,DEBUG!,3,1,0,0,======================
+20200210_115117,1.997623,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115117,1.997643,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115117,1.997657,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.062246,DEBUG!,3,1,0,0,======================
+20200210_115118,2.062296,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.066308,DEBUG!,3,1,0,0,======================
+20200210_115118,2.066351,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.066384,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.066411,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.134602,DEBUG!,3,1,0,0,======================
+20200210_115118,2.134691,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.137158,DEBUG!,3,1,0,0,======================
+20200210_115118,2.137202,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.137241,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.137272,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.200882,DEBUG!,3,1,0,0,======================
+20200210_115118,2.200933,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.203015,DEBUG!,3,1,0,0,======================
+20200210_115118,2.203054,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.203074,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.203088,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.228946,DEBUG!,3,1,0,0,======================
+20200210_115118,2.229001,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.235793,DEBUG!,3,1,0,0,======================
+20200210_115118,2.235843,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.235870,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.235891,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.298104,DEBUG!,3,1,0,0,======================
+20200210_115118,2.298177,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.301821,DEBUG!,3,1,0,0,======================
+20200210_115118,2.301857,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.301875,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.301888,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.364270,DEBUG!,3,1,0,0,======================
+20200210_115118,2.364324,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.367161,DEBUG!,3,1,0,0,======================
+20200210_115118,2.367200,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.367242,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.367272,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.395173,DEBUG!,3,1,0,0,======================
+20200210_115118,2.395223,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.396516,DEBUG!,3,1,0,0,======================
+20200210_115118,2.396552,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.396586,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.396603,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.463001,DEBUG!,3,1,0,0,======================
+20200210_115118,2.463044,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.465950,DEBUG!,3,1,0,0,======================
+20200210_115118,2.465985,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.466001,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.466014,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.528665,DEBUG!,3,1,0,0,======================
+20200210_115118,2.528716,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.530362,DEBUG!,3,1,0,0,======================
+20200210_115118,2.530383,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.530399,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.530411,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.595410,DEBUG!,3,1,0,0,======================
+20200210_115118,2.595461,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.597188,DEBUG!,3,1,0,0,======================
+20200210_115118,2.597230,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.597260,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.597274,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.663758,DEBUG!,3,1,0,0,======================
+20200210_115118,2.663834,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.665895,DEBUG!,3,1,0,0,======================
+20200210_115118,2.665934,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.665975,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.665994,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.728704,DEBUG!,3,1,0,0,======================
+20200210_115118,2.728755,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.730172,DEBUG!,3,1,0,0,======================
+20200210_115118,2.730199,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.730218,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.730232,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.795455,DEBUG!,3,1,0,0,======================
+20200210_115118,2.795505,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.796886,DEBUG!,3,1,0,0,======================
+20200210_115118,2.796910,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.796929,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.796944,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.865333,DEBUG!,3,1,0,0,======================
+20200210_115118,2.865387,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.868415,DEBUG!,3,1,0,0,======================
+20200210_115118,2.868460,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.868499,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.868529,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.929040,DEBUG!,3,1,0,0,======================
+20200210_115118,2.929091,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,2.930264,DEBUG!,3,1,0,0,======================
+20200210_115118,2.930294,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,2.930312,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,2.930326,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115118,2.995725,DEBUG!,3,1,0,0,======================
+20200210_115118,2.995778,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115118,3.001653,DEBUG!,3,1,0,0,======================
+20200210_115118,3.001683,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115118,3.001700,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115118,3.001714,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.062495,DEBUG!,3,1,0,0,======================
+20200210_115119,3.062547,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.067610,DEBUG!,3,1,0,0,======================
+20200210_115119,3.067642,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.067669,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.067690,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.128964,DEBUG!,3,1,0,0,======================
+20200210_115119,3.129016,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.137004,DEBUG!,3,1,0,0,======================
+20200210_115119,3.137030,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.137049,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.137064,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.195750,DEBUG!,3,1,0,0,======================
+20200210_115119,3.195801,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.197253,DEBUG!,3,1,0,0,======================
+20200210_115119,3.197289,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.197322,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.197336,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.262255,DEBUG!,3,1,0,0,======================
+20200210_115119,3.262306,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.263894,DEBUG!,3,1,0,0,======================
+20200210_115119,3.263925,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.263943,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.263956,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.328946,DEBUG!,3,1,0,0,======================
+20200210_115119,3.328996,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.331202,DEBUG!,3,1,0,0,======================
+20200210_115119,3.331242,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.331269,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.331291,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.395930,DEBUG!,3,1,0,0,======================
+20200210_115119,3.395980,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.401555,DEBUG!,3,1,0,0,======================
+20200210_115119,3.401582,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.401601,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.401616,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.463475,DEBUG!,3,1,0,0,======================
+20200210_115119,3.463527,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.469517,DEBUG!,3,1,0,0,======================
+20200210_115119,3.469548,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.469566,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.469580,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.530411,DEBUG!,3,1,0,0,======================
+20200210_115119,3.530461,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.531956,DEBUG!,3,1,0,0,======================
+20200210_115119,3.531986,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.532011,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.532035,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.595832,DEBUG!,3,1,0,0,======================
+20200210_115119,3.595884,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.599447,DEBUG!,3,1,0,0,======================
+20200210_115119,3.599471,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.599490,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.599505,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.664213,DEBUG!,3,1,0,0,======================
+20200210_115119,3.664267,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.669122,DEBUG!,3,1,0,0,======================
+20200210_115119,3.669145,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.669162,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.669175,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.728163,DEBUG!,3,1,0,0,======================
+20200210_115119,3.728206,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.734617,DEBUG!,3,1,0,0,======================
+20200210_115119,3.734655,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.734670,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.734682,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.795855,DEBUG!,3,1,0,0,======================
+20200210_115119,3.795893,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.801738,DEBUG!,3,1,0,0,======================
+20200210_115119,3.801778,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.801808,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.801832,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.827135,DEBUG!,3,1,0,0,======================
+20200210_115119,3.827173,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.831594,DEBUG!,3,1,0,0,======================
+20200210_115119,3.831634,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.831658,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.831672,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.893465,DEBUG!,3,1,0,0,======================
+20200210_115119,3.893501,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.899328,DEBUG!,3,1,0,0,======================
+20200210_115119,3.899372,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.899404,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.899431,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,3.962930,DEBUG!,3,1,0,0,======================
+20200210_115119,3.962981,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115119,3.964322,DEBUG!,3,1,0,0,======================
+20200210_115119,3.964356,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115119,3.964383,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115119,3.964404,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115119,4.030352,DEBUG!,3,1,0,0,======================
+20200210_115119,4.030392,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115120,4.032219,DEBUG!,3,1,0,0,======================
+20200210_115120,4.032241,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115120,4.032254,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115120,4.032264,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115120,4.097842,DEBUG!,3,1,0,0,======================
+20200210_115120,4.097900,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115120,4.102513,DEBUG!,3,1,0,0,======================
+20200210_115120,4.102544,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115120,4.102561,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115120,4.102575,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115120,4.162805,DEBUG!,3,1,0,0,======================
+20200210_115120,4.162856,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115120,4.164532,DEBUG!,3,1,0,0,======================
+20200210_115120,4.164565,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115120,4.164585,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115120,4.164599,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115120,4.229515,DEBUG!,3,1,0,0,======================
+20200210_115120,4.229566,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115120,4.234131,DEBUG!,3,1,0,0,======================
+20200210_115120,4.234175,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115120,4.234205,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115120,4.234227,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115120,4.296418,DEBUG!,3,1,0,0,======================
+20200210_115120,4.296471,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115120,4.300803,DEBUG!,3,1,0,0,======================
+20200210_115120,4.300851,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115120,4.300872,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115120,4.300888,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115120,4.364706,DEBUG!,3,1,0,0,======================
+20200210_115120,4.364756,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115120,4.368066,DEBUG!,3,1,0,0,======================
+20200210_115120,4.368090,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115120,4.368109,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115120,4.368123,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115120,4.429758,DEBUG!,3,1,0,0,======================
+20200210_115120,4.429810,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115120,4.434297,DEBUG!,3,1,0,0,======================
+20200210_115120,4.434355,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115120,4.434384,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115120,4.434412,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115120,4.496606,DEBUG!,3,1,0,0,======================
+20200210_115120,4.496656,Information,3,1,0,0,At begining of Master Control's loop
+20200210_115120,4.501066,DEBUG!,3,1,0,0,======================
+20200210_115120,4.501090,DEBUG!,3,1,0,0,Keyboard Resetting keys played
+20200210_115120,4.501109,DEBUG!,3,1,0,0,In Realsense GetPointCloud
+20200210_115120,4.501124,DEBUG!,3,1,0,0,Never leaving Realsense GetPointCloud
+20200210_115120,4.563034,DEBUG!,3,1,0,0,======================
+20200210_115120,4.564246,Information,3,1,0,0,Closing the realsense
