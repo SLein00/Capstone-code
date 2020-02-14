@@ -117,9 +117,9 @@ public:
 							{0, 0, 0, 1} } };
 	//Realsense matrices
 	std::array<std::array<double, 4>, 4> Realsensesidematrix = { { 
-							{ 0.0, 0.0, -1.0, RealsenseSidepositioncoordinateX},
+							{ 0.0, 0.0, 1.0, RealsenseSidepositioncoordinateX},
 							{1.0, 0.0, 0.0, RealsenseSidepositioncoordinateY},
-							{0.0, -1.0, 0.0, RealsenseSidepositioncoordinateZ},
+							{0.0, 1.0, 0.0, RealsenseSidepositioncoordinateZ},
 							{0.0, 0.0, 0.0, 1.0} } };
 	std::array<std::array<double, 4>, 4> Realsensefrontmatrix = { { {-1, 0, 0, RealsenseFrontpositioncoordinateX},
 							{0, -1, 0, RealsenseFrontpositioncoordinateY},

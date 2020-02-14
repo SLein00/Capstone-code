@@ -16,7 +16,7 @@ using namespace std;
 
 #include "AsyncGetLine.h"
 
-static const int max_number_of_threads = 8;
+static const int max_number_of_threads = 1;
 
 class ThreadCountSemaphore {
 public:
@@ -135,22 +135,23 @@ Keyboard testnotes;
 
 void doRealsenseWork(int id) {
 	int arridx = 0;
-	int arr[88];
+	bool arr[256];
+	for (int x = 0; x < 256; x++) { arr[x] = false; }
 	//testsensorRealsense.GetPointCloud();
 
-	rs2::frame depth;
-	int ret = testsensorRealsense.GetDepth(depth, id);
+	rs2::frame depth[max_number_of_threads];
+	int ret = testsensorRealsense.GetDepth(depth[id], id);
 	if (ret == 0) {
 
 		rs2::pointcloud pc;
 		rs2::points points;
 
-		points = pc.calculate(depth);
+		points = pc.calculate(*depth);
 
 		const rs2::vertex* verts = points.get_vertices();
 
-		RealsensePointReturn* retpoints = new RealsensePointReturn;
-		retpoints->numValid = 0;
+		RealsensePointReturn retpoints[max_number_of_threads];
+		(retpoints[id]).numValid = 0;
 		//rs2::vertex first = verts[0];
 		// Intel Realsense D435 Spefic Decimate by 4
 		for (int r = 0; r < 480; r += 2) {
@@ -158,8 +159,11 @@ void doRealsenseWork(int id) {
 			{
 				rs2::vertex vert = verts[r * 848 + c];
 				if (vert.z != 0) {
-					retpoints->verts[retpoints->numValid] = vert;
-					retpoints->numValid++;
+					int nv = (retpoints[id]).numValid;
+					(retpoints[id]).verts[nv].X = vert.x*100.0;
+					(retpoints[id]).verts[nv].Y = vert.y*100.0;
+					(retpoints[id]).verts[nv].Z = vert.z*100.0;
+					(retpoints[id]).numValid++;
 					//std::cout << idx << ";" << vert.x << "," << vert.y << "," << vert.z << std::endl;
 				}
 
@@ -167,19 +171,22 @@ void doRealsenseWork(int id) {
 		}
 
 
-		for (int idx = 0; idx < testsensorRealsense.validPoints->numValid; idx++) {
-			position FinalFingerPos = testsensors.Realsenseswitchtokbd(testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z);
+		for (int idx = 0; idx < (retpoints[id]).numValid; idx++) {
+			position FinalFingerPos = testsensors.Realsenseswitchtokbd((retpoints[id]).verts[idx].X, (retpoints[id]).verts[idx].Y, (retpoints[id]).verts[idx].Z);
+			//Log1.log(Logger::LogLevel::MOREDEBUG, id, retpoints->verts[idx].X, retpoints->verts[idx].Y, retpoints->verts[idx].Z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
 			MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
 			if (!notenum == None) {
-				Log1.log(Logger::LogLevel::DEBUG, MidiNotesString(notenum), " On ", id);
-				//midioutput.playKey(notenum);
-				arr[arridx] = notenum;
-				arridx++;
+				//Log1.log(Logger::LogLevel::DEBUG, MidiNotesString(notenum), " On ", id);
+				arr[notenum] = true;
 			}
 		}
+
+		// locks the midistream, so bulk do midi stuff.
 		midioutput.resetKeys();
-		for (int i = 0; i < arridx; i++) {
-			midioutput.playKey((MidiNotesNumbers)arr[i]);
+		for (int i = 0; i < 256; i++) {
+			if (arr[i]) {
+				midioutput.playKey((MidiNotesNumbers)i);
+			}
 		}
 		midioutput.sendKeys();
 	}
@@ -390,7 +397,7 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 100; i++) {//beginning of loop
+	for (int i = 0; i < 1000; i++) {//beginning of loop
 	
 		Log1.log(Logger::LogLevel::DEBUG, "At begining of Master Control's loop");
 		

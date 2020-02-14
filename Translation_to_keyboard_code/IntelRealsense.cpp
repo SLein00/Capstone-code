@@ -74,7 +74,6 @@ int IntelRealsense::GetDepth(rs2::frame &depth, int id) {
 	}
 	return 0;
 }
- 
 
 int IntelRealsense::GetPointCloud() {
 	std::lock_guard<std::mutex> lck(rs2lck);
@@ -103,7 +102,9 @@ int IntelRealsense::GetPointCloud() {
 			{
 				rs2::vertex vert = verts[r * 848 + c];
 				if (vert.z != 0) {
-					(*validPoints).verts[(*validPoints).numValid] = vert;
+					(*validPoints).verts[(*validPoints).numValid].X = vert.x * 100;
+					(*validPoints).verts[(*validPoints).numValid].Y = vert.y * 100;
+					(*validPoints).verts[(*validPoints).numValid].Z = vert.z * 100;
 					(*validPoints).numValid++;
 					//std::cout << idx << ";" << vert.x << "," << vert.y << "," << vert.z << std::endl;
 				}

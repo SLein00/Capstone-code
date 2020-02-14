@@ -3,6 +3,7 @@
 #define INTELREALSENSEH
 
 #include "SensorBase.h"
+#include "translationtokbd.h"
 #include <iostream>
 //#include "librealsense2/rs.hpp"
 #include "RSHelper.h"
@@ -17,7 +18,7 @@ extern const int max_number_of_threads;
 //#define GUI
 struct RealsensePointReturn {
     int numValid;
-    rs2::vertex verts[407040];
+    position verts[407040];
 };
 
 extern Logger Log1;

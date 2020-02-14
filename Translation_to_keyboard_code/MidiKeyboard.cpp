@@ -66,15 +66,15 @@ void MidiKeyboard::listKeyboardOutputs() {
 // NOTE:  resetKeys, playKey and sendKey must now be called in order to maintain thread locking.
 
 void MidiKeyboard::playKey(MidiNotesNumbers key) {
-	Log1.log(Logger::LogLevel::DEBUG, "Keyboard Being asked to play key ", MidiNotesString(key));
+	//Log1.log(Logger::LogLevel::DEBUG, "Keyboard Being asked to play key ", MidiNotesString(key));
 	keysplayednow[key] = true;
 }
 
 void MidiKeyboard::resetKeys() {
 	m_midimutex.lock(); // lock mutex on 
 	keysplayedlast = keysplayednow;
-	Log1.log(Logger::LogLevel::DEBUG, "======================");
-	Log1.log(Logger::LogLevel::DEBUG, "Keyboard Resetting keys played");
+	//Log1.log(Logger::LogLevel::DEBUG, "======================");
+	//Log1.log(Logger::LogLevel::DEBUG, "Keyboard Resetting keys played");
 	for (int i = 0; i < 128; i++) {
 		keysplayednow[i] = false;
 	}
@@ -100,7 +100,7 @@ void MidiKeyboard::sendKeys() {
 	}
 
 	//Log1.log(Logger::LogLevel::NOTES, logres.substr(2,logres.length()-2));
-	Log1.log(Logger::LogLevel::DEBUG, "======================");
+	//Log1.log(Logger::LogLevel::DEBUG, "======================");
 	Log1.log(Logger::LogLevel::NOTES, logres.substr(1,logres.length()-1));
 	m_midimutex.unlock();
 

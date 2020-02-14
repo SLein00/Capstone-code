@@ -170,6 +170,19 @@ Logger::~Logger() {
 	}
 }
 
+int Logger::log(LogLevel lvl, float sx, float sy, float sz, float fx, float fy, float fz) {
+	char buf[1000];
+	sprintf(buf, "Sensor: X %.2f, Y %.2f, Z %.2f;  FFP: X %.2f, Y %.2f, Z %.2f", sx, sy, sz, fx, fy, fz);
+	return log(lvl, buf);
+}
+
+int Logger::log(LogLevel lvl, int tid, float sx, float sy, float sz, float fx, float fy, float fz) {
+	char buf[1000];
+	sprintf(buf, "ThreadID: %d;  Sensor: X %.2f, Y %.2f, Z %.2f;  FFP: X %.2f, Y %.2f, Z %.2f", tid, sx, sy, sz, fx, fy, fz);
+	return log(lvl, buf);
+}
+
+
 int Logger::log(LogLevel lvl, std::string message) {
 	std::lock_guard<std::mutex> lck(m_logmutex);
 	if (lvl >= m_curloglevel) {
