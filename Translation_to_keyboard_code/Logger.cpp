@@ -227,6 +227,13 @@ int Logger::log(LogLevel lvl, std::string m1, std::string m2) {
 	return Logger::log(lvl, message);
 }
 
+int Logger::log(LogLevel lvl, std::string m1, std::string m2, int tid) {
+	std::string message = "";
+	message.append(m1).append(m2).append(std::to_string(tid));
+
+	return Logger::log(lvl, message);
+}
+
 void Logger::setLogLevel(LogLevel lvl) {
 	std::lock_guard<std::mutex> lck(m_logmutex);
 	m_curloglevel = lvl;

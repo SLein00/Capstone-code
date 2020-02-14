@@ -12,6 +12,8 @@
 #include <thread>
 #include <mutex>
 
+extern const int max_number_of_threads;
+
 //#define GUI
 struct RealsensePointReturn {
     int numValid;
@@ -26,6 +28,7 @@ class IntelRealsense :
 public:
 	int InitializeSensor();
 	int CloseSensor();
+    int GetDepth(rs2::frame &depth, int id);
 	int GetPointCloud();
     RealsensePointReturn* validPoints;
 #ifdef GUI

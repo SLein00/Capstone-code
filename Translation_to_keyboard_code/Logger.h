@@ -51,6 +51,7 @@ public:
 	int log(LogLevel lvl, std::string message);
 
 	int log(LogLevel lvl, std::string m1, std::string m2);
+	int log(LogLevel lvl, std::string m1, std::string m2, int tid);
 
 	void setLogLevel(LogLevel lvl);
 

@@ -16,38 +16,49 @@ using namespace std;
 
 #include "AsyncGetLine.h"
 
-static const int max_number_of_threads = 4;
+static const int max_number_of_threads = 8;
 
 class ThreadCountSemaphore {
 public:
 	ThreadCountSemaphore() {
 		m_count = 0;
+		for (int id = 0; id < max_number_of_threads; id++) {
+			threadids[id] = false;
+		}
 	}
 
 	~ThreadCountSemaphore() {
 		
 	}
 
-	int increment() {
+	int nextavailablethread() {
 		lock_guard<mutex> lck(m_lck);
-		m_count++;
-		return m_count;
+		for (int id = 0; id < max_number_of_threads; id++) {
+			if (!threadids[id]) {
+				m_count++;
+				threadids[id] = true;
+				return id;
+			}
+		}
+		return -1;
+		//return m_count;
 	}
 
-	int decrement() {
+	int decrement(int id) {
 		lock_guard<mutex> lck(m_lck);
 		m_count--;
+		threadids[id] = false;
 		return m_count;
 	}
 
-	int get() {
+	int getthreadcount() {
 		return m_count;
 	}
 
 private:
 	mutable int m_count;
 	mutable mutex m_lck;
-
+	mutable bool threadids[max_number_of_threads];
 };
 
 ThreadCountSemaphore numthreads;
@@ -122,28 +133,63 @@ LeapMotion testsensorLeap;
 FakeHands testsensorHands;
 Keyboard testnotes;
 
-void doRealsenseWork() {
+void doRealsenseWork(int id) {
 	int arridx = 0;
 	int arr[88];
-	testsensorRealsense.GetPointCloud();
+	//testsensorRealsense.GetPointCloud();
 
+	rs2::frame depth;
+	int ret = testsensorRealsense.GetDepth(depth, id);
+	if (ret == 0) {
 
-	for (int idx = 0; idx < testsensorRealsense.validPoints->numValid; idx++) {
-		position FinalFingerPos = testsensors.Realsenseswitchtokbd(testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z);
-		MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
-		if (!notenum == None) {
-			Log1.log(Logger::LogLevel::INFO, MidiNotesString(notenum), "On");
-			//midioutput.playKey(notenum);
-			arr[arridx] = notenum;
-			arridx++;
+		rs2::pointcloud pc;
+		rs2::points points;
+
+		points = pc.calculate(depth);
+
+		const rs2::vertex* verts = points.get_vertices();
+
+		RealsensePointReturn* retpoints = new RealsensePointReturn;
+		retpoints->numValid = 0;
+		//rs2::vertex first = verts[0];
+		// Intel Realsense D435 Spefic Decimate by 4
+		for (int r = 0; r < 480; r += 2) {
+			for (int c = 0; c < 848; c += 2)
+			{
+				rs2::vertex vert = verts[r * 848 + c];
+				if (vert.z != 0) {
+					retpoints->verts[retpoints->numValid] = vert;
+					retpoints->numValid++;
+					//std::cout << idx << ";" << vert.x << "," << vert.y << "," << vert.z << std::endl;
+				}
+
+			}
 		}
+
+
+		for (int idx = 0; idx < testsensorRealsense.validPoints->numValid; idx++) {
+			position FinalFingerPos = testsensors.Realsenseswitchtokbd(testsensorRealsense.validPoints->verts[idx].x, testsensorRealsense.validPoints->verts[idx].y, testsensorRealsense.validPoints->verts[idx].z);
+			MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+			if (!notenum == None) {
+				Log1.log(Logger::LogLevel::DEBUG, MidiNotesString(notenum), " On ", id);
+				//midioutput.playKey(notenum);
+				arr[arridx] = notenum;
+				arridx++;
+			}
+		}
+		midioutput.resetKeys();
+		for (int i = 0; i < arridx; i++) {
+			midioutput.playKey((MidiNotesNumbers)arr[i]);
+		}
+		midioutput.sendKeys();
 	}
-	midioutput.resetKeys();
-	for (int i = 0; i < arridx; i++) {
-		midioutput.playKey((MidiNotesNumbers)arr[i]);
+	else {
+		char buf[200];
+		sprintf(buf, "Did not get good realsense data thread %d", id);
+		Log1.log(Logger::LogLevel::ERROR, buf);
 	}
-	midioutput.sendKeys();
-	numthreads.decrement();
+	numthreads.decrement(id);
+
 }
 
 
@@ -346,7 +392,7 @@ int main() {//Beginning of main
 
 	for (int i = 0; i < 100; i++) {//beginning of loop
 	
-		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
+		Log1.log(Logger::LogLevel::DEBUG, "At begining of Master Control's loop");
 		
 		consoleinput = ag.GetLine();
 		if (!consoleinput.empty() && consoleinput[1] == 'q'){
@@ -446,14 +492,16 @@ int main() {//Beginning of main
 			
 			// realsense processing moved to thread helper way above.
 
-			if (numthreads.get() < max_number_of_threads) {
-				std::thread t(doRealsenseWork);
-				numthreads.increment();
-				t.detach();
+			if (numthreads.getthreadcount() < max_number_of_threads) {
+				int tid = numthreads.nextavailablethread();
+				if (tid > -1) {
+					std::thread t(doRealsenseWork, tid);
+					t.detach();
+				}
 			}
 			else {
 				Log1.log(Logger::LogLevel::DEBUG, "Waiting for thread reasources");
-				this_thread::sleep_for(10ms);
+				this_thread::sleep_for(4ms);
 			}
 
 		}
@@ -486,8 +534,8 @@ int main() {//Beginning of main
 	}//end of loop
 	cout << "Wrapping Up for trial: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl;
 
-	while (numthreads.get() > 0) {
-		cout << "Waiting for " << numthreads.get() << " threads to wrap up." << endl;
+	while (numthreads.getthreadcount() > 0) {
+		cout << "Waiting for " << numthreads.getthreadcount() << " threads to wrap up." << endl;
 		this_thread::sleep_for(500ms);
 	}
 

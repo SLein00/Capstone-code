@@ -1,0 +1,430 @@
+Working Directory: `C:\Users\srini\Documents\Mentoring\SLein-2019-2020\Capstone-code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200214_1558.txt` opened OK.
+CSV File `./LogFiles/Log20200214_1558.csv` opened OK.
+20200214_155834,0.028065,Information,3,1,1,0,There are 1 MIDI Output ports available.
+20200214_155834,0.028257,Information,3,1,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200214_155834,0.028761,Information,3,1,1,0,Sensor 3 is Leddartech
+20200214_155834,0.028778,Information,3,1,1,0,Location 1 is Side
+20200214_155834,0.028795,Information,3,1,1,0,Song 1 is one-finger scales
+20200214_155834,0.028809,Information,3,1,1,0,Trial # is 0
+20200214_155834,0.028821,Information,3,1,1,0,Attempting to start the realsense
+20200214_155835,0.550405,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.553530,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.553980,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.554021,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,0.556419,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.558390,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.560413,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.562408,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.580208,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.600239,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.619854,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,0.639428,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.647884,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,0.652054,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,0.659478,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.661858,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155835,0.672251,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155835,0.679570,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,0.683183,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155835,0.694258,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 5
+20200214_155835,0.699614,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.705337,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 6
+20200214_155835,0.716462,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 7
+20200214_155835,0.719681,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,0.739715,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.754890,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,0.774914,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.794492,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,0.814524,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.834532,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,0.854563,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.862510,DEBUG!,3,1,1,0,======================
+20200214_155835,0.864091,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.864173,DEBUG!,3,1,1,0,======================
+20200214_155835,0.865612,DEBUG!,3,1,1,0,======================
+20200214_155835,0.865636,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.865702,DEBUG!,3,1,1,0,======================
+20200214_155835,0.870696,DEBUG!,3,1,1,0,======================
+20200214_155835,0.870710,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.870773,DEBUG!,3,1,1,0,======================
+20200214_155835,0.875314,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,0.876806,DEBUG!,3,1,1,0,======================
+20200214_155835,0.876824,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.876892,DEBUG!,3,1,1,0,======================
+20200214_155835,0.881610,DEBUG!,3,1,1,0,======================
+20200214_155835,0.881624,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.881694,DEBUG!,3,1,1,0,======================
+20200214_155835,0.883236,DEBUG!,3,1,1,0,======================
+20200214_155835,0.883269,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.883338,DEBUG!,3,1,1,0,======================
+20200214_155835,0.890358,DEBUG!,3,1,1,0,======================
+20200214_155835,0.890392,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.890458,DEBUG!,3,1,1,0,======================
+20200214_155835,0.891192,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.892701,DEBUG!,3,1,1,0,======================
+20200214_155835,0.892719,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.892783,DEBUG!,3,1,1,0,======================
+20200214_155835,0.895200,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.895902,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,0.910497,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.910598,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,0.930652,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.930793,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155835,0.944630,DEBUG!,3,1,1,0,======================
+20200214_155835,0.944660,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.944725,DEBUG!,3,1,1,0,======================
+20200214_155835,0.948819,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.950671,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,0.955816,DEBUG!,3,1,1,0,======================
+20200214_155835,0.955845,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,0.955908,DEBUG!,3,1,1,0,======================
+20200214_155835,0.961155,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.961245,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,0.970074,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.970160,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155835,0.990338,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,0.990457,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155835,1.009735,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.010491,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 5
+20200214_155835,1.030477,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.030608,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 6
+20200214_155835,1.040390,DEBUG!,3,1,1,0,======================
+20200214_155835,1.040411,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.040477,DEBUG!,3,1,1,0,======================
+20200214_155835,1.042091,DEBUG!,3,1,1,0,======================
+20200214_155835,1.042122,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.042187,DEBUG!,3,1,1,0,======================
+20200214_155835,1.051238,DEBUG!,3,1,1,0,======================
+20200214_155835,1.051270,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.051904,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.051943,DEBUG!,3,1,1,0,======================
+20200214_155835,1.051995,DEBUG!,3,1,1,0,======================
+20200214_155835,1.052014,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.052077,DEBUG!,3,1,1,0,======================
+20200214_155835,1.052202,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 7
+20200214_155835,1.053524,DEBUG!,3,1,1,0,======================
+20200214_155835,1.053557,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.053627,DEBUG!,3,1,1,0,======================
+20200214_155835,1.060668,DEBUG!,3,1,1,0,======================
+20200214_155835,1.060710,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.060804,DEBUG!,3,1,1,0,======================
+20200214_155835,1.062171,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.066781,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.069631,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,1.070413,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.074493,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,1.079213,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155835,1.090093,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.090748,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155835,1.110314,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.110462,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155835,1.111687,DEBUG!,3,1,1,0,======================
+20200214_155835,1.111706,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.111777,DEBUG!,3,1,1,0,======================
+20200214_155835,1.119935,DEBUG!,3,1,1,0,======================
+20200214_155835,1.119965,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.120031,DEBUG!,3,1,1,0,======================
+20200214_155835,1.127022,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.127171,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 5
+20200214_155835,1.127416,DEBUG!,3,1,1,0,======================
+20200214_155835,1.127444,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.127517,DEBUG!,3,1,1,0,======================
+20200214_155835,1.130343,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.134951,DEBUG!,3,1,1,0,======================
+20200214_155835,1.134981,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.135046,DEBUG!,3,1,1,0,======================
+20200214_155835,1.138448,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.139814,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 6
+20200214_155835,1.141499,DEBUG!,3,1,1,0,======================
+20200214_155835,1.141528,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.141593,DEBUG!,3,1,1,0,======================
+20200214_155835,1.145306,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.150290,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,1.150774,DEBUG!,3,1,1,0,======================
+20200214_155835,1.150816,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.150908,DEBUG!,3,1,1,0,======================
+20200214_155835,1.157475,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.159043,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,1.165329,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.165512,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155835,1.172217,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155835,1.185636,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.185774,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 7
+20200214_155835,1.190509,DEBUG!,3,1,1,0,======================
+20200214_155835,1.190540,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.190604,DEBUG!,3,1,1,0,======================
+20200214_155835,1.200651,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.201504,DEBUG!,3,1,1,0,======================
+20200214_155835,1.201535,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.201600,DEBUG!,3,1,1,0,======================
+20200214_155835,1.202820,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155835,1.204840,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,1.209246,DEBUG!,3,1,1,0,======================
+20200214_155835,1.209265,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.209332,DEBUG!,3,1,1,0,======================
+20200214_155835,1.214411,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.215468,DEBUG!,3,1,1,0,======================
+20200214_155835,1.215497,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.215563,DEBUG!,3,1,1,0,======================
+20200214_155835,1.222975,DEBUG!,3,1,1,0,======================
+20200214_155835,1.223005,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.223279,DEBUG!,3,1,1,0,======================
+20200214_155835,1.225466,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.225593,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,1.239923,DEBUG!,3,1,1,0,======================
+20200214_155835,1.239946,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.240011,DEBUG!,3,1,1,0,======================
+20200214_155835,1.245578,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.245888,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,1.256886,DEBUG!,3,1,1,0,======================
+20200214_155835,1.256914,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.256977,DEBUG!,3,1,1,0,======================
+20200214_155835,1.264486,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.264571,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155835,1.267754,DEBUG!,3,1,1,0,======================
+20200214_155835,1.267786,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.267855,DEBUG!,3,1,1,0,======================
+20200214_155835,1.274195,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.275345,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155835,1.276982,DEBUG!,3,1,1,0,======================
+20200214_155835,1.277010,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.277078,DEBUG!,3,1,1,0,======================
+20200214_155835,1.285850,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.285934,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155835,1.287648,DEBUG!,3,1,1,0,======================
+20200214_155835,1.287665,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.287733,DEBUG!,3,1,1,0,======================
+20200214_155835,1.293107,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.293189,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,1.304061,DEBUG!,3,1,1,0,======================
+20200214_155835,1.304091,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.304159,DEBUG!,3,1,1,0,======================
+20200214_155835,1.305179,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.306879,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 5
+20200214_155835,1.310620,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.310733,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,1.325241,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.325996,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 6
+20200214_155835,1.326653,DEBUG!,3,1,1,0,======================
+20200214_155835,1.326671,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.326735,DEBUG!,3,1,1,0,======================
+20200214_155835,1.333831,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.333935,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155835,1.337811,DEBUG!,3,1,1,0,======================
+20200214_155835,1.337840,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.337908,DEBUG!,3,1,1,0,======================
+20200214_155835,1.345277,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.345622,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 7
+20200214_155835,1.349303,DEBUG!,3,1,1,0,======================
+20200214_155835,1.349323,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.349701,DEBUG!,3,1,1,0,======================
+20200214_155835,1.351321,DEBUG!,3,1,1,0,======================
+20200214_155835,1.351333,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.351396,DEBUG!,3,1,1,0,======================
+20200214_155835,1.359881,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.360035,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,1.362987,DEBUG!,3,1,1,0,======================
+20200214_155835,1.363005,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.363069,DEBUG!,3,1,1,0,======================
+20200214_155835,1.365291,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.368894,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155835,1.373146,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.374624,DEBUG!,3,1,1,0,======================
+20200214_155835,1.374658,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.374725,DEBUG!,3,1,1,0,======================
+20200214_155835,1.378148,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155835,1.381363,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.385210,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.386462,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,1.391523,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 5
+20200214_155835,1.399897,DEBUG!,3,1,1,0,======================
+20200214_155835,1.399931,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.399995,DEBUG!,3,1,1,0,======================
+20200214_155835,1.404745,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155835,1.408431,DEBUG!,3,1,1,0,======================
+20200214_155835,1.408455,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.408530,DEBUG!,3,1,1,0,======================
+20200214_155835,1.415503,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.420498,DEBUG!,3,1,1,0,======================
+20200214_155835,1.420527,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.420592,DEBUG!,3,1,1,0,======================
+20200214_155835,1.425555,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.425913,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155835,1.426744,DEBUG!,3,1,1,0,======================
+20200214_155835,1.426772,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.426863,DEBUG!,3,1,1,0,======================
+20200214_155835,1.433393,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.433513,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155835,1.440427,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.440535,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 6
+20200214_155835,1.445015,DEBUG!,3,1,1,0,======================
+20200214_155835,1.445045,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.445110,DEBUG!,3,1,1,0,======================
+20200214_155835,1.453892,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.454011,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155835,1.455407,DEBUG!,3,1,1,0,======================
+20200214_155835,1.455425,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.455493,DEBUG!,3,1,1,0,======================
+20200214_155835,1.460449,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.460550,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 7
+20200214_155835,1.465772,DEBUG!,3,1,1,0,======================
+20200214_155835,1.465790,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.465856,DEBUG!,3,1,1,0,======================
+20200214_155835,1.473250,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.473355,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155835,1.473917,DEBUG!,3,1,1,0,======================
+20200214_155835,1.473947,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.474011,DEBUG!,3,1,1,0,======================
+20200214_155835,1.480072,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.480157,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155835,1.490068,DEBUG!,3,1,1,0,======================
+20200214_155835,1.490095,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.490158,DEBUG!,3,1,1,0,======================
+20200214_155835,1.498257,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.498339,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155835,1.500679,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.500782,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 5
+20200214_155835,1.502302,DEBUG!,3,1,1,0,======================
+20200214_155835,1.502320,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.502387,DEBUG!,3,1,1,0,======================
+20200214_155835,1.510816,DEBUG!,3,1,1,0,======================
+20200214_155835,1.510846,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155835,1.510911,DEBUG!,3,1,1,0,======================
+20200214_155835,1.512109,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155835,1.514138,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155836,1.517754,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.519664,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.523092,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 6
+20200214_155836,1.529466,DEBUG!,3,1,1,0,======================
+20200214_155836,1.529492,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.529559,DEBUG!,3,1,1,0,======================
+20200214_155836,1.531161,DEBUG!,3,1,1,0,======================
+20200214_155836,1.531192,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.531259,DEBUG!,3,1,1,0,======================
+20200214_155836,1.534785,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.541214,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.541349,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155836,1.545859,DEBUG!,3,1,1,0,======================
+20200214_155836,1.545888,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.545951,DEBUG!,3,1,1,0,======================
+20200214_155836,1.555616,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.555989,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155836,1.557462,DEBUG!,3,1,1,0,======================
+20200214_155836,1.557481,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.557548,DEBUG!,3,1,1,0,======================
+20200214_155836,1.563994,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.564188,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155836,1.572042,DEBUG!,3,1,1,0,======================
+20200214_155836,1.572072,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.572143,DEBUG!,3,1,1,0,======================
+20200214_155836,1.575613,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.576736,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.577179,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 7
+20200214_155836,1.581722,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.582376,DEBUG!,3,1,1,0,======================
+20200214_155836,1.582401,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.582466,DEBUG!,3,1,1,0,======================
+20200214_155836,1.584373,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.585762,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.589244,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155836,1.592678,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.594344,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.594917,DEBUG!,3,1,1,0,======================
+20200214_155836,1.594937,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.595006,DEBUG!,3,1,1,0,======================
+20200214_155836,1.595736,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.600737,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.601373,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 5
+20200214_155836,1.603273,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.604740,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.606368,DEBUG!,3,1,1,0,======================
+20200214_155836,1.606391,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.606461,DEBUG!,3,1,1,0,======================
+20200214_155836,1.609747,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.611750,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.613740,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155836,1.616756,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.617934,DEBUG!,3,1,1,0,======================
+20200214_155836,1.617952,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.618026,DEBUG!,3,1,1,0,======================
+20200214_155836,1.619417,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.620758,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.626007,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 6
+20200214_155836,1.626794,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.629368,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.630770,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.630838,DEBUG!,3,1,1,0,======================
+20200214_155836,1.630857,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.630939,DEBUG!,3,1,1,0,======================
+20200214_155836,1.635764,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.637627,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 3
+20200214_155836,1.637774,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.642626,DEBUG!,3,1,1,0,======================
+20200214_155836,1.642651,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.642718,DEBUG!,3,1,1,0,======================
+20200214_155836,1.642776,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.645465,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.646792,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.647813,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 1
+20200214_155836,1.652792,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.656165,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.657788,DEBUG!,3,1,1,0,======================
+20200214_155836,1.657851,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.657870,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 4
+20200214_155836,1.657891,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.657969,DEBUG!,3,1,1,0,======================
+20200214_155836,1.662791,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.665263,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.667310,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.667592,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 7
+20200214_155836,1.668981,DEBUG!,3,1,1,0,======================
+20200214_155836,1.669009,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.669096,DEBUG!,3,1,1,0,======================
+20200214_155836,1.671800,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.673807,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.678842,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.680518,DEBUG!,3,1,1,0,======================
+20200214_155836,1.680541,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.680609,DEBUG!,3,1,1,0,======================
+20200214_155836,1.681456,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.681586,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 2
+20200214_155836,1.682819,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.687813,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.690270,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.692376,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.693538,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 5
+20200214_155836,1.694035,DEBUG!,3,1,1,0,======================
+20200214_155836,1.694059,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.694122,DEBUG!,3,1,1,0,======================
+20200214_155836,1.696824,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.698831,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.703834,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.707876,DEBUG!,3,1,1,0,At begining of Master Control's loop
+20200214_155836,1.708150,DEBUG!,3,1,1,0,Getting RS2 Depth Thread 0
+20200214_155836,1.709504,DEBUG!,3,1,1,0,======================
+20200214_155836,1.709528,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.709592,DEBUG!,3,1,1,0,======================
+20200214_155836,1.709840,DEBUG!,3,1,1,0,Waiting for thread reasources
+20200214_155836,1.716959,DEBUG!,3,1,1,0,======================
+20200214_155836,1.716982,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.717065,DEBUG!,3,1,1,0,======================
+20200214_155836,1.730563,DEBUG!,3,1,1,0,======================
+20200214_155836,1.730596,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.730662,DEBUG!,3,1,1,0,======================
+20200214_155836,1.736923,DEBUG!,3,1,1,0,======================
+20200214_155836,1.736942,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.737011,DEBUG!,3,1,1,0,======================
+20200214_155836,1.754053,DEBUG!,3,1,1,0,======================
+20200214_155836,1.754085,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.754149,DEBUG!,3,1,1,0,======================
+20200214_155836,1.763834,DEBUG!,3,1,1,0,======================
+20200214_155836,1.763862,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.763940,DEBUG!,3,1,1,0,======================
+20200214_155836,1.772479,DEBUG!,3,1,1,0,======================
+20200214_155836,1.772509,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.772573,DEBUG!,3,1,1,0,======================
+20200214_155836,1.783459,DEBUG!,3,1,1,0,======================
+20200214_155836,1.783489,DEBUG!,3,1,1,0,Keyboard Resetting keys played
+20200214_155836,1.783551,DEBUG!,3,1,1,0,======================
+20200214_155836,2.218311,Information,3,1,1,0,Closing the realsense

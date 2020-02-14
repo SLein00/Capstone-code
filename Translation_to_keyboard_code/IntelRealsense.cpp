@@ -27,7 +27,9 @@ int IntelRealsense::InitializeSensor(){
 	// Declare RealSense pipeline, encapsulating the actual device and sensors
 	//rs2::pipeline pipe;
 	// Start streaming with default recommended configuration
-	pipe.start();
+	rs2::config cfg;
+	cfg.enable_stream(RS2_STREAM_DEPTH, 848, 480, RS2_FORMAT_Z16, 90);
+	pipe.start(cfg);
 	validPoints = new RealsensePointReturn;
 
 
@@ -56,7 +58,23 @@ int IntelRealsense::CloseSensor() {
 
 }
 
-
+int IntelRealsense::GetDepth(rs2::frame &depth, int id) {
+	std::lock_guard<std::mutex> lck(rs2lck);
+	char buf[200];
+	sprintf(buf, "Getting RS2 Depth Thread %d", id);
+	Log1.log(Logger::LogLevel::DEBUG, buf);
+	rs2::frameset frames;
+	try {
+		frames = pipe.wait_for_frames();
+		depth = frames.get_depth_frame();
+	}
+	catch (...) {
+		Log1.log(Logger::LogLevel::ERROR, "Unhandled realsense depth error");
+		return -1;
+	}
+	return 0;
+}
+ 
 
 int IntelRealsense::GetPointCloud() {
 	std::lock_guard<std::mutex> lck(rs2lck);
