@@ -96,9 +96,12 @@ int IntelRealsense::GetPointCloud() {
 		const rs2::vertex* verts = points.get_vertices();
 		(*validPoints).numValid = 0;
 		//rs2::vertex first = verts[0];
-		// Intel Realsense D435 Spefic Decimate by 4
-		for (int r = 0; r < 480; r += 2) {
-			for (int c = 0; c < 848; c += 2)
+		// Intel Realsense D435 Spefic Decimate by lots
+		
+		/*for (int r = 0; r < 480; r += 2) {
+			for (int c = 0; c < 848; c += 2)*/
+		for (int r = 160; r < 320; r += 4) {
+			for (int c = 0; c < 848; c += 4)
 			{
 				rs2::vertex vert = verts[r * 848 + c];
 				if (vert.z != 0) {
