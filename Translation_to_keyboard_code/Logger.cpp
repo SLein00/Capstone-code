@@ -214,8 +214,8 @@ int Logger::log(LogLevel lvl, std::string message) {
 				char smbuf[10];
 				sprintf(smbuf, "%.2f", elapsed_seconds.count());
 				//sprintf(smbuf, "abc.00\n");
-				smbuf[5] = '\n';
-				arduino->transmit(smbuf, 6);
+				smbuf[6] = '\n';
+				arduino->transmit(smbuf, 7);
 			}
 			return 0;
 		}
