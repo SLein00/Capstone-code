@@ -33,6 +33,8 @@ private:
 	std::array<bool,128> keysplayednow;
 	std::array<bool,128> keysplayedlast;
 	bool isplayable(int i);
+
+	RtMidiOut* midiout;
 };
 
 #endif // !MIDIKEYBOARDH

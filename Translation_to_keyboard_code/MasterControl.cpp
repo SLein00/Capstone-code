@@ -412,7 +412,7 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 150; i++) {//beginning of loop
+	for (int i = 0; i < 1500; i++) {//beginning of loop
 		//CAITLYNS EDITS
 	
 		Log1.log(Logger::LogLevel::DEBUG, "At begining of Master Control's loop");
@@ -579,6 +579,8 @@ int main() {//Beginning of main
 		cout << "Waiting for " << numthreads.getthreadcount() << " threads to wrap up." << endl;
 		this_thread::sleep_for(500ms);
 	}
+
+	midioutput.closekeyboard();
 
 	//turn off sensor
 	if (sensortype == 1) { // leddar

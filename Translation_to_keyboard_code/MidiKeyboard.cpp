@@ -22,12 +22,25 @@ std::string MidiKeyboard::playableNotes() {
 int MidiKeyboard::closekeyboard() {
 	std::lock_guard<std::mutex> lck(m_midimutex);
 	Log1.log(Logger::LogLevel::INFO, "closing midi keyboard");
+	std::vector<unsigned char> message;
+	message.resize(3);
+	if (midiout->isPortOpen()) {
+		for (int i = 0; i < 128; i++) {
+			// send note off
+			message[0] = 128;
+			message[1] = i;
+			message[2] = 40;
+			midiout->sendMessage(&message);
+
+		}
+		midiout->closePort();
+	}
 	return 0;
 }
 
 void MidiKeyboard::listKeyboardOutputs() {
 	std::lock_guard<std::mutex> lck(m_midimutex);
-	RtMidiOut* midiout = 0;
+	//RtMidiOut* midiout = 0;
 
 	try {
 		midiout = new RtMidiOut();
@@ -59,7 +72,14 @@ void MidiKeyboard::listKeyboardOutputs() {
 		Log1.log(Logger::LogLevel::INFO, message );
 	}
 
-	delete midiout;
+	try {
+		midiout->openPort(nPorts-1); /// open the last port by default.
+	}
+	catch (RtMidiError &e) {
+		Log1.log(Logger::LogLevel::cERROR, e.getMessage());
+	}
+
+	//delete midiout;
 
 }
  
@@ -81,13 +101,23 @@ void MidiKeyboard::resetKeys() {
 }
 
 void MidiKeyboard::sendKeys() {
+	std::vector<unsigned char> message;
+	message.resize(3);
 	std::string logres;
 	for (int i = 0; i < 128; i++) {
 		if (keysplayedlast[i] == false && keysplayednow[i] == true) {
 			// send note on
+			message[0] = 144;
+			message[1] = i;
+			message[2] = 40;
+			midiout->sendMessage(&message);
 		}
 		else if (keysplayedlast[i] == true && keysplayednow[i] == false) {
 			// send note off
+			message[0] = 128;
+			message[1] = i;
+			message[2] = 40;
+			midiout->sendMessage(&message);
 		}
 		if (isplayable(i)) {
 			if (keysplayednow[i]) {
