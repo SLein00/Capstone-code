@@ -201,7 +201,7 @@ void doRealsenseWork(int id) {
 	else {
 		char buf[200];
 		sprintf(buf, "Did not get good realsense data thread %d", id);
-		Log1.log(Logger::LogLevel::ERROR, buf);
+		Log1.log(Logger::LogLevel::cERROR, buf);
 	}
 	numthreads.decrement(id);
 
@@ -412,7 +412,7 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 1300; i++) {//beginning of loop
+	for (int i = 0; i < 150; i++) {//beginning of loop
 		//CAITLYNS EDITS
 	
 		Log1.log(Logger::LogLevel::DEBUG, "At begining of Master Control's loop");

@@ -26,6 +26,9 @@ Logger::Logger() {
 	m_csvname = flname;
 	m_csvname.append(".csv");
 	m_directory = "./LogFiles";
+
+	//arduino = new SerialPort("\\\\.\\COM3");
+
 }
 
 Logger::Logger(std::string filename) {
@@ -129,6 +132,9 @@ int Logger::openfile() {
 		m_csvfile.flush();
 	}
 
+	arduino = new SerialPort("COM3", 115200);
+	//arduino->Initialize("COM3", 115200);
+
 
 	if (m_csvfile.is_open() && m_logfile.is_open()) {
 		return 0;
@@ -202,6 +208,14 @@ int Logger::log(LogLevel lvl, std::string message) {
 			if (m_csvbufpos > m_csvbufferflushlimit) {
 				m_csvfile << m_csvbuffer;
 				m_csvbufpos = 0;
+			}
+
+			if (arduino->isConnected()) {
+				char smbuf[10];
+				sprintf(smbuf, "%.2f", elapsed_seconds.count());
+				//sprintf(smbuf, "abc.00\n");
+				smbuf[5] = '\n';
+				arduino->transmit(smbuf, 6);
 			}
 			return 0;
 		}

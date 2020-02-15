@@ -16,6 +16,11 @@
 #include "MidiKeyboard.h"
 #include <thread>
 #include <mutex>
+#include <stdlib.h>
+#include <stdio.h>
+
+#include "SerialPort.h"
+
 
 //#include <filesystem>
 
@@ -26,7 +31,7 @@ public:
 		NOTES = 4,
 		INFO = 2,
 		WARN = 3,
-		ERROR = 5,
+		cERROR = 5,
 		DEBUG = 1,
 		MOREDEBUG = 0
 	};
@@ -36,7 +41,7 @@ public:
 		case NOTES: return "Notes";
 		case INFO: return "Information";
 		case WARN: return "Warning!";
-		case ERROR: return "ERROR!";
+		case cERROR: return "ERROR!";
 		case DEBUG: return "DEBUG!";
 		case MOREDEBUG: return "MORE DEBUG";
 		default: return "UNDEFINED";
@@ -69,6 +74,7 @@ public:
 	void setMetaData(int, int, int, int);
 
 private:
+	SerialPort* arduino;
 	mutable std::mutex m_logmutex;
 
 

@@ -69,7 +69,7 @@ int IntelRealsense::GetDepth(rs2::frame &depth, int id) {
 		depth = frames.get_depth_frame();
 	}
 	catch (...) {
-		Log1.log(Logger::LogLevel::ERROR, "Unhandled realsense depth error");
+		Log1.log(Logger::LogLevel::cERROR, "Unhandled realsense depth error");
 		return -1;
 	}
 	return 0;
@@ -128,7 +128,7 @@ int IntelRealsense::GetPointCloud() {
 		return validPoints->numValid;
 	}
 	catch (...) {
-		Log1.log(Logger::LogLevel::ERROR, "Unhandled Realsense Error");
+		Log1.log(Logger::LogLevel::cERROR, "Unhandled Realsense Error");
 		return -1;
 	}
 }

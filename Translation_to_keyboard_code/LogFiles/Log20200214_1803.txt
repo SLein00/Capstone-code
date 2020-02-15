@@ -1,3 +1,0 @@
-Working Directory: `C:\Users\srini\Documents\Mentoring\SLein-2019-2020\Capstone-code\Translation_to_keyboard_code`
-Log File `./LogFiles/Log20200214_1803.txt` opened OK.
-CSV File `./LogFiles/Log20200214_1803.csv` opened OK.
