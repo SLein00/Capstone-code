@@ -26,7 +26,7 @@ int LeddarTech::InitializeSensor() {
 	}
 	catch (std::exception & e)
 	{
-		Log1.log(Logger::LogLevel::ERROR, e.what());
+		Log1.log(Logger::LogLevel::cERROR, e.what());
 		std::cout << "Exception: " << e.what() << std::endl;
 	}
 	return 0;
@@ -42,7 +42,7 @@ int LeddarTech::CloseSensor() {
 	}
 	catch (std::exception & e)
 	{
-		Log1.log(Logger::LogLevel::ERROR, e.what());
+		Log1.log(Logger::LogLevel::cERROR, e.what());
 		std::cout << "Exception: " << e.what() << std::endl;
 #ifdef _WIN32
 		system("pause");

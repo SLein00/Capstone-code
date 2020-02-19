@@ -14,6 +14,13 @@
 #include <chrono>
 #include <map>
 #include "MidiKeyboard.h"
+#include <thread>
+#include <mutex>
+#include <stdlib.h>
+#include <stdio.h>
+
+#include "SerialPort.h"
+
 
 //#include <filesystem>
 
@@ -24,8 +31,9 @@ public:
 		NOTES = 4,
 		INFO = 2,
 		WARN = 3,
-		ERROR = 5,
-		DEBUG = 1
+		cERROR = 5,
+		DEBUG = 1,
+		MOREDEBUG = 0
 	};
 
 	std::string LogLevelString(LogLevel e) {
@@ -33,8 +41,9 @@ public:
 		case NOTES: return "Notes";
 		case INFO: return "Information";
 		case WARN: return "Warning!";
-		case ERROR: return "ERROR!";
+		case cERROR: return "ERROR!";
 		case DEBUG: return "DEBUG!";
+		case MOREDEBUG: return "MORE DEBUG";
 		default: return "UNDEFINED";
 		}
 	}
@@ -49,6 +58,9 @@ public:
 	int log(LogLevel lvl, std::string message);
 
 	int log(LogLevel lvl, std::string m1, std::string m2);
+	int log(LogLevel lvl, std::string m1, std::string m2, int tid);
+	int log(LogLevel lvl, float sx, float sy, float sz, float fx, float fy, float fz);
+	int log(LogLevel lvl, int tid, float sx, float sy, float sz, float fx, float fy, float fz);
 
 	void setLogLevel(LogLevel lvl);
 
@@ -62,6 +74,10 @@ public:
 	void setMetaData(int, int, int, int);
 
 private:
+	SerialPort* arduino;
+	mutable std::mutex m_logmutex;
+
+
 	std::string m_filename;
 	std::string m_csvname;
 	std::string m_directory;

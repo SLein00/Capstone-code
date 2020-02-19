@@ -6,6 +6,7 @@ window app(1280, 720, "RealSense Pointcloud Example");
 //glfw_state app_state;
 
 int IntelRealsense::InitializeSensor(){
+	std::lock_guard<std::mutex> lck(rs2lck);
 	Log1.log(Logger::LogLevel::INFO, "Attempting to start the realsense");
 	//app = new window (1280, 720, "RealSense Pointcloud Example");
 	// register callbacks to allow manipulation of the pointcloud
@@ -26,7 +27,9 @@ int IntelRealsense::InitializeSensor(){
 	// Declare RealSense pipeline, encapsulating the actual device and sensors
 	//rs2::pipeline pipe;
 	// Start streaming with default recommended configuration
-	pipe.start();
+	rs2::config cfg;
+	cfg.enable_stream(RS2_STREAM_DEPTH, 848, 480, RS2_FORMAT_Z16, 90);
+	pipe.start(cfg);
 	validPoints = new RealsensePointReturn;
 
 
@@ -34,6 +37,7 @@ int IntelRealsense::InitializeSensor(){
 }
 
 int IntelRealsense::CloseSensor() {
+	std::lock_guard<std::mutex> lck(rs2lck);
 	Log1.log(Logger::LogLevel::INFO, "Closing the realsense");
 	Log1.hardflush();
 	delete(validPoints);
@@ -54,43 +58,81 @@ int IntelRealsense::CloseSensor() {
 
 }
 
-
+int IntelRealsense::GetDepth(rs2::frame &depth, int id) {
+	std::lock_guard<std::mutex> lck(rs2lck);
+	char buf[200];
+	sprintf(buf, "Getting RS2 Depth Thread %d", id);
+	Log1.log(Logger::LogLevel::DEBUG, buf);
+	rs2::frameset frames;
+	try {
+		frames = pipe.wait_for_frames();
+		depth = frames.get_depth_frame();
+	}
+	catch (...) {
+		Log1.log(Logger::LogLevel::cERROR, "Unhandled realsense depth error");
+		return -1;
+	}
+	return 0;
+}
 
 int IntelRealsense::GetPointCloud() {
+	std::lock_guard<std::mutex> lck(rs2lck);
 
 	Log1.log(Logger::LogLevel::DEBUG, "In Realsense GetPointCloud");
 	// Wait for the next set of frames from the camera
 	//while (app) {
-	Log1.log(Logger::LogLevel::DEBUG, "Never leaving Realsense GetPointCloud");
 
+	//Log1.log(Logger::LogLevel::DEBUG, "Never leaving Realsense GetPointCloud");
+	
 	rs2::frameset frames;
-	frames = pipe.wait_for_frames();
-	auto depth = frames.get_depth_frame();
+	
+	try {
 
-	// Generate the pointcloud and texture mappings
-	points = pc.calculate(depth);
+		frames = pipe.wait_for_frames();
 
-	//draw_pointcloud_2((*app).width(), (*app).height(), app_state, points, 0);
-	const rs2::vertex* verts = points.get_vertices();
+		rs2::frameset depth;
+		depth = frames.get_depth_frame();
+		points = pc.calculate(depth);
 
-	(*validPoints).numValid = 0;
-	//rs2::vertex first = verts[0];
-	// Intel Realsense D435 Spefic Decimate by 4
-	//480 = total number of rows
-	//848 = total num of columns
-	for (int r = 160; r < 320; r += 4) {
-		for (int c = 214; c < 634; c+=4)
-		{
-			rs2::vertex vert = verts[r*848+c];
-			if (vert.z != 0) {
-				(*validPoints).verts[(*validPoints).numValid] = vert;
-				(*validPoints).numValid++;
-				//std::cout << idx << ";" << vert.x << "," << vert.y << "," << vert.z << std::endl;
+		const rs2::vertex* verts = points.get_vertices();
+		(*validPoints).numValid = 0;
+		//rs2::vertex first = verts[0];
+		// Intel Realsense D435 Spefic Decimate by lots
+		
+		/*for (int r = 0; r < 480; r += 2) {
+			for (int c = 0; c < 848; c += 2)*/
+		for (int r = 160; r < 320; r += 4) {
+			for (int c = 0; c < 848; c += 4)
+			{
+				rs2::vertex vert = verts[r * 848 + c];
+				if (vert.z != 0) {
+					(*validPoints).verts[(*validPoints).numValid].X = vert.x * 100;
+					(*validPoints).verts[(*validPoints).numValid].Y = vert.y * 100;
+					(*validPoints).verts[(*validPoints).numValid].Z = vert.z * 100;
+					(*validPoints).numValid++;
+					//std::cout << idx << ";" << vert.x << "," << vert.y << "," << vert.z << std::endl;
+				}
+
+
+
 			}
-
 		}
+
+		
+
+		/*rs2::frameset frames = pipe.wait_for_frames();
+		rs2::depth_frame depth = frames.get_depth_frame();
+		float width = depth.get_width();
+		float height = depth.get_height();
+		float distance_to_center = depth.get_distance(width / 2, height / 2);
+		std::cout << "The camera is facing an object " << distance_to_center << " meters away \r";*/
+		//}
+
+		return validPoints->numValid;
+	}
+	catch (...) {
+		Log1.log(Logger::LogLevel::cERROR, "Unhandled Realsense Error");
+		return -1;
 	}
 
-	
-	return validPoints->numValid;
 }

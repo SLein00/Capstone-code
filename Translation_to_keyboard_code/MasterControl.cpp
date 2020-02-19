@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <thread>
+#include <mutex>
 
 using namespace std;
 #include "translationtokbd.h"
@@ -14,49 +16,57 @@ using namespace std;
 
 #include "AsyncGetLine.h"
 
+static const int max_number_of_threads = 8;
+
+class ThreadCountSemaphore {
+public:
+	ThreadCountSemaphore() {
+		m_count = 0;
+		for (int id = 0; id < max_number_of_threads; id++) {
+			threadids[id] = false;
+		}
+	}
+
+	~ThreadCountSemaphore() {
+		
+	}
+
+	int nextavailablethread() {
+		lock_guard<mutex> lck(m_lck);
+		for (int id = 0; id < max_number_of_threads; id++) {
+			if (!threadids[id]) {
+				m_count++;
+				threadids[id] = true;
+				return id;
+			}
+		}
+		return -1;
+		//return m_count;
+	}
+
+	int decrement(int id) {
+		lock_guard<mutex> lck(m_lck);
+		m_count--;
+		threadids[id] = false;
+		return m_count;
+	}
+
+	int getthreadcount() {
+		return m_count;
+	}
+
+private:
+	mutable int m_count;
+	mutable mutex m_lck;
+	mutable bool threadids[max_number_of_threads];
+};
+
+ThreadCountSemaphore numthreads;
+
 int sensortype;
 int location;
 int songtype; 
 int trialnum;
-//LeddarTech sensor position coordinates in cm
-/*double LeddarSidepositioncoordinateX = -68.2; //Original trial was -18.5
-double LeddarSidepositioncoordinateY = 5.08;
-double LeddarSidepositioncoordinateZ = 1; //Trying at "1 cm"
-double LeddarFrontpositioncoordinateX = 34.75;
-double LeddarFrontpositioncoordinateY = 30.1;
-double LeddarFrontpositioncoordinateZ = 1.5;
-double LeddarWebcampositioncoordinateX = 34.75;
-double LeddarWebcampositioncoordinateY = 41.3;//103.3-62
-double LeddarWebcampositioncoordinateZ = 62;//60.96
-double LeddarAbovepositioncoordinateX = 34.75;
-double LeddarAbovepositioncoordinateY = 5.08;
-double LeddarAbovepositioncoordinateZ = 97.3; 
-//Leap sensor position coordinates in cm
-double LeapSidepositioncoordinateX = -15;
-double LeapSidepositioncoordinateY = 7.75;
-double LeapSidepositioncoordinateZ = 1.5;
-double LeapFrontpositioncoordinateX = 34.75;
-double LeapFrontpositioncoordinateY = 30.1;
-double LeapFrontpositioncoordinateZ = 1.5;
-double LeapWebcampositioncoordinateX = 34.75;
-double LeapWebcampositioncoordinateY = 30.1;
-double LeapWebcampositioncoordinateZ = 45;
-double LeapAbovepositioncoordinateX = 34.75;
-double LeapAbovepositioncoordinateY = 7.55;
-double LeapAbovepositioncoordinateZ = 60;
-//Realsense sensor position coordinates in cm 
-double RealsenseSidepositioncoordinateX = -15;
-double RealsenseSidepositioncoordinateY = 7.75;
-double RealsenseSidepositioncoordinateZ = 1.5;
-double RealsenseFrontpositioncoordinateX = 34.75;
-double RealsenseFrontpositioncoordinateY = 30.1;
-double RealsenseFrontpositioncoordinateZ = 1.5;
-double RealsenseWebcampositioncoordinateX = 34.75;
-double RealsenseWebcampositioncoordinateY = 30.1;
-double RealsenseWebcampositioncoordinateZ = 45;
-double RealsenseAbovepositioncoordinateX = 34.75;
-double RealsenseAbovepositioncoordinateY = 7.55;
-double RealsenseAbovepositioncoordinateZ = 60; */
 
 double posX;
 double posY;
@@ -76,6 +86,88 @@ string note;
 
 extern Logger Log1;
 extern MidiKeyboard midioutput;
+
+Sensor testsensors;
+LeddarTech testsensorLeddar;
+IntelRealsense testsensorRealsense;
+LeapMotion testsensorLeap;
+FakeHands testsensorHands;
+Keyboard testnotes;
+
+struct rs2threaddataset {
+	rs2::frame depth;
+	position verts[407040];
+	int numValid;
+};
+rs2threaddataset* rs2threaddata;
+
+void doRealsenseWork(int id) {
+	int arridx = 0;
+	bool arr[128] = {false};
+	
+	//testsensorRealsense.GetPointCloud();
+
+	//rs2::frame depth[max_number_of_threads];
+	
+	int ret = testsensorRealsense.GetDepth(rs2threaddata[id].depth, id);
+	if (ret == 0) {
+
+		rs2::pointcloud pc;
+		rs2::points points;
+
+		points = pc.calculate(rs2threaddata[id].depth);
+
+		const rs2::vertex* verts = points.get_vertices();
+
+		//RealsensePointReturn retpoints[max_number_of_threads];
+		rs2threaddata[id].numValid = 0;
+		//rs2::vertex first = verts[0];
+		// Intel Realsense D435 Spefic Decimate by 4
+		for (int r = 150; r < 330; r += 2) {
+			for (int c = 200; c < 648; c += 2)
+			{
+				rs2::vertex vert = verts[r * 848 + c];
+				if (vert.z != 0) {
+					int nv = rs2threaddata[id].numValid;
+					rs2threaddata[id].verts[nv].X = vert.x*100.0;
+					rs2threaddata[id].verts[nv].Y = vert.y*100.0;
+					rs2threaddata[id].verts[nv].Z = vert.z*100.0;
+					rs2threaddata[id].numValid++;
+					//std::cout << idx << ";" << vert.x << "," << vert.y << "," << vert.z << std::endl;
+				}
+
+			}
+		}
+
+
+		for (int idx = 0; idx < rs2threaddata[id].numValid; idx++) {
+			position FinalFingerPos = testsensors.Realsenseswitchtokbd(rs2threaddata[id].verts[idx].X, rs2threaddata[id].verts[idx].Y, rs2threaddata[id].verts[idx].Z);
+			//Log1.log(Logger::LogLevel::MOREDEBUG, id, retpoints->verts[idx].X, retpoints->verts[idx].Y, retpoints->verts[idx].Z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+			MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+			if (!notenum == None) {
+				//Log1.log(Logger::LogLevel::DEBUG, MidiNotesString(notenum), " On ", id);
+				arr[notenum] = true;
+			}
+		}
+
+		// locks the midistream, so bulk do midi stuff.
+		midioutput.resetKeys();
+		for (int i = 0; i < 128; i++) {
+			if (arr[i]) {
+				midioutput.playKey((MidiNotesNumbers)i);
+			}
+		}
+		midioutput.sendKeys();
+	}
+	else {
+		char buf[200];
+		sprintf(buf, "Did not get good realsense data thread %d", id);
+		Log1.log(Logger::LogLevel::cERROR, buf);
+	}
+	numthreads.decrement(id);
+
+}
+
 
 int main() {//Beginning of main
 
@@ -108,12 +200,7 @@ int main() {//Beginning of main
 	Log1.restartTimer();
 	Log1.openfile();
 
-	Sensor testsensors;
-	LeddarTech testsensorLeddar;
-	IntelRealsense testsensorRealsense;
-	LeapMotion testsensorLeap;
-	FakeHands testsensorHands;
-	Keyboard testnotes;
+
 	midioutput.listKeyboardOutputs();
 	
 		
@@ -133,7 +220,14 @@ int main() {//Beginning of main
 		Log1.log(Logger::LogLevel::INFO, "Sensor 2 is Leap");
 		break;
 	case 3:
-		Log1.log(Logger::LogLevel::INFO, "Sensor 3 is Leddartech");
+		Log1.log(Logger::LogLevel::INFO, "Sensor 3 is Realsense");
+		try {
+			rs2threaddata = new rs2threaddataset[max_number_of_threads];
+		}
+		catch (bad_alloc xa) {
+			cerr << "Cannot allocate memory for threads" << endl;
+			return -1;
+		}
 		break;
 	case 4:
 		Log1.log(Logger::LogLevel::INFO, "Sensor is the random keyboard");
@@ -279,10 +373,11 @@ int main() {//Beginning of main
 	AsyncGetline ag;
 	string consoleinput;
 
-	for (int i = 0; i < 1; i++) {//beginning of loop (1300)
+
+	for (int i = 0; i < 1500; i++) {//beginning of loop
 		//CAITLYNS EDITS
 	
-		Log1.log(Logger::LogLevel::INFO, "At begining of Master Control's loop");
+		Log1.log(Logger::LogLevel::DEBUG, "At begining of Master Control's loop");
 		
 		consoleinput = ag.GetLine();
 		if (!consoleinput.empty() && consoleinput[1] == 'q'){
@@ -379,6 +474,7 @@ int main() {//Beginning of main
 			midioutput.sendKeys();
 		}
 		else if (sensortype == 3) {//Realsense
+			/*
 			//condition data
 			midioutput.resetKeys();
 			//Log1.log(Logger::LogLevel::ERROR, "Chose Realsense and Code has yet to be made for said sensor.");
@@ -395,17 +491,21 @@ int main() {//Beginning of main
 				if (!notenum == None) {
 					Log1.log(Logger::LogLevel::DEBUG, MidiNotesString(notenum), "On");
 					midioutput.playKey(notenum);
+			*/ // moving main to threading
+			
+			// realsense processing moved to thread helper way above.
+
+			if (numthreads.getthreadcount() < max_number_of_threads) {
+				int tid = numthreads.nextavailablethread();
+				if (tid > -1) {
+					std::thread t(doRealsenseWork, tid);
+					t.detach();
 				}
 			}
-		
-			//for (int n = 0; n < numkeys ; n++) {
-			//	testsensors.Leddarswitchtokbd(finposX, finposY, finposZ);
-			//	testnotes.notes(finalfingerposX, finalfingerposY, finalfingerposZ);
-			//	Log1.log(Logger::LogLevel::NOTES, note, "On");
-			//}
-			
-			//testsensorRealsense.GetPointCloud();  // throw the data away, but see if the command line outputs a distance.
-			midioutput.sendKeys();
+			else {
+				Log1.log(Logger::LogLevel::DEBUG, "Waiting for thread reasources");
+				this_thread::sleep_for(4ms);
+			}
 
 		}
 		else if (sensortype == 4) { // fake random keyboard
@@ -436,6 +536,13 @@ int main() {//Beginning of main
 
 	}//end of loop
 	cout << "Wrapping Up for trial: " << sensortype << ", " << location << ", " << songtype << ", " << trialnum << endl;
+
+	while (numthreads.getthreadcount() > 0) {
+		cout << "Waiting for " << numthreads.getthreadcount() << " threads to wrap up." << endl;
+		this_thread::sleep_for(500ms);
+	}
+
+	midioutput.closekeyboard();
 
 	//turn off sensor
 	if (sensortype == 1) { // leddar

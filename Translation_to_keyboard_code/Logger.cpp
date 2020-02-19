@@ -26,6 +26,9 @@ Logger::Logger() {
 	m_csvname = flname;
 	m_csvname.append(".csv");
 	m_directory = "./LogFiles";
+
+	//arduino = new SerialPort("\\\\.\\COM3");
+
 }
 
 Logger::Logger(std::string filename) {
@@ -36,6 +39,7 @@ Logger::Logger(std::string filename) {
 }
 
 void Logger::softflush() {
+	std::lock_guard<std::mutex> lck(m_logmutex);
 	if (m_logfile.is_open() && m_bufpos > 0) {
 		m_logfile << m_buffer;
 		m_bufpos = 0;
@@ -48,6 +52,7 @@ void Logger::softflush() {
 }
 
 void Logger::hardflush() {
+	std::lock_guard<std::mutex> lck(m_logmutex);
 	if (m_logfile.is_open() && m_bufpos > 0) {
 		m_logfile << m_buffer;
 		m_bufpos = 0;
@@ -71,7 +76,7 @@ Logger::Logger(std::string directory, std::string filename) {
 
 
 int Logger::openfile() {
-	
+	std::lock_guard<std::mutex> lck(m_logmutex);
 	//std::cout << "Attempting to open the log file `" << m_filename << "` for writing." << std::endl;
 	std::string filepath(m_directory);
 	std::string csvpath(m_directory);
@@ -116,7 +121,19 @@ int Logger::openfile() {
 		m_bufpos += sprintf(m_buffer + m_bufpos, "CSV File `%s` did NOT open for writing.\n", csvpath.c_str());
 	}
 
-	softflush();
+	if (m_logfile.is_open() && m_bufpos > 0) {
+		m_logfile << m_buffer;
+		m_bufpos = 0;
+		m_logfile.flush();
+	}
+	if (m_csvfile.is_open() && m_csvbufpos > 0) {
+		m_csvfile << m_csvbuffer;
+		m_csvbufpos = 0;
+		m_csvfile.flush();
+	}
+
+	arduino = new SerialPort("COM3", 115200);
+	//arduino->Initialize("COM3", 115200);
 
 
 	if (m_csvfile.is_open() && m_logfile.is_open()) {
@@ -132,6 +149,7 @@ int Logger::openfile() {
 }
 
 int Logger::closefile() {
+	std::lock_guard<std::mutex> lck(m_logmutex);
 	if (m_logfile.is_open()) {
 		if (m_bufpos > 0) {
 			m_logfile << m_buffer;
@@ -151,13 +169,28 @@ int Logger::closefile() {
 }
 
 Logger::~Logger() {
+	std::lock_guard<std::mutex> lck(m_logmutex);
 	if (m_logfile.is_open()) {
 		// file is still open, need to close it
 		closefile();
 	}
 }
 
+int Logger::log(LogLevel lvl, float sx, float sy, float sz, float fx, float fy, float fz) {
+	char buf[1000];
+	sprintf(buf, "Sensor: X %.2f, Y %.2f, Z %.2f;  FFP: X %.2f, Y %.2f, Z %.2f", sx, sy, sz, fx, fy, fz);
+	return log(lvl, buf);
+}
+
+int Logger::log(LogLevel lvl, int tid, float sx, float sy, float sz, float fx, float fy, float fz) {
+	char buf[1000];
+	sprintf(buf, "ThreadID: %d;  Sensor: X %.2f, Y %.2f, Z %.2f;  FFP: X %.2f, Y %.2f, Z %.2f", tid, sx, sy, sz, fx, fy, fz);
+	return log(lvl, buf);
+}
+
+
 int Logger::log(LogLevel lvl, std::string message) {
+	std::lock_guard<std::mutex> lck(m_logmutex);
 	if (lvl >= m_curloglevel) {
 		std::chrono::time_point<std::chrono::system_clock> end;
 		end = std::chrono::system_clock::now();
@@ -175,6 +208,14 @@ int Logger::log(LogLevel lvl, std::string message) {
 			if (m_csvbufpos > m_csvbufferflushlimit) {
 				m_csvfile << m_csvbuffer;
 				m_csvbufpos = 0;
+			}
+
+			if (arduino->isConnected()) {
+				char smbuf[10];
+				sprintf(smbuf, "%.2f", elapsed_seconds.count());
+				//sprintf(smbuf, "abc.00\n");
+				smbuf[6] = '\n';
+				arduino->transmit(smbuf, 7);
 			}
 			return 0;
 		}
@@ -213,11 +254,20 @@ int Logger::log(LogLevel lvl, std::string m1, std::string m2) {
 	return Logger::log(lvl, message);
 }
 
+int Logger::log(LogLevel lvl, std::string m1, std::string m2, int tid) {
+	std::string message = "";
+	message.append(m1).append(m2).append(std::to_string(tid));
+
+	return Logger::log(lvl, message);
+}
+
 void Logger::setLogLevel(LogLevel lvl) {
+	std::lock_guard<std::mutex> lck(m_logmutex);
 	m_curloglevel = lvl;
 }
 
 void Logger::restartTimer() {
+	std::lock_guard<std::mutex> lck(m_logmutex);
 	m_start = std::chrono::system_clock::now();
 }
 

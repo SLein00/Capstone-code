@@ -9,6 +9,8 @@
 #include "MidiNotes.h"
 #include "RtMidi.h"
 #include <array>
+#include <thread>
+#include <mutex>
 
 class MidiKeyboard
 {
@@ -27,9 +29,12 @@ public:
 
 
 private:
+	mutable std::mutex m_midimutex;
 	std::array<bool,128> keysplayednow;
 	std::array<bool,128> keysplayedlast;
 	bool isplayable(int i);
+
+	RtMidiOut* midiout;
 };
 
 #endif // !MIDIKEYBOARDH

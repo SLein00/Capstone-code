@@ -202,6 +202,7 @@
     <ClCompile Include="MasterControl.cpp" />
     <ClCompile Include="MidiNotes.cpp" />
     <ClCompile Include="RSHelper.cpp" />
+    <ClCompile Include="SerialPort.cpp" />
     <ClCompile Include="ToDoList.cpp" />
     <ClCompile Include="MidiKeyboard.cpp" />
     <ClCompile Include="SensorBase.cpp" />
@@ -226,6 +227,7 @@
     <ClInclude Include="MidiNotes.h" />
     <ClInclude Include="RSHelper.h" />
     <ClInclude Include="SensorBase.h" />
+    <ClInclude Include="SerialPort.h" />
     <ClInclude Include="stb_rect_pack.h" />
     <ClInclude Include="stb_textedit.h" />
     <ClInclude Include="stb_truetype.h" />
