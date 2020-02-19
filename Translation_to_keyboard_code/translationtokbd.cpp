@@ -164,8 +164,8 @@ Sensor::Sensor() {
 		{
 			//Log1.log(Logger::LogLevel::DEBUG, "In Realsense switch to keyboard Side");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
-
-			position foo = matrixmultiply_4x4_4x1(Realsensesidematrix, finpos);
+			//REALSENSE CHANGES -SAMI
+			position foo = RealSense_conversion(posX, posY, posZ, finposX, finposY, finposZ);
 			//std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			return foo;
 		}
@@ -238,4 +238,25 @@ position matrixmultiply_4x4_4x1(std::array<std::array<double, 4>, 4> left, std::
 	
 
 		
+};
+//REALSENSE CHANGES -SAMI
+position RealSense_conversion(double posX, double posY, double posZ, double finposX, double finposY, double finposZ) {
+//	double results[4][1] = { {0},{0}, {0}, {0} };
+
+//	for (int i = 0; i < 4; i++) {
+//		for (int j = 0; j < 4; j++) {
+			// current bottleneck
+//			results[i][0] += left[i][j] * right[j][0];
+//		}
+//	}
+
+	position retval;
+	retval.X = (finposZ + posX);//plus a negative for side position at least (which is the goal)
+	retval.Y = (posY - finposX);
+	retval.Z = (posZ - finposY);
+
+	return retval;
+
+
+
 };

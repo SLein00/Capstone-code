@@ -62,40 +62,24 @@ int IntelRealsense::GetPointCloud() {
 	// Wait for the next set of frames from the camera
 	//while (app) {
 	Log1.log(Logger::LogLevel::DEBUG, "Never leaving Realsense GetPointCloud");
-	auto frames = pipe.wait_for_frames();
 
-	auto color = frames.get_color_frame();
+	rs2::frameset frames;
 	frames = pipe.wait_for_frames();
-
-	//color = frames.get_color_frame();
-
-	// For cameras that don't have RGB sensor, we'll map the pointcloud to infrared instead of color
-	//if (!color)
-	//	color = frames.get_infrared_frame();
-
-	// Tell pointcloud object to map to this color frame
-	//pc.map_to(color);
-
 	auto depth = frames.get_depth_frame();
 
 	// Generate the pointcloud and texture mappings
 	points = pc.calculate(depth);
 
-#ifdef GUI
-	// Upload the color frame to OpenGL
-	app_state.tex.upload(color);
-
-	// Draw the pointcloud
-	draw_pointcloud_2(app.width(), app.height(), app_state, points, 0);
-#endif
 	//draw_pointcloud_2((*app).width(), (*app).height(), app_state, points, 0);
 	const rs2::vertex* verts = points.get_vertices();
+
 	(*validPoints).numValid = 0;
 	//rs2::vertex first = verts[0];
 	// Intel Realsense D435 Spefic Decimate by 4
 	//480 = total number of rows
+	//848 = total num of columns
 	for (int r = 160; r < 320; r += 4) {
-		for (int c = 0; c < 848; c+=4)
+		for (int c = 214; c < 634; c+=4)
 		{
 			rs2::vertex vert = verts[r*848+c];
 			if (vert.z != 0) {
@@ -107,14 +91,6 @@ int IntelRealsense::GetPointCloud() {
 		}
 	}
 
-
-		/*rs2::frameset frames = pipe.wait_for_frames();
-		rs2::depth_frame depth = frames.get_depth_frame();
-		float width = depth.get_width();
-		float height = depth.get_height();
-		float distance_to_center = depth.get_distance(width / 2, height / 2);
-		std::cout << "The camera is facing an object " << distance_to_center << " meters away \r";*/
-	//}
 	
 	return validPoints->numValid;
 }

@@ -46,9 +46,9 @@ public:
 	double LeapAbovepositioncoordinateY = 7.55;
 	double LeapAbovepositioncoordinateZ = 60;
 	//Realsense sensor position coordinates
-	double RealsenseSidepositioncoordinateX = -25.6;
+	double RealsenseSidepositioncoordinateX = -25.3;
 	double RealsenseSidepositioncoordinateY = 5.08;
-	double RealsenseSidepositioncoordinateZ = 2.5;
+	double RealsenseSidepositioncoordinateZ = 2.3;
 	double RealsenseFrontpositioncoordinateX = 34.75;
 	double RealsenseFrontpositioncoordinateY = 30.1;
 	double RealsenseFrontpositioncoordinateZ = 1.5;
@@ -165,5 +165,5 @@ public:
 	double getfinalZ() const;
 };
 position matrixmultiply_4x4_4x1(std::array<std::array<double, 4>, 4>, std::array<std::array<double, 1>, 4>);
-
+position RealSense_conversion(double posX, double posY, double posZ, double finposX, double finposY, double finposZ);
 #endif

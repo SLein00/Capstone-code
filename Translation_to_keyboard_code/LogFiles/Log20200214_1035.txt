@@ -1,0 +1,12 @@
+Working Directory: `C:\Users\Sami\Desktop\SRT\Code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200214_1035.txt` opened OK.
+CSV File `./LogFiles/Log20200214_1035.csv` opened OK.
+20200214_103525,0.202677,Information,3,1,1,0,There are 1 MIDI Output ports available.
+20200214_103525,0.202849,Information,3,1,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200214_103525,0.203684,Information,3,1,1,0,Sensor 3 is Leddartech
+20200214_103525,0.203701,Information,3,1,1,0,Location 1 is Side
+20200214_103525,0.203710,Information,3,1,1,0,Song 1 is one-finger scales
+20200214_103525,0.203721,Information,3,1,1,0,Trial # is 0
+20200214_103525,0.203734,Information,3,1,1,0,Attempting to start the realsense
+20200214_103526,0.795511,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103526,1.422241,Information,3,1,1,0,Closing the realsense

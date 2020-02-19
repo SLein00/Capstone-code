@@ -1,0 +1,42 @@
+Working Directory: `C:\Users\Sami\Desktop\SRT\Code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200214_1031.txt` opened OK.
+CSV File `./LogFiles/Log20200214_1031.csv` opened OK.
+20200214_103147,0.211803,Information,3,1,1,0,There are 1 MIDI Output ports available.
+20200214_103147,0.211979,Information,3,1,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200214_103147,0.212695,Information,3,1,1,0,Sensor 3 is Leddartech
+20200214_103147,0.212710,Information,3,1,1,0,Location 1 is Side
+20200214_103147,0.212721,Information,3,1,1,0,Song 1 is one-finger scales
+20200214_103147,0.212735,Information,3,1,1,0,Trial # is 0
+20200214_103147,0.212754,Information,3,1,1,0,Attempting to start the realsense
+20200214_103148,0.765152,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103148,1.418208,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103148,1.499513,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103148,1.606866,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103148,1.670734,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103148,1.711617,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103148,1.740079,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,1.775485,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,1.835899,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,1.893145,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,1.938589,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,1.979487,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.027470,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.094536,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.156833,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.200654,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.249667,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.292183,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.327700,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.355250,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.396996,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.449723,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.524599,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.602021,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103149,2.696086,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103150,2.803679,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103150,2.903805,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103150,3.001767,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103150,3.094251,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103150,3.205686,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103150,3.282898,Information,3,1,1,0,At begining of Master Control's loop
+20200214_103150,3.284035,Information,3,1,1,0,Closing the realsense
