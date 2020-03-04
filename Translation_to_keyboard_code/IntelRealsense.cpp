@@ -101,8 +101,8 @@ int IntelRealsense::GetPointCloud() {
 		
 		/*for (int r = 0; r < 480; r += 2) {
 			for (int c = 0; c < 848; c += 2)*/
-		for (int r = 160; r < 320; r += 4) {
-			for (int c = 0; c < 848; c += 4)
+		for (int r = 0; r < 480; r += 1) {//160 too
+			for (int c = 0; c < 848; c += 1)
 			{
 				rs2::vertex vert = verts[r * 848 + c];
 				if (vert.z != 0) {

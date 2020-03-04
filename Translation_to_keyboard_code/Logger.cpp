@@ -201,6 +201,14 @@ int Logger::log(LogLevel lvl, std::string message) {
 			tm* ltm = localtime(&now);
 			m_csvbufpos += sprintf(m_csvbuffer+m_csvbufpos, "%04d%02d%02d_%02d%02d%02d", 1900 + ltm->tm_year, 1 + ltm->tm_mon, ltm->tm_mday, ltm->tm_hour, ltm->tm_min, ltm->tm_sec);
 
+			if (arduino->isConnected()) {
+				char smbuf[10];
+				sprintf(smbuf, "%.3f", elapsed_seconds.count());
+				//sprintf(smbuf, "abc.00\n");
+				smbuf[7] = '\n';
+				arduino->transmit(smbuf, 8);
+			}
+
 			//m_csvfile << time << ',' << elapsed_seconds.count() << "," << LogLevelString(lvl) << "," << m_sensor << "," << m_position << "," << m_songclass << "," << m_trialnum << "," << message << std::endl;
 			m_csvbufpos += sprintf(m_csvbuffer + m_csvbufpos, ",%f,%s,%d,%d,%d,%d,%s\n", elapsed_seconds.count(), LogLevelString(lvl).c_str(), m_sensor, m_position, m_songclass, m_trialnum, message.c_str());
 			//m_csvfile << m_csvbuffer;
@@ -210,13 +218,7 @@ int Logger::log(LogLevel lvl, std::string message) {
 				m_csvbufpos = 0;
 			}
 
-			if (arduino->isConnected()) {
-				char smbuf[10];
-				sprintf(smbuf, "%.2f", elapsed_seconds.count());
-				//sprintf(smbuf, "abc.00\n");
-				smbuf[6] = '\n';
-				arduino->transmit(smbuf, 7);
-			}
+			
 			return 0;
 		}
 		else if (m_logfile.is_open()) {

@@ -174,7 +174,7 @@ Sensor::Sensor() {
 			//Log1.log(Logger::LogLevel::DEBUG, "In Realsense switch to keyboard Front");
 			std::array<std::array<double, 1>, 4> finpos = { {{finposX}, {finposY}, {finposZ}, {1}} };
 
-			position foo = matrixmultiply_4x4_4x1(Realsensefrontmatrix, finpos);
+			position foo = RealSense_conversion(posX, posY, posZ, finposX, finposY, finposZ);
 			//std::cout << foo.X << ", " << foo.Y << ", " << foo.Z << std::endl;
 			return foo;
 		}
@@ -251,10 +251,15 @@ position RealSense_conversion(double posX, double posY, double posZ, double finp
 //	}
 
 	position retval;
+	/*Side position
 	retval.X = (finposZ + posX);//plus a negative for side position at least (which is the goal)
 	retval.Y = (posY - finposX);
 	retval.Z = (posZ - finposY);
-
+	*/
+	//Front Position
+	retval.X = (posX - finposX);
+	retval.Y = (posY - finposZ);
+	retval.Z = (posZ - finposY);
 	return retval;
 
 

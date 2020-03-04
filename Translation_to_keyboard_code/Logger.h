@@ -81,7 +81,7 @@ private:
 	std::string m_filename;
 	std::string m_csvname;
 	std::string m_directory;
-	LogLevel m_curloglevel = DEBUG;
+	LogLevel m_curloglevel = MOREDEBUG;
 	std::fstream m_logfile;
 	std::fstream m_csvfile;
 	std::chrono::time_point<std::chrono::system_clock> m_start = std::chrono::system_clock::now();

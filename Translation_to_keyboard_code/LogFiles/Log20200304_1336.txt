@@ -1,0 +1,1077 @@
+Working Directory: `C:\Users\Sami\Desktop\SRT\Code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200304_1336.txt` opened OK.
+CSV File `./LogFiles/Log20200304_1336.csv` opened OK.
+20200304_133649,0.043851,Information,3,2,1,0,There are 1 MIDI Output ports available.
+20200304_133649,0.044072,Information,3,2,1,0,Output port #1: Microsoft GS Wavetable Synth 0
+20200304_133650,0.408525,Information,3,2,1,0,Sensor 3 is Realsense
+20200304_133650,0.436589,Information,3,2,1,0,Location 2 is Front
+20200304_133650,0.436621,Information,3,2,1,0,Song 1 is one-finger scales
+20200304_133650,0.436634,Information,3,2,1,0,Trial # is 0
+20200304_133650,0.436645,Information,3,2,1,0,Attempting to start the realsense
+20200304_133650,1.130534,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.136177,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.137995,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.138143,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133650,1.145299,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.149200,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.152411,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.156335,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.160417,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133650,1.166622,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.172097,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133650,1.179581,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.183801,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133650,1.190499,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.196385,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133650,1.200576,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.204998,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133650,1.209969,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133650,1.218085,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.226543,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.230492,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.231565,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133651,1.235110,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.238699,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.243144,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.246715,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.249292,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133651,1.255239,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.258175,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.266039,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.268991,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133651,1.270314,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.278270,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.281949,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133651,1.283313,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.287598,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.290978,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133651,1.291097,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.295293,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.299547,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.305525,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.309922,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.318002,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.321854,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.326014,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.332024,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.339601,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.343493,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.347875,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.353024,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.357354,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.363424,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.374789,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.382501,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.391614,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.393380,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.401660,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.406148,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.410472,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.415465,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.419788,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.426308,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.433778,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.436819,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.444947,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.448512,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.452976,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.456625,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.465671,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.469755,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.477460,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.485253,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.493588,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.498465,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.498826,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133651,1.501280,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.509700,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.515280,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.515509,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133651,1.517954,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.519020,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133651,1.523163,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.524806,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133651,1.526589,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.530958,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.532913,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133651,1.535012,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.539485,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.540878,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133651,1.543626,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.551953,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.555214,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.564694,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.569135,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.575245,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.579702,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.584045,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.588073,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.595473,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.599231,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.606997,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.610556,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.618648,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.623975,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.624362,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133651,1.626443,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.634193,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.638286,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.645682,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.649414,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.652149,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133651,1.656352,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.657982,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133651,1.661174,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.662676,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133651,1.665172,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.669155,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.670756,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133651,1.673490,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.676853,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133651,1.681686,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.685174,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.692771,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.697055,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.705506,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.709631,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.716549,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.724550,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.729253,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.733567,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.741482,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.746186,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.750942,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.755410,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.759773,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.765662,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.766915,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133651,1.771716,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.778854,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.784457,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.785319,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133651,1.788858,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.793156,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.795866,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.797312,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133651,1.799951,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.803271,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.803315,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133651,1.808021,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133651,1.811689,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.815786,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.815911,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133651,1.823492,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.827144,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.836237,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.843686,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.851822,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.855372,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.862937,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.866493,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.873237,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.877028,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.884438,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.888494,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.892854,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.897494,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.901030,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.902165,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133651,1.909563,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.913223,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.914152,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133651,1.917969,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.919240,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133651,1.921861,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.925405,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.929966,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.931821,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133651,1.933996,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.936402,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133651,1.938348,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.942587,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.943344,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133651,1.950568,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.954120,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.962092,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.965852,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.970491,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.975980,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.984993,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,1.989662,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,1.997023,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.004452,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.008819,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.012486,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.019536,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.023264,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.027469,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.032735,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.041990,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.045951,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.048319,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133651,2.049639,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.054659,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.058791,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.063142,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.066491,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.074644,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.078680,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.081643,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133651,2.083780,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.086442,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.090579,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.091028,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133651,2.094810,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.096149,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133651,2.098949,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.102386,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133651,2.106954,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.108824,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133651,2.111408,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.115667,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.120766,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.127655,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.131754,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.136546,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.141901,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.149371,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.154516,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.161703,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.166395,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.172127,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.175066,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.180594,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.183286,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133651,2.189378,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.193138,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.199268,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.201413,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.204880,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133651,2.206312,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133651,2.213131,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133651,2.218107,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.220709,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133652,2.221857,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.225408,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.226539,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133652,2.229999,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.232934,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.234928,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133652,2.240712,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.242775,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133652,2.246188,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.252993,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.257236,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.265257,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.269517,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.274218,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.278265,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.285615,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.289239,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.297023,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.300539,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.308188,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.311782,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.319490,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.324577,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.324886,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133652,2.328844,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.331853,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.334382,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133652,2.339503,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.345372,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.347537,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133652,2.347760,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.356234,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.360429,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.361904,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133652,2.365481,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.365656,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133652,2.369608,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.371034,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133652,2.372952,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.380411,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.384180,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.389764,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.393464,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.400743,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.404970,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.412958,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.417015,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.421865,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.426736,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.435066,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.439544,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.447239,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.451563,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.455744,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.460227,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133652,2.461968,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.463917,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.465152,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133652,2.468723,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.471905,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.475480,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.480382,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.487203,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133652,2.488675,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.495317,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.496789,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133652,2.498082,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.502579,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.503118,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133652,2.509779,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.511990,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133652,2.514433,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.519386,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.525318,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.529769,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.537449,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.540270,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.548447,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.554794,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.559850,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.569440,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.575960,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.579883,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.584281,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.588293,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.596077,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.600351,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.604655,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.608664,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.616573,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.620771,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.628704,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.633628,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.634776,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133652,2.637842,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.640794,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.642080,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133652,2.648663,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.653718,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.653863,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133652,2.658078,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.658265,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133652,2.660958,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.662219,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133652,2.665929,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.669156,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.670241,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133652,2.677095,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.681368,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.688815,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.693137,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.702174,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.706183,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.710845,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.716175,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.724752,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.729128,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.737027,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.740606,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.748622,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.752967,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.756248,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133652,2.757130,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.762713,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.765254,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.766251,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133652,2.770048,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.772952,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.778868,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.782050,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.782801,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133652,2.786113,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.788151,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133652,2.790106,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.793249,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133652,2.793501,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.800881,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.802068,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133652,2.806437,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.813967,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.818044,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.823799,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.827192,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.831648,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.835328,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.844274,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.847266,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.855472,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.859118,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.867004,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.871174,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.875078,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.875235,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133652,2.882760,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.888438,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.890051,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133652,2.891388,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.899969,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.905001,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.905173,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133652,2.908344,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.909319,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133652,2.913529,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.916445,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.919882,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.920268,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133652,2.927448,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.928544,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133652,2.933449,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.941574,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.946912,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.954439,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.958601,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.966100,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.969712,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.977302,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.981330,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.990295,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.993770,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,2.998777,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,2.998907,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133652,3.006053,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.010178,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.018762,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.022496,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.024828,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133652,3.026205,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.030222,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.031900,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133652,3.034181,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.038180,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133652,3.039317,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.042091,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.045615,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133652,3.046295,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.050297,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.054689,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.055117,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133652,3.058221,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.065784,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.069935,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.074384,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.078446,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.089323,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.091029,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.101257,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.106066,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.114306,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.118459,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.126102,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.130189,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.132194,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133652,3.134207,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.139196,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.145899,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.146172,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133652,3.152932,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.155825,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.162457,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.162533,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133652,3.164078,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.167138,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133652,3.167858,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.172563,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.173612,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133652,3.175878,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.180269,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.183040,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133652,3.184192,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.192683,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.196068,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.203807,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.208092,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133652,3.212246,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133652,3.216392,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.224187,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.228151,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.236346,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.240286,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.248414,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.252240,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.260497,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.263192,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.264823,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.267099,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133653,3.268317,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.272542,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.277799,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133653,3.280719,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.285790,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.289943,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.292082,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133653,3.294136,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.298563,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.302688,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133653,3.302875,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.306491,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.310629,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133653,3.314696,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.318536,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.322695,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133653,3.326368,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.329984,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.339571,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.343673,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.351373,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.355549,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.363357,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.367322,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.373234,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.377761,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.386965,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.390908,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.395050,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.399211,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.403556,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.407185,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.408540,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133653,3.411813,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.415954,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.419416,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.419584,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133653,3.425098,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.427700,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.434986,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133653,3.436008,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.441169,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.445052,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.446781,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133653,3.449055,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.452432,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.454015,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133653,3.460990,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.461194,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133653,3.464787,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.469524,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.473522,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.481500,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.485097,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.489514,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.493363,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.503821,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.507852,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.515393,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.519046,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.527491,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.531767,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.536464,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.540942,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.550003,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.553420,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.561595,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.565319,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.573411,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.577439,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.578748,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133653,3.582325,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.585785,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.589073,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.591356,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133653,3.596933,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.598060,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133653,3.600611,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.605507,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.605660,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133653,3.609816,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.611300,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133653,3.612998,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.619741,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133653,3.620825,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.624952,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.632175,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.636776,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.644397,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.648413,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.652768,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.657282,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.664832,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.668388,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.673315,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.677116,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.681518,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.685481,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.689635,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.693445,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.701687,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.706035,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.711932,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.713233,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133653,3.714553,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.719238,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.720492,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133653,3.724035,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.728998,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.730952,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133653,3.731641,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.737074,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.742013,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133653,3.744636,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.747839,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.751400,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.753533,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133653,3.759353,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.763487,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.770450,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.774119,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133653,3.776444,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.784305,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.788656,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.796120,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.803847,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.811448,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.815320,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.823114,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.827392,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.831691,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.835469,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.843840,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.847213,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.850732,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.850891,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133653,3.856564,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.860863,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.867257,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.872585,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.875880,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133653,3.877391,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.878900,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133653,3.880371,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.885087,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.885317,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133653,3.888452,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.891863,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133653,3.892350,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.899476,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.900160,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133653,3.903196,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.907341,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.911375,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.915604,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.919591,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.925729,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.929239,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.937082,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.942100,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.946541,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.951249,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.955626,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.959824,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.968238,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.971725,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.978382,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.980707,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.981695,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133653,3.983859,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,3.992285,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,3.996091,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.000358,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.005960,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.006943,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133653,4.009823,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.014323,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.016598,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133653,4.017812,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.020502,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.023735,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133653,4.023855,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.027967,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.028725,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133653,4.032408,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.034523,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133653,4.040820,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.044480,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.052446,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.056301,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.060758,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.064756,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.075903,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.079938,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.087199,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.092880,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.097487,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.100984,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.105351,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.109449,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.109603,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133653,4.112804,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.120777,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.127230,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.134302,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.140548,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.141643,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133653,4.143133,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.146242,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.147880,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133653,4.154238,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.158648,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.164289,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.164907,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133653,4.167076,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.169774,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.171648,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133653,4.174265,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.178216,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.179049,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133653,4.186354,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.190241,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.194682,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.199069,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.204244,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133653,4.208573,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133653,4.216523,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.222552,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.232172,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.236214,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.244468,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.248278,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.258949,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.264617,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.266470,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133654,4.266712,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.275071,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.280678,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.288417,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.294850,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.295807,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133654,4.297104,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.303286,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133654,4.305618,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.308730,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133654,4.309589,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.312728,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.316334,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133654,4.317107,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.322126,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133654,4.324357,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.328652,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.335716,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.339280,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.346553,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.350944,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.359039,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.362768,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.370060,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.374486,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.382731,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.386420,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.394372,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.398486,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.406274,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.409194,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.411804,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.414831,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.415280,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133654,4.422718,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.423770,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133654,4.425580,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.426896,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.427599,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133654,4.431243,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.435346,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.439595,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.444290,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.446006,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133654,4.447565,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.452324,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.452476,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133654,4.455159,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.457837,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133654,4.462924,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.467258,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.475845,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.482711,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.489031,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.493786,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.503983,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.508264,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.516476,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.520837,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.528454,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.532245,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.539898,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.543434,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.551304,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.555451,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.563390,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.569047,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.570215,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133654,4.572793,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.575593,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.576671,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133654,4.580352,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.582667,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133654,4.584413,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.587941,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.588111,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133654,4.591467,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.592819,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133654,4.595566,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.599635,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.600170,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133654,4.607026,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.612392,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.619926,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.624629,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.632533,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.636345,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.640567,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.645019,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.649490,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.656443,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.664326,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.668363,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.672735,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.676360,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.684138,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.689928,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.690257,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133654,4.693001,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.696247,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133654,4.696332,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.700645,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.706259,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.709256,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133654,4.710530,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.716942,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133654,4.717844,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.721941,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.723962,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133654,4.725223,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.731043,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133654,4.732396,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.736288,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.744145,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.747699,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.754885,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.758836,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.767249,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.780906,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.786147,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.790313,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.798245,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.802564,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.810707,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.814126,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.823180,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.827345,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.834829,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.838668,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.847523,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.852276,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.852462,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133654,4.855560,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.856592,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133654,4.858586,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.860158,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133654,4.863689,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.866387,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133654,4.867402,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.870888,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.873039,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133654,4.874188,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.881815,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133654,4.882204,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.886059,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.894621,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.898449,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.904225,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.908591,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.915937,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.921804,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.926518,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.932430,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.940366,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.944382,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.952415,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.956599,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.960067,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133654,4.961932,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.964354,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.967759,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133654,4.968726,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.972210,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.976488,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.980740,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.985167,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.988634,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,4.995353,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133654,4.997161,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,4.999925,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133654,5.001474,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.005616,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.008711,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133654,5.008831,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.013343,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.015056,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133654,5.017466,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.024598,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.028544,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.033198,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.037369,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.041904,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.045247,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.055473,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.060911,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.066118,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.069906,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.077519,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.081637,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.083467,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133654,5.085920,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.093705,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.097845,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.106130,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.108997,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.109996,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133654,5.116311,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.119254,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.119428,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133654,5.124237,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.129324,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.132312,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.132537,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133654,5.136363,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.139349,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.140266,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133654,5.147233,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.148016,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133654,5.151601,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.156325,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.160316,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.164508,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.168693,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.176508,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.181541,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.189291,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.192789,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.197185,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.200876,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.205360,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.209393,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133654,5.213849,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133654,5.218412,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.226388,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.232179,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.234695,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133655,5.234903,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.243156,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.247153,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.254683,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.259228,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.263946,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.264166,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133655,5.268225,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.271382,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.272451,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133655,5.276424,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.278922,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133655,5.279573,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.283883,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.284113,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133655,5.288330,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.293078,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133655,5.295945,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.299526,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.304016,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.309168,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.316754,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.320011,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.328469,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.332140,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.340024,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.344288,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.352317,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.355861,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.364122,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.370390,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.370720,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133655,5.372116,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.380066,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.384236,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.392576,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.396388,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.398875,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133655,5.400957,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.404871,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.409701,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133655,5.409751,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.412739,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.416319,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.417206,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133655,5.420598,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.424477,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.424536,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133655,5.431460,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133655,5.432775,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.437195,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.445691,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.449598,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.458692,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.463120,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.467394,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.471133,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.476311,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.479925,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.487318,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.491982,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.499258,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.503178,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.507401,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133655,5.507897,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.516163,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.519534,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.527067,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.532173,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.533212,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133655,5.534904,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.539083,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.541735,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133655,5.544019,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.546436,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.549273,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133655,5.553705,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.554541,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133655,5.558430,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.561035,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.563955,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133655,5.568529,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.572191,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.579911,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.583610,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.590810,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.594647,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.602392,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.606652,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.611524,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.615628,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.625345,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.629464,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.638953,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.645032,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.646994,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 0
+20200304_133655,5.647776,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.651965,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.656359,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.664180,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.668281,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.675027,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.677053,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.677334,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 1
+20200304_133655,5.681031,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.684847,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.688496,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 2
+20200304_133655,5.694091,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.696534,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.697635,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 3
+20200304_133655,5.700324,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.704035,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 4
+20200304_133655,5.704548,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,5.708150,DEBUG!,3,2,1,0,Waiting for thread reasources
+20200304_133655,5.713799,DEBUG!,3,2,1,0,Getting RS2 Depth Thread 5
+20200304_133655,5.715495,DEBUG!,3,2,1,0,At begining of Master Control's loop
+20200304_133655,6.218292,Information,3,2,1,0,closing midi keyboard
+20200304_133655,6.218524,Information,3,2,1,0,Closing the realsense

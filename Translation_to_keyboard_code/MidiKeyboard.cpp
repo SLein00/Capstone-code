@@ -24,6 +24,7 @@ int MidiKeyboard::closekeyboard() {
 	Log1.log(Logger::LogLevel::INFO, "closing midi keyboard");
 	std::vector<unsigned char> message;
 	message.resize(3);
+#ifdef MAKENOISE
 	if (midiout->isPortOpen()) {
 		for (int i = 0; i < 128; i++) {
 			// send note off
@@ -35,6 +36,7 @@ int MidiKeyboard::closekeyboard() {
 		}
 		midiout->closePort();
 	}
+#endif
 	return 0;
 }
 
@@ -103,14 +105,17 @@ void MidiKeyboard::resetKeys() {
 void MidiKeyboard::sendKeys() {
 	std::vector<unsigned char> message;
 	message.resize(3);
-	std::string logres;
+	std::string logres = "";
+
 	for (int i = 0; i < 128; i++) {
+#ifdef MAKENOISE
 		if (keysplayedlast[i] == false && keysplayednow[i] == true) {
 			// send note on
 			message[0] = 144;
 			message[1] = i;
 			message[2] = 40;
 			midiout->sendMessage(&message);
+
 		}
 		else if (keysplayedlast[i] == true && keysplayednow[i] == false) {
 			// send note off
@@ -119,6 +124,7 @@ void MidiKeyboard::sendKeys() {
 			message[2] = 40;
 			midiout->sendMessage(&message);
 		}
+#endif
 		if (isplayable(i)) {
 			if (keysplayednow[i]) {
 				logres.append(",ON");

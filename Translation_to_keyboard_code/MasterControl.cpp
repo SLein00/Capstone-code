@@ -16,7 +16,7 @@ using namespace std;
 
 #include "AsyncGetLine.h"
 
-static const int max_number_of_threads = 8;
+static const int max_number_of_threads = 6;//At max 8
 
 class ThreadCountSemaphore {
 public:
@@ -142,10 +142,12 @@ void doRealsenseWork(int id) {
 
 		for (int idx = 0; idx < rs2threaddata[id].numValid; idx++) {
 			position FinalFingerPos = testsensors.Realsenseswitchtokbd(rs2threaddata[id].verts[idx].X, rs2threaddata[id].verts[idx].Y, rs2threaddata[id].verts[idx].Z);
-			//Log1.log(Logger::LogLevel::MOREDEBUG, id, retpoints->verts[idx].X, retpoints->verts[idx].Y, retpoints->verts[idx].Z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+			Log1.log(Logger::LogLevel::MOREDEBUG, id, rs2threaddata[id].verts[idx].X, rs2threaddata[id].verts[idx].Y, rs2threaddata[id].verts[idx].Z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
 			MidiNotesNumbers notenum = testnotes.notes(FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
 			if (!notenum == None) {
 				//Log1.log(Logger::LogLevel::DEBUG, MidiNotesString(notenum), " On ", id);
+				//Log1.log(Logger::LogLevel::MOREDEBUG, id, rs2threaddata[id].verts[idx].X, rs2threaddata[id].verts[idx].Y, rs2threaddata[id].verts[idx].Z, FinalFingerPos.X, FinalFingerPos.Y, FinalFingerPos.Z);
+
 				arr[notenum] = true;
 			}
 		}
@@ -374,7 +376,7 @@ int main() {//Beginning of main
 	string consoleinput;
 
 
-	for (int i = 0; i < 1500; i++) {//beginning of loop
+	for (int i = 0; i <1 ; i++) {//beginning of loop 20000
 		//CAITLYNS EDITS
 	
 		Log1.log(Logger::LogLevel::DEBUG, "At begining of Master Control's loop");

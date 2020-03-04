@@ -46,12 +46,12 @@ public:
 	double LeapAbovepositioncoordinateY = 7.55;
 	double LeapAbovepositioncoordinateZ = 60;
 	//Realsense sensor position coordinates
-	double RealsenseSidepositioncoordinateX = -25.3;
+	double RealsenseSidepositioncoordinateX = -25.7;
 	double RealsenseSidepositioncoordinateY = 5.08;
 	double RealsenseSidepositioncoordinateZ = 2.3;
 	double RealsenseFrontpositioncoordinateX = 34.75;
-	double RealsenseFrontpositioncoordinateY = 30.1;
-	double RealsenseFrontpositioncoordinateZ = 1.5;
+	double RealsenseFrontpositioncoordinateY = 67.3;
+	double RealsenseFrontpositioncoordinateZ = 2.3;
 	double RealsenseWebcampositioncoordinateX = 34.75;
 	double RealsenseWebcampositioncoordinateY = 30.1;
 	double RealsenseWebcampositioncoordinateZ = 45;

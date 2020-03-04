@@ -19,7 +19,7 @@ MidiNotesNumbers Keyboard::notes( double finalfingerposX, double finalfingerposY
 		note = None;
 	}*/
 	//Measurements are in cm
-	if (0 < finalfingerposZ && finalfingerposZ<= 1) {//Z is in playing range Changed from 2 to 1 due to realsense
+	if (0.2 < finalfingerposZ && finalfingerposZ<= 1.2) {//Z is in playing range Changed from 2 to 1 due to realsense
 		//Log1.log(Logger::LogLevel::DEBUG, "Enter keyboard range Z");
 		if (0 < finalfingerposY && finalfingerposY <= 5.08) {//Y is in the bottom section of white notes
 			//Log1.log(Logger::LogLevel::DEBUG, "Enter keyboard range of Bottom section Y (white notes only)");

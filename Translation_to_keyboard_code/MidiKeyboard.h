@@ -2,7 +2,7 @@
 #pragma comment(lib, "winmm.lib")
 #ifndef MIDIKEYBOARDH
 #define MIDIKEYBOARDH
-
+//#define MAKENOISE //To turn on noise uncomment this line
 
 #include <string>
 #include "Logger.h"

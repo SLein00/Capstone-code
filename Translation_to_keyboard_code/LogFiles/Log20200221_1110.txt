@@ -1,0 +1,3 @@
+Working Directory: `C:\Users\Sami\Desktop\SRT\Code\Translation_to_keyboard_code`
+Log File `./LogFiles/Log20200221_1110.txt` opened OK.
+CSV File `./LogFiles/Log20200221_1110.csv` opened OK.
